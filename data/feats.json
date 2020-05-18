@@ -1,0 +1,112 @@
+{
+	"feat": [
+		{
+			"name": "Acrobatic",
+			"source": "OSW",
+			"prerequisite": [
+			],
+			"entries": [
+				"You become more nimble, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain a +2 bonus on all Jump and Tumble checks."
+					]
+				}
+			]
+		},
+		{
+			"name": "Advanced Combat Martial Arts",
+			"source": "OSW",
+			"prerequisite": [
+				{
+					"other": "Combat Martial Arts, Improved Combat Martial Arts, base attack bonus +8."
+				}
+			],
+			"entries": [
+				"You become stronger, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you score a critical hit on an opponent with an unarmed strike, you deal triple damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Advanced Firearms Proficiency",
+			"source": "OSW",
+			"prerequisite": [
+				{
+					"other": "Personal Firearms Proficiency."
+				}
+			],
+			"entries": [
+				"You become more accurate, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can fire any personal firearm on auto-fire without penalty (provided, of course, that it has an auto-fire setting)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Advanced Two-Weapon Fighting",
+			"source": "OSW",
+			"prerequisite": [
+				{
+					"other": "Dexterity 13, Two-Weapon Fighting, Improved Two-Weapon Fighting, base attack bonus +11."
+				}
+			],
+			"entries": [
+				"You become more multi-dexterous, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You get a third attack with an offhand weapon, albeit at a -10 penalty. This feat also allows you to use a melee weapon in one hand and a ranged weapon in the other."
+					]
+				}
+			]
+		},
+		{
+			"name": "Agile Riposte",
+			"source": "OSW",
+			"prerequisite": [
+				{
+					"other": "Dexterity 13, Dodge."
+				}
+			],
+			"entries": [
+				"You become more multi-dexterous, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Once per round, if the opponent you have designated as your dodge target (see the Dodge feat) makes a melee attack or melee touch attack against you and misses, you may make an attack of opportunity against that opponent. Resolve and apply the effects from both attacks simultaneously.",
+						"Even a character with the Combat Reflexes feat can't use the Agile Riposte feat more than once per round. This feat does not grant more attacks of opportunity than the character is normally allowed in a round."					]
+				}
+			]
+		},
+		{
+			"name": "Aircraft Operation",
+			"source": "OSW",
+			"prerequisite": [
+				{
+					"other": "4 Ranks in Pilot."
+				}
+			],
+			"entries": [
+				"You have trained in the art of operating aircraft, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Select a class of aircraft (heavy aircraft, helicopters, jet fighters, or spacecraft). You are proficient at operating that class of aircraft.",
+						"The heavy aircraft class includes jumbo passenger airplanes, large cargo planes, heavy bombers, and any other aircraft with three or more engines. Helicopters include transport and combat helicopters of all types. Jet fighters include military fighter and ground attack jets. Spacecraft are vehicles such as the space shuttle and the lunar lander.",
+						"You take no penalty on Pilot checks or attack rolls made when operating an aircraft of the selected class.",
+						"You can gain this feat multiple times. Each time you take the feat, select a different class of aircraft."
+					]
+				}
+			]
+		}
+	]
+}
