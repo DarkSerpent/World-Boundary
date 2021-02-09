@@ -2667,7 +2667,7 @@
 			]
 		},
 		{
-			"name": "Half-Nasod",
+			"name": "Half-Forged",
 			"source": "WB: RD",
 			"size": "M",
 			"speed": {
@@ -2686,7 +2686,6 @@
 				}
 			],
 			"traitTags": [
-				"Unarmed Strike",
 				"Darkvision"
 			],
 			"languageProficiencies": [
@@ -2698,21 +2697,21 @@
 				{
 					"name": "Age",
 					"entries": [
-                     "Half-Nasods age at virtually the same rate as Humans, although they live a bit longer, with the oldest of them being around one-hundred and thirty years old."
+                     "Half-Forged age at virtually the same rate as Humans, although they live a bit longer, with the oldest of them being around one-hundred and thirty years old."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Alignment",
 					"entries": [
-                     "Half-Nasods tend toward no particular alignment. The best and the worst are found among them."
+                     "Half-Forged tend toward no particular alignment. The best and the worst are found among them."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Size",
 					"entries": [
-                     "Half-Nasods vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+                     "Half-Forged vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
 					],
 					"type": "entries"
 				},
@@ -2726,7 +2725,7 @@
 				{
 					"name": "Cybernetic Implants",
 					"entries": [
-                     "All Half-Nasods have been modified from their original race in some way, with these cybernetics varying immensely. You can select 3 cybernetic traits of your choice from the following list:"
+                     "All Half-Forged have been modified from their original race in some way, with these cybernetics varying immensely. You can select 3 cybernetic traits of your choice from the following list:"
 					],
 					"type": "entries"
 				},
@@ -2814,13 +2813,13 @@
 						}
 					],
 					"data": {
-						"overwrite": "Birth From Creation"
+						"overwrite": "Cybernetic Implants Abilities"
 					}
 				},
 				{
 					"name": "Language",
 					"entries": [
-                     "You can speak, read, and write Common and Neural."
+                     "You can speak, read, and write Common and one language of your choice."
 					],
 					"type": "entries"
 				}
