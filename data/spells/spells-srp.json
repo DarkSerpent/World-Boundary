@@ -2,7 +2,7 @@
 	"spell": [
 		{
 			"name": "Crown of Crystal",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -59,7 +59,7 @@
 		},
 		{
 			"name": "Amanuensis",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -126,7 +126,7 @@
 		},
 		{
 			"name": "On/Off",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -173,7 +173,7 @@
 		},
 		{
 			"name": "Ego Whip",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 5,
 			"school": "E",
 			"time": [
@@ -238,7 +238,7 @@
 		},
 		{
 			"name": "Id Insinuation",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -310,7 +310,7 @@
 		},
 		{
 			"name": "Intellect Fortress",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 5,
 			"school": "A",
 			"time": [
@@ -370,7 +370,7 @@
 		},
 		{
 			"name": "Mental Barrier",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 2,
 			"school": "A",
 			"time": [
@@ -425,7 +425,7 @@
 		},
 		{
 			"name": "Psionic Blast",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -497,7 +497,7 @@
 		},
 		{
 			"name": "Mind Sliver",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 0,
 			"school": "E",
 			"time": [
@@ -571,7 +571,7 @@
 		},
 		{
 			"name": "Mind Thrust",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 2,
 			"school": "E",
 			"time": [
@@ -639,7 +639,7 @@
 		},	
 		{
 			"name": "Psionic Negation Field",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 1,
 			"school": "A",
 			"time": [
@@ -699,7 +699,7 @@
 		},	
 		{
 			"name": "Dimension Slice",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -769,7 +769,7 @@
 		},	
 		{
 			"name": "Aura Sight",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -837,7 +837,7 @@
 		},	
 		{
 			"name": "Psychic Barrier",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 2,
 			"school": "A",
 			"time": [
@@ -913,7 +913,7 @@
 		},	
 		{
 			"name": "Manifest Air",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -975,7 +975,7 @@
 		},	
 		{
 			"name": "Psionic Pulse",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 2,
 			"school": "E",
 			"time": [
@@ -1038,7 +1038,7 @@
 		},	
 		{
 			"name": "Psychic Crush",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 6,
 			"school": "E",
 			"time": [
@@ -1110,7 +1110,7 @@
 		},
 		{
 			"name": "Thought Shield",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 2,
 			"school": "A",
 			"time": [
@@ -1168,7 +1168,7 @@
 		},
 		{
 			"name": "Dark Star",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 8,
 			"school": "V",
 			"time": [
@@ -1237,7 +1237,7 @@
 		},
 		{
 			"name": "Fortune's Favor",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -1317,7 +1317,7 @@
 		},
 		{
 			"name": "Gift of Alacrity",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 1,
 			"school": "D",
 			"time": [
@@ -1369,7 +1369,7 @@
 		},
 		{
 			"name": "Gravity Fissure",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 6,
 			"school": "V",
 			"time": [
@@ -1435,7 +1435,7 @@
 		},
 		{
 			"name": "Gravity Sinkhole",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 4,
 			"school": "V",
 			"time": [
@@ -1503,7 +1503,7 @@
 		},
 		{
 			"name": "Immovable Object",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -1573,7 +1573,7 @@
 		},
 		{
 			"name": "Magnify Gravity",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -1645,7 +1645,7 @@
 		},
 		{
 			"name": "Pulse Wave",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -1710,7 +1710,7 @@
 		},
 		{
 			"name": "Ravenous Void",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 9,
 			"school": "V",
 			"time": [
@@ -1782,7 +1782,7 @@
 		},
 		{
 			"name": "Reality Break",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 8,
 			"school": "C",
 			"time": [
@@ -1885,7 +1885,7 @@
 		},
 		{
 			"name": "Sapping Sting",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 0,
 			"school": "N",
 			"time": [
@@ -1967,7 +1967,7 @@
 		},
 		{
 			"name": "Temporal Shunt",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 5,
 			"school": "T",
 			"time": [
@@ -2033,7 +2033,7 @@
 		},
 		{
 			"name": "Tether Essence",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 7,
 			"school": "N",
 			"time": [
@@ -2109,7 +2109,7 @@
 		},
 		{
 			"name": "Time Ravage",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 9,
 			"school": "N",
 			"time": [
@@ -2172,7 +2172,7 @@
 		},
 		{
 			"name": "Repair Damage",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -2245,7 +2245,7 @@
 		},	
 		{
 			"name": "Mass Repair Damage",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 5,
 			"school": "T",
 			"time": [
@@ -2319,7 +2319,7 @@
 		},	
 		{
 			"name": "Reconstruct",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 6,
 			"school": "T",
 			"time": [
@@ -2398,7 +2398,7 @@
 		},	
 		{
 			"name": "Siphon Vitality",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 0,
 			"school": "N",
 			"time": [
@@ -2457,7 +2457,7 @@
 		},
 		{
 			"name": "Memory of Ash",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 2,
 			"school": "N",
 			"time": [
@@ -2524,7 +2524,7 @@
 		},
 		{
 			"name": "Putrid Plague",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 3,
 			"school": "N",
 			"time": [
@@ -2594,7 +2594,7 @@
 		},
 		{
 			"name": "Swarm of Decay",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 1,
 			"school": "N",
 			"time": [
@@ -2664,7 +2664,7 @@
 		},
 		{
 			"name": "Miasma of Death",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 2,
 			"school": "N",
 			"time": [
@@ -2731,7 +2731,7 @@
 		},
 		{
 			"name": "Nightmare Sphere",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 2,
 			"school": "N",
 			"time": [
@@ -2803,7 +2803,7 @@
 		},
 		{
 			"name": "Scythe of the Reaper",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 3,
 			"school": "N",
 			"time": [
@@ -2870,7 +2870,7 @@
 		},
 		{
 			"name": "Breath of Shadow",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 4,
 			"school": "N",
 			"time": [
@@ -2941,7 +2941,7 @@
 		},
 		{
 			"name": "Desecrate Earth",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 3,
 			"school": "N",
 			"time": [
@@ -3009,7 +3009,7 @@
 		},
 		{
 			"name": "Wristpocket",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 2,
 			"school": "C",
 			"time": [
@@ -3075,7 +3075,7 @@
 		},
 		{
 			"name": "Amaterasu",
-			"source": "SRP",
+			"source": "WB: RD",
 			"level": 8,
 			"school": "N",
 			"time": [
