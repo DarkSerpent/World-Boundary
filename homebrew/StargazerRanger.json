@@ -1,0 +1,211 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SRPStargazer",
+				"abbreviation": "SRPSGR",
+				"full": "Stargazer Ranger",
+				"authors": [
+					"Wyth"
+				],
+				"convertedBy": [
+					"Wyth#8882"
+				],
+				"version": "1.0.0",
+				"url": "wyth.github.io/SRP/",
+				"targetSchema": "1.2"
+			}
+		],
+		"dateAdded": 1605548980,
+		"dateLastModified": 1605548980
+	},
+	"subclass": [
+		{
+			"version": "1.0.0",
+			"name": "Stargazer",
+			"subclassTitle": "Ranger Archetype",
+			"subclassFeatures": [
+				"Stargazer|Ranger||Stargazer|SRPStargazer|3",
+				"Starburst|Ranger||Stargazer|SRPStargazer|7",
+				"Guiding Light|Ranger||Stargazer|SRPStargazer|11",
+				"Cosmic Retribution|Ranger||Stargazer|SRPStargazer|15"
+			],
+			"source": "SRPStargazer",
+			"shortName": "Stargazer",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"chromatic orb"
+						],
+						"5": [
+							"moonbeam"
+						],
+						"9": [
+							"hunger of hadar"
+						],
+						"13": [
+							"dimension door"
+						],
+						"17": [
+							"flame strike"
+						]
+					}
+				}
+			],
+			"className": "Ranger",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Stargazer",
+			"source": "SRPStargazer",
+			"page": 89,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Stargazer",
+			"subclassSource": "SRPStargazer",
+			"level": 3,
+			"entries": [
+				"Staring up at the night sky, one’s thoughts may drift to the vast unknown of the cosmos; an infinitely expansive sea of darkness speckled with inconceivably hot stars and unforgivingly harsh planets. While the starry heavens might seem absolutely foreign and unknowable, the Stargazer finds comfort and guidance from them. They learn more about their current location by looking at the constellations than they would from seeing a map.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Stargazer Magic|Ranger||Stargazer|SRPStargazer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Astronavigation|Ranger||Stargazer|SRPStargazer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Zenith Strike|Ranger||Stargazer|SRPStargazer|3"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Stargazer Magic",
+			"entries": [
+				"You learn an additional spell when you reach certain levels in this class, as shown in the Stargazer Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.",
+				{
+					"type": "table",
+					"caption": "Stargazer Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell chromatic orb}"
+						],
+						[
+							"5th",
+							"{@spell moonbeam}"
+						],
+						[
+							"9th",
+							"{@spell hunger of hadar}"
+						],
+						[
+							"13th",
+							"{@spell dimension door}"
+						],
+						[
+							"17th",
+							"{@spell flame strike}"
+						]
+					]
+				}
+			],
+			"source": "SRPStargazer",
+			"page": 89,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Stargazer",
+			"subclassSource": "SRPStargazer",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Astronavigation",
+			"entries": [
+				"Beginning at 3rd level, you gain proficiency with cartographer’s tools and navigator’s tools. While you have a clear vision of any cosmic bodies (such as stars, moons, or planets), you always know your location in the Material Plane and what time of year it is. This feature does not work if you are not on the planet or plane of your origin, though you can spend 8 hours studying the night sky to reorient yourself on new planets or planes in this way.",
+				"Further, you have advantage on saving throws against being blinded, and dim light does not impose disadvantage on your Wisdom (Perception) checks."
+			],
+			"source": "SRPStargazer",
+			"page": 89,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Stargazer",
+			"subclassSource": "SRPStargazer",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Zenith Strike",
+			"entries": [
+				"You gain the power to imbue a weapon with cosmic light. As a bonus action, you may raise a weapon directly overhead to empower it. The weapon sheds bright light in a 10-foot radius, and the next hit with a weapon attack on your turn deals an additional {@dice 1d6} radiant damage. At 11th level, the additional radiant damage increases to {@dice 2d6}.",
+				"Additionally, when you use the attack action, you can make a ranged spell attack by sending a beam of starlight from the weapon, using your ranger spell attack bonus. The beam has a range of 30 feet and deals {@dice 1d6} + your Wisdom modifier radiant damage on a hit."
+			],
+			"source": "SRPStargazer",
+			"page": 89,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Stargazer",
+			"subclassSource": "SRPStargazer",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Starburst",
+			"source": "SRPStargazer",
+			"page": 89,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Stargazer",
+			"subclassSource": "SRPStargazer",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"As a reaction, when you take damage, you can use your  reaction to emit a burst of blinding light with a 15-foot- radius sphere centered on you. Any creatures within  that sphere that can see the light must succeed on a Constitution saving throw or become blinded until the end of your next turn. You can choose a number of creatures equal to your wisdom modifier, and those creatures automatically succeed on the saving throw.",
+				"Once you use this feature, you cannot use it again until you finish a short or long rest, or unless you expend a ranger spell slot of 2nd-level or higher to do so again."
+			]
+		},
+		{
+			"name": "Guiding Light",
+			"source": "SRPStargazer",
+			"page": 89,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Stargazer",
+			"subclassSource": "SRPStargazer",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Whenever you hit a creature with a 19 or 20 on an attack roll, you can choose to cause the creature to emanate bright sunlight until the start of your next turn. An affected creature sheds bright light in a 20-foot radius and dim light for an additional 20-feet. Any creature or object within the bright light can’t benefit from being invisible, and the next attack made against the glowing creature has advantage while it is illuminated."
+			]
+		},
+		{
+			"name": "Cosmic Retribution",
+			"source": "SRPStargazer",
+			"page": 89,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Stargazer",
+			"subclassSource": "SRPStargazer",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"When a hostile creature damages you, you may cast a ranger spell as a reaction. The spell must normally have a casting time of 1 action."
+			]
+		}
+	]
+}

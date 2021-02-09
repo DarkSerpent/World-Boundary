@@ -1,0 +1,118 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SRPDarkTrapper",
+				"abbreviation": "SRPDTR",
+				"full": "Dark Trapper Ranger",
+				"authors": [
+					"Wyth"
+				],
+				"convertedBy": [
+					"Wyth#8882"
+				],
+				"version": "1.0.0",
+				"url": "wyth.github.io/SRP/",
+				"targetSchema": "1.2"
+			}
+		],
+		"dateAdded": 1605548980,
+		"dateLastModified": 1605548980
+	},
+	"subclass": [
+		{
+			"version": "1.0.0",
+			"name": "Dark Trapper",
+			"subclassTitle": "Ranger Archetype",
+			"subclassFeatures": [
+				"Dark Trapper|Ranger||Dark Trapper|SRPDarkTrapper|3",
+				"Uncanny Strikes|Ranger||Dark Trapper|SRPDarkTrapper|7",
+				"Blood Bound|Ranger||Dark Trapper|SRPDarkTrapper|11",
+				"Deadfall|Ranger||Dark Trapper|SRPDarkTrapper|15"
+			],
+			"source": "SRPDarkTrapper",
+			"shortName": "Dark Trapper",
+			"className": "Ranger",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Dark Trapper",
+			"source": "SRPDarkTrapper",
+			"page": 89,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Dark Trapper",
+			"subclassSource": "SRPDarkTrapper",
+			"level": 3,
+			"entries": [
+				"Blood magic is often banned for a reason. Dark Trappers tap into the primordial magic that binds creatures to the world they live in. You have learned the shape of reality, and can use it to force creatures to stay in a location, send pulsing waves of damage through their blood, and harness the energy your prey provides to keep yourself alive longer.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dark Tether|Ranger||Dark Trapper|SRPDarkTrapper|3"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Dark Tether",
+			"entries": [
+				"You can temporarily restrict the movement of your prey. As an action, you can choose one point you can see within 60 feet of you. Choose a number of creatures up to your Wisdom modifier (minimum of 1) within 10 feet of that point. Each of these creatures must succeed on a Wisdom saving throw or else be tethered to that point.",
+				"While tethered in this way, the creature cannot move further from that point in any direction, although it can move closer. These tethers last for 1 minute or until you dismiss them as a bonus action. A tethered creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.",
+				"While a creature is tethered, it takes {@dice 1d4} psychic damage at the beginning of each of its turns, and it cannot take reactions. If the creature dies, its tether vanishes.",
+				"You can use this feature a number of times equal to your Wisdom modifier, and you regain all expended uses when you finish a short or long rest."
+			],
+			"source": "SRPDarkTrapper",
+			"page": 89,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Dark Trapper",
+			"subclassSource": "SRPDarkTrapper",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Uncanny Strikes",
+			"source": "SRPDarkTrapper",
+			"page": 89,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Dark Trapper",
+			"subclassSource": "SRPDarkTrapper",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"You can use your tethers to inflict more injury on your quarry. You have advantage on attack rolls against creatures in your dark tethers. When you hit a tethered creature with a weapon attack, that creature takes an extra {@dice 1d8} psychic damage. You can deal this extra damage only once each turn."
+			]
+		},
+		{
+			"name": "Blood Bound",
+			"source": "SRPDarkTrapper",
+			"page": 89,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Dark Trapper",
+			"subclassSource": "SRPDarkTrapper",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"You gain the ability to spread damage even outside of your tethers. Once per turn, when you hit a creature that is within 5 feet of another creature with a weapon attack, you can choose to force the second creature to make a Dexterity saving throw. On a failure, the second creature takes half the damage you dealt to the first creature."
+			]
+		},
+		{
+			"name": "Deadfall",
+			"source": "SRPDarkTrapper",
+			"page": 89,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Dark Trapper",
+			"subclassSource": "SRPDarkTrapper",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"You learn to drain the life force of your prey more effectively and repurpose it. When you deal damage with your Blood Bound ability, you can gain temporary hit points equal to half of the damage dealt with your weapon attack."
+			]
+		}
+	]
+}

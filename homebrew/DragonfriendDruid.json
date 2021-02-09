@@ -1,0 +1,389 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SRPDragonfriendDruid",
+				"abbreviation": "SRPDFD",
+				"full": "Circle of the Dragonfriend",
+				"authors": [
+					"Wyth"
+				],
+				"convertedBy": [
+					"Wyth#8882"
+				],
+				"version": "1.0.0",
+				"url": "wyth.github.io/SRP/",
+				"targetSchema": "1.2"
+			}
+		],
+		"dateAdded": 1605548980,
+		"dateLastModified": 1605548980
+	},
+	"monster": [
+		{
+			"name": "Lesser Draco",
+			"source": "SRPDragonfriendDruid",
+			"page": 0,
+			"size": "M",
+			"type": "dragon",
+			"alignment": null,
+			"ac": [
+				{
+					"special": "11 + your Dexterity modifier + your Wisdom modifier"
+				}
+			],
+			"hp": {
+				"special": "Your Constitution modifier + five times your druid level"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"resist": [
+				"your dragon type's damage type"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk ms} the attack roll bonus is equal to your Wisdom modifier + your proficiency bonus, reach 5 ft., one target. {@h}slashing damage equal to {@dice 1d8} + your Wisdom modifier."
+					]
+				},
+				{
+					"name": "Line Breath Weapon (Black, Blue, Brass, Bronze, Copper, Gold only)",
+					"entries": [
+						"You exhale a dangerous blast in a 30 foot line that is 5 feet wide. Each creature in that line must succeed on a Dexterity saving throw against your spell save DC, or else take 7 ({@damage 2d6}) damage of your Dragon Type's damage type. The damage for this attack increases by {@dice 1d6} when you reach certain levels in this class: 6th level ({@dice 3d6}), 9th level ({@dice 4d6}), 12th level ({@dice 5d6}), and 18th level ({@dice 7d6})."
+					]
+				},
+				{
+					"name": "Cone Breath Weapon (Green, Red, Silver, White only)",
+					"entries": [
+						"You exhale a dangerous blast in a 15 foot cone. Each creature in that line must succeed on a Constitution saving throw against your spell save DC, or else take 7 ({@damage 2d6}) damage of your Dragon Type's damage type. The damage for this attack increases by {@dice 1d6} when you reach certain levels in this class: 6th level ({@dice 3d6}), 9th level ({@dice 4d6}), 12th level ({@dice 5d6}), and 18th level ({@dice 7d6})."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"DR"
+			]
+		},
+		{
+			"name": "Greater Draco",
+			"source": "SRPDragonfriendDruid",
+			"page": 0,
+			"size": "M",
+			"type": "dragon",
+			"alignment": null,
+			"ac": [
+				{
+					"special": "11 + your Dexterity modifier + your Wisdom modifier"
+				}
+			],
+			"hp": {
+				"special": "Your Constitution modifier + eight times your druid level"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60,
+				"canHover": false
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"resist": [],
+			"languages": [
+				"Draconic"
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk ms} the attack roll bonus is equal to your Wisdom modifier + your proficiency bonus, reach 5 ft., one target. {@h}slashing damage equal to {@dice 1d8} + your Wisdom modifier."
+					]
+				},
+				{
+					"name": "Line Breath Weapon (Black, Blue, Brass, Bronze, Copper, Gold only)",
+					"entries": [
+						"You exhale a dangerous blast in a 60 foot line that is 5 feet wide. Each creature in that line must succeed on a Dexterity saving throw against your spell save DC, or else take 7 ({@damage 2d6}) damage of your Dragon Type's damage type. The damage for this attack increases by {@dice 1d6} when you reach certain levels in this class: 6th level ({@dice 3d6}), 9th level ({@dice 4d6}), 12th level ({@dice 5d6}), and 18th level ({@dice 7d6})."
+					]
+				},
+				{
+					"name": "Cone Breath Weapon (Green, Red, Silver, White only)",
+					"entries": [
+						"You exhale a dangerous blast in a 30 foot cone. Each creature in that line must succeed on a Constitution saving throw against your spell save DC, or else take 7 ({@damage 2d6}) damage of your Dragon Type's damage type. The damage for this attack increases by {@dice 1d6} when you reach certain levels in this class: 6th level ({@dice 3d6}), 9th level ({@dice 4d6}), 12th level ({@dice 5d6}), and 18th level ({@dice 7d6})."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of your choice within 60 feet of you must succeed on a Wisdom saving throw or else become frightened of you for 1 minute. A creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on this save is immune to the effects of your Frightful Presence for the next 24 hours."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"immune": [
+				{
+					"special": "your Dragon Type’s damage type"
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Circle of the Dragonfriend",
+			"source": "SRPDragonfriendDruid",
+			"subclassFeatures": [
+				"Circle of the Dragonfriend|Druid||Dragonfriend|SRPDragonfriendDruid|2",
+				"Draconic Gift|Druid||Dragonfriend|SRPDragonfriendDruid|6",
+				"Greater Draco|Druid||Dragonfriend|SRPDragonfriendDruid|10",
+				"Draconic Evasion|Druid||Dragonfriend|SRPDragonfriendDruid|14"
+			],
+			"shortName": "Dragonfriend",
+			"className": "Druid",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Circle of the Dragonfriend",
+			"source": "SRPDragonfriendDruid",
+			"page": 64,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Dragonfriend",
+			"subclassSource": "SRPDragonfriendDruid",
+			"level": 2,
+			"entries": [
+				"Dragons are powerful magical beings that shape the environment around them and their lairs. A few brave druids work with these creatures and tend to those environments. Such druids often pick up tips, tricks, and magical traits from their companions. These druids are known as dragonfriends.",
+				"It is rare to find a dragonfriend trying to dominate a dragon, or that condescends to be ruled by one. While dragonfriends usually maintain a realistic understanding that dragons’ powers are much greater than their own, they  maintain peaceful coexistence and peership with dragons. Those who live near evil dragons often make arrangements for tenuous, indefinite alliances.",
+				"In the world of Eberron, dragonfriends often work with dragons to study and record the Draconic Prophecy. The first dragonfriends were students of Vvaraak, the ancient green dragon that brought druidic magic to the orcs of the Shadow Marches.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dragon Type|Druid||Dragonfriend|SRPDragonfriendDruid|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Language|Druid||Dragonfriend|SRPDragonfriendDruid|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Lesser Draco|Druid||Dragonfriend|SRPDragonfriendDruid|2"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Dragon Type",
+			"entries": [
+				"Every dragonfriend has a type of dragon that shapes their magical abilities. This type determines your 6th-level feature and some features of your Draco forms. When you select this subclass at 2nd level, choose one of the following types of dragon: black, blue, brass, bronze, copper, gold, green, red, silver, or white.",
+				{
+					"type": "table",
+					"caption": "Dragon Type",
+					"colLabels": [
+						"Dragon Type",
+						"Damage Type",
+						"Draco Breath Weapon",
+						"6th-Level Feature"
+					],
+					"rows": [
+						[
+							"Black",
+							"Acid",
+							"Line",
+							"Amphibious"
+						],
+						[
+							"Blue",
+							"Lightning",
+							"Line",
+							"Tunneling"
+						],
+						[
+							"Brass",
+							"Fire",
+							"Line",
+							"Tunneling"
+						],
+						[
+							"Bronze",
+							"Lightning",
+							"Line",
+							"Amphibious"
+						],
+						[
+							"Copper",
+							"Acid",
+							"Line",
+							"Climbing"
+						],
+						[
+							"Gold",
+							"Fire",
+							"Line",
+							"Amphibious"
+						],
+						[
+							"Green",
+							"Poison",
+							"Cone",
+							"Amphibious"
+						],
+						[
+							"Red",
+							"Fire",
+							"Cone",
+							"Climbing"
+						],
+						[
+							"Silver",
+							"Cold",
+							"Cone",
+							"Fog"
+						],
+						[
+							"White",
+							"Cold",
+							"Cone",
+							"Tunneling"
+						]
+					]
+				}
+			],
+			"source": "SRPDragonfriendDruid",
+			"page": 64,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Dragonfriend",
+			"subclassSource": "SRPDragonfriendDruid",
+			"level": 2,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Bonus Language",
+			"entries": [
+				"You learn to speak, read, and write Draconic."
+			],
+			"source": "SRPDragonfriendDruid",
+			"page": 64,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Dragonfriend",
+			"subclassSource": "SRPDragonfriendDruid",
+			"level": 2,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Bonus Language",
+			"entries": [
+				"You learn to speak, read, and write Draconic."
+			],
+			"source": "SRPDragonfriendDruid",
+			"page": 64,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Dragonfriend",
+			"subclassSource": "SRPDragonfriendDruid",
+			"level": 2,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Lesser Draco",
+			"entries": [
+				"You gain an additional Wild Shape option ({@creature lesser draco|SRPDragonfriendDruid}), which uses the stat block below. Instead of assuming the shape of a beast, you gain a draconic appearance, with fangs, horns, and shining scales. In this form, you can only speak Draconic, but can use your hands as normal. You retain your normal Strength, Dexterity, and Constitution ability scores, but otherwise follow all standard Wild Shape rules."
+			],
+			"source": "SRPDragonfriendDruid",
+			"page": 64,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Dragonfriend",
+			"subclassSource": "SRPDragonfriendDruid",
+			"level": 2,
+			"header": 1
+		},
+		{
+			"name": "Draconic Gift",
+			"source": "SRPDragonfriendDruid",
+			"page": 64,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Dragonfriend",
+			"subclassSource": "SRPDragonfriendDruid",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You gain a special gift for exploration, as determined by your Dragon Type. You have this trait both in your Wild Shape and normal forms.",
+				{
+					"type": "entries",
+					"name": "Amphibious (Black, Bronze, Gold, Green).",
+					"entries": [
+						"You breathe both water and air. You gain a swimming speed equal to your walking speed, and water does not count as difficult terrain for you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Climbing (Copper, Red).",
+					"entries": [
+						"You gain a climbing speed equal to your walking speed, and you have advantage on Strength and Dexterity saving throws against effects that would knock you prone."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fog (Silver).",
+					"entries": [
+						"Fog, mist, rain, snow, and similar substances do not obscure your vision, and you can cast fog cloud without expending a spell slot a number of times equal to your Wisdom modifier. You regain expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tunneling (Blue, Brass, White).",
+					"entries": [
+						"You gain a burrowing speed of 10 feet, and you can choose to leave a tunnel in your wake with a diameter just large enough to fit a creature of your size. This speed cannot be used to burrow through solid rock, ice, metal, wood, or similar substances."
+					]
+				}
+			]
+		},
+		{
+			"name": "Greater Draco",
+			"source": "SRPDragonfriendDruid",
+			"page": 64,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Dragonfriend",
+			"subclassSource": "SRPDragonfriendDruid",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You can expend two uses of Wild Shape at the same time to take a ({@creature Greater Draco|SRPDragonfriendDruid}) form, which uses the stat block below. Instead of assuming the shape of a beast, you gain a draconic appearance, with fangs, horns, shining scales, and grand wings. In this form, you can only speak Draconic, but can use your hands as normal. You retain your normal Strength, Dexterity, and Constitution ability scores, but otherwise follow all standard Wild Shape rules."
+			]
+		},
+		{
+			"name": "Draconic Evasion",
+			"source": "SRPDragonfriendDruid",
+			"page": 64,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Dragonfriend",
+			"subclassSource": "SRPDragonfriendDruid",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Your experience with breath weapons has given you a unique ability to avoid them. When you are subjected to an effect that allows you to make a Dexterity or Constitution saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+			]
+		}
+	]
+}

@@ -1,0 +1,229 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SRPTrade",
+				"abbreviation": "SRPTC",
+				"full": "Cleric Domain: Trade",
+				"authors": [
+					"Wyth"
+				],
+				"convertedBy": [
+					"Wyth#8882"
+				],
+				"version": "1.0.0",
+				"url": "wyth.github.io/SRP/",
+				"targetSchema": "1.2"
+			}
+		],
+		"dateAdded": 1605548980,
+		"dateLastModified": 1605548980
+	},
+	"subclass": [
+		{
+			"name": "Trade Domain",
+			"shortName": "Trade",
+			"source": "SRPTrade",
+			"subclassSpells": [
+				{
+					"name": "Alarm",
+					"source": "PHB"
+				},
+				{
+					"name": "Identify",
+					"source": "PHB"
+				},
+				{
+					"name": "Arcane Lock",
+					"source": "PHB"
+				},
+				{
+					"name": "Locate Object",
+					"source": "PHB"
+				},
+				{
+					"name": "Glyph of Warding",
+					"source": "PHB"
+				},
+				{
+					"name": "Nondetection",
+					"source": "PHB"
+				},
+				{
+					"name": "Fabricate",
+					"source": "PHB"
+				},
+				{
+					"name": "Leomund's Secret Chest",
+					"source": "PHB"
+				},
+				{
+					"name": "Creation",
+					"source": "PHB"
+				},
+				{
+					"name": "Dominate Person",
+					"source": "PHB"
+				}
+			],
+			"subclassFeatures": [
+				"Trade Domain|Cleric||Trade|SRPTrade|1",
+				"Channel Divinity: Instant Transaction|Cleric||Trade|SRPTrade|2",
+				"Channel Divinity: Defensive Deal|Cleric||Trade|SRPTrade|6",
+				"Potent Spellcasting|Cleric||Trade|SRPTrade|8",
+				"Buy Loyalty|Cleric||Trade|SRPTrade|17"
+			],
+			"className": "Cleric",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Trade Domain",
+			"source": "SRPTrade",
+			"page": 36,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Trade",
+			"subclassSource": "SRPTrade",
+			"level": 1,
+			"entries": [
+				"The Trade Domain focuses on the acquisition of wealth, the safeguarding of items and the negotiation of deals and bargains. In many civilizations, the power and influence of coin is said to rival that of the gods themselves. The gods of trade often promote the betterment of the self through financial success, as well as its benefits to society as a whole — though some are more focused on its more selfish applications. Clerics of this domain often travel as merchants, offering their divine services in each town they visit. Others take a more mercenary path, willing to venture into dangerous places for the right price.",
+				"Deities of all alignments can claim influence over this domain, particularly deities of commerce and bargains (such as Tymora, Waukeen, and Vergadain), and gods of greed (such as Abbathor and Tiamat).",
+				"You gain domain spells at the cleric levels listed in the Trade Domain Spells table. See the Divine Domain class feature for how domain spells work.",
+				{
+					"type": "table",
+					"caption": "Trade Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell Alarm}, {@spell Identify}"
+						],
+						[
+							"3rd",
+							"{@spell Arcane Lock}, {@spell Locate Object}"
+						],
+						[
+							"5th",
+							"{@spell Glyph of Warding}, {@spell Nondetection}"
+						],
+						[
+							"7th",
+							"{@spell Fabricate}, {@spell Leomund's Secret Chest}"
+						],
+						[
+							"9th",
+							"{@spell Creation}, {@spell Dominate Person}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Silver Tongue|Cleric||Trade|SRPTrade|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Divine Appraisal|Cleric||Trade|SRPTrade|1"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Silver Tongue",
+			"entries": [
+				"You can use any coin as a holy symbol, and you gain proficiency in the Persuasion and Deception skills. While your holy symbol is in your hand, you can expend a spell slot of 1st level or higher to double your proficiency bonus for any ability check you make that uses those skills for 1 minute. In addition, you learn the friends cantrip, which doesn’t count against the number of cleric cantrips you know."
+			],
+			"source": "SRPTrade",
+			"page": 36,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Trade",
+			"subclassSource": "SRPTrade",
+			"level": 1,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Divine Appraisal",
+			"entries": [
+				"As an action, you can instantly discern the approximate market value of a nonmagical item that you can see within 30 feet of you."
+			],
+			"source": "SRPTrade",
+			"page": 36,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Trade",
+			"subclassSource": "SRPTrade",
+			"level": 1,
+			"header": 1
+		},
+		{
+			"name": "Channel Divinity: Instant Transaction",
+			"source": "SRPTrade",
+			"page": 36,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Trade",
+			"subclassSource": "SRPTrade",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"You can use your Channel Divinity to cause a creature to partake in a magical and instantaneous trade.",
+				"As an action, you present a coin, used as your holy symbol, to a creature you can see within 30 feet. That creature must succeed on a Strength saving throw or else one nonmagical object it is holding that weighs less than 10 pounds is forcibly pulled towards you and comes to a rest in your empty hand (provided you are able to hold it) or at your feet. The coin you presented is magically teleported to the ground in the creature’s space.",
+				"At the start of its next turn, the creature becomes aware of what has occurred and might take measures to retrieve the item. Once you have successfully used this on a creature, you cannot use this on that same creature again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Channel Divinity: Defensive Deal",
+			"source": "SRPTrade",
+			"page": 36,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Trade",
+			"subclassSource": "SRPTrade",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You gain the ability to magically entice your foes, momentarily reducing their commitment to an attack. When a creature within 30 feet of you makes an attack roll against you or an ally, you can use your reaction to present a coin, used as your holy symbol, and impose a -10 penalty to the roll, using your Channel Divinity. You can make this choice after you see the roll, but before you know whether the attack hits or misses."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "SRPTrade",
+			"page": 36,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Trade",
+			"subclassSource": "SRPTrade",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"You add your Wisdom modifier to the damage you deal with any cleric cantrip."
+			]
+		},
+		{
+			"name": "Buy Loyalty",
+			"source": "SRPTrade",
+			"page": 36,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Trade",
+			"subclassSource": "SRPTrade",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"You gain the ability to magically broker a deal with your enemies. As an action, you can present your holy symbol to force a creature within 60 feet of you that can hear and understand you to make a Wisdom saving throw. Creatures that can’t be charmed are immune to this feature. On a failed save, you learn of an object the target desires most and enter into a magical bargain with it, promising to fulfil its desires within a day. If the creature desires no object, it instead specifies an amount of gold or a task it wishes to be completed.",
+				"For the next 24 hours, the creature is charmed by you. While charmed in this manner, the creature is friendly to you and your allies and will fight on your behalf, including turning against its former allies (though this may require a significantly larger, more costly reward). The creature will act in your best interests and follow your spoken commands, but won’t take part in an activity that would lead to certain death.",
+				"If you provide the creature with its desire at the end of the 24 hours, the effect ends and the creature is indifferent towards you. The creature immediately turns hostile if you fail to provide the promised reward, or if you or your allies harm it while it is charmed. Once you use this feature, you can’t use it again until you finish a long rest."
+			]
+		}
+	]
+}

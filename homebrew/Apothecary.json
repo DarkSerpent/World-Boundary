@@ -1,0 +1,979 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Apothecary",
+				"abbreviation": "WBA",
+				"full": "Apothecary",
+				"authors": [
+					"Wyth"
+				],
+				"convertedBy": [
+					"Wyth#8882"
+				],
+				"version": "1.0.0",
+				"url": "",
+				"targetSchema": "1.2"
+			}
+		],
+		"dateAdded": 1605548980,
+		"dateLastModified": 1605548980
+	},
+	"class": [
+		{
+			"name": "Apothecary",
+			"source": "WB: RD",
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"con",
+				"int"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium"
+				],
+				"weapons": [
+					"simple",
+					"blowgun",
+					"hand crossbow",
+					"rapier",
+					"shortsword"
+				],
+				"tools": [
+					"Choose two from poisoner's kit, herbalism kit, and alchemist's supplies"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"Insight",
+								"History",
+								"Investigation",
+								"Medicine",
+								"Nature",
+								"Perception",
+								"Sleight of Hand",
+								"Survival"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"a {@item hand crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts}",
+					"(a) a {@item scholar's pack|phb} or (b) an {@item explorer's pack|phb}",
+					"(a) a {@item poisoner's kit|phb}, (b) an {@item herbalism kit|phb}, (c) {@item alchemist's supplies|phb}, or (d) a {@item healer's kit|phb}",
+					"{@item leather armor|phb}"
+				],
+				"goldAlternative": "{@dice 5d4} × 10",
+				"defaultData": [
+					{
+						"_": [
+							{
+								"equipmentType": "weaponSimple",
+								"quantity": 1
+							}
+						]
+					},
+					{
+						"_": [
+							"hand crossbow|phb",
+							"crossbow bolts (20)|phb"
+						]
+					},
+					{
+						"a": [
+							"scholar's pack|phb"
+						],
+						"b": [
+							"explorer's pack|phb"
+						]
+					},
+					{
+						"a": [
+							"poisoner's kit|phb"
+						],
+						"b": [
+							"herbalism kit|phb"
+						],
+						"c": [
+							"alchemist's supplies"
+						],
+						"d": [
+							"healer's kit"
+						]
+					},
+					{
+						"_": [
+							"leather armor|phb"
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"int": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"medium"
+					],
+					"weapons": [
+						"simple"
+					],
+					"tools": [
+						"Choose two from poisoner's kit, herbalism kit, and alchemist's supplies"
+					],
+					"skills": [
+						{
+							"choose": {
+								"from": [
+									"history",
+									"insight",
+									"investigation",
+									"medicine",
+									"nature",
+									"perception",
+									"sleight of hand",
+									"survival"
+								],
+								"count": 1
+							}
+						}
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Concoction Die",
+						"Reagent Points"
+					],
+					"rows": [
+						[
+							"{@dice 1d4}",
+							" "
+						],
+						[
+							"{@dice 1d4}",
+							"2"
+						],
+						[
+							"{@dice 2d4}",
+							"3"
+						],
+						[
+							"{@dice 2d4}",
+							"4"
+						],
+						[
+							"{@dice 3d4}",
+							"5"
+						],
+						[
+							"{@dice 3d4}",
+							"6"
+						],
+						[
+							"{@dice 4d4}",
+							"7"
+						],
+						[
+							"{@dice 4d4}",
+							"8"
+						],
+						[
+							"{@dice 5d4}",
+							"9"
+						],
+						[
+							"{@dice 5d4}",
+							"10"
+						],
+						[
+							"{@dice 6d4}",
+							"11"
+						],
+						[
+							"{@dice 6d4}",
+							"12"
+						],
+						[
+							"{@dice 7d4}",
+							"13"
+						],
+						[
+							"{@dice 7d4}",
+							"14"
+						],
+						[
+							"{@dice 8d4}",
+							"15"
+						],
+						[
+							"{@dice 8d4}",
+							"16"
+						],
+						[
+							"{@dice 9d4}",
+							"17"
+						],
+						[
+							"{@dice 9d4}",
+							"18"
+						],
+						[
+							"{@dice 10d4}",
+							"19"
+						],
+						[
+							"{@dice 10d4}",
+							"20"
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Chemistry|Apothecary|SRPApothecary|1",
+				"Practiced Handler|Apothecary|SRPApothecary|1",
+				"Apothecary Study|Apothecary|SRPApothecary|2",
+				"Reagents|Apothecary|SRPApothecary|2",
+				{
+					"classFeature": "Study|Apothecary|SRPApothecary|2",
+					"gainSubclassFeature": true
+				},
+				"Expertise|Apothecary|SRPApothecary|3",
+				"Ability Score Improvement|Apothecary|SRPApothecary|4",
+				"Improved Concoctions|Apothecary|SRPApothecary|5",
+				"Magic-Infused Bombs|Apothecary|SRPApothecary|6",
+				{
+					"classFeature": "Study|Apothecary|SRPApothecary|6",
+					"gainSubclassFeature": true
+				},
+				"Elemental Concoction|Apothecary|SRPApothecary|7",
+				"Ability Score Improvement|Apothecary|SRPApothecary|8",
+				"Hardiness|Apothecary|SRPApothecary|9",
+				{
+					"classFeature": "Study|Apothecary|SRPApothecary|10",
+					"gainSubclassFeature": true
+				},
+				"Expedited Aromatherapy|Apothecary|SRPApothecary|11",
+				"Ability Score Improvement|Apothecary|SRPApothecary|12",
+				{
+					"classFeature": "Study|Apothecary|SRPApothecary|13",
+					"gainSubclassFeature": true
+				},
+				"Performance Enhancers|Apothecary|SRPApothecary|14",
+				{
+					"classFeature": "Study|Apothecary|SRPApothecary|15",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Apothecary|SRPApothecary|16",
+				"Elemental Perfection|Apothecary|SRPApothecary|17",
+				{
+					"classFeature": "Study|Apothecary|SRPApothecary|18",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Apothecary|SRPApothecary|19",
+				"Master Apothecary|Apothecary|SRPApothecary|20"
+			],
+			"subclassTitle": "Study",
+			"subclasses": [
+				{
+					"name": "Study of the Doctor",
+					"subclassFeatures": [
+						"Study of the Doctor|Apothecary|SRPApothecary|Doctor|SRPApothecary|2",
+						"Tincture of Curing|Apothecary|SRPApothecary|Doctor|SRPApothecary|6",
+						"Numbing Tincture|Apothecary|SRPApothecary|Doctor|SRPApothecary|10",
+						"Anti-Magic Innoculation|Apothecary|SRPApothecary|Doctor|SRPApothecary|13",
+						"Clarifying Dose|Apothecary|SRPApothecary|Doctor|SRPApothecary|15",
+						"Infusion of Life|Apothecary|SRPApothecary|Doctor|SRPApothecary|18"
+					],
+					"source": "SRPApothecary",
+					"shortName": "Doctor"
+				},
+				{
+					"name": "Study of the Grenadier",
+					"subclassFeatures": [
+						"Study of the Grenadier|Apothecary|SRPApothecary|Grenadier|SRPApothecary|2",
+						"Concussive Bombs|Apothecary|SRPApothecary|Grenadier|SRPApothecary|6",
+						"Smoke Bomb|Apothecary|SRPApothecary|Grenadier|SRPApothecary|10",
+						"Sticky Concoction|Apothecary|SRPApothecary|Grenadier|SRPApothecary|13",
+						"Remote Charges|Apothecary|SRPApothecary|Grenadier|SRPApothecary|15",
+						"Prismatic Bomb|Apothecary|SRPApothecary|Grenadier|SRPApothecary|18"
+					],
+					"source": "SRPApothecary",
+					"shortName": "Grenadier"
+				},
+				{
+					"name": "Study of the Poisoner",
+					"subclassFeatures": [
+						"Study of the Poisoner|Apothecary|SRPApothecary|Poisoner|SRPApothecary|2",
+						"Caustic Poisons|Apothecary|SRPApothecary|Poisoner|SRPApothecary|6",
+						"Hallucinating Toxin|Apothecary|SRPApothecary|Poisoner|SRPApothecary|10",
+						"Virulent Poison|Apothecary|SRPApothecary|Poisoner|SRPApothecary|13",
+						"Magebane Poison|Apothecary|SRPApothecary|Poisoner|SRPApothecary|15",
+						"Poison of Death|Apothecary|SRPApothecary|Poisoner|SRPApothecary|18"
+					],
+					"source": "SRPApothecary",
+					"shortName": "Poisoner"
+				}
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Chemistry",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 1,
+			"entries": [
+				"At 1st level, you learn how to create a variety of chemical concoctions. You develop the formulae and can make the following concoctions: painkillers, poisons, bombs, and incense. If a feature requires a save, it uses the Apothecary save DC, calculated as follows: Apothecary save DC = 8 + your proficiency bonus + your Intelligence modifier.",
+				"Each concoction begins with a Concoction dice equal to {@dice 1d4}. The amount of Concoction die increases as you gain levels in this class, as shown in the Concoction Die column of the Apothecary table. Additionally, to use any concoction, you need a free hand, and access to your respective tools for your reagents. Finally, if a class feature requires a spellcasting ability modifier, your spellcasting ability modifier for those spells is Intelligence.",
+				{
+					"type": "entries",
+					"name": "Bombs",
+					"entries": [
+						"You know how to mix explosive residue into casings which detonate on impact. As an action you create and throw a bomb at a point within 30 feet. Each creature in a 5-foot radius centered on that point must make a Dexterity saving throw or take bludgeoning damage as determined by your Concoction die."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Incense",
+					"entries": [
+						"You know how to make helpful incense through aromatherapy. As an action you can make an incense that is helpful to those around you; friendly creatures of your choice within 10 feet of you can add {@dice 1d4} to a type of roll of your choice until the start of your next turn: ability checks, attack rolls, or saving throws. Only a number of creatures equal to the number of Concoction die you have can be affected by your incense at a time."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Painkillers",
+					"entries": [
+						"You can mix together healing herbs and create liquids and vapors which cure ailments and numb injuries. As an action you create a painkiller to administer to either yourself or an ally of your choice within 5 feet of you. The target gains temporary hit points as determined by your Concoction die for 3 rounds."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Poisons",
+					"entries": [
+						"You can mix together noxious ingredients into poisons of all types. As an action you can create your poison concoction, which is a contact poison, and apply to one melee weapon or up to 3 pieces of ammunition. When you hit with an attack made using a weapon or piece of ammunition coated in this poison, the target makes a Constitution saving throw or takes poison damage as determined by your Concoction die. Once applied the poison retains potency for 1 minute before drying or until the weapon hits a creature or ammunition is used."
+					]
+				}
+			]
+		},
+		{
+			"name": "Practiced Handler",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 1,
+			"entries": [
+				"Your swift motions with assembling concoctions let you deliver quick blows and operate nimbly under pressure.",
+				"Whenever you use an action to use Chemistry, you can use your bonus action to either take the Disengage or Use an Object action, or make an attack with a weapon that you are proficient with that lacks the versatile and two-handed properties. Chemistry counts as a \"Use an Object\" action for the purposes of this feature.",
+				"In addition, if you use an action to take the Disengage or Use an Object action, attack with a weapon that you are proficient with that lacks the versatile and two-handed properties, you can use your bonus action to use Chemistry. "
+			]
+		},
+		{
+			"name": "Apothecary Study",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 2,
+			"entries": [
+				"When you reach 2nd level, you have learned how to perfect one of your concoctions. You choose an Apothecary Study, either Study of the Doctor, Study of the Grenadier, or Study of the Poisoner. Your choice grants you features at 2nd level and again at 6th, 10th, 13th, 15th, and 18th level."
+			]
+		},
+		{
+			"name": "Study",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you gain a feature granted by your Study."
+			]
+		},
+		{
+			"name": "Reagents",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you prepare exotic and unstable material for expedited use to enhance your concoctions. You have 2 reagent points, and you gain one additional point every time you level up, to a maximum of 20 at level 20. You can spend reagent points on multiple features for the same concoction unless a feature says otherwise. You regain all spent reagent points when you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Expertise",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 3,
+			"entries": [
+				"At 3rd level, choose two of your class' skill proficiencies or artisan's tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
+				"Again at 7th level, you can choose two more of your proficiencies (in skills or with artisan's tools) to gain this benefit."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Improved Concoctions",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 5,
+			"entries": [
+				"At 5th level, you have refined your ingredients of your concoctions enhancing their maximum effectiveness. You add your Intelligence modifier to your Concoction die rolls."
+			]
+		},
+		{
+			"name": "Magic-Infused Bombs",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 6,
+			"entries": [
+				"Starting at 6th level, your bombs count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+			]
+		},
+		{
+			"name": "Study",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain a feature granted by your Study."
+			]
+		},
+		{
+			"name": "Elemental Concoction",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 7,
+			"entries": [
+				"By 7th level you have discovered techniques used to harness the elemental essences of rare ingredients. You can spend 1 reagent point to grant an elemental boost to your concoctions.",
+				"If applied to a poison or bomb, the damage type of the concoction becomes cold, fire, or lightning (your choice). If you use it on an incense or painkiller, one target gains resistance to that damage type for 3 rounds."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Hardiness",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 9,
+			"entries": [
+				"Beginning at 9th level, your practice with unstable concoctions has given you natural protections against certain effects, such as a white dragon's freezing breath or a blight spell. If you are subjected to an effect that allows you to make a Constitution saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+			]
+		},
+		{
+			"name": "Study",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 10,
+			"entries": [
+				"At 10th level, you gain a feature granted by your Study."
+			]
+		},
+		{
+			"name": "Expedited Aromatherapy",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 11,
+			"entries": [
+				"At 11th level, you've learned to combine scents in such a way that it becomes possible to expedite your allies' strength in a more potent and effective way.",
+				"When you use your Chemistry feature to produce incense, the range you can effect expands to 15-feet, and the die a creature adds to their ability checks, attack rolls, or saving throws becomes a {@dice 1d6}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Study",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 13,
+			"entries": [
+				"At 13th level, you gain a feature granted by your Study."
+			]
+		},
+		{
+			"name": "Performance Enhancers",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 14,
+			"entries": [
+				"By 14th level, you have discovered drugs that improve the capabilities and limits of your body and mind. When you finish a short or long rest you can choose one ability score for either yourself or an ally. That ability score increases by 2 for the target, but cannot raise an ability score past 30, until you complete a long rest."
+			]
+		},
+		{
+			"name": "Study",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 15,
+			"entries": [
+				"At 15th level, you gain a feature granted by your Study."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Elemental Perfection",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 17,
+			"entries": [
+				"At 17th level you have perfected the techniques used to extract the essence of rare ingredients. Whenever you create an elemental concoction, it gains added benefits. If it was a poison or bomb, your Concoction die increases by {@dice 2d4}. If it was an incense or painkiller, one target gains resistance to that damage type for 3 rounds."
+			]
+		},
+		{
+			"name": "Study",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 18,
+			"entries": [
+				"At 18th level, you gain a feature granted by your Study."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Master Apothecary",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"level": 20,
+			"entries": [
+				"When you reach 20th level, you have achieved the peak of intellectual studies, and have perfected all forms of chemistry, creating effective mixtures of all concoctions while sacrificing little in terms specialization. Choose an Apothecary Study other than the one you choose through your feature. You gain the 2nd and 6th level benefits of that Study. You use these features as if you were a 7th level apothecary."
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Study of the Doctor",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Doctor",
+			"subclassSource": "SRPApothecary",
+			"level": 2,
+			"entries": [
+				"A doctor is one who uses his chemical gifts for good, helping all who are injured or sick. Doctors are always looked upon as valuable assets.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Healthy Body|Apothecary|SRPApothecary|Doctor|SRPApothecary|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Lingering Drugs|Apothecary|SRPApothecary|Doctor|SRPApothecary|2"
+				}
+			]
+		},
+		{
+			"name": "Healthy Body",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Doctor",
+			"subclassSource": "SRPApothecary",
+			"level": 2,
+			"entries": [
+				"When you reach 2nd level, your practices lead your body to perfect health. You are immune to all diseases, and your hit point maximum increases by 2, and it increases by 1 again whenever you gain a level in this class."
+			]
+		},
+		{
+			"name": "Lingering Drugs",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Doctor",
+			"subclassSource": "SRPApothecary",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you have learned to increase the duration of your painkillers. When you use your painkiller concoction, you can spend 1 reagent point to give it a lingering effect. The target of the concoction does not lose the temporary hit points gained from the painkiller at the end of its duration. Additionally, your painkillers heal the chosen creature for an amount of hit points equal to your Intelligence modifier.",
+				"Only one creature can benefit from this feature at a time, the oldest target losing any remaining temporary hit points gained from this feature when you use this feature again. The amount of creatures that can benefit from this feature increases to two at 7th level."
+			]
+		},
+		{
+			"name": "Tincture of Curing",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Doctor",
+			"subclassSource": "SRPApothecary",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"By 6th level, you have discovered a substance that flushes the body of filth. When you use your painkiller concoction you may spend 2 reagent points to make it cure ailments acting as if you had cast lesser restoration on the target in addition to giving temporary hit points. Alternatively, you can spend 3 reagent points to give a painkiller the additional effect of cure wounds as a 2nd-level spell.",
+				"You can use this feature a number of times equal to your Wisdom modifier, and it has no effect on undead or constructs. All uses refresh on a long rest."
+			]
+		},
+		{
+			"name": "Numbing Tincture",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Doctor",
+			"subclassSource": "SRPApothecary",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, you have learned that higher doses of your painkillers can dull the injuries directly, allowing allies to ignore the greviousnes of blows. When you administer your painkiller concoction, you can spend 1 reagent point to grant the target resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks for 3 rounds."
+			]
+		},
+		{
+			"name": "Anti-Magic Innoculation",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Doctor",
+			"subclassSource": "SRPApothecary",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"At 13th level, you have discovered ingredients that are devoid of any magical essence. When you use your painkiller concoction you may spend 2 reagent points to make it an Anti-Magic Innoculation that additionally acts as if you had cast {@spell dispel magic} on the creature."
+			]
+		},
+		{
+			"name": "Clarifying Dose",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Doctor",
+			"subclassSource": "SRPApothecary",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"By 15th level, you have learned that to make a mixture of painkillers that leaves the mind clear to combat threats against it, while amplifying the body's healing. When you use your painkiller concoction you may spend 2 reagent points to make it a Clarifying Dose, the target gains advantage on Wisdom saving throws and regains the maximum amount of hit points from healing for 3 rounds."
+			]
+		},
+		{
+			"name": "Infusion of Life",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Doctor",
+			"subclassSource": "SRPApothecary",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"By 18th level, you have discovered the ultimate in medicines, combining the greatest healing ingredients available. You can spend 7 reagent points to create an Infusion of Life, which replicates the effects of the revivify spell. After the initial resurrection, the target receives temporary hit points equal to your Concoction die, gaining the maximum of the roll instead of rolling."
+			]
+		},
+		{
+			"name": "Study of the Grenadier",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Grenadier",
+			"subclassSource": "SRPApothecary",
+			"level": 2,
+			"entries": [
+				"A grenadier is often considered a demolitions expert, and at worst can be considered an arsonist, but in reality they are simply able to mix ingredients which become unstable within their confines, namely bomb shells. Grenadiers are the most diverse apothecaries, sometimes serving in armies, supplying explosives for soldiers, or serving as guides for mining expeditions, blasting away debris.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Napalm Filling|Apothecary|SRPApothecary|Grenadier|SRPApothecary|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Shaped Charges|Apothecary|SRPApothecary|Grenadier|SRPApothecary|2"
+				}
+			]
+		},
+		{
+			"name": "Napalm Filling",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Grenadier",
+			"subclassSource": "SRPApothecary",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you discover a formulae for a new sticky slow burning fuel to fill in your grenades. When you use your bomb concoction you can spend 1 reagent point to make it leave a 5-foot radius of lingering flames for three rounds. Any creature that starts its turn in the flames or enters the flames for the first time on its turn takes fire damage equal to your Intelligence modifier.",
+				"At 7th level, this damage increases to twice your Intelligence modifier."
+			]
+		},
+		{
+			"name": "Shaped Charges",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Grenadier",
+			"subclassSource": "SRPApothecary",
+			"level": 2,
+			"entries": [
+				"At 2nd level, a grenadier learns to shape the blasts of his bombs to better catch his foes, and around his allies. When you use your bomb concoction you can spend 1 reagent point to make it deal half damage on a successful save instead of none.",
+				"In addition, allies automatically succeed on their saving throws against any of your bombs, and they take no damage on a successful save, regardless of if you spend reagent points on the bomb concoction."
+			]
+		},
+		{
+			"name": "Concussive Bombs",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Grenadier",
+			"subclassSource": "SRPApothecary",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you have learned to create a grenade capable of disorienting opponents. When you use your bomb concoction you may spend 1 reagent point to force your enemies damaged by it to make a Strength saving throw or be knocked prone."
+			]
+		},
+		{
+			"name": "Smoke Bomb",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Grenadier",
+			"subclassSource": "SRPApothecary",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, you discover a mixture that produces copious amounts of smoke when catalyzing. When you use your bomb concoction, you can spend 1 reagent point to turn it into a Smoke Bomb which creates a 20-foot radius of smoke centered on the target for three rounds. The sphere spreads around corners and its area is heavily obscured."
+			]
+		},
+		{
+			"name": "Sticky Concoction",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Grenadier",
+			"subclassSource": "SRPApothecary",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"At 13th level, you discover a viscous formulae that quickly hardens and entraps foes. When you use your bomb concoction you can spend 3 reagent points to restrain creatures that fail their save against this bomb. A creature can use its action to make a Strength check against your apothecary save DC to free itself, ending the effect.",
+				"Alternatively, you can spend just 1 reagent point to use this concoction, but it only does damage equal to your Intelligence modifier, and cannot be further modified using reagent points."
+			]
+		},
+		{
+			"name": "Remote Charges",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Grenadier",
+			"subclassSource": "SRPApothecary",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, you gain the technical know-how to delay the detonation of your bombs by connecting them wirelessly to an automatic detonation system.",
+				"When you use Chemistry to create a bomb, you can choose to make a Remote Bomb. When you do so, you select from one of the following modifications:",
+				{
+					"type": "list",
+					"items": [
+						"Using the bomb will not cause it to explode. Instead, you spend 1 reagent point to place it on a delayed detonation timer. When you throw the bomb, it lands at a point within range and you begin concentrating on it, as if you were concentrating on a spell. After one minute passes, when your concentration ends, or when you further than 120 feet from a remote bomb placed this way, the bomb explodes and activates its effects. You are not prevented from using concentration spells alongside this unique concentration, and you can concentrate on more than one remote bomb using this feature.",
+						"Using the bomb will not cause it to explode. Instead, the range of the bomb becomes 5-feet, and you spend a minute wiring its internals to work alongside a remote detonation switch. Activating your remote detonation switch causes all bombs connected to it to explode, and requires no economy from you (as if you were ending concentration on a spell). Bombs you place this way last indefinitely, and can be detonated so long as you are within 1,000 feet of the explosive. You can remove a bomb from your remote detonation network using an action, regardless of distance."
+					]
+				},
+				"When you create a Remote Bomb, you retain the ability to modify it using reagent points, in order to grant it effects such as Napalm Filing, Concussive, Smoke, Sticky, and Prismatic. In addition, you can only control a number of Remote Bombs equal to your Intelligence modifier (minimum of 1), shared between both variants. Bombs removed from your remote detonation network are no longer considered to be under your control."
+			]
+		},
+		{
+			"name": "Prismatic Bomb",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Grenadier",
+			"subclassSource": "SRPApothecary",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"By 18th level, you have discovered the ultimate in explosives, combining the highest quality volatile elements together in one very unstable concoction. You can spend 7 reagent points to modify a bomb concoction into a Prismatic Bomb. The bomb detonates into a myriad swirl of arcane energies, forming a sphere with a 10-foot radius around the the target lasting for two turns. When a creature enters the sphere's area for the first time on a turn, or begins their turn there, they are affected by Prismatic Bomb as though subject to the {@spell prismatic spray} spell.",
+				"Once you use this feature, you cannot use it again until you take a long rest."
+			]
+		},
+		{
+			"name": "Study of the Poisoner",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Poisoner",
+			"subclassSource": "SRPApothecary",
+			"level": 2,
+			"entries": [
+				"A poisoner is typically found within the company of thieves and those who focus on subterfuge and trickery. A poisoner is no stranger to the black market, and even the most straight individual will find themselves purchasing rare ingredients from shady fellows.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Poison Sheath|Apothecary|SRPApothecary|Poisoner|SRPApothecary|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Deblitating Poison|Apothecary|SRPApothecary|Poisoner|SRPApothecary|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Lingering Poison|Apothecary|SRPApothecary|Poisoner|SRPApothecary|2"
+				}
+			]
+		},
+		{
+			"name": "Poison Sheath",
+			"entries": [
+				"Beginning at 2nd level, you gain a poison sheath. When you draw a melee weapon, you may apply your poison concoction to it immediately."
+			],
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Poisoner",
+			"subclassSource": "SRPApothecary",
+			"level": 2,
+			"header": 1
+		},
+		{
+			"name": "Deblitating Poison",
+			"entries": [
+				"At 2nd level, you discover an insidious sickening toxin. When a creature fails its saving throw against your poison concoctions, it becomes poisoned until the start of your next turn."
+			],
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Poisoner",
+			"subclassSource": "SRPApothecary",
+			"level": 2,
+			"header": 1
+		},
+		{
+			"name": "Lingering Poison",
+			"entries": [
+				"Also at 2nd level, you discover a poison that continues to linger in the system of your victims. You can spend 1 reagent point to alter a poison concoction. Creatures that succeed against the saving throw of this poison will take half damage instead of none.",
+				"Additionally, at 7th level, poison concoctions applied to a melee weapon remain potent for one more hit after they first successfully hit a target."
+			],
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Poisoner",
+			"subclassSource": "SRPApothecary",
+			"level": 2,
+			"header": 1
+		},
+		{
+			"name": "Caustic Poisons",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Poisoner",
+			"subclassSource": "SRPApothecary",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you discover a toxin that eats away at flesh and metal, not needing to be delivered through the body to apply its effects. Whenever you use a poison or create your poison concoction, you can spend 1 reagent point to modify it, changing its damage type to acid, and it ignores any immunities to the poisoned condition."
+			]
+		},
+		{
+			"name": "Hallucinating Toxin",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Poisoner",
+			"subclassSource": "SRPApothecary",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"When you reach 10th level, you discover a powerful hallucinogenic agent. You can spend 2 reagent points to alter a poison concoction. As long as a creature is poisoned by this concoction, they are incapacitated as they are subjected to hallucinations either frightening or hilarious."
+			]
+		},
+		{
+			"name": "Virulent Poison",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Poisoner",
+			"subclassSource": "SRPApothecary",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"Starting at 13th level, you discover a way to make poisons affect the body in unexpected ways. Whenever you create a poison concoction, you may spend 2 reagent points to impose disadvantage on the saving throw against the poison."
+			]
+		},
+		{
+			"name": "Magebane Poison",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Poisoner",
+			"subclassSource": "SRPApothecary",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"By 15th level, you discover an irritant that disrupts the arcane power of spellcasters. You can spend 2 reagent points to alter a poison concoction. If a spellcaster who is poisoned in this way attempts to cast a spell with a casting time of 1 action, roll a {@dice d20}. On an 11 or higher, the spell doesn't take effect until the creature's next turn, and the creature must use its action on that turn to complete the spell. If it can't, the spell is wasted. In addition, the creature also has disadvantage on Constitution saving throws to maintain concentration."
+			]
+		},
+		{
+			"name": "Poison of Death",
+			"source": "SRPApothecary",
+			"className": "Apothecary",
+			"classSource": "SRPApothecary",
+			"subclassShortName": "Poisoner",
+			"subclassSource": "SRPApothecary",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level, you discover the most lethal ingredients known in the worlds. You can spend 7 reagent points to create a Poison of Death. This poison can only be applied to one piece of ammunition. The poison loses its potency within 1 minute of being applied to a weapon or piece of ammunition. Any creature hit by this poison must make a Constitution saving throw. If it fails, it is reduced to 0 hit points. If it succeeds, it is stunned until the end of your next turn.",
+				"Once you use this feature, you cannot use it again until you take a long rest."
+			]
+		}
+	]
+}

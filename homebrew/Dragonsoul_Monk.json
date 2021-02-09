@@ -1,0 +1,218 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SRPDSMV5",
+				"abbreviation": "SRPDSMV5",
+				"full": "Way of the Dragonsoul",
+				"authors": [
+					"Wyth"
+				],
+				"convertedBy": [
+					"Wyth#8882"
+				],
+				"version": "1.0.0",
+				"url": "wyth.github.io/SRP/",
+				"targetSchema": "1.2"
+			}
+		],
+		"dateAdded": 1605548980,
+		"dateLastModified": 1605548980
+	},
+	"subclass": [
+		{
+			"name": "Way of the Dragonsoul",
+			"source": "SRPDSMV5",
+			"className": "Monk",
+			"classSource": "PHB",
+			"shortName": "Dragonsoul",
+			"subclassFeatures": [
+				"Gift of the Dragon|Monk||Dragonsoul|SRPDSMV5|3",
+				"Draconic Affinity|Monk||Dragonsoul|SRPDSMV5|3",
+				"Breath of the Attuned|Monk||Dragonsoul|SRPDSMV5|3",
+				"True Breath|Monk||Dragonsoul|SRPDSMV5|6",
+				"Scales of Diamond|Monk||Dragonsoul|SRPDSMV5|6",
+				"Aspect of the Dragon|Monk||Dragonsoul|SRPDSMV5|11",
+				"Perfect Ascension|Monk||Dragonsoul|SRPDSMV5|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Gift of the Dragon",
+			"source": "SRPDSMV5",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Dragonsoul",
+			"subclassSource": "SRPDSMV5",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you choose this tradition at 3rd level, you learn to tap into lingering draconic magic to alter your form. You gain a climbing and swimming speed equal to your movement speed."
+			]
+		},
+		{
+			"name": "Draconic Affinity",
+			"source": "SRPDSMV5",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Dragonsoul",
+			"subclassSource": "SRPDSMV5",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Also at 3st level, you choose one type of dragon as your ancestor. This affinity is a natural energy you’ve learned to tap into when channeling your ki. Over time you will learn to use it for protection and to devastate those who would disrupt the natural order. The damage type associated with each dragon is used by features you gain later.",
+				{
+					"type": "table",
+					"caption": "Draconic Affinity",
+					"colLabels": [
+						"Dragon",
+						"Damage Type"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"Black",
+							"Acid"
+						],
+						[
+							"Blue",
+							"Lightning"
+						],
+						[
+							"Brass",
+							"Fire"
+						],
+						[
+							"Bronze",
+							"Lightning"
+						],
+						[
+							"Copper",
+							"Acid"
+						],
+						[
+							"Gold",
+							"Fire"
+						],
+						[
+							"Green",
+							"Poison"
+						],
+						[
+							"Nebula",
+							"Fire"
+						],
+						[
+							"Red",
+							"Fire"
+						],
+						[
+							"Silver",
+							"Cold"
+						],
+						[
+							"Void",
+							"Cold"
+						],
+						[
+							"White",
+							"Cold"
+						]
+					]
+				},
+				"As an action you may spend 1 ki point to gain resistance to damage from your draconic affinity for 10 minutes."
+			]
+		},
+		{
+			"name": "Breath of the Attuned",
+			"source": "SRPDSMV5",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Dragonsoul",
+			"subclassSource": "SRPDSMV5",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Also at 3rd level, you can spend a Ki point as an action to exhale destructive energy; when you do so, each creature in a 10 foot cone makes a dexterity saving throw against your Ki save DC, taking damage equal to {@dice 3d4} of the damage type of your Draconic Affinity on failure and half as much on a success. The damage die for this ability follows the progression of your martial arts die, becoming {@dice 3d6} at level 5 and so on. "
+			]
+		},
+		{
+			"name": "True Breath",
+			"source": "SRPDSMV5",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Dragonsoul",
+			"subclassSource": "SRPDSMV5",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, when you use Breath of the Attuned, its range is increased to 20 feet. In addition, you can expend ki points to increase the number of dice by one for each ki point expended in this way. The maximum number of ki points (1 plus any additional points) that you can spend equals half your monk level."
+			]
+		},
+		{
+			"name": "Scales of Diamond",
+			"source": "SRPDSMV5",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Dragonsoul",
+			"subclassSource": "SRPDSMV5",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Also at 6th level, whenever you take acid, lightning, poison, fire, or cold damage, you may use a reaction to spend 2 ki points to cast Absorb Elements. The extra damage applies to all melee attacks on your next turn, instead of just the first."
+			]
+		},
+		{
+			"name": "Aspect of the Dragon",
+			"source": "SRPDSMV5",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Dragonsoul",
+			"subclassSource": "SRPDSMV5",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Beginning at 11th level, channeling your draconic affinity can cause you to manifest the aspects of a dragon. As an action, you may manifest these aspects for a duration of 10 minutes, until you are reduced to 0 hit points or as a bonus action. You may use this feature a number of times equal to your Constitution modifier (minimum of 1). When you do, you receive the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You have a flying speed equal to your movement speed",
+						"You gain temporary hit points equal to twice your level",
+						"After taking the attack action, you may immediately use Breath of the Attuned as a bonus action"
+					]
+				},
+				"You regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Perfect Ascension",
+			"source": "SRPDSMV5",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Dragonsoul",
+			"subclassSource": "SRPDSMV5",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"When you reach 17th level, you gain resistance to your draconic affinity. In addition, you unlock the secret to channel your draconic affinity to its full potential.",
+				"You can channel this power by expending 9 ki points as an action once per long rest. It lasts for an hour, but ends early if you are reduced to 0 hit points or choose to end the effect as a bonus action. After channeling this power, you adopt more draconic features, gaining various benefits as listed below:",
+				{
+					"type": "list",
+					"items": [
+						"You can use Aspect of the Dragon as a bonus action.",
+						"You gain immunity to the damage type of your Draconic Affinity.",
+						"Your unarmed strikes deal an additional 1d6 of your Draconic Affinity damage type.",
+						"You grow a tail that can be used to make an extra unarmed attack whenever you take the attack action, this attack has 15 ft. reach.",
+						"Your size becomes Huge and your appearance changes to that of an Adult dragon of your Draconic Affinity.",
+						"You gain a flying speed of 80 feet, unless it was higher.",
+						"Your creature type is replaced with 'dragon' while this feature is active."
+					]
+				}
+			]
+		}
+	]
+}

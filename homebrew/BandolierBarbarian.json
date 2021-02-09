@@ -1,0 +1,144 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SRPBandolier",
+				"abbreviation": "SRPBB",
+				"full": "Bandolier Barbarian",
+				"authors": [
+					"Wyth"
+				],
+				"convertedBy": [
+					"Wyth#8882"
+				],
+				"version": "1.0.0",
+				"url": "wyth.github.io/SRP/",
+				"targetSchema": "1.2"
+			}
+		],
+		"dateAdded": 1605548980,
+		"dateLastModified": 1605548980
+	},
+	"subclass": [
+		{
+			"version": "1.0.0",
+			"name": "Path of the Bandolier",
+			"subclassTitle": "Primal Path",
+			"subclassFeatures": [
+				"Path of the Bandolier|Barbarian||Bandolier|SRPBandolier|3",
+				"Reckless Abandon|Barbarian||Bandolier|SRPBandolier|6",
+				"Bulletstorm|Barbarian||Bandolier|SRPBandolier|10",
+				"Improved Magazine|Barbarian||Bandolier|SRPBandolier|14"
+			],
+			"source": "SRPBandolier",
+			"shortName": "Bandolier",
+			"className": "Barbarian",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Path of the Bandolier",
+			"source": "SRPBandolier",
+			"page": 46,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Bandolier",
+			"subclassSource": "SRPBandolier",
+			"level": 3,
+			"entries": [
+				"Barbarians throughout the ages have been known to be fearful frontline combatants, though it has always been with a greataxe at hand. Those that follow the Path of the Bandolier have learned how to extend their rage beyond the limitations of melee combat, learning the intricacies of fighting with a gun in hand. The savage gunplay of the Bandolier, blasting people left and right with reckless abandon, their weaponry going beyond their normal capabilities.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Firearm Proficiency|Barbarian||Bandolier|SRPBandolier|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Rampant Gunplay|Barbarian||Bandolier|SRPBandolier|3"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Firearm Proficiency",
+			"entries": [
+							"Starting when you choose this archetype at 3rd level, you gain proficiency with firearms, allowing you to add your proficiency bonus to attacks made with firearms. You also gain proficiency with tinker's tools. You may use them to repair damaged firearms."
+						],
+			"source": "SRPBandolier",
+			"page": 46,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Bandolier",
+			"subclassSource": "SRPBandolier",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Rampant Gunplay",
+			"entries": [
+							"Starting at 3rd level, your instinctual knowledge of the battlefield has joined hands with your love for gunplay, and you've become ruthlessly competent with their use, regardless of your mental state.",
+							"While you are raging, you can apply your rage damage bonus to firearm attacks you make on creatures within 20 feet of you, and being within 5 feet of a creature while raging does not impose disadvantage on ranged attack rolls.",
+							"In addition, while you are raging, drawing or holstering firearms no longer requires an object interaction. Each time you draw and fire a unique firearm while raging, your attack and damage roll for your next shot increases by +1, to a maximum of +3. At the end of your turn, your bonus resets to +0.",
+							"Also at 3rd level, you can use your Reckless Attack to aim your weapon, becoming more accurate but also leaving yourself open as you look down the iron sights. You gain a +2 to ranged attack rolls you make, but attacks against you have advantage until the start of your next turn.",
+							"Starting at 9th level, you can apply your Brutal Critical feature with firearm attacks you make on creatures within 20 feet of you."
+						],
+			"source": "SRPBandolier",
+			"page": 46,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Bandolier",
+			"subclassSource": "SRPBandolier",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Reckless Abandon",
+			"source": "SRPBandolier",
+			"page": 46,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Bandolier",
+			"subclassSource": "SRPBandolier",
+			"level": 6,
+			"header": 2,
+			"entries": [
+							"At 6th level, you have forsaken the wellbeing of your weapons just as you've forsaken the wellbeing of your body, and you've become deadly in their handling.",
+							"When you rage, you can choose for your guns to enter Overheat. While in Overheat, ranged attacks made with your firearms deal an additional 1d8 fire damage on a hit, and you ignore misfires on your firearm attacks.",
+							"When your rage ends, your guns recoil from the shock of their reckless overuse, and their state becomes far worse than anything you could achieve naturally. Firearms you fired while in the Overheat state, regardless of whether the attack roll hit, are considered broken with a repair DC of 15 + the weapon's misfire score.",
+							"On a failed repair check, the weapon is broken and must be mended out of combat at half the cost of the firearm, rather than just a quarter."
+						]
+		},
+		{
+			"name": "Bulletstorm",
+			"source": "SRPBandolier",
+			"page": 46,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Bandolier",
+			"subclassSource": "SRPBandolier",
+			"level": 10,
+			"header": 2,
+			"entries": [
+							"At 10th level, you've mastered the art of creating an unending assault with your firearms, granting your enemies (and allies) an annoyance with no end.",
+							"As a bonus action, you can fire a volley of bullets within a 40-foot cone in front of you, obliterating the battlefield with an endless storm of bullets and death. These bullets are not difficult to dodge, but they are hell to all creatures within the raging typhoon. Creatures moving within the cone are considered to be moving through difficult terrain. This area of certain demise lasts until the start of your next turn.",
+							"You can use this feature a number of times equal to your Dexterity modifier (minimum of once), and regain all expended uses on a long rest."
+						]
+		},
+		{
+			"name": "Improved Magazine",
+			"source": "SRPBandolier",
+			"page": 46,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Bandolier",
+			"subclassSource": "SRPBandolier",
+			"level": 14,
+			"header": 2,
+			"entries": [
+							"At 14th level, you shove your magazines into your guns with reckless abandon, causing some...interesting things to transpire.",
+							"When you make a ranged weapon attack with a firearm, you can use a reaction to cause a tremor in the barrel, firing two bullets in a singular shot. You make an additional ranged weapon attack with your gun, and the weapon's misfire score permanently increases by 1 until you finish a short or long rest."
+						]
+		}
+	]
+}

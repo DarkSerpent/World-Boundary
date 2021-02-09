@@ -1,0 +1,180 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SRPInfiltration",
+				"abbreviation": "SRPIB",
+				"full": "Path of Infiltration Barbarian",
+				"authors": [
+					"Wyth"
+				],
+				"convertedBy": [
+					"Wyth#8882"
+				],
+				"version": "1.0.0",
+				"url": "wyth.github.io/SRP/",
+				"targetSchema": "1.2"
+			}
+		],
+		"dateAdded": 1605548980,
+		"dateLastModified": 1605548980
+	},
+	"subclass": [
+		{
+			"version": "1.0.0",
+			"name": "Path of the Infiltration",
+			"subclassTitle": "Primal Path",
+			"subclassFeatures": [
+				"Path of Infiltration|Barbarian||Infiltration|SRPInfiltration|3",
+				"Breaking and Entering|Barbarian||Infiltration|SRPInfiltration|3",
+				"Silent Rage|Barbarian||Infiltration|SRPInfiltration|3",
+				"Improved Infiltration|Barbarian||Infiltration|SRPInfiltration|6",
+				"Traceless Intruder|Barbarian||Infiltration|SRPInfiltration|10",
+				"Stride of Shadows|Barbarian||Infiltration|SRPInfiltration|14"
+			],
+			"source": "SRPInfiltration",
+			"shortName": "Infiltration",
+			"className": "Barbarian",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Path of Infiltration",
+			"source": "SRPInfiltration",
+			"page": 46,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Infiltration",
+			"subclassSource": "SRPInfiltration",
+			"level": 3,
+			"entries": [
+				"To barbarians who follow the Path of Infiltration, rage does not mean battle cries and violent screams. Instead, it means deafening silence and uncertain shadows. Drawing upon magic from the Shadowfell, these infiltrators breathe in sound and light and hold it within, suppressing it as they lay waste to enemies, doors, and any other barriers between them and their goal.",
+				"In the world of Ravnica, House Dimir makes ample use of these barbarians. In the Forgotten Realms, the Zhentarim includes such ranks. Thieves’ guilds, cults, or noble houses might also recruit these silent terrors as thieves or assassins.",
+				"These powers are usually gained from dark rituals or curses. In either case, obtaining and using these powers is  often painful, causing these barbarians to become part- shadow and suffer—and make others suffer—in silence.  At your option, you can pick from or roll on the Infiltration Barbarian Quirks table to create a quirk for your character.",
+				{
+					"type": "table",
+					"caption": "Infiltration Barbarian Quirks",
+					"colLabels": [
+						"{@dice 1d6}",
+						"Quirk"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"Your eyes are pitch black."
+						],
+						[
+							"2",
+							"You get headaches from bright light and loud noises."
+						],
+						[
+							"3",
+							"You often wake up screaming, but make no noise when you do."
+						],
+						[
+							"4",
+							"Your blood is black and quickly evaporates into shadowy mist."
+						],
+						[
+							"5",
+							"You have a habit of unintentionally sneaking up on people."
+						],
+						[
+							"6",
+							"You rarely talk, preferring to write or gesture instead."
+						]
+					]
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Breaking and Entering",
+			"entries": [
+				"You become adept at finding a way past nearly any obstacle:",
+				{
+					"type": "list",
+					"items": [
+						"You deal double damage to objects.",
+						"You can use a bonus action on each of your turns to make a single weapon attack against an object that isn’t being worn or carried.",
+						"While you are raging, your rage doesn’t end early as long as you end your turn in dim light or darkness."
+					]
+				}
+			],
+			"source": "SRPInfiltration",
+			"page": 46,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Infiltration",
+			"subclassSource": "SRPInfiltration",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Silent Rage",
+			"entries": [
+				"Whenever you enter a rage, you can inhale light and sound to create a magical aura of silence and shadow. The aura extends 10 feet from you in every direction, but not through total cover. Your aura lasts until you dismiss it as a bonus action or your rage ends.",
+				"Your aura acts as the areas of both a {@spell silence} spell and of a {@spell pass without trace} spell. You can still use your Danger Sense even while you are deafened by your aura. If a creature attempts to cast a spell with a verbal component while in your aura, that creature expends the spell slot of the spell (if needed) and rolls a Charisma saving throw with a DC equal to 8 + your proficiency bonus + your Strength modifier. On a successful save, the spell is cast successfully.",
+				"If you are targeted by a {@spell dispel magic} spell, your aura counts as a spell with a level equal to half your barbarian level."
+			],
+			"source": "SRPInfiltration",
+			"page": 46,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Infiltration",
+			"subclassSource": "SRPInfiltration",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Improved Infiltration",
+			"source": "SRPInfiltration",
+			"page": 46,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Infiltration",
+			"subclassSource": "SRPInfiltration",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Whenever you hit an object with an attack, the hit is a critical hit.",
+				"In addition, dim light doesn’t impose disadvantage on your Wisdom (Perception) checks relying on sight."
+			]
+		},
+		{
+			"name": "Traceless Intruder",
+			"source": "SRPInfiltration",
+			"page": 46,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Infiltration",
+			"subclassSource": "SRPInfiltration",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"While you’re raging, you are under the effects of a {@spell nondetection} spell, and whenever you would trigger an abjuration spell, such as by walking through the area of an {@spell alarm} or {@spell glyph of warding}, you can make a Constitution saving throw (DC 10 + the spell’s level). On a successful save, the spell isn’t triggered.",
+				"Additionally, while you benefit from your Danger Sense, the damage you take from traps is halved. This includes magical traps, such as the glyph of warding or symbol spells."
+			]
+		},
+		{
+			"name": "Stride of Shadows",
+			"source": "SRPInfiltration",
+			"page": 46,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Infiltration",
+			"subclassSource": "SRPInfiltration",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"As an action on your turn, you can take on an incorporeal, shadowy form. Until the end of the turn, you can move through creatures and objects as if they were difficult terrain. If you occupy the same spot as a solid object or creature when the turn ends, you are immediately shunted to the nearest unoccupied space and take {@dice 1d10} force damage for every 5 feet you are moved. If you take this action while raging, your rage doesn’t end early at the end of the turn."
+			]
+		}
+	]
+}

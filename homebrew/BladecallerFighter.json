@@ -1,0 +1,181 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SRPBCF",
+				"abbreviation": "SRPBCF",
+				"full": "Bladecaller",
+				"authors": [
+					"Wyth"
+				],
+				"convertedBy": [
+					"Wyth#8882"
+				],
+				"version": "1.0.0",
+				"url": "wyth.github.io/SRP/",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1537874753,
+		"dateLastModified": 1537874753
+	},
+	"subclass": [
+		{
+			"name": "Bladecaller",
+			"subclassFeatures": [
+				"Bladecaller|Fighter||Bladecaller|SRPBCF|3",
+				"Array of Internal Will|Fighter||Bladecaller|SRPBCF|7",
+				"My Form Hast Ascended|Fighter||Bladecaller|SRPBCF|10",
+				"Martial Strength|Fighter||Bladecaller|SRPBCF|10",
+				"Thou Hast My Internal Flurry|Fighter||Bladecaller|SRPBCF|15",
+				"Storm of Ordnance|Fighter||Bladecaller|SRPBCF|18"
+			],
+			"source": "SRPBCF",
+			"shortName": "Bladecaller",
+			"className": "Fighter",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Bladecaller",
+			"source": "SRPBCF",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Bladecaller",
+			"subclassSource": "SRPBCF",
+			"level": 3,
+			"entries": [
+				"{@italic \"I am the bone of my sword. Steel is my body, and fire is my blood. I have wielded over a thousand blades. Unknown to death, nor known to life. I have withstood pain to wield many weapons. Yet, these hands will never hold anything. So, as I pray. Unlimited Blade Works.\"}",
+				"Bladecallers are often figures of legend. The stories are never quite certain—do these demons of the battlefield command their weapons using telekinetic powers? Or have they contracted with a spirit who performs their bidding? Regardless of the process, their way of fighting as they dance around the battlefield appears nothing less than to be a recreation of esoteric psionic powers.",
+				"As a fighter of this archetype, you are a cloud of mauls, spears, and swords. Capable of fighting a legion of soldiers all on your own. You are not the wielder. You are the weapon.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arsenal & Storm|Fighter||Bladecaller|SRPBCF|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "My Eternal Strength|Fighter||Bladecaller|SRPBCF|3"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Arsenal & Storm",
+			"entries": [
+				"You have control of weapons which fly free from your grip. These weapons, pushed forward by an ethereal power all of your own, swirl around your body like the dance of a thousand faithful. You are not restricted by the reach of your arm, nor the weight of your weapons when you attack.",
+				"At 3rd level, you can telekinetically control one melee weapon which levitates around you in the air. When you take the attack action, you can choose to attack with either a weapon you are holding in your hand or the floating weapon.",
+				"Your floating weapon has a reach of 10 feet, regardless of what it may be. When you attack with a floating weapon, you ignore of all its inherent weapon properties. In addition, floating weapons cannot make attacks of opportunity.",
+				"As a bonus action, you can swap a weapon you are holding in your hand with a floating weapon. This effect occurs instantaneously, although the traveling path of your exchange can be halted by walls or people.",
+				"In addition to levitating melee weapons, you can also can also telepathically carry a shield. When carrying a shield this way, you gain the bonus to your AC without needing to hold it. You can control multiple shields, but you can only ever benefit from one.",
+				"The number of weapons you can control telepathically increase over time as you gain new mastery of your unexplainable abilities. You can control two at 7th level, three at 10th level, four at 15h level, and five at 18th level."
+			],
+			"source": "SRPBCF",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Bladecaller",
+			"subclassSource": "SRPBCF",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "My Eternal Strength",
+			"entries": [
+				"Though the heart of your focus in on material weapons, your unexplainable strength manifests in almost telekinetic form, allowing you to manipulate small objects as well. You can use your floating weapon property to levitate tiny objects within 10 feet of yourself, so long as they are not being held or worn by another creature."
+			],
+			"source": "SRPBCF",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Bladecaller",
+			"subclassSource": "SRPBCF",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Array of Internal Will",
+			"source": "SRPBCF",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Bladecaller",
+			"subclassSource": "SRPBCF",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"You have practiced in wielding your unexplainable strength, and found that your will can manifest into physical form, allowing your weapons to take on offensive and defensive properties of your choosing.",
+				"As a bonus action, you can swap your Internal Will to one of the following techniques to be available to you as a reaction. This technique will exist as a possible reaction you can take until you swap to a different Internal Will with another bonus action.",
+				"These reactions are special, as they do not count to the number reactions you can take. Instead, your Internal Will can take a number of reactions equal to the amount of melee weapons and shields you control as a floating weapon per turn. You can only take one reaction on any instance that would proke one of your reactions.",
+				"{@bold Destroy Missiles.} You use a reaction to reduce the incoming damage of a ranged weapon attack by the damage die of one of your floating weapons.",
+				"{@bold Flurry of Will.} You use a reaction to interfere in an enemy's movement. When a creature moves into the range of your floating weapons, they must make a Dexterity saving throw equal to 8 + your proficiency bonus + your Strength or Dexterity. On a failed save, that enemy is knocked {@condition prone}.",
+				"{@bold Opportunity of Attack.} You use a reaction to strike against a creature with one of your floating weapons when they attempt to leave your range. This attack is considered an opportunity attack, and subject to features that can prevent damage such as the Mobile feat. In addition, this reaction can take advantage of abilities that allow you to opportunity attack in unique situations, such as the Polearm Master and Sentinel feat."
+			]
+		},
+		{
+			"name": "My Form Hast Ascended",
+			"source": "SRPBCF",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Bladecaller",
+			"subclassSource": "SRPBCF",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"As you have begun to grow stronger, so has your unexplainable strength. As you once gained the ability to bring forth your floating weapons, you now gain the ability to bring yourself forth as well.",
+				"As an action, you can take to the air, gaining a fly speed equal to your movement speed. While flying this way, you cannot fly higher than 10-feet, although you ignore difficult terrain, and your movement speed increases by 10. You can maintain this limited levitation for a minute, and are able to switch between hovering and walking along the ground at will.",
+				"You can use this feature once per short or long rest at 10th level, and gain an additional use at 15th level."
+			]
+		},
+		{
+			"name": "Martial Strength",
+			"source": "SRPBCF",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Bladecaller",
+			"subclassSource": "SRPBCF",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Your knowledge and skill utilizing weapons of all kinds expands. You add the following fighting styles to add to your repertoire:",
+				"{@bold Heart of the Grave.} When an attack you make with a bludgeoning weapon scores a critical hit, you cripple that target by denting their armor and ease of movement. That target's AC is reduced by 1, so long as they are not resistant or immune to bludgeoning damage. A target regains all lost AC on a short or long rest.",
+				"{@bold Heart of the Knave.} When an attack you make with a piercing weapon scores a critical hit, you slip through the cracks in their armor, applying pressure directly to their body. Your attack deals an extra {@dice 1d8} piercing damage, and their movement speed is reduced by 20 until the end of their next turn, so long as they are not resistant or immune to piercing damage.",
+				"{@bold Heart of the Brave.} When an attack you make with a slashing weapon scores a critical hit, you weapon slices through your target's arteries, causing abundant blood to spill from their wound as they begin to bleed. At the start of each of their turns, the target takes {@dice 1d4} slashing damage. Undead and constructs are immune to this effect, as are creatures who are resistant or immune to slashing damage. This effect lasts for a minute, or until the creature finishes a short or long rest. In addition, if you score a critical hit a target with a slashing weapon who is already bleeding, they immediately take {@dice 1d4} force damage, instead of reapplying this effect.",
+				"{@bold Otherworldly Improvisation.} Whenever you score a critical hit with any weapon, you can use a reaction to gain insight into your opponent's defenses. Your crit chance increases by a factor of the dice you roll, starting at 20. On each subsequent crit, you can use a reaction to increase your crit range, first to 19-20, then to 18-20, and finally to 17-20. Your critical chance cannot extend past this amount, and after the full minute elapses, your critical strike chance returns to 20-20."
+			]
+		},
+		{
+			"name": "Thou Hast My Internal Flurry",
+			"source": "SRPBCF",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Bladecaller",
+			"subclassSource": "SRPBCF",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"You have started on the path of mastering your unexplainable strength, and enemies find it hard to escape your grasp now. Your sphere of influence when controlling floating weapons expands to 15 feet, and creatures of your choice who begin their turn within your range take {@dice 1d6} slashing, piercing, or bludgeoning damage (your choice)."
+			]
+		},
+		{
+			"name": "Storm of Ordnance",
+			"source": "SRPBCF",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Bladecaller",
+			"subclassSource": "SRPBCF",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"You have mastered the art of the Bladecaller, able to stand against legions of men twice your strength and build. You can lift yourself even higher off the ground with your My Form Hast Ascended feature, turning your telekinetic form into an existence who wroughts destruction from above.",
+				"Instead of your unique flight, using My Form Hast Ascended instead grants you a hover speed of 60 feet for 1 minute. In addition, you have advantage on checks made to put you under the {@condition grappled} or {@condition frightened} condition, you cannot be knocked {@condition prone}, and creatures of your choice who start their turn in your sphere of influence while under My Form Hast Ascended take {@dice 2d6} slashing, piercing, or bludgeoning damage (your choice), instead of the normal {@dice 1d6}."
+			]
+		}
+	]
+}

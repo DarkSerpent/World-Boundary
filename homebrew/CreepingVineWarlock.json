@@ -1,0 +1,236 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SRPCreepingVine",
+				"abbreviation": "SRPSW",
+				"full": "Creeping Vine Patron",
+				"authors": [
+					"Wyth"
+				],
+				"convertedBy": [
+					"Wyth#8882"
+				],
+				"version": "1.0.0",
+				"url": "wyth.github.io/SRP/",
+				"targetSchema": "1.2"
+			}
+		],
+		"dateAdded": 1605548980,
+		"dateLastModified": 1605548980
+	},
+	"subclass": [
+		{
+			"name": "The Creeping Vine Patron",
+			"shortName": "Creeping Vine",
+			"source": "SRPCreepingVine",
+			"subclassSpells": [
+				"Entangle",
+				"Ensnaring Strike",
+				"Pass Without Trace",
+				"Spike Growth",
+				"Plant Growth",
+				"Stinking Cloud",
+				"Evard's Black Tentacles",
+				"Grasping Vine",
+				"Tree Stride",
+				"Wrath of Nature"
+			],
+			"subclassFeatures": [
+				"The Creeping Vine|Warlock||Creeping Vine|SRPCreepingVine|1",
+				"Defensive Growth|Warlock||Creeping Vine|SRPCreepingVine|6",
+				"Flora Speaker|Warlock||Creeping Vine|SRPCreepingVine|10",
+				"Natural Defense|Warlock||Creeping Vine|SRPCreepingVine|10",
+				"Force of Nature|Warlock||Creeping Vine|SRPCreepingVine|14"
+			],
+			"className": "Warlock",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "The Creeping Vine",
+			"source": "SRPCreepingVine",
+			"page": 105,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Creeping Vine",
+			"subclassSource": "SRPCreepingVine",
+			"level": 1,
+			"entries": [
+				"Your patron is a magical plant, a powerful primal spirit, or some other grand entity of nature and growth, such as a powerful treant, an ancient green dragon, a Totoro, or an archdryad. This being might seek to expand itself and its influence through seed or spore, or it might want to simply perpetuate, accelerate, or otherwise enable the natural cycles of life. In the Forgotten Realms, such beings include the Great Oak of Kuldahar and Zuggtmoy, the Demon Queen of Fungi. In the world of Ebberon, the daelkyr Avassh might be your patron, and in the world of Ravnica, the Selesnya Conclave might be the source of your powers.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Expanded Spell List|Warlock||Creeping Vine|SRPCreepingVine|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Biome|Warlock||Creeping Vine|SRPCreepingVine|1"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Expanded Spell List",
+			"entries": [
+				"The Creeping Vine lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+				{
+					"type": "table",
+					"caption": "Creeping Vine Expanded Spells",
+					"colLabels": [
+						"Spell Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell Entangle}, {@spell Ensnaring Strike}"
+						],
+						[
+							"2nd",
+							"{@spell Pass Without Trace}, {@spell Spike Growth}"
+						],
+						[
+							"3rd",
+							"{@spell Plant Growth}, {@spell Stinking Cloud}"
+						],
+						[
+							"4th",
+							"{@spell Evard's Black Tentacles}, {@spell Grasping Vine}"
+						],
+						[
+							"5th",
+							"{@spell Tree Stride}, {@spell Wrath of Nature|xge}"
+						]
+					]
+				}
+			],
+			"source": "SRPCreepingVine",
+			"page": 105,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Creeping Vine",
+			"subclassSource": "SRPCreepingVine",
+			"level": 1,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Biome",
+			"entries": [
+				"You gain one of the following features, based on a biome of your choice.",
+				{
+					"type": "entries",
+					"name": "Arid.",
+					"entries": [
+						"You retain scarce resources like a cactus retains water. When you expend a Pact Magic spell slot on a spell that targets only one creature, and that spell has no effect on the target, you regain the spell slot."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Boreal.",
+					"entries": [
+						"Like a pine tree in the taiga, you can enter a state of hibernation. As an action, you can turn yourself and your equipment to solid wood. You are petrified in a special way. You have all the traits of the petrified condition, except you remain conscious of your surroundings, you can perceive through your senses as normal, and your weight remains the same. You float in water, you are inflammable, and you do not need to eat, breathe, drink, or sleep. You cannot benefit from short or long rests while in this form. You can exit this state at any time (no action required), but no sooner than 1 hour after entering it. Once you have used this feature, you can’t use it again until you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Jungle.",
+					"entries": [
+						"You can entangle and ensnare your foes in creepers and vines. You learn the thorn whip cantrip. It counts as a warlock spell for you but doesn’t count against the number of cantrips you can know. When you cast it, you can make one melee weapon attack as a bonus action. You can use this feature a number of times equal to your Charisma modifier (minimum of once). You regain all expended uses when you finish a short or long rest."
+					]
+				}
+			],
+			"source": "SRPCreepingVine",
+			"page": 105,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Creeping Vine",
+			"subclassSource": "SRPCreepingVine",
+			"level": 1,
+			"header": 1
+		},
+		{
+			"name": "Defensive Growth",
+			"source": "SRPCreepingVine",
+			"page": 105,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Creeping Vine",
+			"subclassSource": "SRPCreepingVine",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"As a reaction when a Huge or smaller creature makes a melee attack against you, you can summon spectral vines to entangle it immediately before it strikes you. The creature must succeed on a Strength saving throw or become restrained until the end of your next turn. Once you have used this feature, you cannot do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Flora Speaker",
+			"source": "SRPCreepingVine",
+			"page": 105,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Creeping Vine",
+			"subclassSource": "SRPCreepingVine",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You can imbue limited sentience and animation to plants within 5 feet of you, giving them the ability to communicate with you. You can question plants about events in the area within the past day, gaining information about creatures that have passed, weather, and other circumstances."
+			]
+		},
+		{
+			"name": "Natural Defense",
+			"source": "SRPCreepingVine",
+			"page": 105,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Creeping Vine",
+			"subclassSource": "SRPCreepingVine",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You can adapt your form to become plant-like, making you resilient against certain types of damage. Whenever you finish a long rest, choose one of the following plant types to emulate.",
+				{
+					"type": "entries",
+					"name": "Algae.",
+					"entries": [
+						"You gain resistance to slashing damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Leaf.",
+					"entries": [
+						"You gain resistance to bludgeoning damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wood.",
+					"entries": [
+						"You gain resistance to piercing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Force of Nature",
+			"source": "SRPCreepingVine",
+			"page": 105,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Creeping Vine",
+			"subclassSource": "SRPCreepingVine",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"As an action, you can cast the awaken or wall of thorns spell once without expending a spell slot and without material components. When you cast awaken in this way, the awakened plant returns to mundanity after 8 hours.",
+				"Once you use this feature, you can’t do so again until you finish a long rest."
+			]
+		}
+	]
+}

@@ -1,0 +1,2056 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SRPDancer",
+				"abbreviation": "SRPD",
+				"full": "The Dancer",
+				"authors": [
+					"Wyth"
+				],
+				"convertedBy": [
+					"Wyth#8882"
+				],
+				"version": "1.0.0",
+				"url": "wyth.github.io/SRP/",
+				"targetSchema": "1.2"
+			}
+		],
+		"dateAdded": 1605548980,
+		"dateLastModified": 1605548980
+	},
+	"item": [
+		{
+			"name": "Chains",
+			"source": "SRPDancer",
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"weaponCategory": "exotic",
+			"property": [
+				"S"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Aura:",
+					"entries": [
+						"When you hit a Large or smaller unrestrained creature or object with this weapon, you can forgo damage to bind that target to you. Your speeds are halved while bound, and when either moves, the other is moved in the same direction (regardless of weight).",
+						"To escape, your target can make a Dexterity or Strength saving throw (their choice) against your step save DC at the start of their turn, as well as attempt a saving throw as an action.",
+						"You cannot bind more than one target to you at once."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dual Chakrams",
+			"source": "SRPDancer",
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"weaponCategory": "exotic",
+			"property": [
+				"L",
+				"T",
+				"S"
+			],
+			"dmg1": "1d4",
+			"range": "60/150",
+			"dmgType": "S",
+			"weapon": true,
+			"entries": [
+				"While held, this weapon can effortlessly be split into two halves or merged into one whole. Regardless of which state this weapon is in, it deals {@dice 1d4} slashing damage.",
+				{
+					"type": "entries",
+					"name": "Aura:",
+					"entries": [
+						"When you hit a creature with any part of this weapon, you can forgo damage to enchant the target with either Yin or Yang until the end of the next round. This Aura property cannot enchant a target if you have not expended a tempo point during the current round."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Yin:",
+					"entries": [
+						"Whenever the target is hit by an attack, the attacker takes {@dice 1d6} radiant damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Yang:",
+					"entries": [
+						"Whenever the target is hit by an attack, its attacker regains {@dice 1d6} hit points."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fans",
+			"source": "SRPDancer",
+			"type": "M",
+			"rarity": "none",
+			"weight": 0.5,
+			"weaponCategory": "exotic",
+			"property": [
+				"S"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Aura:",
+					"entries": [
+						"When you hit a Medium or smaller creature with this weapon, you can forgo damage to fling that creature {@dice 1d4} × 5 feet through the air in a direction of your choice. An unwilling creature must succeed on a Strength saving throw against your step save DC to avoid being moved. If this movement would cause falling damage, the target does not fall prone when they land."
+					]
+				}
+			]
+		},
+		{
+			"name": "Shoes",
+			"source": "SRPDancer",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"weaponCategory": "exotic",
+			"property": [
+				"L",
+				"S"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Aura:",
+					"entries": [
+						"When you hit a Large or smaller creature with these leg-born weapons, you can forgo damage to magically knock the target off balance, reducing their initiative by an amount equal to {@dice 1d4} + your Strength or Dexterity modifier (your choice)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Special.",
+					"entries": [
+						"This weapon can deal bludgeoning or slashing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Needles",
+			"source": "SRPDancer",
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"weaponCategory": "exotic",
+			"property": [
+				"L",
+				"T",
+				"S"
+			],
+			"dmg1": "1d4",
+			"range": "30/120",
+			"dmgType": "P",
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Aura:",
+					"entries": [
+						"When you hit a creature with this weapon, you can forgo damage to pierce the target's vitality, numbing their sensitivity until the start of your next turn. Whenever an affected creature is hit by an attack, you can reduce the attack's damage by an amount equal to your Charisma modifier."
+					]
+				}
+			]
+		},
+		{
+			"name": "Props",
+			"source": "SRPDancer",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"weaponCategory": "exotic",
+			"property": [
+				"S"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true,
+			"entries": [
+				"Any item which enhances your performance may be considered a prop at your DM's discretion. Some examples are: exotic masks, mirrors, jewelry, parasols, instruments, flowers, skulls, flags, streamers, canes, poi, or gymnastic apparatuses such as a hoop, a ball, ribbons, or juggling clubs.",
+				{
+					"type": "entries",
+					"name": "Aura:",
+					"entries": [
+						"When you hit a creature with a prop attack, you can forgo damage to instead entice the target. Choose an ally within sight (other than yourself). Until the end of your next turn, the target is charmed by the chosen ally, regarding them as a friend. This effect ends early if you or the chosen ally attack the charmed target, deal damage to it, or force it to make a saving throw."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Special.",
+					"entries": [
+						"This weapon can deal cold, fire, lightning, necrotic, poison, or radiant damage (choose one when you gain proficiency)."
+					]
+				}
+			]
+		}
+	],
+	"class": [
+		{
+			"name": "Dancer",
+			"source": "SRPDancer",
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"cha",
+				"dex"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light"
+				],
+				"weapons": [
+					"simple",
+					"scimitars",
+					"shortswords",
+					"whips"
+				],
+				"tools": [
+					"One tool or musical instrument of your choice"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"Acrobatics",
+								"Athletics",
+								"Deception",
+								"History",
+								"Insight",
+								"Perception",
+								"Performance",
+								"Persuasion",
+								"Sleight of Hand"
+							],
+							"count": 3
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) any three {@filter simple weapons|items|source=phb|category=basic|type=simple weapon} or (b) a {@item whip} and a {@item scimitar}",
+					"a tool or instrument, {@item leather armor|phb}, and a {@item diplomat's pack|phb}",
+					"(a) a book of lore, (b) an hourglass, or (c) two steel mirrors"
+				],
+				"defaultData": [
+					{
+						"a": [
+							{
+								"equipmentType": "weaponSimple",
+								"quantity": 3
+							}
+						],
+						"b": [
+							"whip|phb",
+							"scimitar|phb"
+						]
+					},
+					{
+						"_": [
+							"A tool or instrument",
+							"leather armor|phb",
+							"diplomat's pack|phb"
+						]
+					},
+					{
+						"a": [
+							"book of lore"
+						],
+						"b": [
+							"hourglass"
+						],
+						"c": [
+							"two steel mirrors"
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"dex": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light"
+					],
+					"weapons": [
+						"Four simple weapons or firearms"
+					],
+					"tools": [
+						"Tinker's tools"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Solo & Duet Steps",
+						"Tempo Points"
+					],
+					"rows": [
+						[
+							"3/1",
+							"1"
+						],
+						[
+							"3/1",
+							"2"
+						],
+						[
+							"3/2",
+							"2"
+						],
+						[
+							"4/2",
+							"3"
+						],
+						[
+							"4/3",
+							"3"
+						],
+						[
+							"4/3",
+							"4"
+						],
+						[
+							"4/4",
+							"4"
+						],
+						[
+							"5/4",
+							"5"
+						],
+						[
+							"5/5",
+							"5"
+						],
+						[
+							"5/5",
+							"6"
+						],
+						[
+							"5/6",
+							"6"
+						],
+						[
+							"6/6",
+							"6"
+						],
+						[
+							"6/7",
+							"6"
+						],
+						[
+							"6/7",
+							"7"
+						],
+						[
+							"6/8",
+							"7"
+						],
+						[
+							"7/8",
+							"7"
+						],
+						[
+							"7/9",
+							"7"
+						],
+						[
+							"7/9",
+							"8"
+						],
+						[
+							"7/10",
+							"8"
+						],
+						[
+							"7/10",
+							"8"
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Swaying Steps|Dancer|SRPDancer|1",
+				"Lead and Follow|Dancer|SRPDancer|1",
+				"Step Duration and Conditions|Dancer|SRPDancer|1",
+				"Cadence|Dancer|SRPDancer|1",
+				"Fledgling’s Favorite|Dancer|SRPDancer|2",
+				"Unarmored Defense|Dancer|SRPDancer|2",
+				"Academy of Dance|Dancer|SRPDancer|3",
+				{
+					"classFeature": "Academy of Dance Feature|Dancer|SRPDancer|3",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Dancer|SRPDancer|4",
+				"Fluttering Counterpart|Dancer|SRPDancer|5",
+				"Flutter Attack: Allies|Dancer|SRPDancer|5",
+				"Flutter Weapons: A Brief Overview|Dancer|SRPDancer|5",
+				"Counter-Curio|Dancer|SRPDancer|5",
+				"Vain Vivacity|Dancer|SRPDancer|6",
+				"Virtuoso's Vernacular|Dancer|SRPDancer|6",
+				{
+					"classFeature": "Academy of Dance Feature|Dancer|SRPDancer|7",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Dancer|SRPDancer|8",
+				"Merry Visionary|Dancer|SRPDancer|9",
+				"Subtle Spectacle|Dancer|SRPDancer|10",
+				{
+					"classFeature": "Academy of Dance Feature|Dancer|SRPDancer|11",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Dancer|SRPDancer|12",
+				"Tarantella Therapy|Dancer|SRPDancer|13",
+				"Set the Stage|Dancer|SRPDancer|14",
+				{
+					"classFeature": "Academy of Dance Feature|Dancer|SRPDancer|15",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Dancer|SRPDancer|16",
+				"Poise Destroys|Dancer|SRPDancer|17",
+				"Join the Jamboree|Dancer|SRPDancer|18",
+				"Guardian Samba|Dancer|SRPDancer|18",
+				"Flourish|Dancer|SRPDancer|18",
+				"Whirlwind|Dancer|SRPDancer|18",
+				"Para Para Parade|Dancer|SRPDancer|18",
+				"Curing Waltz|Dancer|SRPDancer|18",
+				"Ability Score Improvement|Dancer|SRPDancer|19",
+				"Roar of the Crowd|Dancer|SRPDancer|20"
+			],
+			"subclassTitle": "Academy of Dance",
+			"subclasses": [
+				{
+					"name": "Academy of Divination",
+					"subclassFeatures": [
+						"Academy of Divination|Dancer|SRPDancer|Divination|SRPDancer|3",
+						"Auspicious Auspice|Dancer|SRPDancer|Divination|SRPDancer|7",
+						"Expect Eventualities|Dancer|SRPDancer|Divination|SRPDancer|11",
+						"Doomsayer and Messiah|Dancer|SRPDancer|Divination|SRPDancer|15"
+					],
+					"source": "SRPDancer",
+					"shortName": "Divination"
+				},
+				{
+					"name": "Academy of Dominion",
+					"subclassFeatures": [
+						"Academy of Dominion|Dancer|SRPDancer|Dominion|SRPDancer|3",
+						"Vain Vivacity Improvement|Dancer|SRPDancer|Dominion|SRPDancer|7",
+						"Unforgiving Competitor|Dancer|SRPDancer|Dominion|SRPDancer|7",
+						"Paso Doble Disarray|Dancer|SRPDancer|Dominion|SRPDancer|11",
+						"Miracle Maven|Dancer|SRPDancer|Dominion|SRPDancer|15"
+					],
+					"source": "SRPDancer",
+					"shortName": "Dominion"
+				},
+				{
+					"name": "Academy of the Afterlife",
+					"subclassFeatures": [
+						"Academy of the Afterlife|Dancer|SRPDancer|Afterlife|SRPDancer|3",
+						"Veil of the Vale|Dancer|SRPDancer|Afterlife|SRPDancer|7",
+						"Spirit’s Serenity|Dancer|SRPDancer|Afterlife|SRPDancer|11",
+						"A Spirit’s Guide|Dancer|SRPDancer|Afterlife|SRPDancer|15"
+					],
+					"source": "SRPDancer",
+					"shortName": "Afterlife"
+				},
+				{
+					"name": "Academy of Tranquility",
+					"subclassFeatures": [
+						"Academy of Tranquility|Dancer|SRPDancer|Tranquility|SRPDancer|3",
+						"Never Miss A Beat|Dancer|SRPDancer|Tranquility|SRPDancer|7",
+						"We Are One|Dancer|SRPDancer|Tranquility|SRPDancer|11",
+						"Timeless Comfort|Dancer|SRPDancer|Tranquility|SRPDancer|15"
+					],
+					"source": "SRPDancer",
+					"shortName": "Tranquility"
+				}
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"type": "optfeature",
+			"name": "Devilment",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Solo Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Until the end of your next turn."
+					]
+				},
+				"With breathtaking grace and an astonishing arabesque, you dance through minds. One creature of your choosing within 30 feet must make an Intelligence saving throw. Upon failure, it will forget itself, becoming poisoned and charmed by you for the duration, as its wits are completely befuddled.",
+				"This step's effects end early for a target if it takes damage. When this effect ends, the creature immediately realizes that it was magically manipulated by your ballet."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Fan Dance",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Solo Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Until the target breaks free (or until you release them)."
+					]
+				},
+				"You release a fan of charismatic energy, rending your opponent’s mind and toying with their spirit as you wrap them around your warm embrace. Make a melee weapon attack against a creature within reach. On hit, the target is dealt your weapon's damage, and if it is no more than one size larger than you, it must succeed on a Strength saving throw or it will be grappled by tendrils of your aura for the duration.",
+				"A target can repeat its saving throw at the ends of each of its turns or as an action, ending the grapple on a success. This grapple does not require a free hand, but you cannot use it to drag or carry the target: the grapple ends if you move to be more than 5 feet away from the target."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Entrechat",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Solo Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Instantaneous."
+					]
+				},
+				"You slam your aura into a target, flaunting your exuberance with a high kick and a flourish. Make a melee weapon attack using your Charisma modifier against an adjacent creature no more than one size larger than you.",
+				"On hit, instead of taking damage from your weapon, the target is launched straight upward a number of feet equal to the number of missing tempo points you have × 10.",
+				"At the end of your turn, the target plummets this same distance. When the creature collides with a surface during its descent, it takes {@dice 1d6} bludgeoning damage for every 10 feet it fell. If your attack was a critical hit, you roll twice as many damage dice and the target falls prone at the end of your turn."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Emboite",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Solo Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Until the end of your turn."
+					]
+				},
+				"You rotate your torso, swinging your arms and leaning your shoulders back. In an instant, you propel yourself forward, seeking a kindred aura. Until the end of this step’s duration, you move 15 feet for every 5 feet you expend while moving towards a creature you performed a duet step this combat."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Improvisation",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Solo Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Until the start of your turn in {@dice 1d4} rounds."
+					]
+				},
+				"Your capricious depiction of an emotion coats your fingertips with enchantment. If you are under the effect of cadence, you transfer the effect to a creature within 5 feet of you by touching their heart, temporarily relinquishing its benefits for yourself.",
+				"When an attack targets them, they can roll to evade it using your bonus to Dexterity saving throws. You must concentrate on the effect as normal. If this solo step is maintained for the full duration, cadence is transferred back to you, and that creature loses the effects of cadence."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "En Avant",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Solo Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Instantaneous."
+					]
+				},
+				"Using a variety of flips and tumbles, you toss yourself up to 20 feet in any direction without expending movement. Creatures who make an opportunity attack against you must succeed on a Charisma saving throw. On a failed save, their attack misses and are charmed by you until the end of your next turn."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Pirouette",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Solo Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Instantaneous."
+					]
+				},
+				"Your majesty demands the attention of a creature within 10 feet of you. The target must succeed on an Charisma saving throw or it will become unable to willingly move or teleport away from you until the end of its next turn."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Jete",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Solo Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Instantaneous."
+					]
+				},
+				"With a spring in your step, your crouching leaps and pivoting kicks aim to enrapture a target. You propel your aura in an assault and make a melee weapon attack against a creature within reach. On hit, the target is dealt your weapon's damage, and if the target can see you, it must succeed on a Charisma saving throw or it will be charmed by you for one minute.",
+				"Creatures can repeat this saving throw at the start of their turns, ending the effect on a success. A creature has advantage on this saving throw if you leave their line of sight."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Bloodshower",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Solo Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Instantaneous."
+					]
+				},
+				"When a creature that you can see within 30 feet of you is frightened, you can manifest your aura around them, stomping the source of their fear into their psyche.",
+				"That frightened creature must make a Wisdom saving throw. On a failed save, the target becomes surrounded by illusory duplicates of the primal manifestation of their fear that only they can see. Until the end of the creature’s next turn, they are frightened of the illusions, and their speed is reduced to 0.",
+				"After the effects of this step end, the illusions disappear."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Charming Waltz",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Solo Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Instantaneous."
+					]
+				},
+				"Your decorum seeks to awe a creature within 30 feet. If you speak one of the target's languages, they must succeed on a Charisma saving throw or become charmed by you for 1 hour. The creature automatically succeeds if you or your allies are hostile to them.",
+				"While charmed, the target of your waltz feels a sincere respect for you, but may not necessarily trust you. This effect ends on a creature if you or one of your allies harm or insult them. If a creature succeeds on this step's saving throw, or the effects ends early, they become immune for 24 hours.",
+				"You can only have one creature charmed by this step at any given time. After this step's effects end, creatures recall that they lost control of themselves, but they believe that this behavior was due to their own emotions—having been being briefly smitten with you."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Cascade",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Solo Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Instantaneous."
+					]
+				},
+				"Using a steady equilibrium, your feet lash out side-to-side as you brandish a melee weapon you're proficient with. Creatures of your choosing within 5 feet of you must make a Dexterity saving throw against your swinging strikes. On a failed save, those creatures are each hit by your weapon and dealt its damage. A weapon you use with this step cannot have the Heavy property.",
+				"Starting at 5th level, you can activate a flutter weapon's aura property against a creature who fails this saving throw by forgoing your damage to it."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Reverse Cascade",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Solo Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Instantaneous."
+					]
+				},
+				"Your riveting romp taunts a creature within 5 feet of you, forcing them to make a Wisdom saving throw. On a failed save, that creature is unable to target creatures other than you with their spells or magical effects until the end of their next turn. Furthermore, if that creature would use magic with an area of effect, they must aim the effect such that you are within its area."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Closed Position",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Solo Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Until the start of your next turn."
+					]
+				},
+				"You completely revolve your body through the air with astounding artistry. The next time that a creature targets you with an attack during the duration of this step, they must first make a Dexterity saving throw. On a failed save, their attack misses as you outpace them.",
+				"After the attack roll, you can expend any movement you had remaining from your previous turn to move without provoking opportunity attacks. This step then ends."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Peloton",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Duet Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Up to one minute."
+					]
+				},
+				"You and your partner lean together and begin a leisurely yet intense display of prowling dips and turns. As your stomps sigil onto the floor, you both prepare for a majestic getaway.",
+				"When this dance ends, you and your duet partner are immediately teleported back to an unoccupied space adjacent to where you began this duet step. This step ends early if you begin any other duet.",
+				"Starting at 5th level, this duet also teleports any creatures that you are currently grappling or that you have bound to you with a chain flutter weapon."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Rising Challenge",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Duet Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Until the start of your next turn."
+					]
+				},
+				"With provocative ostentation, the two of you boast of your prowess. Choose one of you to benefit from this dance: you or your partner. For the duration, the chosen one is placed under the effects of the Dodge action, and creatures of your choosing within 30 feet of the dodging dancer must make a Charisma saving throw.",
+				"On a failed save, that creature becomes obsessed: on its next turn, it cannot make attacks against any creature except the dodging dancer. This obsession ends if the dodging dancer moves to be  further than 30 feet away from the creature, or if any effect causes the creature to be charmed by them.",
+				"Creatures who are immune to the charmed condition automatically pass this save."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Saber Dance",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Duet Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Until the end of your partner’s next turn."
+					]
+				},
+				"Showing an eager gambol and groovy gyration, you and your partner manifest an aura of war. Your partner can take one additional action on their next turn in addition to the normal one allotted to them."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Slow Dance",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Duet Steps"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Dancer"
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Up to one minute."
+					]
+				},
+				"As you channel rousing fantasies of a private extravaganza, you and your partner become lost in each other’s eyes.",
+				"Whenever you or your partner hit a creature other than yourselves with an attack, that creature becomes oblivious to your presences, becoming blinded and deafened to you and your partner. That creature becomes unable to perceive either of you for the duration, no matter what senses it possesses.",
+				"Once a creature becomes oblivious to you, if either you or your partner disturb it by harming it, speaking with it, or otherwise affecting it in an obvious way,, this duet ends immediately and all afflicted targets regain their senses. This step ends immediately if you begin any other duet."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Witch Hunt",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Duet Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Up to thirty minutes."
+					]
+				},
+				"You begin a sudden, fierce, writhing display of passion, and your partner provides accompaniment. For the duration, you create and maintain an elaborate apparition of a humanoid in an unoccupied space that you can see within 120 feet of you, whose appearance, voice, scent, texture, and behavior you choose and can alter freely at any time. It otherwise functions as a typical humanoid of its kind. You can speak through this illusion, see through its eyes, hear what it would hear, move it by expending your own movement, and otherwise feel what it would feel without losing control of your own senses.",
+				"Whenever a creature sees your illusion, that creature must make a Wisdom saving throw. Those who succeed (or who possess truesight) immediately recognize your illusion as being an illusion, but become jinxed: for the duration of this dance, they cannot willingly suggest to any other creature that the apparition is not real.",
+				"Those who fail this saving throw believe it to be genuine, and if they recognize it, they are convinced of its identity. They will even rationalize any illogical behavior, including its sudden arrival and departure, as being typical of the creature that it appears to be. The illusion feels tangible, holding  up to physical inspection, but it disappears if it is dealt damage. Attacks hit it automatically, and it always fails saving throws. This duet ends immediately if you perform any other step."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Honest",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Duet Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Instantaneous."
+					]
+				},
+				"You and your partner dramatically twist your arms together and glide across the floor, flooding the minds of your audience with memories of the past. Either you or your partner must be the sharer, and must recall a moment as a starting point.",
+				"A brief flash of light then emanates from the sharer for the remainder of the round. All creatures who see this flash will experience a vivid mental scene of what the sharer recalls, sensing and feeling from that moment on. Creatures who choose to look away can attempt a Wisdom saving throw, experiencing nothing on a success.",
+				"Up to one hour of memory can be shared in an instant, and viewers will possess the memory as though they recently experienced it themselves using the sharer's senses."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Mazurka Moratorium",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Duet Steps"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 13,
+						"class": {
+							"name": "Dancer"
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Up to one round."
+					]
+				},
+				"In a lively, polished spree of syncopated hopping, the world seems to stagnate around you. You touch a creature within 5 feet of you or your dance partner, suspending them in time for the duration. An unwilling creature must succeed on a Constitution saving throw in order to resist this effect.",
+				"An affected target is incapacitated and can't move or speak, but remains aware of its surroundings. The target is immovable from its current location and cannot be targeted, affected, damaged, healed, or otherwise interacted with by any means except a wish spell.",
+				"When the step ends at the start of your next turn, the target can immediately take the turn that it lost. You can choose to enter a contested Dexterity check with the target. On a success, you take your turn first, and the target takes the turn it lost at the end of your turn, rather than the start."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Mesmer",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Duet Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Until the end of your next turn."
+					]
+				},
+				"With a spiritual shimmy, you and your partner bemuse a creature within 30 feet of either of you, forcing it to make an Intelligence saving throw. On a failed save, the target loses concentration on any effect it was maintaining and becomes unable to cast spells for the duration.",
+				"Starting at 9th level, you can target any number of creatures within 30 feet with this step."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Windmill Dance",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Duet Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Instantaneous."
+					]
+				},
+				"Beginning a bouncy bout of prancing, you and your partner summon two tiny creatures of your own imagination to serve as referees for a contest. The tiny referees, behaving at your DM's discretion, explain a game in 10 words or less, such as:",
+				{
+					"type": "list",
+					"items": [
+						"Find out where we’re hiding!",
+						"Find all the hidden confetti poppers!",
+						"Let’s find out who can clean toilets the fastest!"
+					]
+				},
+				"Creatures of your choosing within 60 feet can use their reaction to attempt an appropriate ability check using any skill that the referees will allow, moving around within range if necessary (without expending movement). The contestant with the highest total result on their check is the victor. The referees then disappear.",
+				"For 8 hours, the victor is held in high esteem: they have advantage on ability checks made to interact socially with all other participants. In addition, when other participants make an ability check using the skill the victor utilized to win, they must instead roll using the victor's permanent bonuses or penalties to the check, as they are compelled to imitate the prior triumph."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Quixotic Quebradita",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Duet Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Instantaneous."
+					]
+				},
+				"You and your partner embark on a feverish series of lifts and pulls, coiling around with finesse and extravagance. Spaces within 5 feet of you both become difficult terrain.",
+				"In addition, you each use one other's bodies as whirling weapons: for the duration, creatures of your choosing that start their turn within 5 feet of you or your dance partner or that enter this range for the first time on their turn must succeed on a Dexterity saving throw or take {@dice 1d12} magical bludgeoning damage, taking half damage on a successful save.",
+				"This duet's damage increases by {@dice 1d12} when you reach certain levels in this class: 3rd level ({@dice 2d12}), 5th level ({@dice 3d12}), 9th level ({@dice 4d12}), 13th level ({@dice 5d12}), and 17th level ({@dice 6d12})."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Rattlesnake Rumba",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Duet Steps"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Dancer"
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Up to one minute."
+					]
+				},
+				"Like snakes competing over their size, your sensuous sway stretches your abilities beyond their limits. Choose which of you will benefit from this duet—you or your partner. For this step's duration, the chosen one is granted flexibility: their weapon attacks can be made from double the usual range, and they can double the dimensions covered by their spells' areas of effect (length, width, height, and depth)."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Red Rover",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Duet Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Instantaneous."
+					]
+				},
+				"You engulf your bodies in magical flame and gallop about. Expending your own remaining movement for the round, you move yourself and your partner up to that distance in a straight line to  a destination from where you each stand. Your partner does not need to expend movement to follow you this distance.",
+				"You and your partner can move through the spaces of other creatures, though you cannot end your turn in another creature's space. This movement is unimpeded by non-magical difficult terrain, and opportunity attacks can only target you, not your dance partner.",
+				"You can make one weapon attack against each creature whose space you enter for the first time this round, including your partner. Choose one of your successful attacks:, you deal an additional {@dice 1d6} fire damage.",
+				"This additional fire damage increases by {@dice 1d6} when you reach certain levels in this class: 3rd level ({@dice 2d6}), 5th level ({@dice 3d6}), 9th level ({@dice 4d6}), 13th level ({@dice 5d6}), and 17th level ({@dice 6d6})."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Seer’s Samba",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Duet Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Instantaneous."
+					]
+				},
+				"While you strut like you own the place, you strike a pose with your partner and pose a question to a mysterious audience. This question must be a single sentence beginning with one of the following words: who, what, where, when, or why.",
+				"If the answer is obscure or a closely guarded secret, you or your partner may be asked to make a Charisma (Persuasion) check for how compellingly you inquire. You contact an entity—someone with an answer that they consider correct—and if they are willing, their answer appears depicted as a silent image on the nearest reflective surface, or a voice which booms in the minds of you and your partner.",
+				"Their answer can come in any form that the DM wishes. In addition, if the DM is willing, they may give you prolonged contact with this entity, such as a form of direct communication. If they do so, you or the entity may forcefully disconnect from the contact at will. This dance can contact entities from the past or present, but not the future."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Shield Samba",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Duet Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Until the start of your next turn."
+					]
+				},
+				"You and your partner begin sharing good vibes via smooth off-beat movements. A friendly creature of your choosing within 5 feet of either of you can immediately feel their aura materializing into a visible armored dome around them, protecting them from harm.",
+				"For the duration, the target is granted total cover—they cannot be targeted directly by attacks or magic. They are still susceptible to effects that cover an area without targeting chosen creatures."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Nameless Dance",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Duet Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Until the end of your partner’s next turn."
+					]
+				},
+				"You engage in a brief bout of visual storytelling as you and your partner each play a role of your choosing: either the admirer or the idol.",
+				"The first time on the admirer's turn that they hit the idol with an attack, you can use your aura to transform the pain into pleasure. Instead of dealing damage, the attack causes the idol to regain hit points equal to the damage that would have been dealt. This duet ends immediately after its healing takes effect."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Rejuvenating Spirit",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Duet Steps"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 13,
+						"class": {
+							"name": "Dancer"
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Up to one minute."
+					]
+				},
+				"You and your partner draw eyes to your risqué stride. Choose a number of creatures within 60 feet of you equal to your Charisma modifier, then make a Charisma (Performance) check. Each creature you chose gains temporary hit points equal to the result for the duration."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Troublesome Tourdion",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Duet Steps"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Dancer"
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Until the start of your next turn."
+					]
+				},
+				"In the jovial festivities of a striking caper, you and your partner frantically swerve just out of reach. Whenever an attack misses either you or your partner, you can immediately make a weapon attack against a creature within your reach. If neither of you is targeted by an attack during this duet, you regain a tempo point when it ends."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Last Waltz",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Duet Steps"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Until the start of your turn, after a number of rounds equal to your maximum tempo points have passed."
+					]
+				},
+				"You dignify your locale with the circling rise and fall of a celestial celebration. You and your partner each play a role of your choosing: one is the sun and one is the moon.",
+				"When this duet ends, the sun can make one melee spell or weapon attack against a target within reach. On hit, this attack deals necrotic damage equal to half (rounded down) of the total damage that the moon suffered during this duet.",
+				"Until your target completes a long rest, the target's hit point maximum is also reduced by the same amount as the damage it took."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Disillusion",
+			"source": "SRPDancer",
+			"page": 12,
+			"featureType": [
+				"Dancer Duet Steps"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Dancer"
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duration:",
+					"entries": [
+						"Until the end of your partner’s next turn."
+					]
+				},
+				"You begin to mimic your partner and perplexingly exaggerate their every motion. For the duration, your partner gains advantage on all attack rolls. During this time, whenever your partner hits a creature with an attack, you can make a flutter attack against a target within reach."
+			]
+		}
+	],
+	"fluff": [
+		{
+			"name": "The Dancer",
+			"type": "section",
+			"entries": [
+				"Amid imaginative illusions and a dance of delight, an elegant showman pulls his duet partner along. The festive hustle they learned together has been honed to tickle anyone's fancy. A shroud of color fills the air around them, tinting them with the shades of their auras.",
+				"The two of them call for volunteers from the crowd, daring one and all to strike at their hearts, but magic defies the odds: no blade finds its mark. With great care, a custodian of paradise dances with death. Soon, the better half of an infamous duo will coerce wayward souls to partake in their performance.",
+				"A messenger of desire's pirouette will make her foes fall in love, and when the eccentric oracle's sway enlightens you, your fate is decided. Some live to entertain, some to be humane, and some for personal gain, but a dancer always serves others to an end. They use evocative movements to flutter their way through, savoring their audience all the while."
+			],
+			"source": "SRPDancer",
+			"page": 1
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Swaying Steps",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 1,
+			"entries": [
+				"Starting at 1st level, you've learned to rehearse steps—coordinated dance techniques for fighting with flair. These steps employ your personality and express your emotional moods to produce nigh-superhuman effects, as your outline visibly shimmers with an aura matching your soul.",
+				"Your journey begins with three {@filter solo steps|optionalfeatures|feature type=Dancer Solo Steps} and one {@filter duet step|optionalfeatures|feature type=Dancer Duet Steps} of your choice, and you gain knowledge of new steps at the levels shown in the class table. Whenever you gain a dancer level, you can exchange one duet step for another.",
+				"Steps are magic dance techniques, distinct from spellcasting, and they are the result of extensive practice—both by yourself and with partners. Every step is begun as an action.",
+				"Solo steps can be performed any number of times without tiring you, while duet steps test the limits of your cooperational spirit. You must expend a tempo point to begin a duet, and there must be a willing ally within 5 feet of you.",
+				"No action is required of your partner, but they must dance along. Duets end immediately if your partner is ever no longer within 10 feet of you. You regain all expended tempo points whenever you finish a long rest. Lastly, to target a creature with a step, you must be able to see them.",
+				{
+					"type": "abilityDc",
+					"name": "Step save DC",
+					"attributes": [
+						"cha"
+					]
+				}
+			]
+		},
+		{
+			"name": "Lead and Follow",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 1,
+			"entries": [
+				"In order to stay in sync while performing a duet, you and your partner can expend movement from your respective subsequent turns to follow the other when they move on their turn. This allows both to move in the same direction. For instance, with a speed of 30, if you follow your partner 20 feet on their turn, you can move 10 feet on your next turn."
+			]
+		},
+		{
+			"name": "Step Duration and Conditions",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 1,
+			"entries": [
+				"A step's duration is the length of time you spend actively performing the step. You and your partners cannot perform steps while grappled, incapacitated, prone, or restrained. These conditions will end the effects of any step you are currently performing, except when you choose to go prone on your turn. At the start or end of any creature's turn, to end a step early, you or your partner can stop performing—no action required. Finally, unless a step says otherwise, you can perform multiple steps at the same time."
+			]
+		},
+		{
+			"name": "Cadence",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 1,
+			"entries": [
+				"Also starting at 1st level, from the thrill of a narrow escape, you begin to feel the rhythm of life. When an attack misses you, you can enchant your aura with cadence as a reaction, allowing you to hear patterns in the flow of a fight.",
+				"For the next 10 minutes, whenever you are targeted with an attack, you can make a Dexterity saving throw with a DC equal to the attack roll. If you succeed, the attack misses you, as it is diverted by your rhythmic aura.",
+				"You must concentrate on maintaining this effect as though it were a spell, focusing on the beat. You can enchant yourself with cadence once per short or long rest. You lose concentration on this effect if you are deafened, incapacitated, or if your speed becomes 0, as occurs when you are grappled or restrained.",
+				"Starting at 10th level, you can enchant yourself with cadence twice per short or long rest."
+			]
+		},
+		{
+			"name": "Fledgling’s Favorite",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 2,
+			"entries": [
+				"There is always a duet that comes effortlessly, naturally, as though it chose you personally. Starting at 2nd level, you learn one of the following duets without it counting against your number of duet steps known: Witch Hunt, Honest, Windmill Dance, or Seer's Samba. You can perform this duet once per short or long rest without expending a tempo point."
+			]
+		},
+		{
+			"name": "Unarmored Defense",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 2,
+			"entries": [
+				"Even at the start of your training, your unpredictable gliding motions are a defensive asset: you mystify by never standing still.",
+				"Also starting at 2nd level, while you are conscious, wearing no armor, not wielding a shield, and are not grappled, paralyzed, or restrained, your AC equals 10 + your Dexterity modifier + your Charisma modifier."
+			]
+		},
+		{
+			"name": "Academy of Dance",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 3,
+			"entries": [
+				"As a dancer, your partners, passions, and desires all drive you well enough; but one cannot live indecisively forever. Upon reaching 3rd level, you dedicate yourself to the teaching of one particular step academy that suits your role and your motivations: that of Divination, Dominion, the Afterlife, or of Tranquility.",
+				"Each subclass is detailed toward the end of the class description. Your choice grants features at 3rd, 7th, 11th, and 15th levels."
+			]
+		},
+		{
+			"name": "Academy of Dance Feature",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you gain a feature granted by your Academy of Dance."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Fluttering Counterpart",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 5,
+			"entries": [
+				"By 5th level, you can expertly control unconventional weapons, ensuring that they smoothly accompany your practiced paces. Of the {@filter flutter weapons|items|source=SRPDancer} detailed below, choose three. You gain proficiency with them. When you use your action to perform a step, or to simply dance, you can use your bonus action to make one attack using a flutter weapon that you're proficient with—a flutter attack.",
+				"All flutter weapons have the finesse property, as you incorporate them into your art. Each weapon description also details the effects of a special aura property which can only be used if you are proficient with the weapon. When you use a flutter weapon’s aura property, you forgo your damage to that creature, instead using the force of your persona to apply an effect."
+			]
+		},
+		{
+			"name": "Flutter Attack: Allies",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 5,
+			"entries": [
+				"When you target yourself with an attack, you can allow it to hit automatically. Similarly, during any duet, whenever you or a willing partner targets one other with an attack, the target can allow it to hit automatically.",
+				"Alternatively, a willing target can choose to grant you advantage on any attack you make against them. Charmed targets are not willing for this purpose, even when coerced, unless your DM rules that they make no effort to avoid harm."
+			]
+		},
+		{
+			"name": "Flutter Weapons: A Brief Overview",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 5,
+			"entries": [
+				"All dancers have an eye for what suits them, and proficiency with a flutter weapon makes it more than a mere tool: each is an extension of yourself. They often have lucid patterns which transition to embody your mood, visibly displaying your emotions.",
+				"Purchasing magically enchanted flutter weapons can be expensive, which is why you’ve devised a different method. At no cost, you can salvage common materials to create a makeshift version of them. You could use a seashell as an aura fan, a wheel as a chakram, ice skates as shoes, or bandages as chains. Flavor your flutter weapons as you see fit!",
+				"At your DM's discretion, whenever you acquire a magical flutter weapon and incorporate it into a performance, the weapon's appearance and form may transform to match your usual demeanor."
+			]
+		},
+		{
+			"name": "Counter-Curio",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 5,
+			"entries": [
+				"Also at 5th level, you can enchant mementos with protective magic. By spending 30 minutes immersing yourself in the aura of a willing helper, you can create an accessory with the ability to safeguard its wearer from one spell that your helper is able to cast. You can only have one Counter-Curio active at a time.",
+				"When the wearer is affected by that spell, the accessory absorbs the spell's magic and shatters, rendering the wearer completely unharmed. This curio lasts for one week before withering away, and you can only maintain one such enchantment at once. The curio creation process can be performed and completed during a short rest without being considered strenuous activity.",
+				"Starting at 13th level, you’ve taken the liberty of studying magic in order to fortify your curios even further. If you do not have a helper, you can imbue your curio with the magic signature of a 6th-level or lower spell from the Wizard’s spell list."
+			]
+		},
+		{
+			"name": "Vain Vivacity",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 6,
+			"entries": [
+				"Starting at 6th level, you've become addicted to appreciation. Whenever one of your duets ends, either you or your partner can attempt to convince the other that their performance was a perfect 10. The recipient of praise gains {@dice 1d10} + your Charisma modifier temporary hit points, whereas the praiser can add a {@dice 1d10} to their initiative rolls next combat. A creature cannot stack the initiative benefits of Vain Vivacity."
+			]
+		},
+		{
+			"name": "Virtuoso's Vernacular",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 6,
+			"entries": [
+				"Also at 6th level, perfection comes naturally to you. Choose one skill you're proficient with. Your proficiency bonus is doubled for any ability check you make that uses the chosen proficiency. Additionally, whenever you roll a 16 or higher on an ability check using this skill, you can treat the roll as a 20.",
+				"Starting at 18th level, you can choose a second skill to apply this feature’s benefits to."
+			]
+		},
+		{
+			"name": "Academy of Dance Feature",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 7,
+			"entries": [
+				"At 7th level, you gain a feature granted by your Academy of Dance."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Merry Visionary",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 9,
+			"entries": [
+				"Starting at 9th level, with every step taken together, a sensation is left in your wake. Imagination meets reality—stories come to life.",
+				"As a bonus action, you can conjure and describe any visual and auditory phenomena you wish to occur within 5 feet of you as per the programmed illusion spell. The illusion you create lasts for one minute, or until the end of your current duet step.",
+				"You could use this illusion to create a singing spotlight, a ravishing costume, a bouquet of flowers cheering your names, a band playing your favorite song, or otherwise add unforgettable pizzazz to your act. Any creature who is hindered or threatened by your illusion can easily see through it, making its sensory qualities faint and hollow.",
+				"If you use Merry Visionary while performing a duet step, you can cause the illusion to encourage yourself or your partner. The encouraged target gains advantage on their next ability check, attack roll, or saving throw made before the end of their next turn."
+			]
+		},
+		{
+			"name": "Subtle Spectacle",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 10,
+			"entries": [
+				"Starting at 10th level, the melodic swirling of your soul is even-keeled and oddly prosodic, as you've mastered the art's hidden habitudes.",
+				"When you use your action to perform a solo step while you are at an even number of tempo points, you can begin a duet step as a bonus action. Likewise, when you use your action to begin a duet step while you are at an odd number of tempo points, you can use your bonus action to conjure an encouraging Merry Visionary illusion and then make two flutter attacks."
+			]
+		},
+		{
+			"name": "Academy of Dance Feature",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 11,
+			"entries": [
+				"At 11th level, you gain a feature granted by your Academy of Dance."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Tarantella Therapy",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 13,
+			"entries": [
+				"Starting at 13th level, you tend to avoid inactivity. Whenever you are taking a short rest, you can involve any number of willing partners in an upbeat, spry dance.",
+				"All who participate for the duration of the rest (without interruption) will lose one level of exhaustion, and at the end of their rest, they can expend a number of hit dice to restore the hit points of one dancing creature of their choosing.",
+				"In addition, you regain one tempo point whenever you complete a short rest in this manner."
+			]
+		},
+		{
+			"name": "Set the Stage",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 14,
+			"entries": [
+				"Starting at 14th level, you discover that scenery is key for sentiment. You can cast the {@spell mirage arcane} spell once per long rest with the following restriction: you can only use this spell to create or alter a single structure, such as a theater, an arena, a carnival tent, or a shrine.",
+				"Your creation have any artificial exterior appearance, interior layout, backdrop, decor, and ambience you'd like, potentially containing illusory items such as furniture, stairways, wardrobes, dramatic lighting, meals (tasting however you choose), tools, toys, or even textual writings detailing any knowledge you possess."
+			]
+		},
+		{
+			"name": "Academy of Dance Feature",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 15,
+			"entries": [
+				"At 15th level, you gain a feature granted by your Academy of Dance."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Poise Destroys",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 17,
+			"entries": [
+				"Starting at 17th level, your mystique is truly distracting: enemies can't take their eyes off you. At the start of combat, when a hostile creature rolls a check in order to determine their place in the initiative order, they do so at disadvantage if they are within 30 feet of you and can see you."
+			]
+		},
+		{
+			"name": "Join the Jamboree",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 18,
+			"entries": [
+				"Starting at 18th level, your love for stirring the flow of battle manifests itself in revelry. You learn the routine of a single group step from the five listed below, and can begin performing it once per long rest as an action or a bonus action.",
+				"Choose any number of willing allies within 20 feet of you to involve en masse in your choreography. To benefit from this dance, chosen allies must use their reaction to participate, must remain within range, must be able to see you, and must not be grappled, prone, incapacitated, or restrained.",
+				"If an ally stops benefiting from this dance due to not meeting these requirements, they can use their reaction on their turn to enter the dance once again when the requirements are met. The dance ends immediately if you are personally afflicted with any of the aforementioned conditions, if you choose to end it (no action required), or if no allies are performing it in tandem with you.",
+				"Each dance lasts 1 minute, and you can perform steps during them without interrupting the dance. You learn another step from this list at 20th level."
+			]
+		},
+		{
+			"name": "Guardian Samba",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 18,
+			"entries": [
+				"Anyone performing this dance can choose to grant three-quarters cover to an ally within 5 feet of them (no economy required) by enveloping the ally in their aura.",
+				"This cover is lost when either creature is no longer within 5 feet of the other. A creature granting cover cannot receive cover from another participant in this dance."
+			]
+		},
+		{
+			"name": "Flourish",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 18,
+			"entries": [
+				"Any creature who is critically hit by a creature performing this dance becomes frightened of you and other creatures under the effects of Flourish until the end of their turn."
+			]
+		},
+		{
+			"name": "Whirlwind",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 18,
+			"entries": [
+				"At the start and end of a creature who is performing this dance’s turn, that creature can move 5 feet in any direction without expending movement."
+			]
+		},
+		{
+			"name": "Para Para Parade",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 18,
+			"entries": [
+				"Whenever a creature not performing this dance starts its turn within 5 feet of a Para Para dancer, that creature must make a Wisdom saving throw against your step save DC. On a failed save, that creature is placed under the effect of the irresistible dance spell until the end of its next turn with the following restriction: a target cannot attempt to end the dance as an action."
+			]
+		},
+		{
+			"name": "Curing Waltz",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 18,
+			"entries": [
+				"Whenever an ally performing this dance uses an action, bonus action, or reaction to restore the hit points of another creature, their target regains an additional {@dice 1d12} hit points."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Roar of the Crowd",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"level": 20,
+			"entries": [
+				"Starting at 20th level, you can fully channel the energy of attention. Once per long rest, when you conjure an illusion using Merry Visionary, you can encourage masses of people, fueling their hearts with splendor and encouraging the struggle against their plight as they rise into battle alongside you.",
+				"Every creature that can see your illusion of your choice gains advantage on a single {@dice d20} roll made within the next 24 hours. They must choose to use this benefit before their die is cast."
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Academy of Divination",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Divination",
+			"subclassSource": "SRPDancer",
+			"level": 3,
+			"entries": [
+				"Those who practice farsight tend to seek definitive answers wherever they go, but Soothsayers act on intuition. All around them are widespread strings of correlation, causation, and potentiality; everyone has a role to play in their schemes. In this style, your interest in creating your own truths grants you control over fate, and you demand a grand destiny.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sympathetic Sight|Dancer|SRPDancer|Divination|SRPDancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oscillating Ornithomancy|Dancer|SRPDancer|Divination|SRPDancer|3"
+				}
+			]
+		},
+		{
+			"name": "Sympathetic Sight",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Divination",
+			"subclassSource": "SRPDancer",
+			"level": 3,
+			"entries": [
+				"Starting at 3rd level, you can see signs of the world's potential. Before a long rest, you can name a creature and dream vaguely of their possibilities. Then, over the course of a short rest, you can teach them one skill, weapon, or tool proficiency by explaining how they acted in your dreams.",
+				"As long as they are willing, they find this lesson to be effortless, as you ensure that it’ll come naturally to them. If they were already permanently proficient in a given skill or tool, you can teach them to double their proficiency bonus for ability checks pertaining to it.",
+				"This lesson can only be completed once per target, and you can never teach yourself. Additionally, you keep tabs on your pupils. As an action, you can summon a sensor beside any creature you've taught through Sympathetic Sight. This sensor functions as per the clairvoyance spell, except there is no range limit, and your sensor is visible, appearing as an insignia that is symbolic of you or your ideals. You can only focus on watching over one student at a time.",
+				"You can only have a number of students equal to your Charisma modifier. When you would teach a new student that would put your total above your Charisma modifier, you must choose one of your students to forget your tutelage. That student loses any bonuses they received from Sympathetic Sight, and you can no longer watch over them at will."
+			]
+		},
+		{
+			"name": "Oscillating Ornithomancy",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Divination",
+			"subclassSource": "SRPDancer",
+			"level": 3,
+			"entries": [
+				"Also at 3rd level, you know not to let your flighty chance escape you. Whenever you begin a duet step, you can conjure an aura boomerang and toss it at a Large or smaller creature or unrestrained object within 30 feet of you.",
+				"Your boomerang spins intangibly within a target for the duration of the dance. When the duet ends, the boomerang returns to you, and your target is pulled in a straight line into an unoccupied space within 5 feet of you. An unwilling creature must succeed on an Intelligence saving throw to avoid being pulled by your lure.",
+				"If your target would collide with a creature, object, or hazard along the way, it is harmlessly released from flight before reaching the obstacle. Your boomerang's range increases to 60 feet at 7th level, 90 feet at 11th level, and 120 feet at 15th level."
+			]
+		},
+		{
+			"name": "Auspicious Auspice",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Divination",
+			"subclassSource": "SRPDancer",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, you begin to preordain fortuity. When a creature that you can see (other than yourself) makes an attack, before you know the result of their roll, you can speak a prediction aloud about whether it will hit or miss.",
+				"If you correctly foresee the outcome, the target's fortune is reversed.",
+				{
+					"type": "list",
+					"items": [
+						"If your target was an allied creature, and they missed, their next attack will hit.",
+						"If your target was an allied creature, and they hit, their next attack crits on a roll of 17-20.",
+						"If your target was a hostile creature, and they hit, their next attack will miss.",
+						"If your target was a hostile creature, and they missed, that creature takes damage equal to half the damage they would have dealt as force damage."
+					]
+				},
+				"You cannot use this feature on a creature whose fortune is already currently reversed by it. You can use this feature a number of times equal to your proficiency bonus, and regain any expended uses on a long rest."
+			]
+		},
+		{
+			"name": "Expect Eventualities",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Divination",
+			"subclassSource": "SRPDancer",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Starting at 11th level, you're an expert at grooming your friends to handle tricky scenarios. You can now create and maintain a number of Counter-Curio trinkets equal to your Charisma modifier, and instead of spending thirty minutes, you require only a minute to create each, allowing you to effortlessly create multiple during a short rest. In addition, these trinkets last until used, rather than just for one week.",
+				"Finally, your curios can safeguard their wearer from any magical effect that a willing helper is able to produce: not only spells. For instance, you could store the essence of a magical trap inside your trinket (assuming your helper has the ability to produce it), allowing the curio to negate the effects of said trap if encountered in the future."
+			]
+		},
+		{
+			"name": "Doomsayer and Messiah",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Divination",
+			"subclassSource": "SRPDancer",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, for better or worse, your practiced tampering with providence has come to fruition. When one of your duet partners forces creatures to make a saving throw, by prophesying a terrible fate, you can make a single affected creature within sight roll its saving throw at disadvantage.",
+				"You regain your single usage of this feature whenever you expend a tempo point to begin a new duet. Additionally, when an ally (other than yourself) would fail a saving throw against magic while wearing an accessory from your Counter-Curio feature, they can destroy the accessory, relinquishing its benefits and releasing its protective essence, allowing them to add a bonus to their saving throw result equal to your current number of tempo points."
+			]
+		},
+		{
+			"name": "Academy of Dominion",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Dominion",
+			"subclassSource": "SRPDancer",
+			"level": 3,
+			"entries": [
+				"There are those who see the art as a more one-sided af air— some venerated practitioners perform purely for their own pleasure. Dervishes are warriors who worship themselves, finding rapture in utterly destroying their partners, as every step brings them closer to eminence. In this style, seeking perfect enlightenment through the trance of each dance, the power you rightfully wield can conquer all.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Authoritarian Pluck|Dancer|SRPDancer|Dominion|SRPDancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Domination of Will|Dancer|SRPDancer|Dominion|SRPDancer|3"
+				}
+			]
+		},
+		{
+			"name": "Authoritarian Pluck",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Dominion",
+			"subclassSource": "SRPDancer",
+			"level": 3,
+			"entries": [
+				"Starting at 3rd level, you begin to traverse a road of ruthless purpose, and obstacles are mere stepping stones for you. You gain proficiency with martial weapons, and you have advantage on all Constitution saving throws made to maintain your concentration on cadence.",
+				"Furthermore, enemy creatures now count as eligible partners for your duets if they are currently grappled by you or charmed by any creature. They must be no more than one size larger or smaller than you, but they can be of any creature type. Forced to comply, your partners cannot willingly stop performing a duet as long as their condition remains, but they can choose not to follow your movement via Lead and Follow."
+			]
+		},
+		{
+			"name": "Domination of Will",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Dominion",
+			"subclassSource": "SRPDancer",
+			"level": 3,
+			"entries": [
+				"Also at 3rd level, choose one of the following talents to add to your repertoire:",
+				{
+					"type": "entries",
+					"name": "Abduct Hostage",
+					"entries": [
+						"Much to their dismay, you can use your partner's body as a bulwark. During any duet you perform with a grappled partner, you can gain the benefits of half cover by giving your partner a -2 penalty to their AC and Dexterity saving throws."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Frisson Fanatic",
+					"entries": [
+						"With each step, you attain ecstasy from the glorifying thrill of exhibiting your sublime soul. For the duration of any duet you perform with a hostile creature, you are put under the effect of the bless spell, while your partners are put under the effect of the bane spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Heartbreaker",
+					"entries": [
+						"When your partners' hopes are up, your onslaught crushes them. The first time on each of your turns when you hit a charmed target with a melee weapon, you can double the result of your roll on one of your attack's damage dice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Revenge Recital",
+					"entries": [
+						"You refuse to abide by the will of any who would slight you. Your first weapon attack on each of your turns deals an additional {@dice 1d12} force damage if it hits a creature who has caused you to take damage on your previous turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spinning Steel",
+					"entries": [
+						"A double threat, your weapons defy all expectations. The first time on each of your turns when you hit your current duet partner with a weapon that is eligible for two-weapon fighting, you can automatically hit the same target with a second eligible melee weapon you have equipped, no bonus action required.",
+						"You cannot add your ability modifier to the second attack's damage. In addition, you cannot engage in two-weapon fighting on any turn when you activate this feature."
+					]
+				}
+			]
+		},
+		{
+			"name": "Vain Vivacity Improvement",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Dominion",
+			"subclassSource": "SRPDancer",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level, even if your partner is unwilling, you always benefit from Vain Vivacity when one of your duets ends. Your partners never benefit from it."
+			]
+		},
+		{
+			"name": "Unforgiving Competitor",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Dominion",
+			"subclassSource": "SRPDancer",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, you strive to surpass all those who would show a moment of weakness. You can replace any flutter attack or weapon attack with a shove or grapple check against an adjacent creature. Additionally, you do not need to forgo damage when you activate an aura property against one of your duet partners."
+			]
+		},
+		{
+			"name": "Paso Doble Disarray",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Dominion",
+			"subclassSource": "SRPDancer",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Starting at 11th level, your familiarity with discarding broken partners becomes your forte. Whenever one of your duets ends as a result of you reducing your partner to 0 hit points, you can cast your partner down and expend any remaining movement from your previous turn to approach another eligible or willing partner.",
+				"If you end your movement within 5 feet of this partner, you can immediately begin a new duet at no tempo point cost, no action required."
+			]
+		},
+		{
+			"name": "Miracle Maven",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Dominion",
+			"subclassSource": "SRPDancer",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, the impossible becomes the everyday, as you can shape your soul to suit any situation.",
+				"You can use simple and martial weapons as flutter weapons, attacking with them whenever you would make a flutter attack. You can make an attack against a creature you have grappled with a flutter weapon this way.",
+				"In addition, you've learned how to manifest your mood in even the most mundane armaments: when you hit a creature with any weapon, you can activate the aura property of any flutter weapon you're proficient with."
+			]
+		},
+		{
+			"name": "Academy of the Afterlife",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Afterlife",
+			"subclassSource": "SRPDancer",
+			"level": 3,
+			"entries": [
+				"Few possess the sense to escort lost, aimless souls and help them pass on without being possessed themselves. As a student of the Academy of the Afterlife, you send creatures to wherever they belong, using trickery or compassion as necessary. This style uses shamanic services to redeem even the most hapless spirits, seeking out sorrows and helping bring ease to transitional phases, acting as a conciliating guardian.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Smile with the Faceless|Dancer|SRPDancer|Afterlife|SRPDancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Inverted Bond|Dancer|SRPDancer|Afterlife|SRPDancer|3"
+				}
+			]
+		},
+		{
+			"name": "Smile with the Faceless",
+			"entries": [
+				"Starting at 3rd level, you can exhale the spectral mist of the Afterlife at-will until it surrounds you in all directions, moving with you, passing through objects, and lightly obscuring an area within 30 feet of you. Your own vision is not hindered by this mist, and it remains until you dismiss it as a free action, even if you fall unconscious.",
+				"The maximum range of this mist increases to 60 feet at 7th level, 90 feet at 11th level, and 120 feet at 15th level. While you are conscious, you can always sense the exact number of Small or larger creatures within this mist, though you cannot sense their location—only their presence.",
+				"Furthermore, your nonjudgmental nature affords you new opportunities. Whenever a creature not native to your current plane, a spirit of the dead, or an undead creature enters your mist, it must make a Charisma saving throw equal to your step save DC. On a failed save, until it exits your mist's radius, or until it witnesses you personally harming it or its compatriots, the creature becomes charmed by you, seeing you as its potential savior."
+			],
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Afterlife",
+			"subclassSource": "SRPDancer",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Inverted Bond",
+			"entries": [
+				"Also at 3rd level, you and your partner grace every locale with the rise of a fall. Each time you begin a duet, you can use your bonus action to bind a partner's soul to your own, putting them under the effect of the warding bond spell. This effect lasts until you bind yourself to a different creature, or until the spell's ending conditions are met. This effect instantly ends if either you or your bound partner are grappled, incapacitated, or restrained."
+			],
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Afterlife",
+			"subclassSource": "SRPDancer",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Veil of the Vale",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Afterlife",
+			"subclassSource": "SRPDancer",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, you have grown accustomed to feeling a fallen creature's psyche, allowing you to reach through the boundaries between life and death.",
+				"When a creature within your mist is reduced to 0 hit points or killed by an hostile creature, you can use your reaction to make a Charisma (Performance) check. Instead of taking damage, the target regains hit points equal to your Charisma (Performance) check. This feature automatically succeeds on a natural 20. You can breathe life with this feature once per long rest, and you cannot target yourself.",
+				"Furthermore, in order to protect your visitors from misfortune (or to lead them to the other side), you can cast the following spells using your step save DC, and you do not require the material components: {@spell magic circle} and {@spell banishment}. Once you use this feature to cast either spell, you cannot do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Spirit’s Serenity",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Afterlife",
+			"subclassSource": "SRPDancer",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Starting at 11th level, your dancing can free lost souls from the strife of battle. When a creature within your mist is reduced to 0 hit points, but not killed outright, you can choose to let their spirit rest. This can be done even if you are incapacitated or unconscious, as long as you are alive. You cannot target yourself with this ability.",
+				"Upon that creature being spared, they are stabilized and become serene: they are immune to both healing and damage for a number of rounds equal to your Charisma modifier (minimum of 1). In addition, you can choose for their mind to be temporarily transported to a limbo of your own imagining. When you do so, you become incapacitated for up to one hour.",
+				"During this time, you can take the target's soul on a brief tour of a fabricated afterlife, deceitfully suggesting that this false locale is where they will be sent if they should perish presently. This afterlife can be composed of any landscape you desire, including creatures, objects, structures, terrain, or any sensory phenomena, and you can change its makeup at- will. To convince the target that this afterlife is genuine, you can make a contested Charisma (Deception) check against an Intelligence check the DM deems appropriate (usually Religion).",
+				"You can speak through creatures within this afterlife, potentially granting the target a fake audience with a deity or a creature of their worship. You can emerge from this afterlife at any time, ending the effect early. The target then returns to being unconscious. The effect also ends early if the target receives damage or regains hit points. Once you use this ability, you cannot use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "A Spirit’s Guide",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Afterlife",
+			"subclassSource": "SRPDancer",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, you are in good standing as a walker between worlds. Whenever you directly reduce a creature to 0 hit points or stabilize them, you can immediately put them under the effects of the plane shift and nondetection spells.",
+				"The target is treated as willing, allowing you to specify their destination so long as it is a location on another plane you have been to before. Upon arrival, they regain 1 hit point. Once you use this ability, you cannot use it again until you finish a long rest.",
+				"Finally, you can cast each of the following spells once per long rest, though you must possess their material components: {@spell find the path} and {@spell planar ally}."
+			]
+		},
+		{
+			"name": "Academy of Tranquility",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Tranquility",
+			"subclassSource": "SRPDancer",
+			"level": 3,
+			"entries": [
+				"Life with a student from the Academy of Tranquility is like an oasis of heartwarming af ection, bliss, and unquestionable safety. Those of this path are inclined not to pay any attention to their environment. Their gaze lies solely on their partners, and their desire to protect and serve those they hold dear is intense. In this style, you play the role of a doting caretaker.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Overbearing Ward|Dancer|SRPDancer|Tranquility|SRPDancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Jubilant Reminiscence|Dancer|SRPDancer|Tranquility|SRPDancer|3"
+				}
+			]
+		},
+		{
+			"name": "Overbearing Ward",
+			"entries": [
+				"Starting at 3rd level, you garner a mutual obsession. At the end of a short rest, you can name a friendly, willing creature to act as the target of your concern: your confidant. Until you choose another, or until they stop being willing, you and this creature have advantage on all skill checks made to socially influence or understand each other.",
+				"In addition, once per turn, you and your confidant can convey a single thought, idea, or emotion of up to ten words in length to the other by making a particular gesture, moving an object in a certain way, giving the other a meaningful look, or making a distinct sound. Furthermore, you and your confidant can both cast {@spell detect thoughts} at-will, no action required, but you can only target each other. You can choose to fail each other's probing saving throws. This spell uses your step save DC.",
+				"Finally, so long as you are on the same plane of existence as your confidant, you are aware of each other’s presence and can sense their exact location relative to you by visualizing their aura when you close your eyes. While you are doing this, you can tell if their body language is trying to convey a thought to you, but you cannot make out their surroundings."
+			],
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Tranquility",
+			"subclassSource": "SRPDancer",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Jubilant Reminiscence",
+			"entries": [
+				"Also at 3rd level, your support takes on a sweeter, more nurturing tone, and every dance is an idyllic reverie. Whenever one of your duets ends, salubrious waters wrap around either you or your partner, as your chosen recipient immediately regains hit points equal to {@dice 1d10} + half your Dancer level (rounded down)."
+			],
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Tranquility",
+			"subclassSource": "SRPDancer",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Never Miss A Beat",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Tranquility",
+			"subclassSource": "SRPDancer",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, your attentive nature makes you quick to react in regards to your confidant. You and your confidant can choose to match initiatives in combat, and you can choose who goes first.",
+				"Additionally, when you or your confidant are targeted by an attack while you're performing a duet with your confidant, as a reaction, either of you can choose to become the target of the attack instead of the other. Also while you are performing a duet with your confidant, you can choose to swap places as a reaction. You must choose to use either of these abilities before you know before the creature makes an attack roll."
+			]
+		},
+		{
+			"name": "We Are One",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Tranquility",
+			"subclassSource": "SRPDancer",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Starting at 11th level, whenever you enlighten those around you, those close to you can fully reciprocate your solicitude. Whenever you use your Merry Visionary feature to encourage your confidant, you can gain advantage on a single attack roll, ability check, or saving throw of your choosing before the start of your next turn, as their joy becomes your satisfaction.",
+				"In addition, whenever you perform the following duets with your confidant, they gain an additional effect:",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "entries",
+							"name": "Witch Hunt.",
+							"entries": [
+								"Your illusion can speak the same languages as the target it is imitating, thereby translating your thoughts, and your confidant can control the illusion in unison with you."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Honest.",
+							"entries": [
+								"Instead of you, your confidant can share 1 hour of their memories. All who see the light can briefly read your confidant's surface thoughts."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Seer’s Samba.",
+							"entries": [
+								"You learn the most well-known name of the entity whose answer you are given, and you receive a vision of where they consider home."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Windmill Dance.",
+							"entries": [
+								"As an action for the duration, you and your confidant can eavesdrop with a subtle zephyr to hear every word that the charmed participants are speaking, processing one conversation at a time, from any distance."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Timeless Comfort",
+			"source": "SRPDancer",
+			"className": "Dancer",
+			"classSource": "SRPDancer",
+			"subclassShortName": "Tranquility",
+			"subclassSource": "SRPDancer",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, you and your loved ones are forever reassured by considerate selflessness. Whenever you or your confidant uses Never Miss A Beat to become the target of an attack, the other regains hit points equal to {@dice 1d10} + half your Dancer level (rounded down).",
+				"Furthermore, while you are within 10 feet of your confidant, you can enter Cadence when an attack misses either of you, no reaction required, and can do so even while surprised."
+			]
+		}
+	]
+}
