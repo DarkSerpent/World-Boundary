@@ -2255,6 +2255,7 @@ Parser.CONDITION_TO_COLOR = {
 
 SRC_WB = "WB: RD";
 SRC_SRP = "SRP";
+SRC_RS = "RS";
 SRC_GS = "GS";
 SRC_Arisen = "Arisen Weapon";
 SRC_OSoW = "OSoW";
@@ -2408,6 +2409,7 @@ TftYP_NAME = "Tales from the Yawning Portal";
 Parser.SOURCE_JSON_TO_FULL = {};
 Parser.SOURCE_JSON_TO_FULL[SRC_WB] = "World Boundary: Realms Divided";
 Parser.SOURCE_JSON_TO_FULL[SRC_SRP] = "Seventh Sanctum RP";
+Parser.SOURCE_JSON_TO_FULL[SRC_RS] = "Restricted Shop";
 Parser.SOURCE_JSON_TO_FULL[SRC_GS] = "Guild Shop";
 Parser.SOURCE_JSON_TO_FULL[SRC_Arisen] = "Arisen Weapon";
 Parser.SOURCE_JSON_TO_FULL[SRC_OSoW] = "Orion: Stars of Waterdeep";
