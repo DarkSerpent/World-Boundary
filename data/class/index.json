@@ -7,6 +7,5 @@
 	"dragon knight": "class-dragonknight.json",
 	"rogue": "class-rogue.json",
 	"barbarian": "class-barbarian.json",
-	"commoner": "class-commoner.json",
-	"apothecary": "class-apothecary.json"
+	"commoner": "class-commoner.json"
 }
