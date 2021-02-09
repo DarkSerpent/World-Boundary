@@ -2,7 +2,7 @@
 	"class": [
 		{
 			"name": "Brawler",
-			"source": "SRP",
+			"source": "WB: RD",
 			"hd": {
 				"number": 1,
 				"faces": 8
@@ -668,7 +668,7 @@
 				{
 					"name": "Bloodhound Bruisers",
 					"shortName": "Bloodhound Bruisers",
-					"source": "SRP",
+					"source": "WB: RD",
 					"subclassFeatures": [
 						[
 							{
@@ -759,7 +759,7 @@
 				{
 					"name": "Piss & Vinegar",
 					"shortName": "Piss & Vinegar",
-					"source": "SRP",
+					"source": "WB: RD",
 					"subclassFeatures": [
 						[
 							{
@@ -852,7 +852,7 @@
 				{
 					"name": "Gladitorian Heart",
 					"shortName": "Gladitorian Heart",
-					"source": "SRP",
+					"source": "WB: RD",
 					"subclassFeatures": [
 						[
 							{
@@ -958,7 +958,7 @@
 				{
 					"name": "Man's Best Friend",
 					"shortName": "Man's Best Friend",
-					"source": "SRP",
+					"source": "WB: RD",
 					"subclassFeatures": [
 						[
 							{
@@ -1047,7 +1047,7 @@
 				{
 					"name": "Mixed Martial Mayhem",
 					"shortName": "Mixed Martial Mayhem",
-					"source": "SRP",
+					"source": "WB: RD",
 					"subclassFeatures": [
 						[
 							{
@@ -1131,7 +1131,7 @@
 					"entries": [
 						""
 					],
-					"source": "SRP",
+					"source": "WB: RD",
 					"page": 0
 				}
 			]

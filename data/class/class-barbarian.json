@@ -2,7 +2,7 @@
 	"class": [
 		{
 			"name": "Barbarian Subclasses",
-			"source": "SRP",
+			"source": "WB: RD",
 			"hd": {
 				"number": 1,
 				"faces": 12
@@ -494,7 +494,7 @@
 				{
 					"name": "Path of the Bandolier",
 					"shortName": "Bandolier",
-					"source": "SRP",
+					"source": "WB: RD",
 					"subclassFeatures": [
 						[
 							{

@@ -2,7 +2,7 @@
 	"class": [
 		{
 			"name": "Rogue Subclasses",
-			"source": "SRP",
+			"source": "WB: RD",
 			"hd": {
 				"number": 1,
 				"faces": 8
@@ -587,7 +587,7 @@
 				{
 					"name": "Gunslinger",
 					"shortName": "Gunslinger",
-					"source": "SRP",
+					"source": "WB: RD",
 					"subclassFeatures": [
 						[
 							{

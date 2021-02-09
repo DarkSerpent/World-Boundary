@@ -2,7 +2,7 @@
 	"class": [
 		{
 			"name": "Folk Hero",
-			"source": "SRP",
+			"source": "WB: RD",
 			"hd": {
 				"number": 1,
 				"faces": 8
@@ -364,7 +364,7 @@
 				{
 					"name": "Farmer",
 					"shortName": "Farmer",
-					"source": "SRP",
+					"source": "WB: RD",
 					"subclassFeatures": [
 						[
 							{
@@ -437,7 +437,7 @@
 				{
 					"name": "Merchant",
 					"shortName": "Merchant",
-					"source": "SRP",
+					"source": "WB: RD",
 					"subclassFeatures": [
 						[
 							{
@@ -490,7 +490,7 @@
 {
 			"name": "Nothing But the Best",
 			"entries": [
-				"You piece together bits and pieces, and slowly but surely enough your wares expand. At 9th level, you acquire an uncommon magic item of your choice\u2013preferably an item related to your backstory or journey, and must be from a source book allowed in the SRP (PHB, DMG, XGE, ERLW, TCE) or the Guild Shop.",
+				"You piece together bits and pieces, and slowly but surely enough your wares expand. At 9th level, you acquire an uncommon magic item of your choice\u2013preferably an item related to your backstory or journey, and must be from a source book allowed in the WB: RD (PHB, DMG, XGE, ERLW, TCE) or the Guild Shop.",
 				"At 13th level, you acquire an additional rare magic item through this feature. At 17th level, you acquire an additional very rare magic item."
 			]
 		}
@@ -516,7 +516,7 @@
 				{
 					"name": "Receptionist",
 					"shortName": "Receptionist",
-					"source": "SRP",
+					"source": "WB: RD",
 					"subclassFeatures": [
 						[
 							{
@@ -601,7 +601,7 @@
 				{
 					"name": "Vagabond",
 					"shortName": "Vagabond",
-					"source": "SRP",
+					"source": "WB: RD",
 					"subclassFeatures": [
 						[
 							{
@@ -676,7 +676,7 @@
 				{
 					"name": "Thug",
 					"shortName": "Thug",
-					"source": "SRP",
+					"source": "WB: RD",
 					"subclassFeatures": [
 						[
 							{
@@ -748,7 +748,7 @@
 				{
 					"name": "Innkeep",
 					"shortName": "Innkeep",
-					"source": "SRP",
+					"source": "WB: RD",
 					"subclassFeatures": [
 						[
 							{

@@ -2,7 +2,7 @@
 	"class": [
 		{
 			"name": "Ranger Subclasses",
-			"source": "SRP",
+			"source": "WB: RD",
 			"srd": true,
 			"hd": {
 				"number": 1,
@@ -843,7 +843,7 @@
 				{
 					"name": "Faker",
 					"shortName": "Faker",
-					"source": "SRP",
+					"source": "WB: RD",
 					"srd": true,
 					"subclassFeatures": [
 						[
@@ -1144,7 +1144,7 @@
 				{
 					"name": "Tenka",
 					"shortName": "Tenka",
-					"source": "SRP",
+					"source": "WB: RD",
 					"srd": true,
 					"subclassFeatures": [
 						[

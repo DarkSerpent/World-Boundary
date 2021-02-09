@@ -2,7 +2,7 @@
 	"class": [
 		{
 			"name": "Artificer Subclasses",
-			"source": "SRP",
+			"source": "WB: RD",
 			"hd": {
 				"number": 1,
 				"faces": 8
@@ -692,7 +692,7 @@
 				{
 					"name": "Toymaker",
 					"shortName": "Toymaker",
-					"source": "SRP",
+					"source": "WB: RD",
 					"subclassFeatures": [
 						[
 							{

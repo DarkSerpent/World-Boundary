@@ -2,7 +2,7 @@
 	"class": [
 		{
 			"name": "Folk Hero",
-			"source": "SRP",
+			"source": "WB: RD",
 			"hd": {
 				"number": 1,
 				"faces": 6
@@ -90,100 +90,100 @@
 				]
 			},
 			"classFeatures": [
-				"Just A Simple Fellow|Folk Hero|SRP|1",
-				"Use What You Got|Folk Hero|SRP|1",
+				"Just A Simple Fellow|Folk Hero|WB: RD|1",
+				"Use What You Got|Folk Hero|WB: RD|1",
 				{
-					"classFeature": "Livelihood|Folk Hero|SRP|1",
+					"classFeature": "Livelihood|Folk Hero|WB: RD|1",
 					"gainSubclassFeature": true
 				},
-				"Skin Of Your Teeth|Folk Hero|SRP|2",
-				"Helping Hand|Folk Hero|SRP|3",
-				"Rough and Ready|Folk Hero|SRP|3",
-				"Learn Feat|Folk Hero|SRP|4",
-				"Look, I'm Helping!|Folk Hero|SRP|5",
+				"Skin Of Your Teeth|Folk Hero|WB: RD|2",
+				"Helping Hand|Folk Hero|WB: RD|3",
+				"Rough and Ready|Folk Hero|WB: RD|3",
+				"Learn Feat|Folk Hero|WB: RD|4",
+				"Look, I'm Helping!|Folk Hero|WB: RD|5",
 				{
-					"classFeature": "Livelihood Feature|Folk Hero|SRP|5",
+					"classFeature": "Livelihood Feature|Folk Hero|WB: RD|5",
 					"gainSubclassFeature": true
 				},
-				"Learn It From Others|Folk Hero|SRP|6",
-				"Close Shave|Folk Hero|SRP|7",
-				"Learn Feat|Folk Hero|SRP|8",
+				"Learn It From Others|Folk Hero|WB: RD|6",
+				"Close Shave|Folk Hero|WB: RD|7",
+				"Learn Feat|Folk Hero|WB: RD|8",
 				{
-					"classFeature": "Livelihood Feature|Folk Hero|SRP|9",
+					"classFeature": "Livelihood Feature|Folk Hero|WB: RD|9",
 					"gainSubclassFeature": true
 				},
-				"Teamwork Gets It Done|Folk Hero|SRP|10",
-				"Can't Believe That Worked!|Folk Hero|SRP|11",
-				"Learn Feat|Folk Hero|SRP|12",
-				"Watch Out For That|Folk Hero|SRP|13",
+				"Teamwork Gets It Done|Folk Hero|WB: RD|10",
+				"Can't Believe That Worked!|Folk Hero|WB: RD|11",
+				"Learn Feat|Folk Hero|WB: RD|12",
+				"Watch Out For That|Folk Hero|WB: RD|13",
 				{
-					"classFeature": "Livelihood Feature|Folk Hero|SRP|14",
+					"classFeature": "Livelihood Feature|Folk Hero|WB: RD|14",
 					"gainSubclassFeature": true
 				},
-				"Look At Us Go!|Folk Hero|SRP|15",
-				"Learn Feat|Folk Hero|SRP|16",
-				"Learned It From The Best|Folk Hero|SRP|17",
-				"Put to Good Use|Folk Hero|SRP|18",
-				"Learn Feat|Folk Hero|SRP|19",
-				"Learn It From Me|Folk Hero|SRP|20"
+				"Look At Us Go!|Folk Hero|WB: RD|15",
+				"Learn Feat|Folk Hero|WB: RD|16",
+				"Learned It From The Best|Folk Hero|WB: RD|17",
+				"Put to Good Use|Folk Hero|WB: RD|18",
+				"Learn Feat|Folk Hero|WB: RD|19",
+				"Learn It From Me|Folk Hero|WB: RD|20"
 			],
 			"subclassTitle": "Livelihood",
 			"subclasses": [
 				{
 					"name": "Farmer",
-					"source": "SRP",
+					"source": "WB: RD",
 					"shortName": "Farmer",
 					"page": 5,
 					"subclassFeatures": [
-						"Farmer|Folk Hero|SRP|Farmer|SRP|1",
-						"Farmer's Grit|Folk Hero|SRP|Farmer|SRP|5",
-						"Homecooked Grub|Folk Hero|SRP|Farmer|SRP|9",
-						"All Together Now|Folk Hero|SRP|Farmer|SRP|14"
+						"Farmer|Folk Hero|WB: RD|Farmer|WB: RD|1",
+						"Farmer's Grit|Folk Hero|WB: RD|Farmer|WB: RD|5",
+						"Homecooked Grub|Folk Hero|WB: RD|Farmer|WB: RD|9",
+						"All Together Now|Folk Hero|WB: RD|Farmer|WB: RD|14"
 					]
 				},
 				{
 					"name": "Merchant",
-					"source": "SRP",
+					"source": "WB: RD",
 					"shortName": "Merchant",
 					"page": 6,
 					"subclassFeatures": [
-						"Merchant|Folk Hero|SRP|Merchant|SRP|1",
-						"Everything's For Sale|Folk Hero|SRP|Merchant|SRP|5",
-						"Nothing But the Best|Folk Hero|SRP|Merchant|SRP|9",
-						"Company Trading|Folk Hero|SRP|Merchant|SRP|14"
+						"Merchant|Folk Hero|WB: RD|Merchant|WB: RD|1",
+						"Everything's For Sale|Folk Hero|WB: RD|Merchant|WB: RD|5",
+						"Nothing But the Best|Folk Hero|WB: RD|Merchant|WB: RD|9",
+						"Company Trading|Folk Hero|WB: RD|Merchant|WB: RD|14"
 					]
 				},
 				{
 					"name": "Clerk",
-					"source": "SRP",
+					"source": "WB: RD",
 					"shortName": "Clerk",
 					"page": 7,
 					"subclassFeatures": [
-						"Clerk|Folk Hero|SRP|Clerk|SRP|1",
-						"It's All Just Paper|Folk Hero|SRP|Clerk|SRP|5",
-						"Arcane Receptionist|Folk Hero|SRP|Clerk|SRP|9",
-						"Master Scribe|Folk Hero|SRP|Clerk|SRP|14"
+						"Clerk|Folk Hero|WB: RD|Clerk|WB: RD|1",
+						"It's All Just Paper|Folk Hero|WB: RD|Clerk|WB: RD|5",
+						"Arcane Receptionist|Folk Hero|WB: RD|Clerk|WB: RD|9",
+						"Master Scribe|Folk Hero|WB: RD|Clerk|WB: RD|14"
 					]
 				},
 				{
 					"name": "Vagabond",
-					"source": "SRP",
+					"source": "WB: RD",
 					"shortName": "Vagabond",
 					"page": 8,
 					"subclassFeatures": [
-						"Vagabond|Folk Hero|SRP|Vagabond|SRP|1",
-						"Wasn't Me|Folk Hero|SRP|Vagabond|SRP|5",
-						"Stick 'Em In the Back|Folk Hero|SRP|Vagabond|SRP|9",
-						"Go For The Other Guy|Folk Hero|SRP|Vagabond|SRP|14"
+						"Vagabond|Folk Hero|WB: RD|Vagabond|WB: RD|1",
+						"Wasn't Me|Folk Hero|WB: RD|Vagabond|WB: RD|5",
+						"Stick 'Em In the Back|Folk Hero|WB: RD|Vagabond|WB: RD|9",
+						"Go For The Other Guy|Folk Hero|WB: RD|Vagabond|WB: RD|14"
 					]
 				}
 			],
 	"classFeature": [
 		{
 			"name": "Just A Simple Fellow",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 3,
 			"level": 1,
 			"entries": [
@@ -202,9 +202,9 @@
 		},
 		{
 			"name": "Use What You Got",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 3,
 			"level": 1,
 			"entries": [
@@ -213,9 +213,9 @@
 		},
 		{
 			"name": "Livelihood",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 3,	
 			"level": 1,
 			"entries": [
@@ -225,9 +225,9 @@
 		},
 		{
 			"name": "Skin Of Your Teeth",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 3,
 			"level": 2,
 			"entries": [
@@ -238,9 +238,9 @@
 		},
 		{
 			"name": "Helping Hand",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 4,
 			"level": 3,
 			"entries": [
@@ -249,9 +249,9 @@
 		},
 		{
 			"name": "Rough and Ready",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 4,
 			"level": 3,
 			"entries": [
@@ -263,9 +263,9 @@
 		},
 		{
 			"name": "Learn Feat",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 4,
 			"level": 4,
 			"entries": [
@@ -281,9 +281,9 @@
 		},
 		{
 			"name": "Look, I'm Helping!",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 4,
 			"level": 5,
 			"entries": [
@@ -293,9 +293,9 @@
 		},
 		{
 			"name": "Livelihood Feature",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 4,
 			"level": 5,
 			"entries": [
@@ -304,9 +304,9 @@
 		},
 		{
 			"name": "Learn It From Others",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 4,
 			"level": 6,
 			"entries": [
@@ -323,9 +323,9 @@
 		},
 		{
 			"name": "Close Shave",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 4,
 			"level": 7,
 			"entries": [
@@ -335,9 +335,9 @@
 		},
 		{
 			"name": "Learn Feat",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 4,
 			"level": 8,
 			"entries": [
@@ -346,9 +346,9 @@
 		},
 		{
 			"name": "Livelihood Feature",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 4,
 			"level": 9,
 			"entries": [
@@ -357,9 +357,9 @@
 		},
 		{
 			"name": "Teamwork Gets It Done",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 4,
 			"level": 10,
 			"entries": [
@@ -376,9 +376,9 @@
 		},
 		{
 			"name": "Can't Believe That Worked!",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 4,
 			"level": 11,
 			"entries": [
@@ -387,9 +387,9 @@
 		},
 		{
 			"name": "Learn Feat",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 4,
 			"level": 12,
 			"entries": [
@@ -398,9 +398,9 @@
 		},
 		{
 			"name": "Watch Out For That",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 4,
 			"level": 13,
 			"entries": [
@@ -411,9 +411,9 @@
 		},
 		{
 			"name": "Livelihood Feature",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 4,
 			"level": 14,
 			"entries": [
@@ -422,9 +422,9 @@
 		},
 		{
 			"name": "Look At Us Go!",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 5,
 			"level": 15,
 			"entries": [
@@ -433,9 +433,9 @@
 		},
 		{
 			"name": "Learn Feat",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 4,
 			"level": 16,
 			"entries": [
@@ -444,9 +444,9 @@
 		},
 		{
 			"name": "Learned It From The Best",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 5,
 			"level": 17,
 			"entries": [
@@ -463,9 +463,9 @@
 		},
 		{
 			"name": "Put to Good Use",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 5,
 			"level": 18,
 			"entries": [
@@ -474,9 +474,9 @@
 		},
 		{
 			"name": "Learn Feat",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 4,
 			"level": 19,
 			"entries": [
@@ -485,9 +485,9 @@
 		},
 		{
 			"name": "Learn It From Me",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
+			"classSource": "WB: RD",
 			"page": 5,
 			"level": 20,
 			"entries": [
@@ -498,10 +498,10 @@
 	"subclassFeature": [
 		{
 			"name": "Farmer",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Farmer",
 			"page": 5,
 			"level": 1,
@@ -510,20 +510,20 @@
 				"Farmers tackle their problems head-on, and they look after their fellows.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Skills of the Field|Folk Hero|SRP|Farmer|SRP|1"
+					"subclassFeature": "Skills of the Field|Folk Hero|WB: RD|Farmer|WB: RD|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Long Hours, Heavy Work|Folk Hero|SRP|Farmer|SRP|1"
+					"subclassFeature": "Long Hours, Heavy Work|Folk Hero|WB: RD|Farmer|WB: RD|1"
 				}
 			]
 		},
 		{
 			"name": "Skills of the Field",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Farmer",
 			"page": 5,
 			"level": 1,
@@ -543,10 +543,10 @@
 		},
 		{
 			"name": "Long Hours, Heavy Work",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Farmer",
 			"page": 6,
 			"level": 1,
@@ -558,10 +558,10 @@
 		},
 		{
 			"name": "Farmer's Grit",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Farmer",
 			"page": 6,
 			"level": 5,
@@ -582,10 +582,10 @@
 		},
 		{
 			"name": "Homecooked Grub",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Farmer",
 			"page": 6,
 			"level": 9,
@@ -597,10 +597,10 @@
 		},
 		{
 			"name": "All Together Now",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Farmer",
 			"page": 6,
 			"level": 14,
@@ -611,10 +611,10 @@
 		},
 		{
 			"name": "Merchant",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Merchant",
 			"page": 6,
 			"level": 1,
@@ -623,20 +623,20 @@
 				"Merchants look out for their companions from the back lines. They provide money and goods to keep the party going.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Skills of the Trade|Folk Hero|SRP|Merchant|SRP|1"
+					"subclassFeature": "Skills of the Trade|Folk Hero|WB: RD|Merchant|WB: RD|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Coin Wherever You Go|Folk Hero|SRP|Merchant|SRP|1"
+					"subclassFeature": "Coin Wherever You Go|Folk Hero|WB: RD|Merchant|WB: RD|1"
 				}
 			]
 		},
 		{
 			"name": "Skills of the Trade",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Merchant",
 			"page": 6,
 			"level": 1,
@@ -656,10 +656,10 @@
 		},
 		{
 			"name": "Coin Wherever You Go",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Merchant",
 			"page": 6,
 			"level": 1,
@@ -678,10 +678,10 @@
 		},
 		{
 			"name": "Everything's For Sale",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Merchant",
 			"page": 6,
 			"level": 5,
@@ -700,10 +700,10 @@
 		},
 		{
 			"name": "Nothing But the Best",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Merchant",
 			"page": 6,
 			"level": 9,
@@ -714,10 +714,10 @@
 		},
 		{
 			"name": "Company Trading",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Merchant",
 			"page": 7,
 			"level": 14,
@@ -736,10 +736,10 @@
 		},
 		{
 			"name": "Clerk",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Clerk",
 			"page": 7,
 			"level": 1,
@@ -748,20 +748,20 @@
 				"Clerks prefer to apply their mind rather than might. They learn fast, and bring lots of useful little skills to the party.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Skills of the Office|Folk Hero|SRP|Clerk|SRP|1"
+					"subclassFeature": "Skills of the Office|Folk Hero|WB: RD|Clerk|WB: RD|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Eye For Detail|Folk Hero|SRP|Clerk|SRP|1"
+					"subclassFeature": "Eye For Detail|Folk Hero|WB: RD|Clerk|WB: RD|1"
 				}
 			]
 		},
 		{
 			"name": "Skills of the Office",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Clerk",
 			"page": 7,
 			"level": 1,
@@ -781,10 +781,10 @@
 		},
 		{
 			"name": "Eye For Detail",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Clerk",
 			"page": 7,
 			"level": 1,
@@ -803,10 +803,10 @@
 		},
 		{
 			"name": "It's All Just Paper",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Clerk",
 			"page": 7,
 			"level": 5,
@@ -820,10 +820,10 @@
 		},
 		{
 			"name": "Arcane Receptionist",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Clerk",
 			"page": 8,
 			"level": 9,
@@ -837,10 +837,10 @@
 		},
 		{
 			"name": "Master Scribe",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Clerk",
 			"page": 8,
 			"level": 14,
@@ -858,10 +858,10 @@
 		},
 		{
 			"name": "Vagabond",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Vagabond",
 			"page": 8,
 			"level": 1,
@@ -870,20 +870,20 @@
 				"Vagabonds are self-reliant, and look out for themselves above all others.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Skills of the Road|Folk Hero|SRP|Vagabond|SRP|1"
+					"subclassFeature": "Skills of the Road|Folk Hero|WB: RD|Vagabond|WB: RD|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Didn't Do Nothin'|Folk Hero|SRP|Vagabond|SRP|1"
+					"subclassFeature": "Didn't Do Nothin'|Folk Hero|WB: RD|Vagabond|WB: RD|1"
 				}
 			]
 		},
 		{
 			"name": "Skills of the Road",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Vagabond",
 			"page": 8,
 			"level": 1,
@@ -903,10 +903,10 @@
 		},
 		{
 			"name": "Didn't Do Nothin'",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Vagabond",
 			"page": 8,
 			"level": 1,
@@ -917,10 +917,10 @@
 		},
 		{
 			"name": "Wasn't Me",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Vagabond",
 			"page": 8,
 			"level": 5,
@@ -932,10 +932,10 @@
 		},
 		{
 			"name": "Stick 'Em In The Back",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Vagabond",
 			"page": 8,
 			"level": 9,
@@ -947,10 +947,10 @@
 		},
 		{
 			"name": "Go For The Other Guy",
-			"source": "SRP",
+			"source": "WB: RD",
 			"className": "Folk Hero",
-			"classSource": "SRP",
-			"subclassSource": "SRP",
+			"classSource": "WB: RD",
+			"subclassSource": "WB: RD",
 			"subclassShortName": "Vagabond",
 			"page": 9,
 			"level": 14,

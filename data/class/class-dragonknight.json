@@ -2,7 +2,7 @@
 	"class": [
 		{
 			"name": "Dragon Knight",
-			"source": "SRP",
+			"source": "WB: RD",
 			"hd": {
 				"number": 1,
 				"faces": 10
@@ -647,7 +647,7 @@
 				{
 					"name": "Shadow",
 					"shortName": "Shadow",
-					"source": "SRP",
+					"source": "WB: RD",
 					"subclassFeatures": [
 						[
 							{
@@ -747,7 +747,7 @@
 					"entries": [
 						""
 					],
-					"source": "SRP",
+					"source": "WB: RD",
 					"page": 0
 				}
 			]
