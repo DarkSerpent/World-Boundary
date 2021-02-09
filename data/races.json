@@ -7,7 +7,7 @@
 	"race": [
 		{
 			"name": "Flameveil",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30
@@ -95,7 +95,7 @@
 		},
 		{
 			"name": "Firenewt",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30
@@ -183,7 +183,7 @@
 		},
 		{
 			"name": "Succubus & Incubus",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30
@@ -298,7 +298,7 @@
 		},
 		{
 			"name": "Puppet",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30
@@ -404,7 +404,7 @@
 		},
 		{
 			"name": "Kitsune",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "V",
 			"speed": 30,
 			"ability": [
@@ -685,7 +685,7 @@
 		},
 		{
 			"name": "Revenant",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "V",
 			"speed": {
 				"walk": 30
@@ -788,7 +788,7 @@
 		},
 		{
 			"name": "Skeleton",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "V",
 			"speed": {
 				"walk": 30
@@ -933,7 +933,7 @@
 		},
 		{
 			"name": "Scarecrow",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30
@@ -1041,7 +1041,7 @@
 		},
 		{
 			"name": "Demibeast",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30
@@ -1414,8 +1414,8 @@
 			]
 		},
 		{
-			"name": "Human (Mark of Ryder)",
-			"source": "SRP",
+			"name": "Human (Mark of Arka)",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30
@@ -1459,7 +1459,7 @@
 				{
 					"name": "Alignment",
 					"entries": [
-                     "After receiving a Mark from Ryder, the Lesser Deity of the Forge, Humans tend to manifest a lawful nature, even under less than ideal nuturing conditions."
+                     "After receiving a Mark from Arka, the Passionate Reveler, Humans tend to manifest a lawful nature, even under less than ideal nuturing conditions."
 					],
 					"type": "entries"
 				},
@@ -1494,8 +1494,8 @@
 			]
 		},
 		{
-			"name": "Human (Mark of Brykal)",
-			"source": "SRP",
+			"name": "Human (Mark of Kurmok)",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30
@@ -1534,7 +1534,7 @@
 				{
 					"name": "Alignment",
 					"entries": [
-                     "After receiving a Mark from Brykal, the Lesser Deity of the Shield, Humans tend to manifest a good nature, even under less than ideal nuturing conditions."
+                     "After receiving a Mark from Kurmok, the Perservering Entity, Humans tend to manifest a good nature, even under less than ideal nuturing conditions."
 					],
 					"type": "entries"
 				},
@@ -1576,8 +1576,8 @@
 			]
 		},
 		{
-			"name": "Human (Mark of Yui)",
-			"source": "SRP",
+			"name": "Human (Mark of Obstract)",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30
@@ -1608,7 +1608,7 @@
 				{
 					"name": "Alignment",
 					"entries": [
-                     "After receiving a Mark from Yui, the Lesser Deity of the Hunt, Humans tend bend towards being chaotic. They also tend to manifest a good nature, even under less than ideal nuturing conditions."
+                     "After receiving a Mark from Obstract, the Disparity Daemon, Humans tend bend towards being chaotic. They also tend to manifest a good nature, even under less than ideal nuturing conditions."
 					],
 					"type": "entries"
 				},
@@ -1643,8 +1643,8 @@
 			]
 		},
 		{
-			"name": "Human (Mark of Bane)",
-			"source": "SRP",
+			"name": "Human (Mark of Gaia)",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30
@@ -1683,7 +1683,7 @@
 				{
 					"name": "Alignment",
 					"entries": [
-                     "After receiving a Mark from Bane, the Lesser Guardian of the Forest, Humans tend bend towards a feeling of neutrality. They also tend to have a greater respect for wildlife."
+                     "After receiving a Mark from Gaia, the Mother of All Life, Humans tend bend towards a feeling of neutrality. They also tend to have a greater respect for wildlife."
 					],
 					"type": "entries"
 				},
@@ -1718,8 +1718,8 @@
 			]
 		},
 		{
-			"name": "Human (Mark of Neon)",
-			"source": "SRP",
+			"name": "Human (Mark of Amaathu)",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 35
@@ -1758,7 +1758,7 @@
 				{
 					"name": "Alignment",
 					"entries": [
-                     "After receiving a Mark from Neon, the Greater Guardian of Time, Humans tend bend towards a feeling of neutrality. They also tend to be more punctual and pertinent when receiving orders."
+                     "After receiving a Mark from Amaathu, the Great Overseer, Humans tend bend towards a feeling of neutrality. They also tend to be more punctual and pertinent when receiving orders."
 					],
 					"type": "entries"
 				},
@@ -1794,7 +1794,7 @@
 		},
 		{
 			"name": "Human (Base)",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30
@@ -1856,7 +1856,7 @@
 		},
 		{
 			"name": "Orc (Base)",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30
@@ -1944,7 +1944,7 @@
 		},
 		{
 			"name": "Dhampir",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": 30,
 			"ability": [
@@ -2176,7 +2176,7 @@
 		},
 		{
 			"name": "Vespidan",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30,
@@ -2382,7 +2382,7 @@
 		},
 		{
 			"name": "Warforged",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30
@@ -2584,7 +2584,7 @@
 		},
 		{
 			"name": "Toran",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "S",
 			"speed": {
 				"walk": 25,
@@ -2668,7 +2668,7 @@
 		},
 		{
 			"name": "Half-Nasod",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 35
@@ -2731,25 +2731,116 @@
 					"type": "entries"
 				},
 				{
-					"name": "Obscuring Gaze",
+					"name": "Cybernetic Implants",
 					"entries": [
-                     "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+                     "All Half-Nasods have been modified from their original race in some way, with these cybernetics varying immensely. You can select 3 cybernetic traits of your choice from the following list:"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Auto-Stabilize",
+					"type": "inset",
+					"name": "",
 					"entries": [
-                     "When you begin bleeding during combat, your energy core enters an emergency self-preservation mode as you slip into an inert state. Once per long rest, whenever you are dropped to zero hit points, you can choose to stabilize yourself without needing a Medicine check."
+						{
+							"entries": [
+                               "{@b Implanted Weapon.} You have a one-handed ranged or melee weapon that you are proficient with hidden under your skin. This weapon has the properties it would normally have, and the Concealed property if it didn’t have it already. Drawing this weapon is an item interaction. You may swap out the weapon implanted in this way at the completion of a long rest. This implant may be chosen twice."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Cybernetic Reflexes.} Your reflexes have been cybernetically enhanced, allowing you to send your senses into a heighted fidelity for a limited time as time seems to slow around you. You may take the {@action Dodge} action as a bonus action an amount of times equal to half your proficiency bonus, rounded down. You regain all expended uses on a long rest."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Reinforced Bones.} Your skeleton and/or skin has been reinforced and/or covered with an experimental, organic version of steel, increasing your durability exponentially. As a reaction to when you are hit by an attack, you can increase your AC by 2 until the end of your next turn. You may use this reaction an amount of times equal to your proficiency bonus, and you regain all expended uses on a long rest."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Automated Defense Systems.} You have been implanted with defense systems that are programmed to defend you when you would otherwise be unable to defend yourself. If you are attacked by a creature while you are {@condition unconscious}, {@condition incapacitated}, {@condition stunned}, or {@condition paralyzed}, your defenses will momentarily take control of your body. You may make one melee or ranged weapon attack against the attacking creature before the attack resolves if they are within range or your reach. Your Automated Defense Systems can activate a number of times equal to half your proficiency bonus (rounded down), and you regain all expended uses on a long rest."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Attuned Flight.} You have a flying speed of 30 feet. To use this speed, you must attune to the Way of Worlds by act of sacrificing an attunement slot. Attuning to flight takes the same amount of time and follows the same restrictions as attuning to a magic item."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Jumper.} Gain proficiency in your choice of {@skill Athletics} or {@skill Acrobatics}. Your long jump is up to 25 feet and your high jump is up to 15 feet, with or without a running start."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Keen Senses.} Gain proficiency in the {@skill Perception} skill and choose one sense (sight, smell, taste, temperature, or touch). You gain advantage on Perception rolls that utilize that sense."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Kin of Mine.} Gain proficiency in {@skill Animal Handling}. Your proficiency bonus is doubled when you make an {@skill Animal Handling} check. In addition, you have two creature types: humanoid and beast. You can be affected by a spell or ability that works on either of your creature types."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Longstrider.} Your base walking speed increases to 35 feet."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Natural Armor.} When you aren’t wearing armor, your AC equals 12 + your Constitution or Dexterity modifier (your choice)."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Natural Talent.} Beasts of the earth, sky, and sea have talents as varied as their shapes. You gain proficiency in a skill of your choice."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Natural Weapon.} You have a natural weapon that you are proficient in (this could be a bite, claw, quill, club tail, or other bestial feature). This natural weapon is a finesse weapon that deals {@dice 1d4} bludgeoning, piercing, poison, or slashing damage (your choice)."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Born From Waves.} You have a swim speed equivalent to your walking speed and can breathe in air and water."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Regeneration.} Whenever you complete a short rest, you can roll one {@dice d6} if you expended any hit dice. Add the result to the total health you gain."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Relentless.} When you are reduced to 0 hit points but not killed outright, you can use a reaction to drop to 1 hit point instead. Once you use this ability, you cannot use it again until you finish a long rest."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Chameleon.} You have advantage on Dexterity ({@skill Stealth}) checks if you have not moved during the current turn. In addition, you can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+							],
+							"type": "entries"
+						}
 					],
-					"type": "entries"
-				},
-				{
-					"name": "Energy Weapon",
-					"entries": [
-                     "You can use your bonus action to construct a beam of destructive energy centered around your weapon. On your next successful melee weapon attack, target creature must make a Constitution saving throw. On a failed save, the creature takes an additional {@dice 2d6} radiant damage and is {@condition Poisoned} until the end of your next turn. Once you use this trait, you can't use it again until you finish a short or long rest."
-					],
-					"type": "entries"
+					"data": {
+						"overwrite": "Birth From Creation"
+					}
 				},
 				{
 					"name": "Language",
@@ -2762,7 +2853,7 @@
 		},
 		{
 			"name": "Nasod",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30
@@ -3030,7 +3121,7 @@
 		},
 		{
 			"name": "Demihuman",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30
@@ -3210,7 +3301,7 @@
 		},
 		{
 			"name": "Panda",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30,
@@ -3302,7 +3393,7 @@
 		},
 		{
 			"name": "Aftuan",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30
@@ -3399,7 +3490,7 @@
 		},
 		{
 			"name": "Changeling (Base)",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": 30,
 			"ability": [
@@ -3504,7 +3595,7 @@
 		},
 		{
 			"name": "The Beneath",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30,
@@ -3599,285 +3690,8 @@
 			]
 		},
 		{
-			"name": "Saki",
-			"source": "SRP",
-			"size": "M",
-			"speed": {
-				"walk": 30
-			},
-			"ability": [
-				{
-					"con": 1
-				}
-			],
-			"traitTags": [
- 				"Improved Resting"
-			],
-			"languageProficiencies": [
-				{
-					"giant": true
-				}
-			],			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-                     "Saki live long lives. They enter adulthood in their late teens and usually live to be about two centuries."
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-                     "Saki society, with its clear roles and tasks, has a strong lawful bent. The Saki's sense of fairness, balanced with a strict code of conduct, leans them more towards good."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-                     "Saki are between 7 and 9 feet tall and weigh between 300 and 400 pounds. Your size is Medium."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Hearty Fortitude",
-					"entries": [
-                     "You have proficiency in the {@skill Athletics} skill."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Rock Hurler",
-					"entries": [
-                     "You are considered proficient in the use of appropriately-sized rocks and boulders as ranged weapons. Such boulders typically weigh fifty pounds, and deal bludgeoning damage equal to {@dice 1d10} + your Strength modifier, and have the thrown (30/150) and heavy qualities. These boulders are also considered simple melee weapons."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Mountain Born",
-					"entries": [
-                     "You’re acclimated to high altitude, including elevations above 20,000 feet. You’re also naturally adapted to cold climates, and have resistance to cold damage."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Door Opener",
-					"entries": [
-                     "You learn the {@spell mold earth} cantrip, and are skilled at using it to modify doorways to allow for your larger build. You can repair the doorway afterward without expending an action."
-					]
-				},
-				{
-					"name": "Languages",
-					"entries": [
-                     "You can speak, read, and write Common and Giant."
-					],
-					"type": "entries"
-				}
-			],
-			"subraces": [
-				{
-					"name": "Scholar",
-                    "traitTags": [
-						"Skill Proficiency",
-						"Improved Resting"
-					],
-					"languageProficiencies": [
-						{
-							"other": true
-						}
-					],	
-					"ability": [
-						{
-							"int": 2
-						}
-					],
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Dusk Study",
-							"entries": [
-                     "Scholars have hardened their minds to resist the calls of slumber. While taking a long rest, you can spend half of that time doing any studious activity, including reading and writing."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Path of Knowledge",
-							"entries": [
-                     "When attempting to recall information about a particular city, kingdom, or culture, you are considered proficient in History, and add double your proficiency to the check, instead of your normal proficiency bonus. Once you use this feature, you cannot use it again until you finish a short or long rest."
-							]
-						},
-						{
-							"name": "Extra Language",
-							"entries": [
-                     "You can speak, read, and write one additional language."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Warrior",
-                    "traitTags": [
-						"Weapon Proficiency"
-					],
-					"ability": [
-						{
-							"str": 2,
-							"con": 1
-						}
-					],
-					"entries": [
-						{
-							"name": "Savage Attacks",
-							"entries": [
-                     "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "War Born",
-							"entries": [
-                     "You gain proficiency in two martial weapons of your choice."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Savage Dissonance",
-							"entries": [
-                     "When you are reduced to 0 hit points, before you fall unconscious, you can use your reaction to make one melee attack against a creature within melee range. Once you use this trait, you can't use it again until you finish a short or long rest."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Cook",
-					"speed": {
-						"walk": 30
-					},
-                    "traitTags": [
-						"Tool Proficiency"
-					],
-					"ability": [
-						{
-							"con": 2,
-							"cha": 1
-						}
-					],
-					"entries": [
-						{
-							"name": "Cook at the Hill",
-							"entries": [
-                     "You gain proficiency with cook’s utensils."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Exotic Ingredients",
-							"entries": [
-                     "Whenever you prepare a meal for your party, provided you have cook’s utensils and other supplies on hand, you can use a variety of strange ingredients."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Keen Nose",
-							"entries": [
-                     "You have advantage on {@skill Perception} checks that rely on smell."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Executioner",
-					"speed": {
-						"walk": 30
-					},
-                    "traitTags": [
-						"Weapon Proficiency",
-						"Skill Proficiency"
-					],
-					"ability": [
-						{
-							"con": 2,
-							"cha": 1
-						}
-					],
-					"entries": [
-						{
-							"name": "As Hard as His Axe",
-							"entries": [
-                     "As an Executioner, you've seen it all, and you don't care. You no longer feel non-magical fear."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Exotic Weaponry",
-							"entries": [
-                     "You are proficient in the use of nets."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "It's Me or You",
-							"entries": [
-                     "You loathe to let a criminal escape your grasp. Whenever you would make an attack of opportunity, you can gain advantage on that attack. Once you use this trait, you can't use it again until you finish a short or long rest."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Prophet",
-					"speed": {
-						"walk": 30
-					},
-                    "traitTags": [
-						"Skill Proficiency"
-					],
-					"ability": [
-						{
-							"con": 1,
-							"wis": 2
-						}
-					],
-					"entries": [
-						{
-							"name": "Divine Prophet",
-							"entries": [
-                     "You gain proficiency in {@skill Religion}."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Blood of Alu'kuri",
-							"entries": [
-                     "Your Rock Hurler now allows you to use boulders over one hundred pounds as ranged weapons. You deal bludgeoning damage equal to {@dice 1d12} + your Strength modifier. Boulders below a hundred pounds do not gain the benefit of this trait."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Choba Choba",
-							"entries": [
-                     "You can tap into your divine sense to see future events once per long rest. These visions can be sporadic, and typically have little context."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Hands of Alu'kuri",
-							"entries": [
-                     "You learn the {@spell mage hand} cantrip. When used, it appears as a long, mechanical red hand, symbolic of the blood-soaked weapon that Alu'kuri has become in the eyes of the lowlanders."
-							],
-							"type": "entries"
-						}
-					]
-				}
-			]
-		},
-		{
 			"name": "Ghost",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "V",
 			"speed": {
 				"walk": 30
@@ -4169,7 +3983,7 @@
 		},
 		{
 			"name": "Myconid",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30
@@ -4307,7 +4121,7 @@
 		},
 		{
 			"name": "Sacara",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30
@@ -4538,7 +4352,7 @@
 		},
 		{
 			"name": "Fey",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30
@@ -4829,7 +4643,7 @@
 		},
 		{
 			"name": "Dragonkin",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30
@@ -5136,7 +4950,7 @@
 		},
 		{
 			"name": "Mousefolk",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "S",
 			"speed": {
 				"walk": 25
@@ -5280,7 +5094,7 @@
 		},
 		{
 			"name": "Animated Armor",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "V",
 			"speed": {
 				"walk": 30
@@ -5526,7 +5340,7 @@
 		},
 		{
 			"name": "Abyssborn",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 35
@@ -5747,7 +5561,7 @@
 		},
 		{
 			"name": "Kobold (Base)",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "S",
 			"speed": 30,
 			"ability": [
@@ -5832,7 +5646,7 @@
 		},
 		{
 			"name": "Awakened",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "T",
 			"speed": {
 				"walk": null
@@ -6183,7 +5997,7 @@
 		},
 		{
 			"name": "Aarakocra (Base)",
-			"source": "SRP",
+			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 25,
