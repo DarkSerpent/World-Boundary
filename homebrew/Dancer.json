@@ -2,9 +2,9 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "SRPDancer",
-				"abbreviation": "SRPD",
-				"full": "The Dancer",
+				"json": "Dancer",
+				"abbreviation": "WBD",
+				"full": "Dancer",
 				"authors": [
 					"Wyth"
 				],
@@ -22,7 +22,7 @@
 	"item": [
 		{
 			"name": "Chains",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"type": "M",
 			"rarity": "none",
 			"weight": 2,
@@ -47,7 +47,7 @@
 		},
 		{
 			"name": "Dual Chakrams",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"type": "M",
 			"rarity": "none",
 			"weight": 2,
@@ -88,7 +88,7 @@
 		},
 		{
 			"name": "Fans",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"type": "M",
 			"rarity": "none",
 			"weight": 0.5,
@@ -111,7 +111,7 @@
 		},
 		{
 			"name": "Shoes",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"type": "M",
 			"rarity": "none",
 			"weight": 1,
@@ -142,7 +142,7 @@
 		},
 		{
 			"name": "Needles",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"type": "M",
 			"rarity": "none",
 			"weight": 2,
@@ -168,7 +168,7 @@
 		},
 		{
 			"name": "Props",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"type": "M",
 			"rarity": "none",
 			"weight": 1,
@@ -201,7 +201,7 @@
 	"class": [
 		{
 			"name": "Dancer",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"hd": {
 				"number": 1,
 				"faces": 8
@@ -389,98 +389,98 @@
 				}
 			],
 			"classFeatures": [
-				"Swaying Steps|Dancer|SRPDancer|1",
-				"Lead and Follow|Dancer|SRPDancer|1",
-				"Step Duration and Conditions|Dancer|SRPDancer|1",
-				"Cadence|Dancer|SRPDancer|1",
-				"Fledgling’s Favorite|Dancer|SRPDancer|2",
-				"Unarmored Defense|Dancer|SRPDancer|2",
-				"Academy of Dance|Dancer|SRPDancer|3",
+				"Swaying Steps|Dancer|WB: RD|1",
+				"Lead and Follow|Dancer|WB: RD|1",
+				"Step Duration and Conditions|Dancer|WB: RD|1",
+				"Cadence|Dancer|WB: RD|1",
+				"Fledgling’s Favorite|Dancer|WB: RD|2",
+				"Unarmored Defense|Dancer|WB: RD|2",
+				"Academy of Dance|Dancer|WB: RD|3",
 				{
-					"classFeature": "Academy of Dance Feature|Dancer|SRPDancer|3",
+					"classFeature": "Academy of Dance Feature|Dancer|WB: RD|3",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Dancer|SRPDancer|4",
-				"Fluttering Counterpart|Dancer|SRPDancer|5",
-				"Flutter Attack: Allies|Dancer|SRPDancer|5",
-				"Flutter Weapons: A Brief Overview|Dancer|SRPDancer|5",
-				"Counter-Curio|Dancer|SRPDancer|5",
-				"Vain Vivacity|Dancer|SRPDancer|6",
-				"Virtuoso's Vernacular|Dancer|SRPDancer|6",
+				"Ability Score Improvement|Dancer|WB: RD|4",
+				"Fluttering Counterpart|Dancer|WB: RD|5",
+				"Flutter Attack: Allies|Dancer|WB: RD|5",
+				"Flutter Weapons: A Brief Overview|Dancer|WB: RD|5",
+				"Counter-Curio|Dancer|WB: RD|5",
+				"Vain Vivacity|Dancer|WB: RD|6",
+				"Virtuoso's Vernacular|Dancer|WB: RD|6",
 				{
-					"classFeature": "Academy of Dance Feature|Dancer|SRPDancer|7",
+					"classFeature": "Academy of Dance Feature|Dancer|WB: RD|7",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Dancer|SRPDancer|8",
-				"Merry Visionary|Dancer|SRPDancer|9",
-				"Subtle Spectacle|Dancer|SRPDancer|10",
+				"Ability Score Improvement|Dancer|WB: RD|8",
+				"Merry Visionary|Dancer|WB: RD|9",
+				"Subtle Spectacle|Dancer|WB: RD|10",
 				{
-					"classFeature": "Academy of Dance Feature|Dancer|SRPDancer|11",
+					"classFeature": "Academy of Dance Feature|Dancer|WB: RD|11",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Dancer|SRPDancer|12",
-				"Tarantella Therapy|Dancer|SRPDancer|13",
-				"Set the Stage|Dancer|SRPDancer|14",
+				"Ability Score Improvement|Dancer|WB: RD|12",
+				"Tarantella Therapy|Dancer|WB: RD|13",
+				"Set the Stage|Dancer|WB: RD|14",
 				{
-					"classFeature": "Academy of Dance Feature|Dancer|SRPDancer|15",
+					"classFeature": "Academy of Dance Feature|Dancer|WB: RD|15",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Dancer|SRPDancer|16",
-				"Poise Destroys|Dancer|SRPDancer|17",
-				"Join the Jamboree|Dancer|SRPDancer|18",
-				"Guardian Samba|Dancer|SRPDancer|18",
-				"Flourish|Dancer|SRPDancer|18",
-				"Whirlwind|Dancer|SRPDancer|18",
-				"Para Para Parade|Dancer|SRPDancer|18",
-				"Curing Waltz|Dancer|SRPDancer|18",
-				"Ability Score Improvement|Dancer|SRPDancer|19",
-				"Roar of the Crowd|Dancer|SRPDancer|20"
+				"Ability Score Improvement|Dancer|WB: RD|16",
+				"Poise Destroys|Dancer|WB: RD|17",
+				"Join the Jamboree|Dancer|WB: RD|18",
+				"Guardian Samba|Dancer|WB: RD|18",
+				"Flourish|Dancer|WB: RD|18",
+				"Whirlwind|Dancer|WB: RD|18",
+				"Para Para Parade|Dancer|WB: RD|18",
+				"Curing Waltz|Dancer|WB: RD|18",
+				"Ability Score Improvement|Dancer|WB: RD|19",
+				"Roar of the Crowd|Dancer|WB: RD|20"
 			],
 			"subclassTitle": "Academy of Dance",
 			"subclasses": [
 				{
 					"name": "Academy of Divination",
 					"subclassFeatures": [
-						"Academy of Divination|Dancer|SRPDancer|Divination|SRPDancer|3",
-						"Auspicious Auspice|Dancer|SRPDancer|Divination|SRPDancer|7",
-						"Expect Eventualities|Dancer|SRPDancer|Divination|SRPDancer|11",
-						"Doomsayer and Messiah|Dancer|SRPDancer|Divination|SRPDancer|15"
+						"Academy of Divination|Dancer|WB: RD|Divination|WB: RD|3",
+						"Auspicious Auspice|Dancer|WB: RD|Divination|WB: RD|7",
+						"Expect Eventualities|Dancer|WB: RD|Divination|WB: RD|11",
+						"Doomsayer and Messiah|Dancer|WB: RD|Divination|WB: RD|15"
 					],
-					"source": "SRPDancer",
+					"source": "WB: RD",
 					"shortName": "Divination"
 				},
 				{
 					"name": "Academy of Dominion",
 					"subclassFeatures": [
-						"Academy of Dominion|Dancer|SRPDancer|Dominion|SRPDancer|3",
-						"Vain Vivacity Improvement|Dancer|SRPDancer|Dominion|SRPDancer|7",
-						"Unforgiving Competitor|Dancer|SRPDancer|Dominion|SRPDancer|7",
-						"Paso Doble Disarray|Dancer|SRPDancer|Dominion|SRPDancer|11",
-						"Miracle Maven|Dancer|SRPDancer|Dominion|SRPDancer|15"
+						"Academy of Dominion|Dancer|WB: RD|Dominion|WB: RD|3",
+						"Vain Vivacity Improvement|Dancer|WB: RD|Dominion|WB: RD|7",
+						"Unforgiving Competitor|Dancer|WB: RD|Dominion|WB: RD|7",
+						"Paso Doble Disarray|Dancer|WB: RD|Dominion|WB: RD|11",
+						"Miracle Maven|Dancer|WB: RD|Dominion|WB: RD|15"
 					],
-					"source": "SRPDancer",
+					"source": "WB: RD",
 					"shortName": "Dominion"
 				},
 				{
 					"name": "Academy of the Afterlife",
 					"subclassFeatures": [
-						"Academy of the Afterlife|Dancer|SRPDancer|Afterlife|SRPDancer|3",
-						"Veil of the Vale|Dancer|SRPDancer|Afterlife|SRPDancer|7",
-						"Spirit’s Serenity|Dancer|SRPDancer|Afterlife|SRPDancer|11",
-						"A Spirit’s Guide|Dancer|SRPDancer|Afterlife|SRPDancer|15"
+						"Academy of the Afterlife|Dancer|WB: RD|Afterlife|WB: RD|3",
+						"Veil of the Vale|Dancer|WB: RD|Afterlife|WB: RD|7",
+						"Spirit’s Serenity|Dancer|WB: RD|Afterlife|WB: RD|11",
+						"A Spirit’s Guide|Dancer|WB: RD|Afterlife|WB: RD|15"
 					],
-					"source": "SRPDancer",
+					"source": "WB: RD",
 					"shortName": "Afterlife"
 				},
 				{
 					"name": "Academy of Tranquility",
 					"subclassFeatures": [
-						"Academy of Tranquility|Dancer|SRPDancer|Tranquility|SRPDancer|3",
-						"Never Miss A Beat|Dancer|SRPDancer|Tranquility|SRPDancer|7",
-						"We Are One|Dancer|SRPDancer|Tranquility|SRPDancer|11",
-						"Timeless Comfort|Dancer|SRPDancer|Tranquility|SRPDancer|15"
+						"Academy of Tranquility|Dancer|WB: RD|Tranquility|WB: RD|3",
+						"Never Miss A Beat|Dancer|WB: RD|Tranquility|WB: RD|7",
+						"We Are One|Dancer|WB: RD|Tranquility|WB: RD|11",
+						"Timeless Comfort|Dancer|WB: RD|Tranquility|WB: RD|15"
 					],
-					"source": "SRPDancer",
+					"source": "WB: RD",
 					"shortName": "Tranquility"
 				}
 			]
@@ -490,7 +490,7 @@
 		{
 			"type": "optfeature",
 			"name": "Devilment",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Solo Steps"
@@ -510,7 +510,7 @@
 		{
 			"type": "optfeature",
 			"name": "Fan Dance",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Solo Steps"
@@ -530,7 +530,7 @@
 		{
 			"type": "optfeature",
 			"name": "Entrechat",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Solo Steps"
@@ -551,7 +551,7 @@
 		{
 			"type": "optfeature",
 			"name": "Emboite",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Solo Steps"
@@ -570,7 +570,7 @@
 		{
 			"type": "optfeature",
 			"name": "Improvisation",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Solo Steps"
@@ -590,7 +590,7 @@
 		{
 			"type": "optfeature",
 			"name": "En Avant",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Solo Steps"
@@ -609,7 +609,7 @@
 		{
 			"type": "optfeature",
 			"name": "Pirouette",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Solo Steps"
@@ -628,7 +628,7 @@
 		{
 			"type": "optfeature",
 			"name": "Jete",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Solo Steps"
@@ -648,7 +648,7 @@
 		{
 			"type": "optfeature",
 			"name": "Bloodshower",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Solo Steps"
@@ -669,7 +669,7 @@
 		{
 			"type": "optfeature",
 			"name": "Charming Waltz",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Solo Steps"
@@ -690,7 +690,7 @@
 		{
 			"type": "optfeature",
 			"name": "Cascade",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Solo Steps"
@@ -710,7 +710,7 @@
 		{
 			"type": "optfeature",
 			"name": "Reverse Cascade",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Solo Steps"
@@ -729,7 +729,7 @@
 		{
 			"type": "optfeature",
 			"name": "Closed Position",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Solo Steps"
@@ -749,7 +749,7 @@
 		{
 			"type": "optfeature",
 			"name": "Peloton",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Duet Steps"
@@ -770,7 +770,7 @@
 		{
 			"type": "optfeature",
 			"name": "Rising Challenge",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Duet Steps"
@@ -791,7 +791,7 @@
 		{
 			"type": "optfeature",
 			"name": "Saber Dance",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Duet Steps"
@@ -810,7 +810,7 @@
 		{
 			"type": "optfeature",
 			"name": "Slow Dance",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Duet Steps"
@@ -841,7 +841,7 @@
 		{
 			"type": "optfeature",
 			"name": "Witch Hunt",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Duet Steps"
@@ -862,7 +862,7 @@
 		{
 			"type": "optfeature",
 			"name": "Honest",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Duet Steps"
@@ -883,7 +883,7 @@
 		{
 			"type": "optfeature",
 			"name": "Mazurka Moratorium",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Duet Steps"
@@ -914,7 +914,7 @@
 		{
 			"type": "optfeature",
 			"name": "Mesmer",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Duet Steps"
@@ -934,7 +934,7 @@
 		{
 			"type": "optfeature",
 			"name": "Windmill Dance",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Duet Steps"
@@ -963,7 +963,7 @@
 		{
 			"type": "optfeature",
 			"name": "Quixotic Quebradita",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Duet Steps"
@@ -984,7 +984,7 @@
 		{
 			"type": "optfeature",
 			"name": "Rattlesnake Rumba",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Duet Steps"
@@ -1013,7 +1013,7 @@
 		{
 			"type": "optfeature",
 			"name": "Red Rover",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Duet Steps"
@@ -1035,7 +1035,7 @@
 		{
 			"type": "optfeature",
 			"name": "Seer’s Samba",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Duet Steps"
@@ -1056,7 +1056,7 @@
 		{
 			"type": "optfeature",
 			"name": "Shield Samba",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Duet Steps"
@@ -1076,7 +1076,7 @@
 		{
 			"type": "optfeature",
 			"name": "Nameless Dance",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Duet Steps"
@@ -1096,7 +1096,7 @@
 		{
 			"type": "optfeature",
 			"name": "Rejuvenating Spirit",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Duet Steps"
@@ -1125,7 +1125,7 @@
 		{
 			"type": "optfeature",
 			"name": "Troublesome Tourdion",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Duet Steps"
@@ -1154,7 +1154,7 @@
 		{
 			"type": "optfeature",
 			"name": "Last Waltz",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Duet Steps"
@@ -1175,7 +1175,7 @@
 		{
 			"type": "optfeature",
 			"name": "Disillusion",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 12,
 			"featureType": [
 				"Dancer Duet Steps"
@@ -1211,16 +1211,16 @@
 				"The two of them call for volunteers from the crowd, daring one and all to strike at their hearts, but magic defies the odds: no blade finds its mark. With great care, a custodian of paradise dances with death. Soon, the better half of an infamous duo will coerce wayward souls to partake in their performance.",
 				"A messenger of desire's pirouette will make her foes fall in love, and when the eccentric oracle's sway enlightens you, your fate is decided. Some live to entertain, some to be humane, and some for personal gain, but a dancer always serves others to an end. They use evocative movements to flutter their way through, savoring their audience all the while."
 			],
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"page": 1
 		}
 	],
 	"classFeature": [
 		{
 			"name": "Swaying Steps",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 1,
 			"entries": [
 				"Starting at 1st level, you've learned to rehearse steps—coordinated dance techniques for fighting with flair. These steps employ your personality and express your emotional moods to produce nigh-superhuman effects, as your outline visibly shimmers with an aura matching your soul.",
@@ -1239,9 +1239,9 @@
 		},
 		{
 			"name": "Lead and Follow",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 1,
 			"entries": [
 				"In order to stay in sync while performing a duet, you and your partner can expend movement from your respective subsequent turns to follow the other when they move on their turn. This allows both to move in the same direction. For instance, with a speed of 30, if you follow your partner 20 feet on their turn, you can move 10 feet on your next turn."
@@ -1249,9 +1249,9 @@
 		},
 		{
 			"name": "Step Duration and Conditions",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 1,
 			"entries": [
 				"A step's duration is the length of time you spend actively performing the step. You and your partners cannot perform steps while grappled, incapacitated, prone, or restrained. These conditions will end the effects of any step you are currently performing, except when you choose to go prone on your turn. At the start or end of any creature's turn, to end a step early, you or your partner can stop performing—no action required. Finally, unless a step says otherwise, you can perform multiple steps at the same time."
@@ -1259,9 +1259,9 @@
 		},
 		{
 			"name": "Cadence",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 1,
 			"entries": [
 				"Also starting at 1st level, from the thrill of a narrow escape, you begin to feel the rhythm of life. When an attack misses you, you can enchant your aura with cadence as a reaction, allowing you to hear patterns in the flow of a fight.",
@@ -1272,9 +1272,9 @@
 		},
 		{
 			"name": "Fledgling’s Favorite",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 2,
 			"entries": [
 				"There is always a duet that comes effortlessly, naturally, as though it chose you personally. Starting at 2nd level, you learn one of the following duets without it counting against your number of duet steps known: Witch Hunt, Honest, Windmill Dance, or Seer's Samba. You can perform this duet once per short or long rest without expending a tempo point."
@@ -1282,9 +1282,9 @@
 		},
 		{
 			"name": "Unarmored Defense",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 2,
 			"entries": [
 				"Even at the start of your training, your unpredictable gliding motions are a defensive asset: you mystify by never standing still.",
@@ -1293,9 +1293,9 @@
 		},
 		{
 			"name": "Academy of Dance",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 3,
 			"entries": [
 				"As a dancer, your partners, passions, and desires all drive you well enough; but one cannot live indecisively forever. Upon reaching 3rd level, you dedicate yourself to the teaching of one particular step academy that suits your role and your motivations: that of Divination, Dominion, the Afterlife, or of Tranquility.",
@@ -1304,9 +1304,9 @@
 		},
 		{
 			"name": "Academy of Dance Feature",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 3,
 			"entries": [
 				"At 3rd level, you gain a feature granted by your Academy of Dance."
@@ -1314,9 +1314,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 4,
 			"entries": [
 				"When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1325,20 +1325,20 @@
 		},
 		{
 			"name": "Fluttering Counterpart",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 5,
 			"entries": [
-				"By 5th level, you can expertly control unconventional weapons, ensuring that they smoothly accompany your practiced paces. Of the {@filter flutter weapons|items|source=SRPDancer} detailed below, choose three. You gain proficiency with them. When you use your action to perform a step, or to simply dance, you can use your bonus action to make one attack using a flutter weapon that you're proficient with—a flutter attack.",
+				"By 5th level, you can expertly control unconventional weapons, ensuring that they smoothly accompany your practiced paces. Of the {@filter flutter weapons|items|source=WB: RD} detailed below, choose three. You gain proficiency with them. When you use your action to perform a step, or to simply dance, you can use your bonus action to make one attack using a flutter weapon that you're proficient with—a flutter attack.",
 				"All flutter weapons have the finesse property, as you incorporate them into your art. Each weapon description also details the effects of a special aura property which can only be used if you are proficient with the weapon. When you use a flutter weapon’s aura property, you forgo your damage to that creature, instead using the force of your persona to apply an effect."
 			]
 		},
 		{
 			"name": "Flutter Attack: Allies",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 5,
 			"entries": [
 				"When you target yourself with an attack, you can allow it to hit automatically. Similarly, during any duet, whenever you or a willing partner targets one other with an attack, the target can allow it to hit automatically.",
@@ -1347,9 +1347,9 @@
 		},
 		{
 			"name": "Flutter Weapons: A Brief Overview",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 5,
 			"entries": [
 				"All dancers have an eye for what suits them, and proficiency with a flutter weapon makes it more than a mere tool: each is an extension of yourself. They often have lucid patterns which transition to embody your mood, visibly displaying your emotions.",
@@ -1359,9 +1359,9 @@
 		},
 		{
 			"name": "Counter-Curio",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 5,
 			"entries": [
 				"Also at 5th level, you can enchant mementos with protective magic. By spending 30 minutes immersing yourself in the aura of a willing helper, you can create an accessory with the ability to safeguard its wearer from one spell that your helper is able to cast. You can only have one Counter-Curio active at a time.",
@@ -1371,9 +1371,9 @@
 		},
 		{
 			"name": "Vain Vivacity",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 6,
 			"entries": [
 				"Starting at 6th level, you've become addicted to appreciation. Whenever one of your duets ends, either you or your partner can attempt to convince the other that their performance was a perfect 10. The recipient of praise gains {@dice 1d10} + your Charisma modifier temporary hit points, whereas the praiser can add a {@dice 1d10} to their initiative rolls next combat. A creature cannot stack the initiative benefits of Vain Vivacity."
@@ -1381,9 +1381,9 @@
 		},
 		{
 			"name": "Virtuoso's Vernacular",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 6,
 			"entries": [
 				"Also at 6th level, perfection comes naturally to you. Choose one skill you're proficient with. Your proficiency bonus is doubled for any ability check you make that uses the chosen proficiency. Additionally, whenever you roll a 16 or higher on an ability check using this skill, you can treat the roll as a 20.",
@@ -1392,9 +1392,9 @@
 		},
 		{
 			"name": "Academy of Dance Feature",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 7,
 			"entries": [
 				"At 7th level, you gain a feature granted by your Academy of Dance."
@@ -1402,9 +1402,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 8,
 			"entries": [
 				"When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1413,9 +1413,9 @@
 		},
 		{
 			"name": "Merry Visionary",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 9,
 			"entries": [
 				"Starting at 9th level, with every step taken together, a sensation is left in your wake. Imagination meets reality—stories come to life.",
@@ -1426,9 +1426,9 @@
 		},
 		{
 			"name": "Subtle Spectacle",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 10,
 			"entries": [
 				"Starting at 10th level, the melodic swirling of your soul is even-keeled and oddly prosodic, as you've mastered the art's hidden habitudes.",
@@ -1437,9 +1437,9 @@
 		},
 		{
 			"name": "Academy of Dance Feature",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 11,
 			"entries": [
 				"At 11th level, you gain a feature granted by your Academy of Dance."
@@ -1447,9 +1447,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 12,
 			"entries": [
 				"When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1458,9 +1458,9 @@
 		},
 		{
 			"name": "Tarantella Therapy",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 13,
 			"entries": [
 				"Starting at 13th level, you tend to avoid inactivity. Whenever you are taking a short rest, you can involve any number of willing partners in an upbeat, spry dance.",
@@ -1470,9 +1470,9 @@
 		},
 		{
 			"name": "Set the Stage",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 14,
 			"entries": [
 				"Starting at 14th level, you discover that scenery is key for sentiment. You can cast the {@spell mirage arcane} spell once per long rest with the following restriction: you can only use this spell to create or alter a single structure, such as a theater, an arena, a carnival tent, or a shrine.",
@@ -1481,9 +1481,9 @@
 		},
 		{
 			"name": "Academy of Dance Feature",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 15,
 			"entries": [
 				"At 15th level, you gain a feature granted by your Academy of Dance."
@@ -1491,9 +1491,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 16,
 			"entries": [
 				"When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1502,9 +1502,9 @@
 		},
 		{
 			"name": "Poise Destroys",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 17,
 			"entries": [
 				"Starting at 17th level, your mystique is truly distracting: enemies can't take their eyes off you. At the start of combat, when a hostile creature rolls a check in order to determine their place in the initiative order, they do so at disadvantage if they are within 30 feet of you and can see you."
@@ -1512,9 +1512,9 @@
 		},
 		{
 			"name": "Join the Jamboree",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 18,
 			"entries": [
 				"Starting at 18th level, your love for stirring the flow of battle manifests itself in revelry. You learn the routine of a single group step from the five listed below, and can begin performing it once per long rest as an action or a bonus action.",
@@ -1525,9 +1525,9 @@
 		},
 		{
 			"name": "Guardian Samba",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 18,
 			"entries": [
 				"Anyone performing this dance can choose to grant three-quarters cover to an ally within 5 feet of them (no economy required) by enveloping the ally in their aura.",
@@ -1536,9 +1536,9 @@
 		},
 		{
 			"name": "Flourish",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 18,
 			"entries": [
 				"Any creature who is critically hit by a creature performing this dance becomes frightened of you and other creatures under the effects of Flourish until the end of their turn."
@@ -1546,9 +1546,9 @@
 		},
 		{
 			"name": "Whirlwind",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 18,
 			"entries": [
 				"At the start and end of a creature who is performing this dance’s turn, that creature can move 5 feet in any direction without expending movement."
@@ -1556,9 +1556,9 @@
 		},
 		{
 			"name": "Para Para Parade",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 18,
 			"entries": [
 				"Whenever a creature not performing this dance starts its turn within 5 feet of a Para Para dancer, that creature must make a Wisdom saving throw against your step save DC. On a failed save, that creature is placed under the effect of the irresistible dance spell until the end of its next turn with the following restriction: a target cannot attempt to end the dance as an action."
@@ -1566,9 +1566,9 @@
 		},
 		{
 			"name": "Curing Waltz",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 18,
 			"entries": [
 				"Whenever an ally performing this dance uses an action, bonus action, or reaction to restore the hit points of another creature, their target regains an additional {@dice 1d12} hit points."
@@ -1576,9 +1576,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 19,
 			"entries": [
 				"When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1587,9 +1587,9 @@
 		},
 		{
 			"name": "Roar of the Crowd",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"level": 20,
 			"entries": [
 				"Starting at 20th level, you can fully channel the energy of attention. Once per long rest, when you conjure an illusion using Merry Visionary, you can encourage masses of people, fueling their hearts with splendor and encouraging the struggle against their plight as they rise into battle alongside you.",
@@ -1600,31 +1600,31 @@
 	"subclassFeature": [
 		{
 			"name": "Academy of Divination",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Divination",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 3,
 			"entries": [
 				"Those who practice farsight tend to seek definitive answers wherever they go, but Soothsayers act on intuition. All around them are widespread strings of correlation, causation, and potentiality; everyone has a role to play in their schemes. In this style, your interest in creating your own truths grants you control over fate, and you demand a grand destiny.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Sympathetic Sight|Dancer|SRPDancer|Divination|SRPDancer|3"
+					"subclassFeature": "Sympathetic Sight|Dancer|WB: RD|Divination|WB: RD|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oscillating Ornithomancy|Dancer|SRPDancer|Divination|SRPDancer|3"
+					"subclassFeature": "Oscillating Ornithomancy|Dancer|WB: RD|Divination|WB: RD|3"
 				}
 			]
 		},
 		{
 			"name": "Sympathetic Sight",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Divination",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 3,
 			"entries": [
 				"Starting at 3rd level, you can see signs of the world's potential. Before a long rest, you can name a creature and dream vaguely of their possibilities. Then, over the course of a short rest, you can teach them one skill, weapon, or tool proficiency by explaining how they acted in your dreams.",
@@ -1635,11 +1635,11 @@
 		},
 		{
 			"name": "Oscillating Ornithomancy",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Divination",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 3,
 			"entries": [
 				"Also at 3rd level, you know not to let your flighty chance escape you. Whenever you begin a duet step, you can conjure an aura boomerang and toss it at a Large or smaller creature or unrestrained object within 30 feet of you.",
@@ -1649,11 +1649,11 @@
 		},
 		{
 			"name": "Auspicious Auspice",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Divination",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -1673,11 +1673,11 @@
 		},
 		{
 			"name": "Expect Eventualities",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Divination",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -1687,11 +1687,11 @@
 		},
 		{
 			"name": "Doomsayer and Messiah",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Divination",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -1701,31 +1701,31 @@
 		},
 		{
 			"name": "Academy of Dominion",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Dominion",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 3,
 			"entries": [
 				"There are those who see the art as a more one-sided af air— some venerated practitioners perform purely for their own pleasure. Dervishes are warriors who worship themselves, finding rapture in utterly destroying their partners, as every step brings them closer to eminence. In this style, seeking perfect enlightenment through the trance of each dance, the power you rightfully wield can conquer all.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Authoritarian Pluck|Dancer|SRPDancer|Dominion|SRPDancer|3"
+					"subclassFeature": "Authoritarian Pluck|Dancer|WB: RD|Dominion|WB: RD|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Domination of Will|Dancer|SRPDancer|Dominion|SRPDancer|3"
+					"subclassFeature": "Domination of Will|Dancer|WB: RD|Dominion|WB: RD|3"
 				}
 			]
 		},
 		{
 			"name": "Authoritarian Pluck",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Dominion",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 3,
 			"entries": [
 				"Starting at 3rd level, you begin to traverse a road of ruthless purpose, and obstacles are mere stepping stones for you. You gain proficiency with martial weapons, and you have advantage on all Constitution saving throws made to maintain your concentration on cadence.",
@@ -1734,11 +1734,11 @@
 		},
 		{
 			"name": "Domination of Will",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Dominion",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 3,
 			"entries": [
 				"Also at 3rd level, choose one of the following talents to add to your repertoire:",
@@ -1782,11 +1782,11 @@
 		},
 		{
 			"name": "Vain Vivacity Improvement",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Dominion",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -1795,11 +1795,11 @@
 		},
 		{
 			"name": "Unforgiving Competitor",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Dominion",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -1808,11 +1808,11 @@
 		},
 		{
 			"name": "Paso Doble Disarray",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Dominion",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -1822,11 +1822,11 @@
 		},
 		{
 			"name": "Miracle Maven",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Dominion",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -1837,21 +1837,21 @@
 		},
 		{
 			"name": "Academy of the Afterlife",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Afterlife",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 3,
 			"entries": [
 				"Few possess the sense to escort lost, aimless souls and help them pass on without being possessed themselves. As a student of the Academy of the Afterlife, you send creatures to wherever they belong, using trickery or compassion as necessary. This style uses shamanic services to redeem even the most hapless spirits, seeking out sorrows and helping bring ease to transitional phases, acting as a conciliating guardian.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Smile with the Faceless|Dancer|SRPDancer|Afterlife|SRPDancer|3"
+					"subclassFeature": "Smile with the Faceless|Dancer|WB: RD|Afterlife|WB: RD|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Inverted Bond|Dancer|SRPDancer|Afterlife|SRPDancer|3"
+					"subclassFeature": "Inverted Bond|Dancer|WB: RD|Afterlife|WB: RD|3"
 				}
 			]
 		},
@@ -1862,11 +1862,11 @@
 				"The maximum range of this mist increases to 60 feet at 7th level, 90 feet at 11th level, and 120 feet at 15th level. While you are conscious, you can always sense the exact number of Small or larger creatures within this mist, though you cannot sense their location—only their presence.",
 				"Furthermore, your nonjudgmental nature affords you new opportunities. Whenever a creature not native to your current plane, a spirit of the dead, or an undead creature enters your mist, it must make a Charisma saving throw equal to your step save DC. On a failed save, until it exits your mist's radius, or until it witnesses you personally harming it or its compatriots, the creature becomes charmed by you, seeing you as its potential savior."
 			],
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Afterlife",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 3,
 			"header": 1
 		},
@@ -1875,21 +1875,21 @@
 			"entries": [
 				"Also at 3rd level, you and your partner grace every locale with the rise of a fall. Each time you begin a duet, you can use your bonus action to bind a partner's soul to your own, putting them under the effect of the warding bond spell. This effect lasts until you bind yourself to a different creature, or until the spell's ending conditions are met. This effect instantly ends if either you or your bound partner are grappled, incapacitated, or restrained."
 			],
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Afterlife",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 3,
 			"header": 1
 		},
 		{
 			"name": "Veil of the Vale",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Afterlife",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -1900,11 +1900,11 @@
 		},
 		{
 			"name": "Spirit’s Serenity",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Afterlife",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -1916,11 +1916,11 @@
 		},
 		{
 			"name": "A Spirit’s Guide",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Afterlife",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -1931,21 +1931,21 @@
 		},
 		{
 			"name": "Academy of Tranquility",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Tranquility",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 3,
 			"entries": [
 				"Life with a student from the Academy of Tranquility is like an oasis of heartwarming af ection, bliss, and unquestionable safety. Those of this path are inclined not to pay any attention to their environment. Their gaze lies solely on their partners, and their desire to protect and serve those they hold dear is intense. In this style, you play the role of a doting caretaker.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Overbearing Ward|Dancer|SRPDancer|Tranquility|SRPDancer|3"
+					"subclassFeature": "Overbearing Ward|Dancer|WB: RD|Tranquility|WB: RD|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Jubilant Reminiscence|Dancer|SRPDancer|Tranquility|SRPDancer|3"
+					"subclassFeature": "Jubilant Reminiscence|Dancer|WB: RD|Tranquility|WB: RD|3"
 				}
 			]
 		},
@@ -1956,11 +1956,11 @@
 				"In addition, once per turn, you and your confidant can convey a single thought, idea, or emotion of up to ten words in length to the other by making a particular gesture, moving an object in a certain way, giving the other a meaningful look, or making a distinct sound. Furthermore, you and your confidant can both cast {@spell detect thoughts} at-will, no action required, but you can only target each other. You can choose to fail each other's probing saving throws. This spell uses your step save DC.",
 				"Finally, so long as you are on the same plane of existence as your confidant, you are aware of each other’s presence and can sense their exact location relative to you by visualizing their aura when you close your eyes. While you are doing this, you can tell if their body language is trying to convey a thought to you, but you cannot make out their surroundings."
 			],
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Tranquility",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 3,
 			"header": 1
 		},
@@ -1969,21 +1969,21 @@
 			"entries": [
 				"Also at 3rd level, your support takes on a sweeter, more nurturing tone, and every dance is an idyllic reverie. Whenever one of your duets ends, salubrious waters wrap around either you or your partner, as your chosen recipient immediately regains hit points equal to {@dice 1d10} + half your Dancer level (rounded down)."
 			],
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Tranquility",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 3,
 			"header": 1
 		},
 		{
 			"name": "Never Miss A Beat",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Tranquility",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -1993,11 +1993,11 @@
 		},
 		{
 			"name": "We Are One",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Tranquility",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -2040,11 +2040,11 @@
 		},
 		{
 			"name": "Timeless Comfort",
-			"source": "SRPDancer",
+			"source": "WB: RD",
 			"className": "Dancer",
-			"classSource": "SRPDancer",
+			"classSource": "WB: RD",
 			"subclassShortName": "Tranquility",
-			"subclassSource": "SRPDancer",
+			"subclassSource": "WB: RD",
 			"level": 15,
 			"header": 2,
 			"entries": [

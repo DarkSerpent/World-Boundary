@@ -243,88 +243,88 @@
 				}
 			],
 			"classFeatures": [
-				"Chemistry|Apothecary|SRPApothecary|1",
-				"Practiced Handler|Apothecary|SRPApothecary|1",
-				"Apothecary Study|Apothecary|SRPApothecary|2",
-				"Reagents|Apothecary|SRPApothecary|2",
+				"Chemistry|Apothecary|WB: RD|1",
+				"Practiced Handler|Apothecary|WB: RD|1",
+				"Apothecary Study|Apothecary|WB: RD|2",
+				"Reagents|Apothecary|WB: RD|2",
 				{
-					"classFeature": "Study|Apothecary|SRPApothecary|2",
+					"classFeature": "Study|Apothecary|WB: RD|2",
 					"gainSubclassFeature": true
 				},
-				"Expertise|Apothecary|SRPApothecary|3",
-				"Ability Score Improvement|Apothecary|SRPApothecary|4",
-				"Improved Concoctions|Apothecary|SRPApothecary|5",
-				"Magic-Infused Bombs|Apothecary|SRPApothecary|6",
+				"Expertise|Apothecary|WB: RD|3",
+				"Ability Score Improvement|Apothecary|WB: RD|4",
+				"Improved Concoctions|Apothecary|WB: RD|5",
+				"Magic-Infused Bombs|Apothecary|WB: RD|6",
 				{
-					"classFeature": "Study|Apothecary|SRPApothecary|6",
+					"classFeature": "Study|Apothecary|WB: RD|6",
 					"gainSubclassFeature": true
 				},
-				"Elemental Concoction|Apothecary|SRPApothecary|7",
-				"Ability Score Improvement|Apothecary|SRPApothecary|8",
-				"Hardiness|Apothecary|SRPApothecary|9",
+				"Elemental Concoction|Apothecary|WB: RD|7",
+				"Ability Score Improvement|Apothecary|WB: RD|8",
+				"Hardiness|Apothecary|WB: RD|9",
 				{
-					"classFeature": "Study|Apothecary|SRPApothecary|10",
+					"classFeature": "Study|Apothecary|WB: RD|10",
 					"gainSubclassFeature": true
 				},
-				"Expedited Aromatherapy|Apothecary|SRPApothecary|11",
-				"Ability Score Improvement|Apothecary|SRPApothecary|12",
+				"Expedited Aromatherapy|Apothecary|WB: RD|11",
+				"Ability Score Improvement|Apothecary|WB: RD|12",
 				{
-					"classFeature": "Study|Apothecary|SRPApothecary|13",
+					"classFeature": "Study|Apothecary|WB: RD|13",
 					"gainSubclassFeature": true
 				},
-				"Performance Enhancers|Apothecary|SRPApothecary|14",
+				"Performance Enhancers|Apothecary|WB: RD|14",
 				{
-					"classFeature": "Study|Apothecary|SRPApothecary|15",
+					"classFeature": "Study|Apothecary|WB: RD|15",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Apothecary|SRPApothecary|16",
-				"Elemental Perfection|Apothecary|SRPApothecary|17",
+				"Ability Score Improvement|Apothecary|WB: RD|16",
+				"Elemental Perfection|Apothecary|WB: RD|17",
 				{
-					"classFeature": "Study|Apothecary|SRPApothecary|18",
+					"classFeature": "Study|Apothecary|WB: RD|18",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Apothecary|SRPApothecary|19",
-				"Master Apothecary|Apothecary|SRPApothecary|20"
+				"Ability Score Improvement|Apothecary|WB: RD|19",
+				"Master Apothecary|Apothecary|WB: RD|20"
 			],
 			"subclassTitle": "Study",
 			"subclasses": [
 				{
 					"name": "Study of the Doctor",
 					"subclassFeatures": [
-						"Study of the Doctor|Apothecary|SRPApothecary|Doctor|SRPApothecary|2",
-						"Tincture of Curing|Apothecary|SRPApothecary|Doctor|SRPApothecary|6",
-						"Numbing Tincture|Apothecary|SRPApothecary|Doctor|SRPApothecary|10",
-						"Anti-Magic Innoculation|Apothecary|SRPApothecary|Doctor|SRPApothecary|13",
-						"Clarifying Dose|Apothecary|SRPApothecary|Doctor|SRPApothecary|15",
-						"Infusion of Life|Apothecary|SRPApothecary|Doctor|SRPApothecary|18"
+						"Study of the Doctor|Apothecary|WB: RD|Doctor|WB: RD|2",
+						"Tincture of Curing|Apothecary|WB: RD|Doctor|WB: RD|6",
+						"Numbing Tincture|Apothecary|WB: RD|Doctor|WB: RD|10",
+						"Anti-Magic Innoculation|Apothecary|WB: RD|Doctor|WB: RD|13",
+						"Clarifying Dose|Apothecary|WB: RD|Doctor|WB: RD|15",
+						"Infusion of Life|Apothecary|WB: RD|Doctor|WB: RD|18"
 					],
-					"source": "SRPApothecary",
+					"source": "WB: RD",
 					"shortName": "Doctor"
 				},
 				{
 					"name": "Study of the Grenadier",
 					"subclassFeatures": [
-						"Study of the Grenadier|Apothecary|SRPApothecary|Grenadier|SRPApothecary|2",
-						"Concussive Bombs|Apothecary|SRPApothecary|Grenadier|SRPApothecary|6",
-						"Smoke Bomb|Apothecary|SRPApothecary|Grenadier|SRPApothecary|10",
-						"Sticky Concoction|Apothecary|SRPApothecary|Grenadier|SRPApothecary|13",
-						"Remote Charges|Apothecary|SRPApothecary|Grenadier|SRPApothecary|15",
-						"Prismatic Bomb|Apothecary|SRPApothecary|Grenadier|SRPApothecary|18"
+						"Study of the Grenadier|Apothecary|WB: RD|Grenadier|WB: RD|2",
+						"Concussive Bombs|Apothecary|WB: RD|Grenadier|WB: RD|6",
+						"Smoke Bomb|Apothecary|WB: RD|Grenadier|WB: RD|10",
+						"Sticky Concoction|Apothecary|WB: RD|Grenadier|WB: RD|13",
+						"Remote Charges|Apothecary|WB: RD|Grenadier|WB: RD|15",
+						"Prismatic Bomb|Apothecary|WB: RD|Grenadier|WB: RD|18"
 					],
-					"source": "SRPApothecary",
+					"source": "WB: RD",
 					"shortName": "Grenadier"
 				},
 				{
 					"name": "Study of the Poisoner",
 					"subclassFeatures": [
-						"Study of the Poisoner|Apothecary|SRPApothecary|Poisoner|SRPApothecary|2",
-						"Caustic Poisons|Apothecary|SRPApothecary|Poisoner|SRPApothecary|6",
-						"Hallucinating Toxin|Apothecary|SRPApothecary|Poisoner|SRPApothecary|10",
-						"Virulent Poison|Apothecary|SRPApothecary|Poisoner|SRPApothecary|13",
-						"Magebane Poison|Apothecary|SRPApothecary|Poisoner|SRPApothecary|15",
-						"Poison of Death|Apothecary|SRPApothecary|Poisoner|SRPApothecary|18"
+						"Study of the Poisoner|Apothecary|WB: RD|Poisoner|WB: RD|2",
+						"Caustic Poisons|Apothecary|WB: RD|Poisoner|WB: RD|6",
+						"Hallucinating Toxin|Apothecary|WB: RD|Poisoner|WB: RD|10",
+						"Virulent Poison|Apothecary|WB: RD|Poisoner|WB: RD|13",
+						"Magebane Poison|Apothecary|WB: RD|Poisoner|WB: RD|15",
+						"Poison of Death|Apothecary|WB: RD|Poisoner|WB: RD|18"
 					],
-					"source": "SRPApothecary",
+					"source": "WB: RD",
 					"shortName": "Poisoner"
 				}
 			]
@@ -333,12 +333,13 @@
 	"classFeature": [
 		{
 			"name": "Chemistry",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 1,
 			"entries": [
-				"At 1st level, you learn how to create a variety of chemical concoctions. You develop the formulae and can make the following concoctions: painkillers, poisons, bombs, and incense. If a feature requires a save, it uses the Apothecary save DC, calculated as follows: Apothecary save DC = 8 + your proficiency bonus + your Intelligence modifier.",
+				"At 1st level, you learn how to create a variety of chemical concoctions. You develop the formulae and can make the following concoctions: painkillers, poisons, bombs, and incense. If a feature requires a save, it uses the Apothecary save DC, calculated as follows:",
+				"<center>{@bold Apothecary save DC} = 8 + your proficiency bonus + your Intelligence modifier</center>",
 				"Each concoction begins with a Concoction dice equal to {@dice 1d4}. The amount of Concoction die increases as you gain levels in this class, as shown in the Concoction Die column of the Apothecary table. Additionally, to use any concoction, you need a free hand, and access to your respective tools for your reagents. Finally, if a class feature requires a spellcasting ability modifier, your spellcasting ability modifier for those spells is Intelligence.",
 				{
 					"type": "entries",
@@ -372,9 +373,9 @@
 		},
 		{
 			"name": "Practiced Handler",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 1,
 			"entries": [
 				"Your swift motions with assembling concoctions let you deliver quick blows and operate nimbly under pressure.",
@@ -384,9 +385,9 @@
 		},
 		{
 			"name": "Apothecary Study",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 2,
 			"entries": [
 				"When you reach 2nd level, you have learned how to perfect one of your concoctions. You choose an Apothecary Study, either Study of the Doctor, Study of the Grenadier, or Study of the Poisoner. Your choice grants you features at 2nd level and again at 6th, 10th, 13th, 15th, and 18th level."
@@ -394,9 +395,9 @@
 		},
 		{
 			"name": "Study",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 2,
 			"entries": [
 				"At 2nd level, you gain a feature granted by your Study."
@@ -404,9 +405,9 @@
 		},
 		{
 			"name": "Reagents",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 2,
 			"entries": [
 				"At 2nd level, you prepare exotic and unstable material for expedited use to enhance your concoctions. You have 2 reagent points, and you gain one additional point every time you level up, to a maximum of 20 at level 20. You can spend reagent points on multiple features for the same concoction unless a feature says otherwise. You regain all spent reagent points when you finish a short or long rest."
@@ -414,9 +415,9 @@
 		},
 		{
 			"name": "Expertise",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 3,
 			"entries": [
 				"At 3rd level, choose two of your class' skill proficiencies or artisan's tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
@@ -425,9 +426,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 4,
 			"entries": [
 				"When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -436,9 +437,9 @@
 		},
 		{
 			"name": "Improved Concoctions",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 5,
 			"entries": [
 				"At 5th level, you have refined your ingredients of your concoctions enhancing their maximum effectiveness. You add your Intelligence modifier to your Concoction die rolls."
@@ -446,9 +447,9 @@
 		},
 		{
 			"name": "Magic-Infused Bombs",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 6,
 			"entries": [
 				"Starting at 6th level, your bombs count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
@@ -456,9 +457,9 @@
 		},
 		{
 			"name": "Study",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 6,
 			"entries": [
 				"At 6th level, you gain a feature granted by your Study."
@@ -466,9 +467,9 @@
 		},
 		{
 			"name": "Elemental Concoction",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 7,
 			"entries": [
 				"By 7th level you have discovered techniques used to harness the elemental essences of rare ingredients. You can spend 1 reagent point to grant an elemental boost to your concoctions.",
@@ -477,9 +478,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 8,
 			"entries": [
 				"When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -488,9 +489,9 @@
 		},
 		{
 			"name": "Hardiness",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 9,
 			"entries": [
 				"Beginning at 9th level, your practice with unstable concoctions has given you natural protections against certain effects, such as a white dragon's freezing breath or a blight spell. If you are subjected to an effect that allows you to make a Constitution saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
@@ -498,9 +499,9 @@
 		},
 		{
 			"name": "Study",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 10,
 			"entries": [
 				"At 10th level, you gain a feature granted by your Study."
@@ -508,9 +509,9 @@
 		},
 		{
 			"name": "Expedited Aromatherapy",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 11,
 			"entries": [
 				"At 11th level, you've learned to combine scents in such a way that it becomes possible to expedite your allies' strength in a more potent and effective way.",
@@ -519,9 +520,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 12,
 			"entries": [
 				"When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -530,9 +531,9 @@
 		},
 		{
 			"name": "Study",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 13,
 			"entries": [
 				"At 13th level, you gain a feature granted by your Study."
@@ -540,9 +541,9 @@
 		},
 		{
 			"name": "Performance Enhancers",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 14,
 			"entries": [
 				"By 14th level, you have discovered drugs that improve the capabilities and limits of your body and mind. When you finish a short or long rest you can choose one ability score for either yourself or an ally. That ability score increases by 2 for the target, but cannot raise an ability score past 30, until you complete a long rest."
@@ -550,9 +551,9 @@
 		},
 		{
 			"name": "Study",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 15,
 			"entries": [
 				"At 15th level, you gain a feature granted by your Study."
@@ -560,9 +561,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 16,
 			"entries": [
 				"When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -571,9 +572,9 @@
 		},
 		{
 			"name": "Elemental Perfection",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 17,
 			"entries": [
 				"At 17th level you have perfected the techniques used to extract the essence of rare ingredients. Whenever you create an elemental concoction, it gains added benefits. If it was a poison or bomb, your Concoction die increases by {@dice 2d4}. If it was an incense or painkiller, one target gains resistance to that damage type for 3 rounds."
@@ -581,9 +582,9 @@
 		},
 		{
 			"name": "Study",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 18,
 			"entries": [
 				"At 18th level, you gain a feature granted by your Study."
@@ -591,9 +592,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 19,
 			"entries": [
 				"When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -602,9 +603,9 @@
 		},
 		{
 			"name": "Master Apothecary",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"level": 20,
 			"entries": [
 				"When you reach 20th level, you have achieved the peak of intellectual studies, and have perfected all forms of chemistry, creating effective mixtures of all concoctions while sacrificing little in terms specialization. Choose an Apothecary Study other than the one you choose through your feature. You gain the 2nd and 6th level benefits of that Study. You use these features as if you were a 7th level apothecary."
@@ -614,31 +615,31 @@
 	"subclassFeature": [
 		{
 			"name": "Study of the Doctor",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Doctor",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 2,
 			"entries": [
 				"A doctor is one who uses his chemical gifts for good, helping all who are injured or sick. Doctors are always looked upon as valuable assets.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Healthy Body|Apothecary|SRPApothecary|Doctor|SRPApothecary|2"
+					"subclassFeature": "Healthy Body|Apothecary|WB: RD|Doctor|WB: RD|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Lingering Drugs|Apothecary|SRPApothecary|Doctor|SRPApothecary|2"
+					"subclassFeature": "Lingering Drugs|Apothecary|WB: RD|Doctor|WB: RD|2"
 				}
 			]
 		},
 		{
 			"name": "Healthy Body",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Doctor",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 2,
 			"entries": [
 				"When you reach 2nd level, your practices lead your body to perfect health. You are immune to all diseases, and your hit point maximum increases by 2, and it increases by 1 again whenever you gain a level in this class."
@@ -646,11 +647,11 @@
 		},
 		{
 			"name": "Lingering Drugs",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Doctor",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 2,
 			"entries": [
 				"At 2nd level, you have learned to increase the duration of your painkillers. When you use your painkiller concoction, you can spend 1 reagent point to give it a lingering effect. The target of the concoction does not lose the temporary hit points gained from the painkiller at the end of its duration. Additionally, your painkillers heal the chosen creature for an amount of hit points equal to your Intelligence modifier.",
@@ -659,11 +660,11 @@
 		},
 		{
 			"name": "Tincture of Curing",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Doctor",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -673,11 +674,11 @@
 		},
 		{
 			"name": "Numbing Tincture",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Doctor",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -686,11 +687,11 @@
 		},
 		{
 			"name": "Anti-Magic Innoculation",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Doctor",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 13,
 			"header": 2,
 			"entries": [
@@ -699,11 +700,11 @@
 		},
 		{
 			"name": "Clarifying Dose",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Doctor",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -712,11 +713,11 @@
 		},
 		{
 			"name": "Infusion of Life",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Doctor",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -725,31 +726,31 @@
 		},
 		{
 			"name": "Study of the Grenadier",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Grenadier",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 2,
 			"entries": [
 				"A grenadier is often considered a demolitions expert, and at worst can be considered an arsonist, but in reality they are simply able to mix ingredients which become unstable within their confines, namely bomb shells. Grenadiers are the most diverse apothecaries, sometimes serving in armies, supplying explosives for soldiers, or serving as guides for mining expeditions, blasting away debris.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Napalm Filling|Apothecary|SRPApothecary|Grenadier|SRPApothecary|2"
+					"subclassFeature": "Napalm Filling|Apothecary|WB: RD|Grenadier|WB: RD|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Shaped Charges|Apothecary|SRPApothecary|Grenadier|SRPApothecary|2"
+					"subclassFeature": "Shaped Charges|Apothecary|WB: RD|Grenadier|WB: RD|2"
 				}
 			]
 		},
 		{
 			"name": "Napalm Filling",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Grenadier",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 2,
 			"entries": [
 				"At 2nd level, you discover a formulae for a new sticky slow burning fuel to fill in your grenades. When you use your bomb concoction you can spend 1 reagent point to make it leave a 5-foot radius of lingering flames for three rounds. Any creature that starts its turn in the flames or enters the flames for the first time on its turn takes fire damage equal to your Intelligence modifier.",
@@ -758,11 +759,11 @@
 		},
 		{
 			"name": "Shaped Charges",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Grenadier",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 2,
 			"entries": [
 				"At 2nd level, a grenadier learns to shape the blasts of his bombs to better catch his foes, and around his allies. When you use your bomb concoction you can spend 1 reagent point to make it deal half damage on a successful save instead of none.",
@@ -771,11 +772,11 @@
 		},
 		{
 			"name": "Concussive Bombs",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Grenadier",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -784,11 +785,11 @@
 		},
 		{
 			"name": "Smoke Bomb",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Grenadier",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -797,11 +798,11 @@
 		},
 		{
 			"name": "Sticky Concoction",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Grenadier",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 13,
 			"header": 2,
 			"entries": [
@@ -811,11 +812,11 @@
 		},
 		{
 			"name": "Remote Charges",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Grenadier",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -833,11 +834,11 @@
 		},
 		{
 			"name": "Prismatic Bomb",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Grenadier",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -847,25 +848,25 @@
 		},
 		{
 			"name": "Study of the Poisoner",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Poisoner",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 2,
 			"entries": [
 				"A poisoner is typically found within the company of thieves and those who focus on subterfuge and trickery. A poisoner is no stranger to the black market, and even the most straight individual will find themselves purchasing rare ingredients from shady fellows.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Poison Sheath|Apothecary|SRPApothecary|Poisoner|SRPApothecary|2"
+					"subclassFeature": "Poison Sheath|Apothecary|WB: RD|Poisoner|WB: RD|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Deblitating Poison|Apothecary|SRPApothecary|Poisoner|SRPApothecary|2"
+					"subclassFeature": "Deblitating Poison|Apothecary|WB: RD|Poisoner|WB: RD|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Lingering Poison|Apothecary|SRPApothecary|Poisoner|SRPApothecary|2"
+					"subclassFeature": "Lingering Poison|Apothecary|WB: RD|Poisoner|WB: RD|2"
 				}
 			]
 		},
@@ -874,11 +875,11 @@
 			"entries": [
 				"Beginning at 2nd level, you gain a poison sheath. When you draw a melee weapon, you may apply your poison concoction to it immediately."
 			],
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Poisoner",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 2,
 			"header": 1
 		},
@@ -887,11 +888,11 @@
 			"entries": [
 				"At 2nd level, you discover an insidious sickening toxin. When a creature fails its saving throw against your poison concoctions, it becomes poisoned until the start of your next turn."
 			],
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Poisoner",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 2,
 			"header": 1
 		},
@@ -901,21 +902,21 @@
 				"Also at 2nd level, you discover a poison that continues to linger in the system of your victims. You can spend 1 reagent point to alter a poison concoction. Creatures that succeed against the saving throw of this poison will take half damage instead of none.",
 				"Additionally, at 7th level, poison concoctions applied to a melee weapon remain potent for one more hit after they first successfully hit a target."
 			],
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Poisoner",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 2,
 			"header": 1
 		},
 		{
 			"name": "Caustic Poisons",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Poisoner",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -924,11 +925,11 @@
 		},
 		{
 			"name": "Hallucinating Toxin",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Poisoner",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -937,11 +938,11 @@
 		},
 		{
 			"name": "Virulent Poison",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Poisoner",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 13,
 			"header": 2,
 			"entries": [
@@ -950,11 +951,11 @@
 		},
 		{
 			"name": "Magebane Poison",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Poisoner",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -963,11 +964,11 @@
 		},
 		{
 			"name": "Poison of Death",
-			"source": "SRPApothecary",
+			"source": "WB: RD",
 			"className": "Apothecary",
-			"classSource": "SRPApothecary",
+			"classSource": "WB: RD",
 			"subclassShortName": "Poisoner",
-			"subclassSource": "SRPApothecary",
+			"subclassSource": "WB: RD",
 			"level": 18,
 			"header": 2,
 			"entries": [
