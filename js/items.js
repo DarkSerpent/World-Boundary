@@ -398,8 +398,8 @@ function addItems (data) {
 	}
 
 	// populate table labels
-	$(`h3.ele-mundane span.side-label`).text("Mundane");
-	$(`h3.ele-magic span.side-label`).text("Magic");
+	$(`h3.ele-mundane span.side-label`).text("Homebrew Items");
+	$(`h3.ele-magic span.side-label`).text("Restricted Shop");
 
 	mundaneList.update();
 	magicList.update();
