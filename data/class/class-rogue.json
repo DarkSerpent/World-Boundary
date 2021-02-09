@@ -1,0 +1,660 @@
+{
+	"class": [
+		{
+			"name": "Rogue Subclasses",
+			"source": "SRP",
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"dex",
+				"int"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light"
+				],
+				"weapons": [
+					"simple",
+					"hand crossbows",
+					"longswords",
+					"rapiers",
+					"shortswords"
+				],
+				"tools": [
+					"thieves' tools"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"athletics",
+								"deception",
+								"insight",
+								"intimidation",
+								"investigation",
+								"perception",
+								"performance",
+								"persuasion",
+								"sleight of hand",
+								"stealth"
+							],
+							"count": 4
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item rapier|phb} or (b) a {@item shortsword|phb}",
+					"(a) a {@item shortbow|phb} and {@item quiver|phb} of {@item arrows (20)|phb|20 arrows} or (b) a {@item shortsword|phb}",
+					"(a) a {@item burglar's pack|phb}, (b) a {@item dungeoneer's pack|phb}, or (c) an {@item explorer's pack|phb}",
+					"{@item Leather armor|phb}, two {@item dagger|phb|daggers}, and {@item thieves' tools|phb}"
+				],
+				"goldAlternative": "{@dice 4d4×10|4d4 × 10|Starting Gold}"
+			},
+			"multiclassing": {
+				"requirements": {
+					"dex": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light"
+					],
+					"skills": [
+						{
+							"choose": {
+								"from": [
+									"acrobatics",
+									"athletics",
+									"deception",
+									"insight",
+									"intimidation",
+									"investigation",
+									"perception",
+									"performance",
+									"persuasion",
+									"sleight of hand",
+									"stealth"
+								],
+								"count": 1
+							}
+						}
+					],
+					"tools": [
+						"thieves' tools"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Sneak Attack"
+					],
+					"rows": [
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 2,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 2,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 3,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 3,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 4,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 4,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 5,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 5,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 6,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 6,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 7,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 7,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 8,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 8,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 9,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 9,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 10,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 10,
+										"faces": 6
+									}
+								]
+							}
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				[
+					{
+						"name": "Expertise",
+						"entries": [
+							"At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with {@item thieves' tools|phb}. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
+							"At 6th level, you can choose two more of your proficiencies (in skills or with {@item thieves' tools|phb}) to gain this benefit."
+						]
+					},
+					{
+						"name": "Sneak Attack",
+						"entries": [
+							"Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra {@dice 1d6} damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.",
+							"You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't {@condition incapacitated}, and you don't have disadvantage on the attack roll.",
+							"The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table."
+						]
+					},
+					{
+						"name": "Thieves' Cant",
+						"entries": [
+							"During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.",
+							"In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run."
+						]
+					}
+				],
+				[
+					{
+						"name": "Cunning Action",
+						"entries": [
+							"Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+						]
+					},
+					{
+						"name": "Cunning Action: Aim",
+						"entries": [
+							"{@i 2nd-level rogue feature (enhances Cunning Action)}",
+							"You gain an additional way to use your Cunning Action: carefully aiming your next attack. As a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 9
+					}
+				],
+				[
+					{
+						"name": "Roguish Archetype",
+						"entries": [
+							"At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities from the list of available archetypes. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 4th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[
+					{
+						"name": "Uncanny Dodge",
+						"entries": [
+							"Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
+						]
+					}
+				],
+				[
+					{
+						"name": "Expertise",
+						"entries": [
+							"At 6th level, you can choose two more of your proficiencies (in skills or with {@item thieves' tools|phb}) to gain the benefit of Expertise."
+						]
+					}
+				],
+				[
+					{
+						"name": "Evasion",
+						"entries": [
+							"Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an {@spell ice storm} spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 8th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[
+					{
+						"name": "Roguish Archetype feature",
+						"entries": [
+							"At 9th level, you gain a feature granted by your Roguish Archetype."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 10th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 10th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[
+					{
+						"name": "Reliable Talent",
+						"entries": [
+							"By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a {@dice d20} roll of 9 or lower as a 10."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 12th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[
+					{
+						"name": "Roguish Archetype feature",
+						"entries": [
+							"At 13th level, you gain a feature granted by your Roguish Archetype."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Blindsense",
+						"entries": [
+							"Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or {@condition invisible} creature within 10 feet of you."
+						]
+					}
+				],
+				[
+					{
+						"name": "Slippery Mind",
+						"entries": [
+							"By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 16th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[
+					{
+						"name": "Roguish Archetype feature",
+						"entries": [
+							"At 17th level, you gain a feature granted by your Roguish Archetype."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Elusive",
+						"entries": [
+							"Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't {@condition incapacitated}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 19th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[
+					{
+						"name": "Stroke of Luck",
+						"entries": [
+							"At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the {@dice d20} roll as a 20.",
+							"Once you use this feature, you can't use it again until you finish a short or long rest."
+						]
+					}
+				]
+			],
+			"subclassTitle": "Roguish Archetype",
+			"subclasses": [
+				{
+					"name": "Gunslinger",
+					"shortName": "Gunslinger",
+					"source": "SRP",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Gunslinger",
+								"entries": [
+									"Most rogues and specialists spend their years of expertise on learning a specific skill-set, whether that be assassination, thievery, or courtroom dialogue. However, what is arguably the most deadly is a rogue who has devoted themselves in their entirety to the act of researching weapons - exposive weapons.",
+									"This archetype focuses on key points that the Fighter variant does not. Namely, less focus on the crafting of unique firearms and more emphasis on the act of utilizing existing ones; exploiting weaknesses in your opponent has never been easier than with the Gunslinger Rogue.",
+									{
+										"type": "entries",
+										"name": "Firearm Proficiency",
+										"entries": [
+											"Starting when you choose this archetype at 3rd level, you gain proficiency with firearms, allowing you to add your proficiency bonus to attacks made with firearms."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Careful Aim",
+										"entries": [
+											"When you choose this archetype at 3rd level, your Cunning Action improves. Aiming while wielding a firearm decreases that firearm's misfire value by 1 until the end of the turn. In addition, if your weapon misfires, you can use a reaction to prevent it from jamming using your finesse. You can only use your reaction this way once per short or long rest."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Silencer",
+										"entries": [
+											"Starting at 9th level, you have learned to modify your guns to elicit no sound upon firing. Whenever you make an attack while under the {@action Hide} action, you may choose to fire a suppresed shot from your firearm. If you do so, regardless of whether you hit or miss your target, you do not give away your location. Suppressed shots fired this way lower your Sneak Attack die by half (rounded down).",
+											"You cannot use this feature within 15 feet of your target, nor can you use it alongside a firearm with the Explosive or Scatter properties."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Practiced Sniper",
+										"entries": [
+											"Starting at 13th level, you add your proficiency bonus to your initiative. In addition, your firearm attacks score a critical hit on a roll of 19-20, and making a critical strike with a firearm activates your Sneak Attack feature, regardless of whether you had advantage or not."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Absolute Operator",
+										"entries": [
+											"Starting at 17th level, your fast hands become an extraordinary asset while firing guns. Whenever you aim while wielding a firearm, you may reload one bullet into your gun."
+										]
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		}
+	]
+}

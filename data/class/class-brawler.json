@@ -1,0 +1,1140 @@
+{
+	"class": [
+		{
+			"name": "Brawler",
+			"source": "SRP",
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"str",
+				"con"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light"
+				],
+				"weapons": [
+					"simple, improvised, brass knuckles, gauntlets"
+				],
+				"tools": [
+					"your choice of thieves' tools",
+					"a gaming set",
+					"or one type of artisan's tools of your choice"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"athletics",
+								"deception",
+								"intimidation",
+								"perception",
+								"sleight of hand",
+								"insight",
+								"stealth"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) {@item leather armor|phb} or (b) any one {@filter simple weapon|items|source=phb|category=basic|type=simple weapon} of your choice",
+					"(a) {@item thieves' tools|phb} (b) a gaming set or (c) a set of artisan's tools",
+					"(a) {@item explorer's pack|phb} or (b) {@item dungeoneer's pack|phb}"
+				],
+				"goldAlternative": "{@dice 5d4|5d4|Starting Gold}"
+			},
+			"multiclassing": {
+				"requirements": {
+					"str": 13,
+					"con": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light"
+					],
+					"weapons": [
+						"improvised"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Beat 'Em Up",
+						"Flow"
+					],
+					"rows": [
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							0
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							2
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							3
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							5
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							6
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							7
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							8
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							9
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							10
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							11
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							12
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							13
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							14
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							15
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							16
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							17
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							18
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							19
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							20
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				[
+					{
+						"name": "Beat 'Em Up",
+						"entries": [
+							"Beginning at 1st level, your years fighting in the back alleys of Kagrea have given you mastery over combat styles that utilize the power of your own fists (and improvised weapons). You gain the following benefits while you are either unarmed, using an improvised weapon, or using brass knuckles or gauntlets. You must be wearing light or no armor and not be wielding a shield to gain these benefits:",
+							{
+								"type": "list",
+								"items": [
+									"You can roll a {@dice d4} in place of the normal damage for that weapon. This die increases in value as you gain levels in Brawler, as shown by the Beat 'Em Up column on the Brawler table.",
+									"When you make the Attack action on your turn with an unarmed strike, improvised weapon, brass knuckles, push dagger, or gauntlet, you can make one attack with that weapon or grapple as a bonus action.",
+									"Unarmed strikes, improvised weapons, brass knuckles, push daggers, and gauntlets count as &quot;Beat 'Em Up weapons&quot; for you."
+								]
+							}
+						]
+					},
+					{
+						"name": "Unarmored Defense",
+						"entries": [
+							"Also at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Constitution modifier.",
+							"Starting from when you choose your fight club at 3rd level, your Unarmored Defense becomes 10 + your Constitution modifier + your primary modifier (decided by your subclass)."
+						]
+					}
+				],
+				[
+					{
+						"name": "Feeling the Flow",
+						"entries": [
+							"Starting at 2nd level, you can tap into the flow of combat, allowing you to channel a subconscious sense for the direction of a fight. This subconscious sense is represented by a number of flow points. Your Brawler level determines the amount of flow points you have available to you, as shown by the Flow column of the Brawler table.",
+							"Choose two Flow Features below to add to your combat repertoire. You can spend a number of flow points to fuel those features as outlined below. You learn more Flow Features as you gain levels in this class, and regain all expended flow points on a short rest.",
+							"You gain one more Flow Feature at 13th level, and another at 19th level.",
+							{
+								"type": "abilityDc",
+								"name": "Flow",
+								"attributes": [
+									"str",
+									"dex"
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Strike Steel",
+								"entries": [
+									"As a bonus action, you can spend 2 flow points to put up your guard. You gain temporary hit points equal to your Beat 'Em Up die + your Brawler level + your Constitution modifier. You ignore any leftover damage that would supercede the temporary hit points granted by this Flow Feature.",
+									"{@note {@b (As an example, this means if you were to have 10 temporary hit points, and an attack against you would deal 20 damage, the remaining 10 damage does not go towards your natural hit point total.)}}"
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Thunderous Applause",
+								"entries": [
+									"As a reaction to successfully hitting a creature with a Beat 'Em Up weapon on your turn, you can spend 1 flow point to deal additional thunder damage equal to two of your Beat 'Em Up die + your Constitution modifier."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Dodge & Weave",
+								"entries": [
+									"As a reaction to being missed by an melee or ranged attack, you can spend 1 flow point. Make one attack with a Beat 'Em Up weapon at a target within 5 feet of you. On a successful hit, you gain advantage on your next attack until the end of your next turn."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Seismic Slam",
+								"entries": [
+									"Immediately after you successfully grapple a creature on your turn, you can spend 1 flow point to slam them to the ground and knock them {@condition prone}. You can expend 1 additional flow point: that creature takes damage equal to your Beat 'Em Up die + your Strength modifier, and they have disadvantage to checks made to escape your grapple until the end of their next turn."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Reverse Gravity",
+								"entries": [
+									"When you hit a creature with a Beat 'Em Up weapon, you can spend 1 flow point in an attempt to ground them. The target must succeed on a Constitution saving throw or have their speed be reduced to 0 until the end of your next turn. In addition, that target has disadvantage on attacks made to hit you until the end of their next turn.",
+									"When you use this feature, you can choose to expend 1 additional flow point. The target has disadvantage to hit any creature until the end of their next turn, rather than just you."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Mage Seeker",
+								"entries": [
+									"When you hit a creature with a Beat 'Em Up weapon, you can spend 1 flow point. The target must succeed on a Constitution saving throw. On a failed save, that creature becomes {@condition deafened}, and cannot speak or cast spells that require verbal components until the end of your next turn.",
+									"If you hit a spellcaster with this feature, and that spellcaster fails the saving throw, you can expend 1 additional flow point. On your next turn, you can cast the {@spell booming blade} cantrip as an action. When you do so, you can make an unarmed strike instead of a melee weapon attack, and you retain the ability to add-on an attack as a bonus action with your Beat 'Em Up feature."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Adrenaline Rush",
+								"entries": [
+									"As a bonus action, you can expend 1 flow point. Your base movement speed increases by 15, you gain a climbing and swimming speed of 30 feet, and you ignore difficult terrain until the start of your next turn. You can expend 1 additional flow point: until the end of your next turn, your long jump is up to 25 feet and your high jump is up to 15 feet, with or without a running start."
+								]
+							}, 
+							{
+								"type": "entries",
+								"name": "Dance to the Beat",
+								"entries": [
+									"As an attack action, you can spend 2 flow points to tap into the flow of battle, slamming your fist into the ground and disrupting debris in a burst of violent heat. Any hostile creature within 10 feet must make a Charisma saving throw. On a failed save, those creatures take fire damage equal to your Beat 'Em Up die and fall {@condition prone}."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Luck & Destiny",
+								"entries": [
+									"<i>{@bold Prerequisites:} 13th level.</i>",
+									"As a reaction to you failing a Strength, Wisdom, or Charisma check or saving throw, you can spend 3 flow points. Reroll the check or saving throw and choose between any of the results."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Tension Wire",
+								"entries": [
+									"<i>{@bold Prerequisites:} 13th level, must have hit points equal to half your total or less than half your total.</i>",
+									"When you successfully land an attack against a creature, you can roll a {@dice 1d4}. Expend a number of flow points equal to the amount you rolled. If you would expend more flow points that your current total, you instead expend a number of flow points until you hit 0. If you hit 0 flow points with this Flow Feature, or roll a 4 on your {@dice d4}, you gain one point of {@condition exhaustion}.",
+									"After you've expended your flow points, that creature takes {@dice 2d8} force damage for every flow point you've expended, up to {@dice 8d8}. In addition, if you gained a point of {@condition exhaustion} using this Flow Feature, the creature takes an additional {@dice 2d6} psychic damage. You can only use this Flow Feature once per turn."
+								]
+							}
+						]
+					},
+					{
+						"name": "Street Smarts",
+						"entries": [
+							"At 2nd level, carousing, shadowboxing, and sparring all count as light activity for the purposes of short and long rests. In addition, once you have caroused in a settlement for 8 hours or more, you know all public locations within it as if you were born and raised there. You also cannot be made lost by non-magical means while within the settlement."
+						]
+					}
+				],
+				[
+					{
+						"name": "Quick Jabs",
+						"entries": [
+							"At 3rd level, your ability to feel the flow of combat grants you extraordinary reflexes. Immediately after you take the Attack action on your turn, you can spend 1 flow point to make two unarmed strikes as a bonus action. If both unarmed strikes hit, you can move 10 feet in any direction for free without provoking opportunity attacks."
+						]
+					},
+					{
+						"name": "Fight Club",
+						"entries": [
+							"At 3rd level, you choose the type of brawling style you sign your likeness to: the Bloodhound Bruisers, the Gladitorian Heart, Man's Best Friend, the Mixed Martial Mayhem, or Piss & Vinegar. Each of which is detailed at the end of the class's description. Your choice grants you features at 3rd level, and again at 6th, 11th, and 17th level."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 4th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[
+					{
+						"name": "Haymaker",
+						"entries": [
+							"At 5th level, you can throw aside all concern for accuracy in order to land a square, crushing blow onto your opponent.",
+							"When you make your first attack on your turn, you can decide to throw a powerful Haymaker onto your opponent. Doing so gives you disadvantage on that first attack. On a successful hit, you add double your Beat 'Em Up die to the damage of that attack, and every attack afterwards until the end of your turn has advantage.",
+							"You can use this feature a number of times equal to your Strength or Dexterity modifier (minimum of 1), and regain all expended charges on a long rest."
+						]
+					}
+				],
+				[
+					{
+						"name": "Flow-Powered Strikes",
+						"entries": [
+							"Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage."
+						]
+					},
+					{
+						"name": "Fight Club Feature",
+						"entries": [
+							"At 6th level, you gain a feature granted by your Fight Club choice."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Battle Genius",
+						"entries": [
+							"Starting at 7th level, your ability to feel the flow of the fight allows you to weasle your way out of trouble when you otherwise couldn't. You have advantage on Dexterity saving throws against effects that would target you. To gain this benefit, you cannot be {@condition incapacitated}.",
+							"In addition, you can use your action to end one effect on yourself that is causing you to be {@condition charmed} or {@condition frightened}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 8th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[
+					{
+						"name": "Down But Not Out",
+						"entries": [
+							"At 9th level, you've learned to stay in the fight even when faced with impossible odds. When you would drop to 0 hit points, you can roll a number of Beat 'Em Up die equal to your Constitution modifier. Subtract damage from that attack equal to the number you rolled.",
+							"If you would reduce the damage to 0 this way, any excess negation instead becomes temporary hit points for you. Once you use this feature, you cannot use it again until you finish a short or long rest."
+						]
+					}
+				],
+				[
+					{
+						"name": "School of Hard Knocks",
+						"entries": [
+							"By 10th level, you’ve graduated top of the class at the school of hard knocks. And you took most of them to the head. You gain advantage on saving throws that would render you {@condition stunned} or {@condition unconscious}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Fight Club Feature",
+						"entries": [
+							"At 11th level, you gain a feature granted by your Fight Club choice."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 12th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[
+					{
+						"name": "Rabble Reveler",
+						"entries": [
+							"Starting at 13th level, word of your exploits travels quickly in cities and other settlements. After you take a long rest by carousing in a settlement, you gain advantage on Charisma ({@skill Persuasion}) and Charisma ({@skill Intimidation}) checks in that settlement until you complete another long rest, or you use this feature on another settlement."
+						]
+					}
+				],
+				[
+					{
+						"name": "Unbreakable Resolve",
+						"entries": [
+							"Starting at 14th level, you gain proficiency in Dexterity saving throws. If you already have proficiency in Dexterity saving throws, you can pick between Strength or Constitution. In addition, whenever you fail a saving throw, you can spend 2 flow points to reroll the save and take the second result."
+						]
+					}
+				],
+				[
+					{
+						"name": "Herculean",
+						"entries": [
+							"At 15th level, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. In addition, whenever you deal damage with a melee weapon or unarmed strike to an inanimate object, that damage is doubled."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 16th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[
+					{
+						"name": "Fight Club Feature",
+						"entries": [
+							"At 17th level, you gain a feature granted by your Fight Club choice."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Way of Worlds",
+						"entries": [
+							"Starting at 18th level, your body has naturally adapted to the Way of Worlds as a result of your ability to feel the flow in battle. Whenever you succeed a saving throw, you can choose to regain 2 flow points. You can use this feature twice, and afterwards, you cannot use it again until you finish a long rest."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 19th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[
+					{
+						"name": "Divine Physical Condition",
+						"entries": [
+							"At 20th level, your Strength or Dexerity (your choice) and Constitution ability scores and maximum increase by 2. Additionally, whenever you take a long rest, you recover 2 levels of exhaustion instead of 1, and you treat exhaustion as if it was one level less."
+						]
+					}
+				]
+			],
+			"subclassTitle": "Fight Club",
+			"subclasses": [
+				{
+					"name": "Bloodhound Bruisers",
+					"shortName": "Bloodhound Bruisers",
+					"source": "SRP",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Bloodhound Bruisers",
+								"entries": [
+									"Brawlers in the Bloodhound Bruisers fight club are notorious for looking for trouble and finding it every time. Members of this fight club are highly observant of character traits and physical evidence and can form an almost supernatural connection to the cities they live in. Most use these abilities to become urban defenders of the downtrodden but others lend their talents to less savory organizations.",
+									{
+										"type": "entries",
+										"name": "Ever Vigilant",
+										"entries": [
+											"As a Bloodhound Bruiser, you learned to watch your back—and to watch it good. Starting from when you choose this fight club at 3rd level, you can no longer be surprised, and you gain advantage on initiative rolls. In addition, during the first round of combat, you have advantage on attack rolls against creatures who have not acted yet. Your primary modifier for this subclass is Intelligence."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Detective Work",
+										"entries": [
+											"Also at 3rd level, you gain proficiency with two of the following skills of your choice: {@skill Insight}, {@skill Investigation}, or {@skill Perception}. You can spend 1 flow point to allow these skills to use your Intelligence, rather than Wisdom. In addition, when you make an Wisdom ({@skill Insight}), Intelligence ({@skill Investigation}), or Wisdom ({@skill Perception}) check, you can spend 1 flow point to gain advantage on that ability check.",
+											"In addition, your connection to the Bloodhound Bruisers has allowed for you to feel the flow in abnormal and supernatural ways. As an action, you can spend 2 flow points to target a creature within 60 feet of you. You learn that creature's vulnerabilities, resistances, and immunities, as well as their creature type."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Scrap Like a Sleuth",
+										"entries": [
+											"At 6th level, you've gained the ability to hone in on the idiosyncrasies and bad habits of an enemy, and to use those habits to your advantage. As a bonus action, you can expend 2 flow points to target an enemy you can see within 30 feet. For the next minute, you have advantage on attacks made against that creature, and you add your proficiency bonus to your AC against attacks made by that creature.", 
+											"During the minute, can expend 1 additional flow point. Until the end of your next turn, you become aware of that enemy's exact location, so long as they are on the same plane as you and are within 300 feet."
+										]
+									}
+								]
+							},
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "The Jury Stands",
+										"entries": [
+											"Also at 6th level, you've grown attuned to the flow of a lie, and can extract the truth from the eyes of your victims. So long as you are making direct eye contact with a creature, you have advantage on Intelligence ({@skill Insight}) checks to determine if they are lying. In addition, you can expend 2 flow points to force a creature you have direct eye contact with to make a Charisma saving throw. On a failed save, that creature finds it impossible to speak any words that are not the truth.",
+											"You cannot restrict a creature that is immune to the {@condition charmed} condition to only speak the truth. A creature in an {@spell antimagic field} is also immune to the effects of this restriction. The DM does not inform you whether the results of the roll were successful in restricting the creature—only if they passed or failed the roll."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Heart of a Scrapper",
+										"entries": [
+											"Starting at 11th level, you've mastered the art of looking for trouble, and have found it inexcusably easy to get what you want. You gain the following benefits:",
+											{
+												"type": "list",
+												"items": [
+													"You now add your proficiency bonus to your initiative.",
+													"You have darkvision out to a range of 120 feet.",
+													"You cannot become lost by any means."
+												]
+											},
+											"In addition, whenever you successfully hit an enemy with advantage, you can choose to regain 1 flow point. You can use this feature a number of times equal to your Intelligence modifier (minimum of 1), and regain all expended uses on a long rest."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Eyes Wide Open",
+										"entries": [
+											"By 17th level, your eyes have metaphysically tuned to the Way of Worlds, allowing you to visibly see the flow and make judgement calls under supernaturally-imposed threats and reaction times. As a bonus action, you can expend 3 flow points to open your senses to the flow for 1 minute. During this time, you have advantage on Dexterity, Intelligence, and Charisma saving throws, and gain truesight out to 30 feet."
+										]
+									}
+								]
+							}
+						]
+					]
+				},
+				{
+					"name": "Piss & Vinegar",
+					"shortName": "Piss & Vinegar",
+					"source": "SRP",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Piss & Vinegar",
+								"entries": [
+									"Brawlers in the Piss & Vinegar fight club revel in their reputations as heels. Widely despised for their obscene curses and dirty tricks, these brawlers take pride in their ability to provoke and fight to win at all costs.",
+									{
+										"type": "entries",
+										"name": "Victory Without Scars",
+										"entries": [
+											"Starting when you choose this fight club at 3rd level, you learned to stray away from scraps and conserve your energy is the result would be predetermined. You gain proficiency in {@skill Intimidation} checks. If you are already proficient, you instead gain expertise. Your primary modifier for this subclass is Charisma."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Salty Salute",
+										"entries": [
+											"Also at 3rd level, you've mastered the art of sliding in savory yet enraging insults in combat. On your turn, you can use a bonus action to provoke a creature within 60 feet to get bent. That creature must make a Wisdom saving throw with a DC equal to your Piss & Vinegar save DC.",
+											"On a failed save, that creature takes psychic damage equal to your Beat 'Em Up die + your Charisma modifier. In addition, that creature has disadvantage on attack rolls against creatures other than you until the start of your next turn.",
+											"For this feature, as well as any other Piss & Vinegar features that require a saving throw, the save DC is as follows:",
+											{
+												"type": "abilityDc",
+												"name": "Piss & Vinegar",
+												"attributes": [
+													"cha"
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Dirty Tricks",
+										"entries": [
+											"Starting at 6th level, you've developed a few tricks you keep stored up your sleeve to even the odds when the going gets rough. You can use a total of three dirty tricks, and regain any expended uses when you finish a short or long rest.",
+											"{@bold Heelstomper.} When you deal damage with an unarmed attack, you attempt to inflict a grevious, unending pain on the creature you hit. That creature must make a Dexterity saving throw. On a failed save, you gain 1 flow point (up to your maximum) and the creature's movement speed is halved for the next minute.",
+											"{@bold Low Blow.} When you deal damage with an unarmed attack, you can slide to the ground and strike at them below the belt. That creature must make a Strength saving throw. On a failed save, you gain 1 flow point (up to your maximum) and that creature is knocked {@condition prone}.",
+											"{@bold Pocket Sand.} As a bonus action, you reach into your pocket and douse your enemy with sand within 5 feet. That creature must make a Constitution saving throw. On a failed save, you gain 1 flow point (up to your maximum) and the creature is {@condition blinded} until the end of its next turn."
+										]
+									}
+								]
+							},
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Glorious Comeuppance",
+										"entries": [
+											"Also at 6th level, you've grown attuned to the flow of victory, allowing you to physical restore your vitality upon downing an enemy. When a hostile creature within 30 feet of you drops to 0 hit points, you can expend a use of this feature to regain hit points equal to your Beat 'Em Up die + your Charisma modifier. You can use this feature a number of times equal to your Charisma modifier (minimum 1), and regain all expended uses on a long rest."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Rising Cruel Victory",
+										"entries": [
+											"Starting at 11th level, your threats and mean spirited tricks pack an attuned punch, as you grow closer to the flow of victory. When you make a {@skill Intimidation} check, you can use your reaction and spend 1 flow point to give yourself advantage on the roll. In addition, when a creature makes a saving throw against one of your Piss & Vinegar features, you can use your reaction and spend 1 flow point to impose disadvantage on that roll."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Victory At All Costs",
+										"entries": [
+											"By 17th level, your mere presence in a room seeks to offend all creatures, and it does so rather easily. When you use your Salty Salute feature, you can instead choose to target a number of creatures up to your Charisma modifier within 60 feet, rather than just one.",
+											"In addition, attunement to the flow of victory has granted you a unique taste for the anger creatures feel at your presence. You gain 1 flow point (up to your maximum) the first time any creature targeted by this feature hits you with an attack before the start of your next turn.",
+											"Once you use this feature, you cannot use it again until you finish a short or long rest."
+										]
+									}
+								]
+							}
+						]
+					]
+				},
+				{
+					"name": "Gladitorian Heart",
+					"shortName": "Gladitorian Heart",
+					"source": "SRP",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Gladitorian Heart",
+								"entries": [
+									"Brawlers in the Gladitorian Heart fight club travel the world earning their keep as equal parts performer and gladiator. Whether performing in staged physical competitions, or fighting it out in unscripted brawls, brawlers in the Gladitorian Heart care as much about the theatrics of a fight as they do its outcome. Brawlers in this fight club also care deeply about their reputation and work to build up local and regional legends about their performing personas.",
+									{
+										"type": "entries",
+										"name": "Performing Arts",
+										"entries": [
+											"Starting when you choose this fight club at 3rd level, you gain proficiency in {@skill Performance}, if you do not already have it. If you do, you instead gain proficiency in {@skill Persuasion} or {@skill Intimidation} (your choice). Your primary modifier for this subclass is Charisma."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "The Grand Reveal",
+										"entries": [
+											"Also at 3rd level, you adopt an alternate persona that you can manifest or discard as a bonus action. When creating your persona, think of the following criteria in order to truly stand out alongside your contemporaries:",
+											{
+											"type": "list",
+											"items": [
+												"Your persona can be an elevated version of yourself (such as &quot;Eragon the Great&quot;) or a mask that hides your true identity (such as &quot;The Fists of Rage&quot;).",
+												"Think of adopting a prominent idiosyncratic feature that defines your persona, such as cape, mask, or unique weapon.",
+												"Every good persona needs a catchphrase. Or two. Or couple dozen. Come up with some one-liners you can drop in combat that all your fans and supporters may know you by."
+											]
+											},
+											"Your attunement to the flow of the crowd has allowed your persona to become almost magical in nature. If your persona acts as a mask which hides your identity, unless a creature has been explicitly informed about your persona, they do not see you and your alternate persona as being the same person, even if the similarities appear obvious.",
+											"Additionally, you gain access to a special resource known as calling cards. You have a number of calling cards equal to 3 + your Charisma modifier, and regain all expended calling cards on a long rest. Before you make an attack, you can expend a number of calling cards up to a maximum of 2. Until the end of your turn, your attacks score a critical hit on a roll of 19 to 20 with one calling card, or 18 to 20 with two.",
+											"In addition, before you make a Charisma check, you can expend one calling card to add your Strength modifier to the result. You can only expend calling cards while you are assuming your persona."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "The Crowd, My People",
+										"entries": [
+											"Starting at 6th level, your alternate persona manifests into an aura of charisma that draws followers to your name. While you are adopting your alternate persona, you can use an action to inspire adoration or fear (your choice) into those nearby.",
+											"A number of creatures equal to your 2 × your Charisma modifier within 60 feet who can see you must make a Wisdom saving throw with a DC equal to 8 + your proficiency bonus + your Strength modifier. On a failed save, those creatures are put under one of the following effects:",
+											{
+											"type": "list",
+											"items": [
+												"If you chose adoration, those creatures are {@condition charmed} for one minute.",
+												"If you chose fear, those creatures are {@condition frightened} for one minute."
+											]
+											},
+											"Each time a creature takes damage from you or your allies, they can repeat this saving throw, ending the effect on a success. Once you use this feature, you cannot use it again until you finish a long rest."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Thunder of Their Hearts",
+										"entries": [
+											"Also starting at 6th level, the souls of your supporters call out to you, both good and bad. For every creature that is {@condition charmed} or {@condition frightened} by you within 60 feet, you gain a +1 bonus to attack and damage rolls you make using your Beat 'Em Up feature (up to a maximum of +3)."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Improve, Decimate, Overcome",
+										"entries": [
+											"Starting at 11th level, your connection to the flow of the crowd manifests in your physical sense of being. For every allied creature within 60 feet, your base movement speed increases by 5 (up to a maximum of 15). In addition, your jump bonus is doubled, and you can use a bonus action on your turn in order to take the {@action Dash} action."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "[Your Name Here]",
+										"entries": [
+											"Starting at 17th level, you have crafted a signature move that you can use while you are adopting your alternate persona. When designing your signature move, consider the following:",
+											{
+											"type": "list",
+											"items": [
+												"Supply your signature move with a name.",
+												"Describe how your move goes into effect, and what happens while you are performing it.",
+												"Decide whether your move does: slashing, bludgeoning, piercing, fire, cold, lightning, thunder, poison, or acid damage."
+											]
+											},
+											"Your signature move is considered magical for the purposes of overcoming resistances and immunities to non-magical damage. When you use your signature move, you can jump in any direction up to your movement speed and make an attack roll against a creature in reach with advantage.",
+											"On a hit, you swap the damage of your attack with the one you chose during the creation of your signature move. In addition, if your signature move successfully hits, it is considered to be a critical hit, and the creature is {@condition stunned} until the end of your next turn.",
+											"After you successfully land a signature move, you cannot use it again until you finish a long rest. If you miss the attack with your signature move, you regain the ability to use it again in one minute."
+										]
+									}
+								]
+							}
+						]
+					]
+				},
+				{
+					"name": "Man's Best Friend",
+					"shortName": "Man's Best Friend",
+					"source": "SRP",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Man's Best Friend",
+								"entries": [
+									"You've never had a friend you could rely on that walked on two legs. Lucky for you, you’ve got the best four-legged friend a body could ask for. Brawlers in the Man's Best Friend fight club are as faithful to their canine companions as their canine companions are to them.",
+									{
+										"type": "entries",
+										"name": "By My Side",
+										"entries": [
+											"Starting when you choose this fight club at 3rd level, you gain proficiency in {@skill Animal Handling}, if you do not already have it. If you do, you instead gain proficiency in {@skill Perception} or {@skill Survival} (your choice). Your primary modifier for this subclass is Wisdom."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "My Best Friend",
+										"entries": [
+											"Also at 3rd level, you gain a hound that accompanies you on your adventures and fights alongside you. Your hound can be any breed of dog or similar canine creature, but uses the statistics of a {@creature wolf|MM} (found in appendix A of the Monster Manual) with the following changes:",
+											{
+											"type": "list",
+											"items": [
+												"You add your proficiency bonus to your hound's AC, saving throws, attack rolls, and damage rolls.",
+												"For each level after 3rd, your hound gains an additional {@dice d8} hit die and its hit point maximum increases respectively.",
+												"In addition, your hound's hit point total also increases by an amount equal to your Wisdom modifier × your Brawler level.",
+												"Your hound is special, bonded with you as a result of your attunement with the flow of beasts. If your hound dies, its body and anything it was carrying is siphoned off to the Afterlife. You can resurrect your hound by conducting a lengthy 8 hour ritual, where its soul returns to the lands of the living."
+											]
+											},
+											"You can use a free action on each of your turns to verbally command your hound to move and take the {@action Attack}, {@action Dash}, {@action Disengage}, {@action Dodge}, or {@action Help} action. It does not have its own turn unless you are {@condition incapacitated} or absent.",
+											"If you are incapacitated, the hound acts on your turn in intiative, or rolls for initiative if you are absent. The hound never requires your command to use its reaction, such as when making an opportunity attack."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Mutt with Flow",
+										"entries": [
+											"Starting at 6th level, you share everything with your faithful hound: food, shelter, and even your flow. If you expend flow points on your turn in order to use a Flow Feature, your hound gains one of the following benefits (decided by you):",
+											"{@bold Bold and Brash.} Your hound gains temporary hit points equal to your Beat 'Em Up die + your Wisdom modifier.<br />{@bold The Best Team.} You can replace one of your attacks this turn with an attack from your hound.<br />{@bold March of the Beast.} Your hound can take the {@action Dash} action as a bonus action.",
+											"You can only gain the benefits of Mutt with Flow once per turn."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "What a Good Boy!",
+										"entries": [
+											"Also starting at 6th level, you've trained your hound to become faithful to a fault. Your hound is immune to the {@condition charmed} condition, and has advantage on saving throws against being {@condition frightened} so long as it can see or hear you. Finally, your hound's attacks count as magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Just Like Family",
+										"entries": [
+											"Starting at 11th level, you and your trusty canine form a potent fighting team. When you use the Attack action on your turn, if your hound can see or hear you, it can use its reaction to make a melee attack.",
+											"In addition, when a creature deals damage to your hound with an attack, you can use your reaction to make an opportunity attack against that creature if you are within range."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "A Dire Situation",
+										"entries": [
+											"Starting at 17th level, your hound takes on the stats of a {@creature dire wolf|MM} (found in appendix A of the Monster Manual), instead of a {@creature wolf|MM}. Your hound continues to receive the benefits of your My Best Friend feature."
+										]
+									}
+								]
+							}
+						]
+					]
+				},
+				{
+					"name": "Mixed Martial Mayhem",
+					"shortName": "Mixed Martial Mayhem",
+					"source": "SRP",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Mixed Martial Mayhem",
+								"entries": [
+									"Brawlers who fight using mixed martial arts know you don't have to knock an opponent senseless to get them to submit. Of course, members of Mixed Martial Mayhem do beat their opponents senseless—they just know they don’t have to.",
+									{
+										"type": "entries",
+										"name": "Point System",
+										"entries": [
+											"Starting when you choose this fight club at 3rd level, you gain proficiency in {@skill Athletics} or {@skill Acrobatics} (your choice). In addition, when you go to make a grapple check against a creature, you can substitute an {@skill Athletics} check with an {@skill Acrobatics} check. Your primary modifier for this subclass is Strength."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Fighter's Repertoire",
+										"entries": [
+											"Also at 3rd level, you pick a fighting style which compromises one of your various martial arts. You pick another martial art at 6th level, and a final one at 11th level.",
+											"{@bold Karate.} Defense is the best offense. You gain a +1 bonus to your AC.<br />{@bold Jujitsu.} Offense is the best defense. You gain a +2 bonus to damage rolls you make with Beat 'Em Up weapons.<br />{@bold Aikido.} Harmony is the best path for success. Your maximum flow points increase by 2.<br />{@bold Judo.} You can grapple an enemy like no tomorrow. When you attempt to grapple a creature, you can give yourself advantage as a reaction.<br />{@bold Hapkido.} You grow in martial versatility. Spiked chains, chakrams, claws, nunchaku, and three-section staves now count as Beat 'Em Up weapons for you.<br />{@bold Capoeria.} You become more flexible and adept when approaching danger. Your primary modifier becomes Dexterity, and you can use Dexterity instead of Strength for the attack and damage rolls of your Beat 'Em Up weapons.<br />{@bold Tai-chi.} Your control over your breathing has stimulated your senses and your vitality. You increase your maximum hit points by 1 for every level in Brawler."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Hand-to-Hand Improvisation",
+										"entries": [
+											"Starting at 6th level, when you have a creature {@condition grappled}, you gain half cover on attacks made against you by a creature you aren't grappling. When an attack made by a creature you aren't grappling misses, you can use your reaction to spend 1 flow point and have that creature make the same attack with a new roll against the creature you are grappling."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Groundwork",
+										"entries": [
+											"Also starting at 6th level, you've learned to keep what works and throw out what doesn't, giving your unique fighting style an extremely competent grasp on the fundamentals. You can use a total of three groundworks, and regain any expended uses when you finish a short or long rest.",
+											"{@bold Compression Lock.} When a creature attempts to break out of a grapple you placed them under and succeeds, you can use your reaction to force the creature to roll again. The creature must use the second result.",
+											"{@bold Quick Pin.} When a creature provokes an opportunity attack from you, you can use your reaction to make a grapple instead of an opportunity attack.",
+											"{@bold To the Mat.} As a bonus action, you can attempt to grapple a creature within range. If you succeed, you also knock that creature {@condition prone}."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Take Control",
+										"entries": [
+											"Starting at 11th level, you count as one size larger for the purposes of grappling. In addition, you have advantage on saving throws made to knock you {@condition prone}."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Clean Finish",
+										"entries": [
+											"Starting at 17th level, your mastery of controlling your opponent in combat has reached its peak. While you have a creature {@condition grappled}, you have advantage on all attacks against it. Additionally, when you make an attack with a Beat 'Em Up weapon against a creature you have {@condition grappled}, you score a critical hit on a roll of 19 to 20."
+										]
+									}
+								]
+							}
+						]
+					]
+				}
+			],
+			"fluff": [
+				{
+					"name": "Brawler",
+					"type": "section",
+					"entries": [
+						""
+					],
+					"source": "SRP",
+					"page": 0
+				}
+			]
+		}
+	]
+}

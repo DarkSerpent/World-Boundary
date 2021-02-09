@@ -1,0 +1,756 @@
+{
+	"class": [
+		{
+			"name": "Dragon Knight",
+			"source": "SRP",
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"con",
+				"cha"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"all armor, shields"
+				],
+				"weapons": [
+					"simple weapons, martial weapons"
+				],
+				"tools": [
+					"none"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"animal handling",
+								"athletics",
+								"deception",
+								"intimidation",
+								"perception",
+								"persuasion"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} and a shield or (b) two {@filter martial weapons|items|source=phb|category=basic|type=martial weapon}",
+					"(a) chain mail, (b) scale mail, or (c) leather armor",
+					"(a) {@item explorer's pack|phb} or (b) {@item dungeoneer's pack|phb}"
+				],
+				"goldAlternative": "{@dice 5d4*10|5d4 × 10|Starting Gold}"
+			},
+			"multiclassing": {
+				"requirements": {
+					"str": 13,
+					"cha": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light, medium"
+					],
+					"weapons": [
+						"simple, martial"
+					]
+				}
+			},
+			"classTableGroups": [
+			],
+			"classFeatures": [
+				[
+					{
+						"name": "Dragon Convenant",
+						"entries": [
+							"At 1st level, you have a covenant formed with a dragon, either the one you've bonded to or another. Choose one type of dragon as the creator of this covenant. Features you gain later use the damage type associated with each dragon.",
+						{
+							"type": "table",
+							"caption": "Draconic Ancestry",
+							"colLabels": [
+								"Dragon",
+								"Damage Type"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-5 text"
+							],
+							"rows": [
+								[
+									"{@bold Black}",
+									"Acid"
+								],
+								[
+									"{@bold Blue}",
+									"Lightning"
+								],
+								[
+									"{@bold Brass}",
+									"Fire"
+								],
+								[
+									"{@bold Bronze}",
+									"Lightning"
+								],
+								[
+									"{@bold Copper}",
+									"Acid"
+								],
+								[
+									"{@bold Gold}",
+									"Fire"
+								],
+								[
+									"{@bold Green}",
+									"Poison"
+								],
+								[
+									"{@bold Red}",
+									"Fire"
+								],
+								[
+									"{@bold Silver}",
+									"Cold"
+								],
+								[
+									"{@bold White}",
+									"Cold"
+								]
+							]
+							},
+							"Also, as an action, you can create small sensory effects appropriate to the colour of your dragon, similar to the ones described under the {@spell prestidigitation} spell. A dragon knight who makes a covenant with a red dragon might be able to create small puffs of smoke or sparks.",
+							"Finally, you can speak, read, and write Draconic."
+						]
+					},
+					{
+						"name": "Dragon Companion",
+						"entries": [
+							"At 1st level, you gain the service of a dragon hatchling, whose statistics can be found at the end of this class description. The dragon's colour is the chosen covenant colour.",
+							"If you are ever slain (in battle or otherwise), your dragon will also die after a number of hours equal to your dragon knight level, during which it will attempt to do everything in its power to return you to life.",
+							"If your dragon companion is ever slain, the magical bond you share allows you to return it to life. With 8 hours of work and the expenditure of 25 gp worth of precious gems per your dragon knight level, you can call forth your companion's spirit and use your magic to create a new body for it. You can return a dragon companion to life in this manner even if you do not possess any part of its body.",
+							"Returning your dragon to life is a gruelling process, and you must expend some of your own life force to compel the dragon back to life. You can choose to expend any number of hit dice when you finish the ritual. Make a Charisma check, with the DC being equal to 15 minus the number of hit dice you expended. The DC cannot be lowered below 5 in this way.",
+							"On a failed ability check, the dragon is restored to life, but you aren't able to regain any of the hit dice you expended for the ritual until 7 days have passed. Additionally, you and your dragon both suffer three points of exhaustion. On a successful ability check, the dragon is restored to life, and you can regain the spent hit dice as normal. "
+						]
+					},
+					{
+						"name": "Covenant's Bond",
+						"entries": [
+							"Also at 1st level, your dragon companion gains a variety of benefits while you two are together.",
+							"The dragon obeys your commands as best it can. It rolls initiative like any other creature, but you determine its actions, decisions, attitudes, and so on (no action required by you). When you and your dragon roll initiative, your dragon can change its initiative to match your own, acting on your turn. If you are incapacitated or absent, your dragon acts on its own. Your dragon can't take the Attack action. Instead, when you hit a creature within 5 feet of your dragon with an attack, it can use its action to deal an additional {@dice 1d4} slashing damage to that creature, as it strikes out with its claws.",
+							"Also because of its youth, it has yet to master flying, and as such, falls if it ends its turn in the air. Additionally, it can't fly with a creature it has grappled or be used as a mount until you reach 9th level, at which point it is strong enough to properly trained to support other creatures.",
+							"Your dragon companion has abilities and game statistics determined in part by your level. Your dragon uses your proficiency bonus rather than its own. While not wearing barding, a dragon companion has a natural armour class of 10 + its Constitution modifier + your proficiency bonus.",
+							"Your dragon companion gains proficiency in two skills of your choice. It is also proficient in all the saving throws you're proficient in. Also, your dragon companion can't attune to or activate magical items.",
+							"For each level after 1st, your dragon companion gains an additional hit die and increases its hit points accordingly. The dragon's hit dice are d10s, regardless of its size. When the dragon is reduced to 0 hit points, it makes death saving throws as a player would.",
+							"Also, you and your dragon always know the direction to one another, and can communicate with vague images, emotions, and feelings, regardless of distance.",
+							"In addition, the dragon cannot have its size increased beyond large (but would still gain the extra benefits of the {@spell enlarge/reduce spell}, for example). The dragon's level is equal to your dragon knight level for the purpose of calculating spells like {@spell polymorph} and {@spell true polymorph}.",
+							"Whenever you gain the Ability Score Improvement class feature, your dragon's abilities also improve. Your dragon can increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As normal, your dragon can't increase an ability score above 20 using this feature.",
+							"Your dragon shares your alignment, and has a personality trait and a flaw that you can roll for or select from the tables below. Your dragon shares your ideal, and its bond is always &quot;I will protect my knight; I will do the best I can for my knight; I will die for my knight.&quot;",
+						{
+							"type": "table",
+							"colLabels": [
+								"d4",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I love to collect gems and art pieces."
+								],
+								[
+									"2",
+									"Threaten my friends, threaten me."
+								],
+								[
+									"3",
+									"I stay on alert so others can rest."
+								],
+								[
+									"4",
+									"I have a knack for showing up in the nick of time."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d4",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I'm extremely vain."
+								],
+								[
+									"2",
+									"I'm secretly terrified of other dragons."
+								],
+								[
+									"3",
+									"Anyone who offends my dragon knight will suffer the consequences of their actions."
+								],
+								[
+									"4",
+									"I'm very paranoid. Everyone is out to get me."
+								]
+							]
+						}
+						]
+					}
+				],
+				[
+					{
+						"name": "Fighting Style",
+						"entries": [
+							"At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.",
+							{
+								"type": "options",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Archery",
+										"entries": [
+											"You gain a +2 bonus to attack rolls you make with ranged weapons."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Defense",
+										"entries": [
+											"While you are wearing armor, you gain a +1 bonus to AC."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Dueling",
+										"entries": [
+											"When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Great Weapon Fighting",
+										"entries": [
+											"When you roll a 1 or a 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the twohanded or versatile property for you to gain this benefit."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Two-Weapon Fighting",
+										"entries": [
+											"When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "Fury of the Dragon",
+						"entries": [
+							"Also at 2nd level, your dragon companion has begun to grow, and can now take the Attack action on its turn.",
+							"Additionally, when the dragon makes a claw attack on its turn, it can replace the claw attack with a special attack, which deals the same damage as a claw attack (unless otherwise specified), with the following additional effects, specified under each attack.",
+							"Your dragon can replace a claw attack with one of these attacks a number of times equal to your dragon's Strength modifier (minimum 1), and regains all uses when you finish a short or long rest. ",
+							{
+								"type": "options",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Bite Attack",
+										"entries": [
+											"Elemental energy swirls in the mouth of your dragon as it lunges forward to strike. The target takes an additional 1d8 damage of your dragon's relevant damage type. This damage increases to 2d8 at 9th level, and 3d8 at 14th level. "
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Tail Attack",
+										"entries": [
+											"Your dragon's tail whips at a creature within 10 feet of it. The target must make a Strength saving throw, with the DC being equal to 8 + your proficiency bonus + your dragon's Strength modifier. On a failed save, the target is knocked prone. The reach of this attack increases by 5 feet at 9th level, and an additional 5 feet at 14th level. "
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Wing Attack",
+										"entries": [
+											"Rather than dealing the damage of its claw attack, your dragon can beat its wings. Creatures of your choice within 10 feet of your dragon must make a Strength saving throw, with the DC being equal to 8 + your proficiency bonus + your dragon's Strength modifier. On a failed save, a creature is pushed 10 feet away from the dragon. The radius of the push and distance a creature is pushed on a failed save increase by 5 feet at 9th level, and an additional 5 feet at 14th level.",
+											"After pushing creatures this way, the dragon can immediately move up to half its flying speed. "
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"name": "Eye for Detail",
+						"entries": [
+							"Also at 3rd level, you can easily discern the value and rarity of gems, art pieces, and magical items. You can spend 1 minute studying a gem or art piece, after which you learn it's exact value. Additionally, if it is a gemstone, you learn what kind of gemstone it is. If it's an art piece, you learn how old it is.",
+							"Furthermore, you can cast the {@item identify} spell, but only as a ritual. You don't require material components for the spell when you cast it this way."
+						]
+					},
+					{
+						"name": "Dragon Knight Practice",
+						"entries": [
+							"At 3rd level, you can choose a practice, either Rider, Elemental, Valiant, Platinum, or Shadow. These practices are detailed at the end of the class description.",
+							"Your choice grants you features when you choose it at 3rd level and again at 7th, 10th, 15th, and 18th level. "
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 4th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[
+					{
+						"name": "Coordinated Attack",
+						"entries": [
+							"Beginning at 5th level, you and your dragon companion form a more potent fighting team. When you take the Attack action on your turn, if your dragon companion can see or hear you, it can use its reaction to make a melee weapon attack. "
+						]
+					},
+					{
+						"name": "Wyrmling Advancement",
+						"entries": [
+							"Also at 5th level, your dragon companion continues to grow, and gains the following benefits:",
+							{
+								"type": "list",
+								"items": [
+									"Its claw attacks deal an additional {@dice 1d4} slashing damage.",
+									"Its flying speed increases by 15 feet, and it’s other speeds increase by 5 feet.",
+									"The dragon's wings are stronger, and it no longer falls to the ground if it ends its turn in the air."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"name": "Breath Weapon",
+						"entries": [
+							"Starting at 6th level, your dragon has developed the glands to shoot raw, destructive elements from its mouth, with the saving throw calculated as follows:",
+							"<center>{@bold Breath Save DC} = 8 + your proficiency bonus + your dragon's Constitution modifier</center>",
+							"The shape of the breath is different depending on the colour of your dragon, as shown in the table below. The damage is the same as the dragon's relevant damage type (e.g. a red dragon's breath would deal fire damage).",
+						{
+							"type": "table",
+							"colLabels": [
+								"Dragon",
+								"Breath Weapon"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-5 text"
+							],
+							"rows": [
+								[
+									"{@bold Black}",
+									"5 by 30 ft. line (Dex. save)"
+								],
+								[
+									"{@bold Blue}",
+									"5 by 30 ft. line (Dex. save)"
+								],
+								[
+									"{@bold Brass}",
+									"5 by 30 ft. line (Dex. save)"
+								],
+								[
+									"{@bold Bronze}",
+									"5 by 30 ft. line (Dex. save)"
+								],
+								[
+									"{@bold Copper}",
+									"5 by 30 ft. line (Dex. save)"
+								],
+								[
+									"{@bold Gold}",
+									"15 ft. cone (Dex. save)"
+								],
+								[
+									"{@bold Green}",
+									"15 ft. cone (Con. save)"
+								],
+								[
+									"{@bold Platinum}",
+									"5 by 30 ft. line (Dex. save)"
+								],
+								[
+									"{@bold Red}",
+									"15 ft. cone (Dex. save)"
+								],
+								[
+									"{@bold Shadow}",
+									"15 ft. cone (Con. save)"
+								],
+								[
+									"{@bold Silver}",
+									"15 ft. cone (Con. save"
+								],
+								[
+									"{@bold White}",
+									"15 ft. cone (Con. save)"
+								]
+							]
+							},
+							"As an action on its turn, the dragon can breathe its relevant destructive energy in either a line or a cone, as shown on the table. Each creature in the area takes 4d6 damage on a failed save, or half as much on a successful one.",
+							"The area of the line and cone and the damage of the breath weapon increase as you gain levels in this class, as shown below.",
+							"Once your dragon has used this ability, it cannot do so again until you finish a short or long rest.",
+						{
+							"type": "table",
+							"colLabels": [
+								"Level",
+								"Damage",
+								"Area"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-1 text",
+								"col-5 text"
+							],
+							"rows": [
+								[
+									"6th",
+									"{@dice 4d6}",
+									"5 by 30 ft. line / 15 ft. cone"
+								],
+								[
+									"9th",
+									"{@dice 6d6}",
+									"10 by 60 ft. line / 30 ft. cone"
+								],
+								[
+									"14th",
+									"{@dice 8d6}",
+									"10 by 90 ft. line / 60 ft. cone"
+								]
+							]
+							}
+						]
+					},
+					{
+						"name": "Rending Strikes",
+						"entries": [
+							"Also at 6th level, your dragon's attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+						]
+					}
+				],
+				[
+					{
+						"name": "Practice Feature",
+						"entries": [
+							"At 7th level, you gain a feature granted by your Dragon Practice choice."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 8th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[
+					{
+						"name": "Young Advancement",
+						"entries": [
+							"At 9th level, your dragon companion still grows, and gains the additional following benefits: ",
+							{
+								"type": "list",
+								"items": [
+									"The dragon's size is now Large",
+									"Its flying speed increases by 15 feet, and it’s other speeds increase by 5 feet.",
+									"As long as your dragon can see you, it has advantage on all saving throws."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"name": "Practice Feature",
+						"entries": [
+							"At 10th level, you gain a feature granted by your Dragon Practice choice."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Draconic Nature",
+						"entries": [
+							"Beginning at 11th level, the dragon's claw attacks deal an additional {@dice 1d4} slashing damage, you gain resistance to the damage type appropriate to your dragon, and can choose one of the following benefits:",
+							"{@italic {@bold Scales.}} A thin layer of scales covers your body. While you are not wearing armour, your AC equals 10 + your Dexterity modifier + your Charisma modifier. You can still wield a shield and get this benefit. ",
+							"{@italic {@bold Eyes.}} Your eyes become dragon-like, and you gain proficiency in the {@skill Perception} and {@skill Investigation} skills. You also have advantage on any Wisdom ({@skill Perception}) or Intelligence ({@skill Investigation}) checks based on sight",
+							"{@italic {@bold Tail.}} Your spine extends and you grow a scaled, muscular tail. Whenever you take the Attack action on your turn, you can whip around and attempt to shove a creature within 10 feet of you as a bonus action."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 12th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[
+					{
+						"name": "Legacy of the Dragon",
+						"entries": [
+							"At 13th level, you have taken on a dragon's extended lifespan. You age only one year for every ten years that pass, and can't be aged magically."
+						]
+					}
+				],
+				[
+					{
+						"name": "Titanic Roar",
+						"entries": [
+							"Starting at 14th level, your dragon can let loose a vicious roar, filling nearby creatures with dread.",
+							"As an action on its turn, your dragon can roar. Any number of creatures of its choice within 20 feet of the dragon must make a Wisdom saving throw against the dragon's breath weapon DC. On a failed save, creatures are frightened by the dragon for 1 minute. The creature can repeat the saving throw at the end of their turn, ending the effect on a success.",
+							"Once your dragon has used this ability, it can't do so again until you finish a long rest."
+						]
+					}
+				],
+				[
+					{
+						"name": "Practice Feature",
+						"entries": [
+							"At 15th level, you gain a feature granted by your Dragon Practice choice."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 16th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[
+					{
+						"name": "Ancient Resilience",
+						"entries": [
+							"At 17th level, you can shrug off even the most dangerous effects. Whenever you or your dragon would fail a saving throw, you can choose to succeed instead. You can't do so again until you finish a long rest."
+						]
+					}
+				],
+				[
+					{
+						"name": "Practice Feature",
+						"entries": [
+							"At 18th level, you gain a feature granted by your Dragon Practice choice."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 19th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[
+					{
+						"name": "Essence of the Covenant",
+						"entries": [
+							"At 20th level, the bond between you and your dragon is so strong that you can suffer each other's blows. Whenever you or your dragon would take damage, if you are within 30 feet of each other, either of you can take the damage for the other, causing them not to take the damage. Instead, the one who used the ability takes the damage. This damage can’t be reduced or prevented in any way.",
+							"Additionally, you automatically succeed on the ability check you make to restore your dragon to life."
+						]
+					}
+				]
+			],
+			"subclassTitle": "Dragon Practice",
+			"subclasses": [
+				{
+					"name": "Shadow",
+					"shortName": "Shadow",
+					"source": "SRP",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Shadow Practice",
+								"entries": [
+									"Dragon knights who revere dark magic, or even strive to cause suffering in others, make up members of the Shadow Practice. Dark and elusive, these dragon knights use misdirection and guile to gain the upper hand in battle.",
+									{
+										"type": "entries",
+										"name": "Draconic Darkness",
+										"entries": [
+											"At 3rd level, your draconic nature and that of your companion shifts to reflect the influence of darkness you now wield. Your dragon's relevant damage type becomes necrotic, and any damage and condition immunities it has are replaced with immunity to necrotic damage."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Shadow Cloak",
+										"entries": [
+											"Also at 3rd level, you can surround yourself in a shroud of darkness. As a bonus action on your turn, a 5 foot diameter sphere, centered on you or your dragon, becomes heavily obscured to creatures other than yourself and your dragon. The sphere of shadow lasts until the start of your next turn, and doesn’t move with you.",
+											"You can use this ability a number of times equal to your Charisma modifier (minimum 1). You regain all expended uses of this ability when you finish a short or long rest. When you hit 9th level in this class, the diameter of the sphere you summon can be 5 or 10 feet (your choice)."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Withering Aura",
+										"entries": [
+											"Beginning at 7th level, when a creature is reduced to 0 hit points within 60 feet of you or your dragon, you can cause that creature to immediately die. Afterwards, a {@creature shadow|MM} rises from its corpse with the following changes:",
+										{
+											"type": "list",
+											"items": [
+												"The shadow's Intelligence and Charisma scores are reduced to 1.",
+												"The shadow is unaligned.",
+												"If the shadow would reduce a creature's Strength score to 0, a new shadow is not created.",
+												"A shadow can only drop a creature to a minimum of 1 Strength, and cannot kill a creature by dropping them to 0."
+											]
+										},
+										"The shadows last until the end of your next turn, and they act alongside your initiative count. They take orders from both you and the dragon, requiring no action from either of you. You can only control a number of shadows equal to your Charisma modifier, and cannot have more than that many shadows summoned at once."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Night Walker",
+										"entries": [
+											"At 10th level, your body has begun to meld with the melody of the Shadowfell. You and your dragon have gained the ability to shift along the moving tides of shadow, rectifying your bodies into an absolute union between the Material and the Fell.",
+											"You and your dragon gain the ability to take the Hide action as a bonus action on your turn. If you are in dim light or in darkness, you gain advantage on the ability check.",
+											"In addition, while in dim light or in darkness, you and your dragon can attempt to Hide even if you fail to meet the requirements needed to do so. At the end of the current turn, you remain hidden only if you then meet the normal requirements for hiding."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Shifting Shadows",
+										"entries": [
+											"Starting at 15th level, you can manipulate darkness to slip away from your foes. When you use your Shadow Cloak feature, you can choose to also become invisible and teleport up to 30 feet to an empty space you can see within range. You remain invisible until the end of your next turn or until you attack, deal damage, or force a creature to make a saving throw."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Umbra Pulse",
+										"entries": [
+											"At 18th level, you can create a vortex of swirling darkness around yourself as an action on your turn. Any number of creatures you choose within 30 feet of you must make a Constitution saving throw, with the DC being equal to 8 + your proficiency bonus + your Charisma modifier. On a failed save, creatures take {@dice 10d10} necrotic damage and you can choose to have them either pulled up to 15 feet towards you or pushed up to 15 feet directly away from you. On a successful saving throw, creatures take half as much damage and aren't moved.",
+											"Once you use this ability, you can't do so again until you finish a long rest."
+										]
+									}
+								]
+							}
+						]
+					]
+				}
+			],
+			"fluff": [
+				{
+					"name": "Dragon Knight",
+					"type": "section",
+					"entries": [
+						""
+					],
+					"source": "SRP",
+					"page": 0
+				}
+			]
+		}
+	]
+}

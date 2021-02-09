@@ -1,0 +1,1558 @@
+{
+	"class": [
+		{
+			"name": "Ranger Subclasses",
+			"source": "SRP",
+			"srd": true,
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"str",
+				"dex"
+			],
+			"spellcastingAbility": "wis",
+			"casterProgression": "1/2",
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"shields"
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"animal handling",
+								"athletics",
+								"insight",
+								"investigation",
+								"nature",
+								"perception",
+								"stealth",
+								"survival"
+							],
+							"count": 3
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) {@item scale mail|phb} or (b) {@item leather armor|phb}",
+					"(a) two {@item shortsword|phb|shortswords} or (b) two {@filter simple melee weapons|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
+					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
+					"A {@item longbow|phb} and a {@item quiver|phb} of {@item arrows (20)|phb|20 arrows}"
+				],
+				"goldAlternative": "{@dice 5d4×10|5d4 × 10|Starting Gold}"
+			},
+			"multiclassing": {
+				"requirements": {
+					"dex": 13,
+					"wis": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"medium",
+						"shields"
+					],
+					"skills": [
+						{
+							"choose": {
+								"from": [
+									"animal handling",
+									"athletics",
+									"insight",
+									"investigation",
+									"nature",
+									"perception",
+									"stealth",
+									"survival"
+								],
+								"count": 1
+							}
+						}
+					],
+					"weapons": [
+						"simple",
+						"martial"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Spells Known|spells|class=ranger}"
+					],
+					"rows": [
+						[
+							0
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							7
+						],
+						[
+							7
+						],
+						[
+							8
+						],
+						[
+							8
+						],
+						[
+							9
+						],
+						[
+							9
+						],
+						[
+							10
+						],
+						[
+							10
+						],
+						[
+							11
+						],
+						[
+							11
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=Ranger}",
+						"{@filter 2nd|spells|level=2|class=Ranger}",
+						"{@filter 3rd|spells|level=3|class=Ranger}",
+						"{@filter 4th|spells|level=4|class=Ranger}",
+						"{@filter 5th|spells|level=5|class=Ranger}"
+					],
+					"rows": [
+						[
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				[
+					{
+						"name": "Favored Enemy",
+						"entries": [
+							"Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.",
+							"Choose a type of favored enemy: {@filter aberrations|bestiary|type=aberration}, {@filter beasts|bestiary|type=beast}, {@filter celestials|bestiary|type=celestial}, {@filter constructs|bestiary|type=construct}, {@filter dragons|bestiary|type=dragon}, {@filter elementals|bestiary|type=elemental}, {@filter fey|bestiary|type=fey}, {@filter fiends|bestiary|type=fiend}, {@filter giants|bestiary|type=giant}, {@filter monstrosities|bestiary|type=monstrosity}, {@filter oozes|bestiary|type=ooze}, {@filter plants|bestiary|type=plant}, or {@filter undead|bestiary|type=undead}. Alternatively, you can select two races of {@filter humanoid|bestiary|type=humanoid} (such as {@creature gnoll||gnolls} and {@creature orc||orcs}) as favored enemies.",
+							"You have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.",
+							"When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.",
+							"You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures."
+						]
+					},
+					{
+						"name": "Favored Foe",
+						"entries": [
+							"{@i 1st-level ranger feature (replaces Favored Enemy)}",
+							"You can call on your bond with nature to mark a creature as your favored enemy for a time: you know the {@spell hunter's mark} spell, and Wisdom is your spellcasting ability for it. You can use it a certain number of times without expending a spell slot and without requiring concentration a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.",
+							"When you gain the Spellcasting feature at 2nd level, hunter's mark doesn't count against the number of ranger spells you know."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 7
+					},
+					{
+						"name": "Natural Explorer",
+						"entries": [
+							"You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.",
+							"While traveling for an hour or more in your favored terrain, you gain the following benefits:",
+							{
+								"type": "list",
+								"items": [
+									"Difficult terrain doesn't slow your group's travel.",
+									"Your group can't become lost except by magical means.",
+									"Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.",
+									"If you are traveling alone, you can move stealthily at a normal pace.",
+									"When you forage, you find twice as much food as you normally would.",
+									"While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area."
+								]
+							},
+							"You choose additional favored terrain types at 6th and 10th level."
+						]
+					},
+					{
+						"name": "Deft Explorer",
+						"entries": [
+							"{@i 1st-level ranger feature (replaces Natural Explorer)}",
+							"You are an unsurpassed explorer and survivor. Choose one of the following benefits, and then choose another one at 6th and 10th level.",
+							{
+								"type": "options",
+								"entries": [
+									{
+										"name": "Canny",
+										"entries": [
+											"Choose one skill: {@skill Animal Handling}, {@skill Athletics}, {@skill History}, {@skill Insight}, {@skill Investigation}, {@skill Medicine}, {@skill Nature}, {@skill Perception}, {@skill Stealth}, or {@skill Survival}. You gain proficiency in the chosen skill if you don't already have it, and you can add double your proficiency bonus to ability checks using that skill.",
+											"In addition, thanks to your extensive wandering, you are able to speak, read, and write two languages of your choice."
+										],
+										"type": "entries"
+									},
+									{
+										"name": "Roving",
+										"entries": [
+											"Your walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed."
+										],
+										"type": "entries"
+									},
+									{
+										"name": "Tireless",
+										"entries": [
+											"As an action, you can give yourself a number of temporary hit points equal to {@dice 1d10} + your Wisdom modifier. You can use this special action a number of times equal to your Wisdom modifier (a minimum of once), and you regain all expended uses when you finish a long rest.",
+											"In addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1."
+										],
+										"type": "entries"
+									}
+								]
+							}
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 7
+					}
+				],
+				[
+					{
+						"name": "Fighting Style",
+						"entries": [
+							"At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.",
+							{
+								"type": "options",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Archery",
+										"entries": [
+											"You gain a +2 bonus to attack rolls you make with ranged weapons."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Close Quarters Shooter",
+										"entries": [
+											"When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. You have a +1 bonus to attack rolls on ranged attacks."
+										],
+										"source": "UALightDarkUnderdark"
+									},
+									{
+										"type": "entries",
+										"name": "Defense",
+										"entries": [
+											"While you are wearing armor, you gain a +1 bonus to AC."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Dueling",
+										"entries": [
+											"When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Mariner",
+										"entries": [
+											"As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC."
+										],
+										"source": "UAWaterborneAdventures"
+									},
+									{
+										"type": "entries",
+										"name": "Tunnel Fighter",
+										"entries": [
+											"As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach."
+										],
+										"source": "UALightDarkUnderdark"
+									},
+									{
+										"type": "entries",
+										"name": "Two-Weapon Fighting",
+										"entries": [
+											"When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Blind Fighting",
+										"entries": [
+											"Being unable to see a creature doesn't impose disadvantage on your attack rolls against it, provided the creature isn't hidden from you."
+										],
+										"source": "UAClassFeatureVariants",
+										"page": 12
+									},
+									{
+										"type": "entries",
+										"name": "Interception",
+										"entries": [
+											"When a creature you can see hits a target that is within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by {@dice 1d10} + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction."
+										],
+										"source": "UAClassFeatureVariants",
+										"page": 12
+									},
+									{
+										"type": "entries",
+										"name": "Thrown Weapon Fighting",
+										"entries": [
+											"You can draw a weapon that has the thrown property as part of the attack you make with the weapon.",
+											"In addition, when you hit with a ranged attack using a thrown weapon, you gain a +1 bonus to the damage roll."
+										],
+										"source": "UAClassFeatureVariants",
+										"page": 12
+									},
+									{
+										"type": "entries",
+										"name": "Unarmed Fighting",
+										"entries": [
+											"Your unarmed strikes can deal bludgeoning damage equal to {@dice 1d6} + your Strength modifier. If you strike with two free hands, the {@dice d6} becomes a {@dice d8}.",
+											"When you successfully start a grapple, you can deal {@dice 1d4} bludgeoning damage to the grappled creature. Until the grapple ends, you can also deal this damage to the creature whenever you hit it with a melee attack."
+										],
+										"source": "UAClassFeatureVariants",
+										"page": 12
+									},
+									{
+										"type": "entries",
+										"name": "Druidic Warrior",
+										"entries": [
+											"You learn two cantrips of your choice from the {@filter druid spell list|spells|level=0|class=druid}. They count as druid spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the druid spell list."
+										],
+										"source": "UAClassFeatureVariants",
+										"page": 7
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "Martial Versatility",
+						"entries": [
+							"{@i 2nd-level feature (enhances Fighting Style)}",
+							"Whenever you gain a level in this class, you can replace a fighting style you know with another style available to your class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 12
+					},
+					{
+						"name": "Spellcasting",
+						"entries": [
+							"By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See {@book chapter 10|PHB|10} for the general rules of spellcasting and chapter 11 for the {@filter ranger spell list|spells|class=ranger}.",
+							{
+								"type": "entries",
+								"name": "Spell Slots",
+								"entries": [
+									"The Ranger table shows how many spell slots you have to cast your {@filter ranger spells|spells|class=ranger} of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+									"For example, if you know the 1st-level spell {@spell animal friendship} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell animal friendship} using either slot."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spells Known of 1st Level and Higher",
+								"entries": [
+									"You know two 1st-level spells of your choice from the ranger spell list.",
+									"The Spells Known column of the Ranger table shows when you learn more ranger spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level.",
+									"Additionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another spell from the ranger spell list, which also must be of a level for which you have spell slots."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spellcasting Ability",
+								"entries": [
+									"Wisdom is your spellcasting ability for your ranger spells, since your magic draws on your attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.",
+									{
+										"type": "abilityDc",
+										"name": "Spell",
+										"attributes": [
+											"wis"
+										]
+									},
+									{
+										"type": "abilityAttackMod",
+										"name": "Spell",
+										"attributes": [
+											"wis"
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "Spell Versatility",
+						"entries": [
+							"{@i 2nd-level ranger feature (enhances Spellcasting)}",
+							"Whenever you finish a long rest, you can replace one spell you learned from this Spellcasting feature with another spell from the ranger spell list. The new spell must be the same level as the spell you replace."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 8
+					},
+					{
+						"name": "Spellcasting Focus",
+						"entries": [
+							"{@i 2nd-level ranger feature (enhances Spellcasting)}",
+							"You can use a {@item druidic focus|phb} as a spellcasting focus for your ranger spells. See chapter 5, \"Equipment,\" of the Player's Handbook for a list of things that count as druidic focuses."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 8
+					}
+				],
+				[
+					{
+						"name": "Ranger Archetype",
+						"entries": [
+							"At 3rd level, you choose an archetype that you strive to emulate from the list of available archetypes. Your choice grants features at 3rd level, and again at 7th, 11th, and 15th level."
+						],
+						"gainSubclassFeature": true
+					},
+					{
+						"name": "Primeval Awareness",
+						"entries": [
+							"Beginning at 3rd level, you can use your action and expend one ranger spell slot to focus your awareness on the region around you. For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn't reveal the creatures' location or number."
+						]
+					},
+					{
+						"name": "Primal Awareness",
+						"entries": [
+							"{@i 3rd-level ranger feature (replaces Primeval Awareness)}",
+							"You can focus your awareness through the interconnections of nature: you learn additional spells when you reach certain levels in this class if you don't already know them, as shown in the Primal Awareness Spells table. These spells don't count against the number of ranger spells you know.",
+							{
+								"type": "table",
+								"caption": "Primal Awareness Spells",
+								"colLabels": [
+									"Ranger Level",
+									"Spell"
+								],
+								"colStyles": [
+									"col-2 text-center",
+									"col-10"
+								],
+								"rows": [
+									[
+										"3rd",
+										"{@spell detect magic}, {@spell speak with animals}"
+									],
+									[
+										"5th",
+										"{@spell beast sense}, {@spell locate animals or plants}"
+									],
+									[
+										"9th",
+										"{@spell speak with plants}"
+									],
+									[
+										"13th",
+										"{@spell locate creature}"
+									],
+									[
+										"17th",
+										"{@spell commune with nature}"
+									]
+								]
+							},
+							"You can cast each of these spells once without expending a spell slot. Once you cast a spell in this way, you can't do so again until you finish a long rest."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 8
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 4th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[
+					{
+						"name": "Extra Attack",
+						"entries": [
+							"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
+						]
+					}
+				],
+				[
+					{
+						"name": "Favored Enemy and Natural Explorer improvements",
+						"entries": [
+							"At 6th level, you gain an additional favored terrain.",
+							"At 6th level, you choose one additional favored enemy, as well as an associated language. Your choice should reflect the types of monsters you have encountered on your adventures."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ranger Archetype feature",
+						"entries": [
+							"At 7th level, you gain a feature granted to you by your Ranger Archetype."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 8th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					},
+					{
+						"name": "Land's Stride",
+						"entries": [
+							"Starting at 8th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.",
+							"In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the {@spell entangle} spell."
+						]
+					}
+				],
+				[],
+				[
+					{
+						"name": "Hide in Plain Sight",
+						"entries": [
+							"Starting at 10th level, you can spend 1 minute creating camouflage for yourself. You must have access to fresh mud, dirt, plants, soot, and other naturally occurring materials with which to create your camouflage.",
+							"Once you are camouflaged in this way, you can try to hide by pressing yourself up against a solid surface, such as a tree or wall, that is at least as tall and wide as you are. You gain a +10 bonus to Dexterity ({@skill Stealth}) checks as long as you remain there without moving or taking actions. Once you move or take an action or a reaction, you must camouflage yourself again to gain this benefit."
+						]
+					},
+					{
+						"name": "Fade Away",
+						"entries": [
+							"{@i 10th-level ranger feature (replaces Hide in Plain Sight)}",
+							"You can use a bonus action to magically become {@condition invisible}, along with any equipment you are wearing or carrying, until the start of your next turn.",
+							"Once you use this feature, you can't use it again until you finish a short or long rest."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 8
+					},
+					{
+						"name": "Natural Explorer improvement",
+						"entries": [
+							"You gain an additional favored terrain."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ranger Archetype feature",
+						"entries": [
+							"At 11th level, you gain a feature granted to you by your Ranger Archetype."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 12th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[],
+				[
+					{
+						"name": "Vanish",
+						"entries": [
+							"Starting at 14th level, you can use the {@action Hide} action as a bonus action on your turn. Also, you can't be tracked by nonmagical means, unless you choose to leave a trail."
+						]
+					},
+					{
+						"name": "Favored Enemy improvement",
+						"entries": [
+							"At 14th level, you choose one additional favored enemy, as well as an associated language. Your choice should reflect the types of monsters you have encountered on your adventures."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ranger Archetype feature",
+						"entries": [
+							"At 15th level, you gain a feature granted to you by your Ranger Archetype."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 16th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[],
+				[
+					{
+						"name": "Feral Senses",
+						"entries": [
+							"At 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it. You are also aware of the location of any {@condition invisible} creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't {@condition blinded} or {@condition deafened}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 19th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[
+					{
+						"name": "Foe Slayer",
+						"entries": [
+							"At 20th level, you become an unparalleled hunter of your enemies. Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied."
+						]
+					}
+				]
+			],
+			"subclassTitle": "Ranger Archetype",
+			"subclasses": [
+				{
+					"name": "Faker",
+					"shortName": "Faker",
+					"source": "SRP",
+					"srd": true,
+					"subclassFeatures": [
+						[
+							{
+								"name": "Faker",
+								"entries": [
+									"Emulating the Faker archetype means accepting your place as a bulwark between the common man and the unknown. An acceptance of the facets of knowledge that betray what tradition tells us. The art of shooting a bow is not something unwrought in centuries of tradition, and as a Faker, you go against the grain and disrupt the foundations of said art to become something greater.",
+									"You are not liked by those who emulate your art, nor are you liked by those who follow the old ways. A wanderer on his own path; that is what being a Faker is all about.",
+									{
+										"type": "entries",
+										"name": "To Call a Sword an Arrow",
+										"entries": [
+											"At 3rd level, you gain the ability to mark swords you can see, touch, and hold as fakes. Your fakes are your ammunition, as well as your specialty.",
+											"Marking a sword as a fake is a process that takes several hours, involving the act of manifesting the blade as part of your own will. Studying a sword this way does not consume the sword, but rather adds to your knowledge the ability to replicate it at will. To do so requires one hour of unimpeded concentration and a quiet location to which your studies can be performed. A fake within your folder lasts forever, though a fake can be willingly forgotten and replaced with another.",
+											"Successfully completing the study of a sword will add it into your folder as a fake. The amount of fakes you can store in your folder increase with level, beginning with 3 fakes at 3rd level. When you complete a long rest, you automatically manifest a number of fakes equal to the amount of maximum fakes in your folder divided by 2 (rounded up) from the swords stored within your folder. You can create additional fakes by expending a spell slot of 1st level or higher for each one. When you do so, you use your action to manifest the fake from your folder into the palm of your hand.",
+											"While you have a fake prepared, as a bonus action on your turn, you can manifest it into the palm of your hand and nock it into any bow, so long as that bow is not a crossbow. A fake cannot be wielded as a melee weapon and can only be used as ammunition for a bow. When you manifest a fake on your turn this way, you cannot do so again until your next turn.",
+											"Depending on the type of sword the fake is replicating, the damage of its ammunition changes as it develops special properties, which you can view from the list below:",
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"type": "table",
+												"caption": "Fake Properties",
+												"colLabels": [
+													"1d10",
+													"Effect"
+												],
+												"colStyles": [
+													"col-2 text-center",
+													"col-10"
+												],
+												"rows": [
+													[
+														"1",
+														"{@b Finesse}. Fakes with the Finesse property deal extra damage equal to your Dexterity modifier (minimum of 1). The damage die for this fake is equal to the damage die of the copied weapon."
+													],
+													[
+														"2",
+														"{@b Heavy}. Fakes with the Heavy property cannot be summoned with a bonus action, and must be summoned using an attack action on your turn. Fakes with the Heavy property deal extra damage equal to your Strength modifier (minimum of 1). In addition, any creature hit by the fake must make a Strength saving throw equal to your Spell save DC. On a failed save, that creature is {@condition stunned} until the end of your next turn. The damage die for this fake is equal to the damage die of the copied weapon."
+													],
+													[
+														"3",
+														"{@b Light}. Fakes with the Light property arc through the air, giving you limited control of its trajectory. Fakes with the Light property ignore half and three-quarters cover. The damage die for this fake is equal to the damage die of the copied weapon."
+													],
+													[
+														"4",
+														"{@b Reach}. Fakes with the Reach property add an additional 50 feet of range to your ranged attack roll. The damage die for this fake is equal to the damage die of the copied weapon."
+													],
+													[
+														"5",
+														"{@b Versatile}. Fakes with the Versatile property have their damage die equal the versatile damage of the copied weapon, rather than the base damage (i.e longswords deal {@dice 1d10} rather than {@dice 1d8}). After firing a Versatile fake, you immediately manifest a second fake into your hand as a free action. This fake deals damage equal to the base damage of the weapon, rather than the versatile damage (i.e longswords deal {@dice 1d8} rather than {@dice 1d10})."
+													],
+													[
+														"6",
+														"{@b Two-Handed}. Fakes with the Two-Handed property shove a target up to 10-feet backwards on a hit. The damagte die for this fake is equal to the damage die of the copied weapon."
+													],
+													[
+														"7",
+														"{@b Concealed}. Fakes with the Concealed property have advantage on creatures unaware of this fake's presence. The damage die for this fake is equal to the damage die of the copied weapon."
+													],
+													[
+														"8",
+														"{@b Grappling}. Fakes with the Grappling property can forgo damage to bind a Large or smaller unrestrained creature to you. On a hit, your speeds become halved, and when either you or the creature moves, the other moves in the same direction (regardless of weight). To escape, you or your target can make a Strength or Dexterity saving throw at the end of each of your turns equal to 8 + the creature's proficiency bonus + the creature's Strength modifier. The damage die for this fake (assuming you choose not to use the grapple property) is equal to the damage die of the copied weapon."
+													],
+													[
+														"9",
+														"{@b Disarm Immune}. Fakes with the Disarm Immune property do not impose disadvantage when fired within 5-feet of a creature. The damage die for this fake is equal to the damage die of the copied weapon."
+													],
+													[
+														"10",
+														"{@b Double Weapon}. Fakes with the Double Weapon property strike a target three times on a hit using the double weapon damage die, rather than the weapon's base damage die (i.e three-section staves deal {@dice 1d4} three times rather than {@dice 1d8} once). All three strikes of the fake occur simultaneously, and do not require a second or third attack roll to hit."
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"type": "table",
+												"caption": "Folder of Fakes",
+												"colLabels": [
+													"Ranger Level",
+													"Fakes Catalogued"
+												],
+												"colStyles": [
+													"col-1",
+													"col-1"
+												],
+												"rows": [
+													[
+														"3rd",
+														"3"
+													],
+													[
+														"4th",
+														"3"
+													],
+													[
+														"5th",
+														"4"
+													],
+													[
+														"6th",
+														"4"
+													],
+													[
+														"7th",
+														"5"
+													],
+													[
+														"8th",
+														"5"
+													],
+													[
+														"9th",
+														"6"
+													],
+													[
+														"10th",
+														"6"
+													],
+													[
+														"11th",
+														"7"
+													],
+													[
+														"12th",
+														"7"
+													],
+													[
+														"13th",
+														"7"
+													],
+													[
+														"14th",
+														"8"
+													],
+													[
+														"15th",
+														"8"
+													],
+													[
+														"16th",
+														"8"
+													],
+													[
+														"17th",
+														"9"
+													],
+													[
+														"18th",
+														"9"
+													],
+													[
+														"19th",
+														"9"
+													],
+													[
+														"20th",
+														"10"
+													]
+												]
+											}
+										]
+									},
+											{
+												"type": "entries",
+												"entries": [
+													{
+														"type": "entries",
+														"entries": [
+															"Because of a fake's inherent copied properties, it will only ever be an imitation of the original. Fakes can only have one weapon property. If a weapon you choose to study has multiple properties, you choose one to become part of your fake."
+														]
+													}
+												]
+											},
+											{
+												"type": "entries",
+												"entries": [
+													{
+														"type": "entries",
+														"entries": [
+															"While your fake's are an imitation, they are also virtually indistinguishable from the real deal. A character can roll an Intelligence ({@skill Investigation}) check against your Spell save DC to determine whether your fake is real, or a mere fabrication. On a failed check, the weapon manifests as a perfect replica of the original with no discernable differences. A successful check has the opposite effect, revealing to some degree a minor imperfection in your craft."
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Restriction: Rho",
+										"entries": [
+											"Fakers are tied to a specific order of Rangers of Yonia known as the Rho.",
+											"Your DM can lift this restriction to better suit the campaign. The restriction reflects the story of Fakers in Kagrea, but it might not apply to your DM's setting or your DM's version of the story."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Magical Imitation",
+										"entries": [
+											"At 7th level, your ability to recreate weapons has elevated beyond its normal level. You gain the ability to study and turn into fakes magical items up to the uncommon rarity. Magic weapon fakes operate similarly to that of your normal fakes, except that they also manifest effects equivalent to the magical item they hail from.",
+											"Magic item fakes take on hit die and damage roll modifiers dependant on the item in question. For instance: a +1 weapon would add its additional +1 to the damage roll of the weapon, and a hellfire weapon would turn slain enemies into lemure devils. If the item has a command word to add to its damage, you can utter this command word as a free action if the weapon hits.",
+											"In addition to this, your fakes now explode on contact with an enemy. On a hit, the target takes an additional {@dice 1d8} force damage as your fake erupts into shards of incandescent crystal."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Divine Imitation",
+										"entries": [
+											"At 11th level, you have begun to further hone your skills in recreating magical weapons, and have nearly perfected the art of basic magical imitation. Your abiltiy to study magical weapons evolves, increasing your range of study to rare rarity. In addition, the time needed to study a fake and add it to your folder is reduced to 30 minutes rather than an hour, and you can do so without complete silence and while performing a light activity such as conversation. Finally, your fakes can now adopt two weapons properties instead of one, and the explosion damage from Magical Imitation increases to {@dice 2d8}."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Rho",
+										"entries": [
+											"At 15th level, you have mastered the art of the Faker and have trascended beyond boundaries thought to be normal. Your ability to study magical weapons evolves, increasing your range of study to the very rare rarity. In addition, you gain access to the coveted Faker ability known simply as Rho Aias.",
+											{
+												"type": "entries",
+												"entries": [
+													{
+														"type": "entries",
+														"name": "Rho Aias",
+														"entries": [
+															"This ability is often thought to be the namesake of the Ranger Order from Yonia, and is one of their most powerful conjurations. It is the only shield that can be classified as a fake, and as opposed to your other fakes, this fake does not need to be studied, but rather, understood."
+														]
+													},
+													{
+														"type": "entries",
+														"entries": [
+															"Rho Aias is classified as a being a magical shield requiring both verbal and somatic components. Rho Aias lasts for ten minutes before it dissipates into incandescent shards."
+														]
+													},
+													{
+														"type": "entries",
+														"entries": [
+															"Upon casting Rho Aias, you hold out your hands to deflect incoming attacks utilizing your internalized will. As a reaction to an ally (including yourself) receiving a ranged weapon or spell attack, you summon Rho Aias in a radius of 40 feet. The shield blossoms forth in front of the point you target in the image of a flower."
+														]
+													},
+													{
+														"type": "entries",
+														"entries": [
+															"Rho Aias is a shield that provides full-cover to any creatures standing behind it. It is 15-feet wide and 30-feet high. Creatures who cannot move through physical objects cannot pass through Rho Aias while it is tangible. It has an AC of 18 and HP equal to your Ranger level * 3 + your Wisdom modifier + your proficiency bonus. As long as Rho Aias is active, any ranged attacks that come from its forward-facing direction are magically forced to target the shield. Ranged attacks that avoid full cover must still target Rho Aias."
+														]
+													},
+													{
+														"type": "entries",
+														"entries": [
+															"You can bolster Rho Aias's HP by expending spell slots higher than 2nd. For each level of spell slot you expended, Rho Aias gains HP equal to your Ranger level * 2, represented by the extra flowery layers it develops. In addition, you can also expend fakes you have prepared in order to further strengthen Rho Aias. An expended fake is equivalent to a spell slot higher than 5th, theoretically allow a Faker to cast Rho Aias at an 8th-level spell slot."
+														]
+													},
+													{
+														"type": "entries",
+														"entries": [
+															"Fakes expended this way are removed from your folder until next dawn. While expended, they still take up space in your folder, meaning you would have to forget them as normal to replace them with a new fake."
+														]
+													},
+													{
+														"type": "entries",
+														"entries": [
+															"Casting Rho Aias does not expend a 2nd-level spell slot, but rather draws from its own separate pool of uses. You can use Rho Aias a number of times equal to your Wisdom modifier (minimum of 1)."
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					]
+				},
+				{
+					"name": "Tenka",
+					"shortName": "Tenka",
+					"source": "SRP",
+					"srd": true,
+					"subclassFeatures": [
+						[
+							{
+								"name": "Tenka",
+								"entries": [
+									"Long ago, during the hedonistic period of Yonia's infancy, a plague known as the Old Ones roamed the lands in search survivors from the War of the Human Dark. These searches were often called the End Time, in reference to the mass amounts of disease and death that would touch the lands upon the arrival of the Old Ones.",
+									"A sect known as the Tenka Order was quickly established by the last remnants of humanity in order to combat the elder threat. A group of soldiers with biological connections to the Human Dark, who could manifest their demonic heritage to create weapons to destroy the divine. These weapons were forged as a part of each soldier's birthright, having the power to sever both divinity and mystery from the boundaries of the world.",
+									"Using their strengths, the Tenka Order laid ambushes for the Old Ones, attacking them from afar and performing guerilla tactics in order to evade the divine threat. Eventually as the years ticked onward, the art of the Tenka was considered to be but a long lost part of history. That was, until remnants of their sect were discovered by the Rho, who appropiated their former dojo into training grounds for Tenka Order to-be."
+								]
+							},
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Tenka Fubu Innovation",
+										"entries": [
+											"Starting at 3rd level, you become skilled in the art of using your demonic training to manifest armaments powerful enough to take down creatures with connections to divinity or mystery. Whenever you make an attack with a ranged weapon, you can summon an spiritual weapon known as the Fubu as a free action to make a ranged weapon attack against a creature in range.",
+											"The Fubu is a weapon shaped like a musket, with a wood-grain finish and inlaid gold accents. It does {@dice 1d12} piercing damage that does not scale with your Dexterity modifier, and has a normal range of 120 feet and a long range of 480 feet. The Fubu requires no ammunition, as it's powered by your spiritual energy.",
+											"If the creature type of the target is Celestial, or if the target is an innate spellcaster, then the Fubu attempts to sever their connection to divinity and mystery. That creature takes an additional {@dice 1d8} force damage on a hit.",
+											"You can only attack with the Fubu once per turn, regardless of how many attacks you have, and must wait until you next turn before you can manifest it again."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Magical Imitatio",
+										"entries": [
+											"At 7th level, your ability to recreate weapons has elevated beyond its normal level. You gain the ability to study and turn into fakes magical items up to the uncommon rarity. Magic weapon fakes operate similarly to that of your normal fakes, except that they also manifest effects equivalent to the magical item they hail from.",
+											"Magic item fakes take on hit die and damage roll modifiers dependant on the item in question. For instance: a +1 weapon would add its additional +1 to the damage roll of the weapon, and a hellfire weapon would turn slain enemies into lemure devils. If the item has a command word to add to its damage, you can utter this command word as a free action if the weapon hits.",
+											"In addition to this, your fakes now explode on contact with an enemy. On a hit, the target takes an additional {@dice 1d8} force damage as your fake erupts into shards of incandescent crystal."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Divine Imitatio",
+										"entries": [
+											"At 11th level, you have begun to further hone your skills in recreating magical weapons, and have nearly perfected the art of basic magical imitation. Your abiltiy to study magical weapons evolves, increasing your range of study to rare rarity. In addition, the time needed to study a fake and add it to your folder is reduced to 30 minutes rather than an hour, and you can do so without complete silence and while performing a light activity such as conversation. Finally, your fakes can now adopt two weapons properties instead of one, and the explosion damage from Magical Imitation increases to {@dice 2d8}."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Rh",
+										"entries": [
+											"At 15th level, you have mastered the art of the Faker and have trascended beyond boundaries thought to be normal. Your ability to study magical weapons evolves, increasing your range of study to the very rare rarity. In addition, you gain access to the coveted Faker ability known simply as Rho Aias.",
+											{
+												"type": "entries",
+												"entries": [
+													{
+														"type": "entries",
+														"name": "Rho Aias",
+														"entries": [
+															"This ability is often thought to be the namesake of the Ranger Order from Yonia, and is one of their most powerful conjurations. It is the only shield that can be classified as a fake, and as opposed to your other fakes, this fake does not need to be studied, but rather, understood."
+														]
+													},
+													{
+														"type": "entries",
+														"entries": [
+															"Rho Aias is classified as a being a magical shield requiring both verbal and somatic components. Rho Aias lasts for ten minutes before it dissipates into incandescent shards."
+														]
+													},
+													{
+														"type": "entries",
+														"entries": [
+															"Upon casting Rho Aias, you hold out your hands to deflect incoming attacks utilizing your internalized will. As a reaction to an ally (including yourself) receiving a ranged weapon or spell attack, you summon Rho Aias in a radius of 40 feet. The shield blossoms forth in front of the point you target in the image of a flower."
+														]
+													},
+													{
+														"type": "entries",
+														"entries": [
+															"Rho Aias is a shield that provides full-cover to any creatures standing behind it. It is 15-feet wide and 30-feet high. Creatures who cannot move through physical objects cannot pass through Rho Aias while it is tangible. It has an AC of 18 and HP equal to your Ranger level * 3 + your Wisdom modifier + your proficiency bonus. As long as Rho Aias is active, any ranged attacks that come from its forward-facing direction are magically forced to target the shield. Ranged attacks that avoid full cover must still target Rho Aias."
+														]
+													},
+													{
+														"type": "entries",
+														"entries": [
+															"You can bolster Rho Aias's HP by expending spell slots higher than 2nd. For each level of spell slot you expended, Rho Aias gains HP equal to your Ranger level * 2, represented by the extra flowery layers it develops. In addition, you can also expend fakes you have prepared in order to further strengthen Rho Aias. An expended fake is equivalent to a spell slot higher than 5th, theoretically allow a Faker to cast Rho Aias at an 8th-level spell slot."
+														]
+													},
+													{
+														"type": "entries",
+														"entries": [
+															"Fakes expended this way are removed from your folder until next dawn. While expended, they still take up space in your folder, meaning you would have to forget them as normal to replace them with a new fake."
+														]
+													},
+													{
+														"type": "entries",
+														"entries": [
+															"Casting Rho Aias does not expend a 2nd-level spell slot, but rather draws from its own separate pool of uses. You can use Rho Aias a number of times equal to your Wisdom modifier (minimum of 1)."
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					]
+				}
+			],
+			"fluff": [
+				{
+					"name": "Ranger",
+					"type": "section",
+					"entries": [
+						"Rough and wild looking, a human stalks alone through the shadows of trees, hunting the orcs he knows are planning a raid on a nearby farm. Clutching a shortsword in each hand, he becomes a whirlwind of steel, cutting down one enemy after another.",
+						"After tumbling away from a cone of freezing air, an elf finds her feet and draws back her bow to loose an arrow at the white dragon. Shrugging off the wave of fear that emanates from the dragon like the cold of its breath, she sends one arrow after another to find the gaps between the dragon's thick scales.",
+						"Holding his hand high, a half-elf whistles to the hawk that circles high above him, calling the bird back to his side. Whispering instructions in Elvish, he points to the owlbear he's been tracking and sends the hawk to distract the creature while he readies his bow.",
+						"Far from the bustle of cities and towns, past the hedges that shelter the most distant farms from the terrors of the wild, amid the dense-packed trees of trackless forests and across wide and empty plains, rangers keep their unending watch.",
+						{
+							"type": "entries",
+							"name": "Deadly Hunters",
+							"entries": [
+								"Warriors of the wilderness, rangers specialize in hunting the monsters that threaten the edges of civilization\u2014humanoid raiders, rampaging beasts and monstrosities, terrible giants, and deadly dragons. They learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble. Rangers focus their combat training on techniques that are particularly useful against their specific favored foes.",
+								"Thanks to their familiarity with the wilds, rangers acquire the ability to cast spells that harness nature's power, much as a druid does. Their spells, like their combat abilities, emphasize speed, stealth, and the hunt. A ranger's talents and abilities are honed with deadly focus on the grim task of protecting the borderlands."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Independent Adventurers",
+							"entries": [
+								"Though a ranger might make a living as a hunter, a guide, or a tracker, a ranger's true calling is to defend the outskirts of civilization from the ravages of monsters and humanoid hordes that press in from the wild. In some places, rangers gather in secretive orders or join forces with druidic circles. Many rangers, though, are independent almost to a fault, knowing that, when a dragon or a band of orcs attacks, a ranger might be the first\u2014and possibly the last\u2014line of defense.",
+								"This fierce independence makes rangers well suited to adventuring, since they are accustomed to life far from the comforts of a dry bed and a hot bath. Faced with city-bred adventurers who grouse and whine about the hardships of the wild, rangers respond with some mixture of amusement, frustration, and compassion. But they quickly learn that other adventurers who can carry their own weight in a fight against civilization's foes are worth any extra burden. Coddled city folk might not know how to feed themselves or find fresh water in the wild, but they make up for it in other ways."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Creating a Ranger",
+							"entries": [
+								"As you create your ranger character, consider the nature of the training that gave you your particular capabilities. Did you train with a single mentor, wandering the wilds together until you mastered the ranger's ways? Did you leave your apprenticeship, or was your mentor slain\u2014perhaps by the same kind of monster that became your favored enemy? Or perhaps you learned your skills as part of a band of rangers affiliated with a druidic circle, trained in mystic paths as well as wilderness lore. You might be self-taught, a recluse who learned combat skills, tracking, and even a magical connection to nature through the necessity of surviving in the wilds.",
+								"What's the source of your particular hatred of a certain kind of enemy? Did a monster kill someone you loved or destroy your home village? Or did you see too much of the destruction these monsters cause and commit yourself to reining in their depredations? Is your adventuring career a continuation of your work in protecting the borderlands, or a significant change? What made you join up with a band of adventurers? Do you find it challenging to teach new allies the ways of the wild, or do you welcome the relief from solitude that they offer?",
+								{
+									"type": "entries",
+									"name": "Quick Build",
+									"entries": [
+										"You can make a ranger quickly by following these suggestions. First, make Dexterity your highest ability score, followed by Wisdom. (Some rangers who focus on two-weapon fighting make Strength higher than Dexterity.) Second, choose the {@background outlander} background."
+									]
+								}
+							]
+						}
+					],
+					"source": "PHB",
+					"page": 89
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "quote",
+							"entries": [
+								"I spend a lot of my life away from civilization, keeping to its fringes to protect it. Don't assume that because I don't bend the knee to your king that I haven't done more to protect him than all his knights put together."
+							],
+							"by": "Soveliss"
+						},
+						"Rangers are free-minded wanderers and seekers who patrol the edges of civilized territory, turning back the denizens of the wild lands beyond. It is a thankless job, since their efforts are rarely understood and almost never rewarded. Yet rangers persist in their duties, never doubting that their work makes the world a safer place.",
+						"A relationship with civilization informs every ranger's personality and history. Some rangers see themselves as enforcers of the law and bringers of justice on civilization's frontier, answering to no sovereign power. Others are survivalists who eschew civilization altogether. They vanquish monsters to keep themselves safe while they live in and travel through the perilous wild areas of the world. If their efforts also benefit the kingdoms and other civilized realms that they avoid, so be it.",
+						"If you're creating or playing a ranger character, the following sections offer ideas for embellishing the character and enhancing your roleplaying experience.",
+						{
+							"type": "entries",
+							"name": "View of the World",
+							"entries": [
+								"A ranger's view of the world begins (and sometimes ends) with that character's outlook toward civilized folk and the places they occupy. Some rangers have an attitude toward civilization that's deeply rooted in disdain, while others pity the people they have sworn to protect\u2014though on the battlefield, it's impossible to tell the difference between one ranger and another. Indeed, to those who have seen them operate and been the beneficiaries of their prowess, it scarcely matters why rangers do what they do. That said, no two rangers are likely to express their opinions on any matter in the same way.",
+								"If you haven't yet thought about the details of your character's worldview, consider putting a finer point on things by summarizing that viewpoint in a short statement (such as the entries on the following table). How might that feeling affect the way you conduct yourself?",
+								{
+									"type": "table",
+									"caption": "View of the World",
+									"colLabels": [
+										"{@dice d6}",
+										"View"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"Towns and cities are the best places for those who can't survive on their own."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"The advancement of civilization is the best way to thwart chaos, but its reach must be monitored."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"Towns and cities are a necessary evil, but once the wilderness is purged of supernatural threats, we will need them no more."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"Walls are for cowards, who huddle behind them while others do the work of making the world safe."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"Visiting a town is not unpleasant, but after a few days I feel the irresistible call to return to the wild."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"Cities breed weakness by isolating folk from the harsh lessons of the wild."
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Homelands",
+							"entries": [
+								"All rangers, regardless of how they came to take up the profession, have a strong connection to the natural world and its various terrains. For some rangers, the wilderness is where they grew up, either as a result of being born there or moving there at a young age. For other rangers, civilization was originally home, but the wilderness became a second homeland.",
+								"Think of your character's backstory and decide what terrain feels most like home, whether or not you were born there. What does that terrain say about your personality? Does it influence which spells you choose to learn? Have your experiences there shaped who your favored enemies are?",
+								{
+									"type": "table",
+									"caption": "Homelands",
+									"colLabels": [
+										"{@dice d6}",
+										"Homeland"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"You patrolled an ancient forest, darkened and corrupted by several crossings to the Shadowfell."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"As part of a group of nomads, you acquired the skills for surviving in the desert."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"Your early life in the Underdark prepared you for the challenges of combating its denizens."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"You dwelled on the edge of a swamp, in an area imperiled by land creatures as well as aquatic ones."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"Because you grew up among the peaks, finding the best path through the mountains is second nature to you."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"You wandered the far north, learning how to protect yourself and prosper in a realm overrun by ice."
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sworn Enemy",
+							"entries": [
+								"Every ranger begins with a favored enemy (or two). The determination of a favored enemy might be tied to a specific event in the character's early life, or it might be entirely a matter of choice.",
+								"What spurred your character to select a particular enemy? Was the choice made because of tradition or curiosity, or do you have a grudge to settle?",
+								{
+									"type": "table",
+									"caption": "Sworn Enemies",
+									"colLabels": [
+										"{@dice d6}",
+										"Enemy"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"You seek revenge on nature's behalf for the great transgressions your foe has committed."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"Your forebears or predecessors fought these creatures, and so shall you."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"You bear no enmity toward your foe. You stalk such creatures as a hunter tracks down a wild animal."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"You find your foe fascinating, and you collect books of tales and history concerning it."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"You collect tokens of your fallen enemies to remind you of each kill."
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"You respect your chosen enemy, and you see your battles as a test of respective skills."
+										]
+									]
+								}
+							]
+						}
+					],
+					"page": 40,
+					"source": "XGE"
+				}
+			]
+		}
+	]
+}
