@@ -1,0 +1,3133 @@
+{
+	"spell": [
+		{
+			"name": "Crown of Crystal",
+			"source": "SRP",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a shard of crystal"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create 3 shards of transparent crystal that orbit your head. As a bonus action, you can launch one of the crystals at a creature within 60 feet of you. When you do so, make a ranged spell attack. On a hit, the creature takes {@dice 1d6} piercing damage. Whether or not the crystal hits, that crystal is expended and shatters. The spell ends early once all crystals have been expended.",
+				"The number of crystals you can create with this spell increases to 4 at 5th level, 5 at 11th level, and 6 at 17th level."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Amanuensis",
+			"source": "SRP",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a blank sheet of paper"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Choose any non-magical writing you can see within range. That writing is magically copied onto a sheet of blank paper you are holding. This spell copies 250 words per minute and creates a perfect duplicate of the original. It does not translate the text or make it clearer.",
+				"Illustrations or magical writings (such as the text of a spellbook, a spell scroll, or a glyph of warding) cannot be copied by this spell. If the original text contains both normal writing and magical writing or illustrations (such as a letter with a glyph of warding or a drawing in one corner), only the normal text is copied.",
+				"You must provide blank paper, parchment, or another writing supplement for the spell to copy text onto. If a blank sheet would become filled with copied text as a result of this spell, you must cast the spell again with a new blank sheet of paper to continue copying."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "On/Off",
+			"source": "SRP",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"This cantrip allows you to activate or deactivate any electronic device within range, as long as the device has a clearly defined on or off function that can be easily accessed from the outside of the device. Any device that requires a software-based shutdown sequence to activate or deactivate cannot be affected by on/off."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Ego Whip",
+			"source": "SRP",
+			"level": 5,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat.}",
+				"You lash the mind of one creature you can see within range, filling it with despair. The target must succeed on an Intelligence saving throw or suffer disadvantage on attack rolls, ability checks, and saving throws. At the end of each of its turns, the target can make another Intelligence saving throw. On a success, the spell ends on the target."
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Id Insinuation",
+			"source": "SRP",
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat.}",
+				"You unleash a torrent of conflicting desires in the mind of one creature you can see within range, impairing its ability to make decisions. The target must succeed on a Wisdom saving throw or be incapacitated. At the end of each of its turns, it takes {@damage 1d12} psychic damage, and it can then make another Wisdom saving throw. On a success, the spell ends on the target."
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Intellect Fortress",
+			"source": "SRP",
+			"level": 5,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat.}",
+				"You create a faintly shimmering barrier of protective psychic power around you. For the duration, you have advantage on all saving throws.",
+				"When another creature that you can see within 30 feet of you fails a saving throw, you can use your reaction to allow them to reroll the save. They must use the new roll."
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Mental Barrier",
+			"source": "SRP",
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you are forced to make an Intelligence, a Wisdom, or a Charisma saving throw"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat.}",
+				"You protect your mind with a wall of looping, repetitive thought. Until the start of your next turn, you have advantage on Intelligence, Wisdom, and Charisma saving throws, and you have resistance to psychic damage."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Psionic Blast",
+			"source": "SRP",
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat.}",
+				"You unleash a destructive wave of mental power in a 30-foot cone. Each creature in the area must make a Dexterity saving throw. On a failed save, a target takes {@damage 5d8} force damage, is pushed 20 feet directly away from you, and is knocked {@condition prone}. On a successful save, a target takes half as much damage and isn't pushed or knocked prone."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"type": "entries",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d8} for each slot level above 3rd."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"N"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Mind Sliver",
+			"source": "SRP",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat.}",
+				"You drive a disorienting spike of psychic energy into the mind of one creature you can see within range. The target must make an Intelligence saving throw. Unless the saving throw is successful, the target takes {@damage 1d6} psychic damage, and the first time it makes a saving throw before the end of your next turn, it must roll a {@dice d4} and subtract the number rolled from the save.",
+				"This spell's damage increases by {@dice 1d6} when you reach certain levels: 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+			],
+			"scalingLevelDice": {
+				"label": "psychic damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Mind Thrust",
+			"source": "SRP",
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat.}",
+				"You thrust a lance of psychic disruption into the mind of one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes {@damage 3d6} psychic damage, and it can't take a reaction until the end of its next turn. Moreover, on its next turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three. On a successful save, the target takes half as much damage and suffers none of the spell's other effects."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},	
+		{
+			"name": "Psionic Negation Field",
+			"source": "SRP",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat.}",
+				"You channel your inner psionic power, unleashing force a burst of negatory energy that crushes and demolishes object that attempt to reach its inner sanctum. Your base AC becomes 12 + your spellcasting modifier. The spell ends if you don armor or if you dismiss the spell as an action."
+			],
+			"entriesHigherLevel": [
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},	
+		{
+			"name": "Dimension Slice",
+			"source": "SRP",
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat.}",
+				"You manifest psychic energy into the palm of your hand, creating an invisible and intangible psionic disc that directly attacks at your opponent's mind.",
+				"Make a ranged spell attack against a target. On a hit, the disc connects. The target takes {@dice 4d4} psychic damage and must make a Intelligence saving throw. On a failed save, you inflict a powerful nocebo that physically causes their brain synapses to fire rampantly. The target's movement speed becomes 0 and they have disadvantage on attack rolls and Strength saving throws until the end of your next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 2d4} for each slot level above the 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},	
+		{
+			"name": "Aura Sight",
+			"source": "SRP",
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat.}",
+				"You refocus your sight to see into the energy that surrounds all creatures. This aura can be used in many ways, including gaining insight into the true nature of a creature, or key elements such as movement that can assist you in combat.",
+				"When you cast this spell, choose one of the following effects to transpire:",
+				"{@bold Assess Foe}. You analyze the aura of one creature you see. You learn whether it has more or less hit points than you, and all its immunities, resistances, and vulnerabilities.",
+				"{@bold Read Mood}. You learn a one-word summary of the emotional state of up to six creatures you can see, such as happy, confused, afraid, or violent."
+			],
+			"entriesHigherLevel": [
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},	
+		{
+			"name": "Psychic Barrier",
+			"source": "SRP",
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat.}",
+				"You deploy barriers using your mental fortitude around your allies; makeshift auras of psychic energy that repel attacks and create an invisible wall between the targeted creatures and their opponents.",
+				"Choose up to three creatures within range (including you). Those selected creatures gain a +2 bonus to their AC, and advantage on Wisdom saving throws for the duration.",
+				"If a creature moves from the space it was standing when the spell was cast, or if jumps, flies, or otherwise leaves solid ground, the spell's effects end for that creature."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the bonus to AC increases by 1 for every two slot levels above the 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},	
+		{
+			"name": "Manifest Air",
+			"source": "SRP",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat.}",
+				"You begin to manipulate the air with your psychic force, allowing you an intimate control over both the flow of wind and the surrounding oxygen to an innate and precise degree.",
+				"Until your concentration ends, whenever you move on your turn, you can fly up to 20 feet, but you must end your turn on a solid surface. In addition, attack rolls against you have disadvantage, and when a creature you can see misses you with a melee attack, you can use your reaction to force the creature to repeat the attack roll against itself."
+			],
+			"entriesHigherLevel": [
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},	
+		{
+			"name": "Psionic Pulse",
+			"source": "SRP",
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat.}",
+				"You release a pulse of psionic energy centered at your fingertips, which travels in waves until it strikes the first creature in its path. Make a ranged attack roll. On a hit, the synapses in the creature's brain are temporarily hampered, making communication between the different hemispheres of the brain almost impossible.",
+				"Until the end of your next turn, that creature is {@condition deafened}, and cannot speak or cast spells that require verbal components. In addition, that creature cannot take the Disengage action."
+			],
+			"entriesHigherLevel": [
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},	
+		{
+			"name": "Psychic Crush",
+			"source": "SRP",
+			"level": 6,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat.}",
+				"You overload the mind of one creature you can see within range, filling its psyche with discordant emotions. The target must make an Intelligence saving throw. On a failed save, the target takes {@damage 12d6} psychic damage and is {@condition stunned} for 1 minute. On a successful save, the target takes half as much damage and isn't stunned.",
+				"The stunned target can make an Intelligence saving throw at the end of each of its turns. On a successful save, the spell ends on the target."
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Thought Shield",
+			"source": "SRP",
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat.}",
+				"You weave a clouding veil over the mind of one creature you touch. For the duration, the target's mind can't be read or detected, creatures can't telepathically communicate with the target unless the target allows it, and the target has advantage on saving throws against any effect that would determine whether it is telling the truth."
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Dark Star",
+			"source": "SRP",
+			"level": 8,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 150
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a shard of onyx and a drop of the caster's blood, both of which the spell consumes",
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires proficiency in manipulating gravity using an alternate weave known as dundemancy, which can be gained through the art of Graviturgy.}",
+				"This spell creates a sphere centered on a point you choose within range. The sphere can have a radius of up to 40 feet. The area within this sphere is filled with magical darkness and crushing gravitational force.",
+				"For the duration, the spell's area is difficult terrain. A creature with darkvision can't see through the magical darkness, and nonmagical light can't illuminate it. No sound can be created within or pass through the area. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are {@condition deafened} while entirely inside it. Casting a spell that includes a verbal component is impossible there.",
+				"Any creature that enters the spell's area for the first time on a turn or starts its turn there must make a Constitution saving throw. The creature takes {@damage 8d10} force damage on a failed save, or half as much damage on a successful one. A creature reduced to 0 hit points by this damage is disintegrated. A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust."
+			],
+			"damageInflict": [
+				"force"
+			],
+			"conditionInflict": [
+				"deafened"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Graviturgy",
+							"source": "EGW"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Fortune's Favor",
+			"source": "SRP",
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a white pearl worth at least 100 gp, which the spell consumes",
+					"cost": 10000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires proficiency in an alternate weave known as dundemancy, which can be gained through the art of Chronomancy or Graviturgy.}",
+				"You impart latent luck to yourself or one willing creature you can see within range. When the chosen creature makes an attack roll, an ability check, or a saving throw before the spell ends, it can dismiss this spell on itself to roll an additional {@dice d20} and choose which of the {@dice d20}s to use. Alternatively, when an attack roll is made against the chosen creature, it can dismiss this spell on itself to roll a {@dice d20} and choose which of the {@dice d20}s to use, the one it rolled or the one the attacker rolled.",
+				"If the original {@dice d20} roll has advantage or disadvantage, the creature rolls the additional {@dice d20} after advantage or disadvantage has been applied to the original roll."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+					]
+				}
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Chronurgy",
+							"source": "EGW"
+						}
+					},
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Graviturgy",
+							"source": "EGW"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Gift of Alacrity",
+			"source": "SRP",
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires proficiency in manipulating space-time using an alternate weave known as dundemancy, which can be gained through the art of Chronomancy.}",
+				"You touch a willing creature. For the duration, the target can add {@dice 1d8} to its initiative rolls."
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Chronurgy",
+							"source": "EGW"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Gravity Fissure",
+			"source": "SRP",
+			"level": 6,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "line",
+				"distance": {
+					"type": "feet",
+					"amount": 100
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a fistful of iron filings"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires proficiency in manipulating gravity using an alternate weave known as dundemancy, which can be gained through the art of Graviturgy.}",
+				"You manifest a ravine of gravitational energy in a line originating from you that is 100 feet long and 5 feet wide. Each creature in that line must make a Constitution saving throw, taking {@damage 8d8} force damage on a failed save, or half as much damage on a successful one.",
+				"Each creature within 10 feet of the line but not in it must succeed on a Constitution saving throw or take {@damage 8d8} force damage and be pulled toward the line until the creature is in its area."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 7th level or higher, the damage increases by {@scaledamage 8d8|6-9|1d8} for each slot level above 6th."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"L"
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Graviturgy",
+							"source": "EGW"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Gravity Sinkhole",
+			"source": "SRP",
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a black marble"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires proficiency in manipulating gravity using an alternate weave known as dundemancy, which can be gained through the art of Graviturgy.}",
+				"A 20-foot-radius sphere of crushing force forms at a point you can see within range and tugs at the creatures there. Each creature in the sphere must make a Constitution saving throw. On a failed save, the creature takes {@damage 5d10} force damage and is pulled in a straight line toward the center of the sphere, ending in an unoccupied space as close to the center as possible (even if that space is in the air). On a successful save, the creature takes half as much damage and isn't pulled."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@scaledamage 5d10|4-9|1d10} for each slot level above 4th."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Graviturgy",
+							"source": "EGW"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Immovable Object",
+			"source": "SRP",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "gold dust worth at least 25 gp, which the spell consumes",
+					"cost": 2500,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires proficiency in manipulating gravity using an alternate weave known as dundemancy, which can be gained through the art of Graviturgy.}",
+				"You touch an object that weighs no more than 10 pounds and cause it to become magically fixed in place. You and the creatures you designate when you cast this spell can move the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute.",
+				"If the object is fixed in the air, it can hold up to 4,000 pounds of weight. More weight causes the object to fall. Otherwise, a creature can use an action to make a Strength check against your spell save DC. On a success, the creature can move the object up to 10 feet."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 4th or 5th level, the DC to move the object increases by 5, it can carry up to 8,000 pounds of weight, and the duration increases to 24 hours. If you cast this spell using a spell slot of 6th level or higher, the DC to move the object increases by 10, it can carry up to 20,000 pounds of weight, and the effect is permanent until dispelled."
+					]
+				}
+			],
+			"opposedCheck": [
+				"strength"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Graviturgy",
+							"source": "EGW"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Magnify Gravity",
+			"source": "SRP",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires proficiency in manipulating gravity using an alternate weave known as dundemancy, which can be gained through the art of Graviturgy.}",
+				"The gravity in a 10-foot-radius sphere centered on a point you can see within range increases for a moment. Each creature in the sphere on the turn when you cast the spell must make a Constitution saving throw. On a failed save, a creature takes {@damage 2d8} force damage, and its speed is halved until the end of its next turn. On a successful save, a creature takes half as much damage and suffers no reduction to its speed.",
+				"Until the start of your next turn, any object that isn't being worn or carried in the sphere requires a successful Strength check against your spell save DC to pick up or move."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@scaledamage 2d8|1-9|1d8} for each slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Graviturgy",
+							"source": "EGW"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Pulse Wave",
+			"source": "SRP",
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires proficiency in manipulating gravity using an alternate weave known as dundemancy, which can be gained through the art of Graviturgy.}",
+				"You create intense pressure, unleash it in a 30-foot cone, and decide whether the pressure pulls or pushes creatures and objects. Each creature in that cone must make a Constitution saving throw. A creature takes {@damage 6d6} force damage on a failed save, or half as much damage on a successful one. And every creature that fails the save is either pulled 15 feet toward you or pushed 15 feet away from you, depending on the choice you made for the spell.",
+				"In addition, unsecured objects that are completely within the cone are likewise pulled or pushed 15 feet."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 6d6|3-9|1d6} and the distance pulled or pushed increases by 5 feet for each slot level above 3rd."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"N"
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Graviturgy",
+							"source": "EGW"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ravenous Void",
+			"source": "SRP",
+			"level": 9,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 1000
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small, nine-pointed star made of iron"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires proficiency in manipulating gravity using an alternate weave known as dundemancy, which can be gained through the art of Graviturgy.}",
+				"You create a 20-foot-radius sphere of destructive gravitational force centered on a point you can see within range. For the spell's duration, the sphere and any space within 100 feet of it are difficult terrain, and nonmagical objects fully inside the sphere are destroyed if they aren't being worn or carried.",
+				"When the sphere appears and at the start of each of your turns until the spell ends, unsecured objects within 100 feet of the sphere are pulled toward the sphere's center, ending in an unoccupied space as close to the center as possible.",
+				"A creature that starts its turn within 100 feet of the sphere must succeed on a Strength saving throw or be pulled straight toward the sphere's center, ending in an unoccupied space as close to the center as possible. A creature that enters the sphere for the first time on a turn or starts its turn there takes {@damage 5d10} force damage and is {@condition restrained} until it is no longer in the sphere. If the sphere is in the air, the {@condition restrained} creature hovers inside the sphere. A creature can use its action to make a Strength check against your spell save DC, ending this {@condition restrained} condition on itself or another creature in the sphere that it can reach. A creature reduced to 0 hit points by this spell is annihilated, along with any nonmagical items it is wearing or carrying."
+			],
+			"damageInflict": [
+				"force"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"opposedCheck": [
+				"strength"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Graviturgy",
+							"source": "EGW"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Reality Break",
+			"source": "SRP",
+			"level": 8,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a crystal prism"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires proficiency in manipulating space-time using an alternate weave known as dundemancy, which can be gained through the art of Chronomancy.}",
+				"You shatter the barriers between realities and timelines, thrusting a creature into turmoil and madness. The target must succeed on a Wisdom saving throw, or it can't take reactions until the spell ends. The affected target must also roll a {@dice d10} at the start of each of its turns; the number rolled determines what happens to the target, as shown on the Reality Break Effects table.",
+				"At the end of each of its turns, the affected target can repeat the Wisdom saving throw, ending the spell on itself on a success.",
+				{
+					"type": "table",
+					"caption": "Reality Break Effects",
+					"colLabels": [
+						"d10",
+						"Effect"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1-2",
+							"{@b Vision of the Far Realm.} The target takes {@damage 6d12} psychic damage, and it is {@condition stunned} until the end of the turn."
+						],
+						[
+							"3-5",
+							"{@b Rending Rift.} The target must make a Dexterity saving throw, taking {@damage 8d12} force damage on a failed save, or half as much damage on a successful one."
+						],
+						[
+							"6-8",
+							"{@b Wormhole.} The target is teleported, along with everything it is wearing and carrying, up to 30 feet to an unoccupied space of your choice that you can see. The target also takes {@damage 10d12} force damage and is knocked {@condition prone}."
+						],
+						[
+							"9-10",
+							"{@b Chill of the Dark Void.} The target takes {@damage 10d12} cold damage, and it is {@condition blinded} until the end of the turn."
+						]
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic",
+				"force",
+				"cold"
+			],
+			"conditionInflict": [
+				"stunned",
+				"prone",
+				"blinded"
+			],
+			"savingThrow": [
+				"wisdom",
+				"dexterity"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Chronurgy",
+							"source": "EGW"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Sapping Sting",
+			"source": "SRP",
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires proficiency in an alternate weave known as dundemancy, which can be gained through the art of Chronomancy or Graviturgy.}",
+				"You sap the vitality of one creature you can see in range. The target must succeed on a Constitution saving throw or take {@damage 1d4} necrotic damage and fall {@condition prone}.",
+				"This spell's damage increases by {@dice 1d4} when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
+			],
+			"scalingLevelDice": {
+				"label": "necrotic damage",
+				"scaling": {
+					"1": "1d4",
+					"5": "2d4",
+					"11": "3d4",
+					"17": "4d4"
+				}
+			},
+			"damageInflict": [
+				"necrotic"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Chronurgy",
+							"source": "EGW"
+						}
+					},
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Graviturgy",
+							"source": "EGW"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Temporal Shunt",
+			"source": "SRP",
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "taken when a creature you can see makes an attack roll or starts to cast a spell"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires proficiency in manipulating space-time using an alternate weave known as dundemancy, which can be gained through the art of Chronomancy.}",
+				"You target the triggering creature, which must succeed on a Wisdom saving throw or vanish, being thrown to another point in time and causing the attack to miss or the spell to be wasted. At the start of its next turn, the target reappears where it was or in the closest unoccupied space. The target doesn't remember you casting the spell or being affected by it."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th. All targets must be within 30 feet of each other."
+					]
+				}
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Chronurgy",
+							"source": "EGW"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Tether Essence",
+			"source": "SRP",
+			"level": 7,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a spool of platinum cord worth at least 250 gp, which the spell consumes",
+					"cost": 25000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires proficiency in an alternate weave known as dundemancy, which can be gained through the art of Chronomancy or Graviturgy.}",
+				"Two creatures you can see within range must make a Constitution saving throw, with disadvantage if they are within 30 feet of each other. Either creature can willingly fail the save. If either save succeeds, the spell has no effect. If both saves fail, the creatures are magically linked for the duration, regardless of the distance between them. When damage is dealt to one of them, the same damage is dealt to the other one. If hit points are restored to one of them, the same number of hit points are restored to the other one. If either of the tethered creatures is reduced to 0 hit points, the spell ends on both. If the spell ends on one creature, it ends on both."
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"HL",
+				"SGT"
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Chronurgy",
+							"source": "EGW"
+						}
+					},
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Graviturgy",
+							"source": "EGW"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Time Ravage",
+			"source": "SRP",
+			"level": 9,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "an hourglass filled with diamond dust worth at least 5,000 gp, which the spell consumes",
+					"cost": 500000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"{@italic The following spell requires proficiency in manipulating space-time using an alternate weave known as dundemancy, which can be gained through the art of Chronomancy.}",
+				"You target a creature you can see within range, putting its physical form through the devastation of rapid aging. The target must make a Constitution saving throw, taking {@damage 10d12} necrotic damage on a failed save, or half as much damage on a successful one. If the save fails, the target also ages to the point where it has only 30 days left before it dies of old age. In this aged state, the target has disadvantage on attack rolls, ability checks, and saving throws, and its walking speed is halved. Only the wish spell or the {@spell greater restoration} cast with a 9th-level spell slot can end these effects and restore the target to its previous age."
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Chronurgy",
+							"source": "EGW"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Repair Damage",
+			"source": "SRP",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a set of tinker's tools"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A construct you touch regains a number of hit points equal to 1d6 + your spellcasting ability modifier. This spell has no effect on other creatures. This spell can be used to repair technological items, objects, and structures at a DM's discretion.",
+				"{@bold Special.} Half-constructs (such as Warforged, Starforged, and Nasods) can benefit from this spell despite not being full constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"type": "entries",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d6 for each slot level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Forge",
+							"source": "XGE"
+						}
+					}
+				]
+			}
+		},	
+		{
+			"name": "Mass Repair Damage",
+			"source": "SRP",
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a set of tinker's tools"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You transmute the structure of constructs to repair them out from a point of your choice within range. Choose up to six constructs in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to 3d6 + your spellcasting ability modifier. This spell has no effect on other creatures.  This spell can be used to repair technological items, objects, and structures at a DM's discretion.",
+				"{@bold Special.} Half-constructs (such as Warforged, Starforged, and Nasods) can benefit from this spell despite not being full constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"type": "entries",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, the healing increases by 1d6 for each slot level above 5th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Forge",
+							"source": "XGE"
+						}
+					}
+				]
+			}
+		},	
+		{
+			"name": "Reconstruct",
+			"source": "SRP",
+			"level": 6,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a set of tinker's tools"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 2
+					},
+					"concentration": false
+				}
+			],
+			"entries": [
+				"Choose a construct that you can see within range. You greatly repair it, causing it to regain 60 hit points. This spell also grants the target the benefits of the {@spell haste} spell for 2 rounds. This effect does not stack with Haste, and does not impose the penalties of {@spell haste} when this effect expires. This spell has no effect on other creatures. This spell can be used to repair technological items, objects, and structures at a DM's discretion.",
+				"{@bold Special.} Half-constructs (such as Warforged, Starforged, and Nasods) can benefit from this spell despite not being full constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"type": "entries",
+					"entries": [
+						"When you cast this spell using a spell slot of 7th level or higher, the amount of healing increases by 10 for each slot level above 6th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Forge",
+							"source": "XGE"
+						}
+					}
+				]
+			}
+		},	
+		{
+			"name": "Siphon Vitality",
+			"source": "SRP",
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Target a creature that you can see within range that is not a construct or undead. That creature must succeed on a Constitution saving throw or take {@dice 1d6} necrotic damage.",
+				"On a failed save, you can add a {@dice 1d4} to the next saving throw you make before the start of your next turn.",
+				"This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6)."
+			],
+			"entriesHigherLevel": [
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Memory of Ash",
+			"source": "SRP",
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You touch the corpse of a dead humanoid that is not an undead. Over the duration of this spell's casting time, you slowly reduce that creature to ash, as their body vacates to the pressures of your necromancy and scatters to the winds.",
+				"Upon completion, you learn one of the following things about the creature, which may or may not assist in your journey:",
+				"{@bold Eyes of Ash.} You receive a vision of the creature's death starting 10 seconds before its demise (from the creature's perspective).",
+				"{@bold Soul of Ash.} One important, yet simple thing about the creature of your choice. Examples of this may include what the creature loved the most, what they despised, and their worries.",
+				"{@bold Heart of Ash.} The goal the creature was trying to achieve prior to its death (if any)."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a 3rd level spell slot or higher, you learn one additional Ash for every level above 2nd. In addition, you can choose Eyes of Ash multiple times. When you do, you increase the length of the vision by 10 additional seconds."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Putrid Plague",
+			"source": "SRP",
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a cup of blood, a parasite egg and herbs worth 150 gp, all of which the spell consumes",
+					"cost": 15000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You touch the corpse of a Large or smaller creature, birthing life to a myriad of parasites and maggots that immediately begin feasting on the corpse by collecting in the creature's chest cavity. If the corpse is disturbed at any point after this spell's casting, its chest blows open.",
+				"Any creature within 10-feet of the disturbed corpse must make a Dexterity saving throw. On a failed save, that creature takes {@dice 4d6} piercing damage and becomes infested with a parasite.",
+				"The parasite counts as a disease and deals {@dice 2d6} poison damage to its host at the end of every hour. It can be removed by another creature as part of a 30-minute long operation. In order to perform the procedure, the creature must have a cutting instrument and make a successful DC 12 + your spellcasting modifier Dexterity (Medicine) check. On a failed check, the creature takes {@dice 2d6} slashing damage, and the parasite is not removed.",
+				"If the host is killed by this parasite, it then begins to birth forth a myriad of parasites and maggots inside the host's body. One hour prior to the creature's death, it will start spreading the disease upon disturbing as if this spell was casted on it. Burning the corpse, disintegrating it, or killing the infected creature with radiant damage prevents this from occurring."
+			],
+			"entriesHigherLevel": [
+				{
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					}
+				]
+			}
+		},
+		{
+			"name": "Swarm of Decay",
+			"source": "SRP",
+			"level": 1,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You call forth a swarm of ravenous, decaying insects to spring to life at your fingertips. At your command, they fly over to a creature within range. That creature must make a Dexterity saving throw. On a failed save, that creature takes {@dice 1d6} poison damage, or half as much on a successful one.",
+				"On subsequent turns, you can direct the swarm to attack another creature within range, or move back to you as a bonus action. If you do not direct the swarm at the end of your turn, they instead attack the same creature without need of an action. If the swarm ever leaves your range, the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a 2nd level spell slot or higher, the damage increases by {@dice 1d6} for every level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Miasma of Death",
+			"source": "SRP",
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a human skull"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Choose either a corpse or an undead creature under your control within range. The target explodes into a cloud of dense, purple, toxic gas. The explosion is as unsightly as it is uproarious, blistering the skin of nearby creatures and sending those who need to breathe into massive coughing fits.",
+				"Immediately upon this spell's casting, the target is reduced to an unrecognizable husk. If the target was an undead creature under your control, that undead is instantly killed.",
+				"Any creature within 10 feet of the explosion must make a Constitution saving throw. On a failed save, that creature takes {@dice 3d6} poison or necrotic damage (your choice), or half as much on a successful save. If the creature failed the save, that creature is also poisoned until the end of your next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a 3rd level spell slot or higher, the damage increases by {@dice 1d6} for every level above 2nd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Nightmare Sphere",
+			"source": "SRP",
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a piece of humanoid leather"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You erect a 5-foot diameter black sphere at an unoccupied point within range. The sphere is semi-solid (treated as difficult terrain) and provides half-cover when hid behind.",
+				"As a bonus action, you can move the sphere 20-feet in any direction within range. A creature who starts its turn within 10-feet of the sphere, or touches it for the first time in a turn, must make a Wisdom saving throw. On a failed save, that creature takes {@dice 2d6} psychic damage, and the sphere morphs to reflect one of their darkest fears.",
+				"A creature who is reduced to 0 hit points by this spell is knocked unconscious, stabilized, and becomes immune to this spell for as long as they remain unconscious. In addition, that creature experiences horrible nightmares for the next {@dice 1d4} days."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d6} for each slot level above 2nd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Scythe of the Reaper",
+			"source": "SRP",
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You form a scythe of necrotic energy in your hands, constructed from the lingering regrets and miasma in the air. You then swing it at a creature in range, cutting a line from this world to the next.",
+				"The creature you target must make a Dexterity saving throw. On a failed save, that creatures takes {@dice 8d6} necrotic damage, or half as much on a successful save.",
+				"A humanoid who is reduced to 0 hit points by this spell immediately dies, as its flesh it stripped from its bones and its skeleton rises to serve you. The skeleton rolls its own initiative and acts on its own turn in initiative.",
+				"The skeleton becomes inanimate after one hour, or once it drops to 0 hit points."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"You can cast this spell using a 4th level or higher spell slot. The necrotic damage increases by {@dice 1d6} for each slot level above 3rd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Breath of Shadow",
+			"source": "SRP",
+			"level": 4,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You breathe forth a cloud of impenetrable shadow which exhales from your mouth and spreads itself around a point you can see within range. It then manifests into the shape of a cylinder with a radius of 10-feet and a height of 20-feet that is lightly obscured.",
+				"A creature which starts it turn or moves into the area for the first time on a turn must make a Constitution saving throw or take {@dice 4d8} necrotic damage.",
+				"The body of a creature killed by this spell becomes withered beyond recognition."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"You can cast this spell using a 5th level or higher spell slot. The necrotic damage increases by {@dice 1d8} for each slot level above 4th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Desecrate Earth",
+			"source": "SRP",
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a cursed item"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You invoke a foul curse upon the land, desecrating it beyond the Material realm and transforming it into your own personal territory. When you cast this spell, a 30-foot radius of ground within range withers and uproots itself, twisting and dancing to the tune of a mysterious shadow.",
+				"Undead creatures standing or flying above this ground have advantage on effects which turn undead. If a creature already has advantage on such effects, they instead gain immunity to them.",
+				"In addition, at the start of their turns, any undead on this ground gain {@dice 1d10} temporary hit points. Undead created through animate dead gain temporary hit points at the start of the caster's turn.",
+				"After you break concentration on this spell, the ground loses its magical effects. However, it remains forever tainted: bearing fewer plants, turning blackened and withered, and becoming detectable through a paladin's divine sense."
+			],
+			"entriesHigherLevel": [
+				{
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Wristpocket",
+			"source": "SRP",
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"{@italic The following spell requires proficiency in an alternate weave known as dundemancy, which can be gained through the art of Chronomancy or Graviturgy.}",
+				"You flick your wrist, causing one object in your hand to vanish. The object, which only you can be holding and can weigh no more than 5 pounds, is transported to an extradimensional space, where it remains for the duration.",
+				"Until the spell ends, you can use your action to summon the object to your free hand, and you can use your action to return the object to the extradimensional space. An object still in the pocket plane when the spell ends appears in your space, at your feet."
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Chronurgy",
+							"source": "EGW"
+						}
+					},
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Graviturgy",
+							"source": "EGW"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Amaterasu",
+			"source": "SRP",
+			"level": 8,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a pinch of dust from an immolated vampire"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You exhale black flame toward a target creature of your choice within range. Make a ranged spell attack. On a hit, the target is engulfed in numbing black flames and becomes {@condition poisoned}. The target must make a successful Constitution saving throw at the end of each of their turns for the duration, or gain 1 level of {@condition exhaustion} for each failure. If the target makes three successful Constitution saves, the fire vanishes as soon as it came, and the target is no longer poisoned.",
+				"On the target’s turn, anyone adjacent to it must make a successful Dexterity saving throw or be engulfed in Amaterasu's wreathing black flames.",
+				"Anyone killed by Amaterasu is disintegrated (as if by the {@italic disintegrate} spell). A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust. The creature can be restored to life only by means of a true resurrection or a wish spell. ",
+				"When not applied to a creature, Amaterasu's flames are said to burn for seven days and seven nights, but the black flame will not spread as normal fire would, instead remaining still. Like an eternal light."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}
