@@ -7,5 +7,12 @@
 	"dragon knight": "class-dragonknight.json",
 	"rogue": "class-rogue.json",
 	"barbarian": "class-barbarian.json",
-	"commoner": "class-commoner.json"
+	"commoner": "class-commoner.json",
+	"wizard": "class-wizard.json",
+	"warlock": "class-warlock.json",
+	"sorcerer": "class-sorcerer.json",
+	"monk": "class-monk.json",
+	"druid": "class-druid.json",
+	"cleric": "class-cleric.json",
+	"artificer": "class-artificer.json"
 }
