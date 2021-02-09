@@ -437,28 +437,6 @@
 			]
 		},
 		{
-			"name": "Energy Saber",
-			"source": "WB: RD",
-			"prerequisite": [{
-				"race": [{
-					"name": "half-nasod"
-				}]
-			}],
-			"ability": [{
-				"dex": 1
-			}],
-			"entries": [
-				"You have trained incredibly hard to master the unique swordplay of the half-nasods. You gain the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"You gain two additional charges of Energy Weapon. You regain all expended charges after a short or long rest.",
-						"While Energy Weapon is active, your weapon also gains the reach property (10 feet). In addition, if the target creature fails the saving throw, you can reduce the speed of the target by 10 feet until the start of your next turn."
-					]
-				}
-			]
-		},
-		{
 			"name": "Otherworldly",
 			"source": "WB: RD",
 			"prerequisite": [{
