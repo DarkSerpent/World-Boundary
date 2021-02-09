@@ -2724,13 +2724,6 @@
 					"type": "entries"
 				},
 				{
-					"name": "Designed with Speed in Mind",
-					"entries": [
-                     "Your base walking speed increases to 35 feet."
-					],
-					"type": "entries"
-				},
-				{
 					"name": "Cybernetic Implants",
 					"entries": [
                      "All Half-Nasods have been modified from their original race in some way, with these cybernetics varying immensely. You can select 3 cybernetic traits of your choice from the following list:"
@@ -2767,73 +2760,55 @@
 						},
 						{
 							"entries": [
-                               "{@b Attuned Flight.} You have a flying speed of 30 feet. To use this speed, you must attune to the Way of Worlds by act of sacrificing an attunement slot. Attuning to flight takes the same amount of time and follows the same restrictions as attuning to a magic item."
+                               "{@b Propulsion Systems.} You have outfitted your arms and/or legs with low power propulsion units, allowing you to take flight temporarily through the power of science. As a bonus action, you may manifest these systems. You gain a flight speed equal to your walking speed, though you must end your turn on a solid surface. Otherwise, your propulsion systems will sputter out, and you fall to the ground at the end of your turn. You may activate your propulsion systems a number of times equal to your proficiency bonus. You regain all expended uses on a short or long rest. "
 							],
 							"type": "entries"
 						},
 						{
 							"entries": [
-                               "{@b Jumper.} Gain proficiency in your choice of {@skill Athletics} or {@skill Acrobatics}. Your long jump is up to 25 feet and your high jump is up to 15 feet, with or without a running start."
+                               "{@b Threat Detector.} You have implanted an experimental set of sensors within your parietal lobe, sensors that subconsciously evaluate the environment and creatures around you without any input from you. If you are surprised at the beginning of combat, and aren’t incapacitated, you can immediately expend an amount of movement up to your maximum in an attempt to escape harm. "
 							],
 							"type": "entries"
 						},
 						{
 							"entries": [
-                               "{@b Keen Senses.} Gain proficiency in the {@skill Perception} skill and choose one sense (sight, smell, taste, temperature, or touch). You gain advantage on Perception rolls that utilize that sense."
+                               "{@b Microgenerator.} You have implanted a small, high-voltage generator within your circulatory system that packs a shocking punch. When you are reduced to a quarter of your HP (rounded down), you may use a reaction to unleash an electroshock in a ten foot radius. All creatures within that radius must make a Strength saving throw equal to 8 + proficiency bonus + Constitution modifier or be pushed back ten feet and knocked {@condition prone}. Once you use this implant, you must complete a long rest before using it again."
 							],
 							"type": "entries"
 						},
 						{
 							"entries": [
-                               "{@b Kin of Mine.} Gain proficiency in {@skill Animal Handling}. Your proficiency bonus is doubled when you make an {@skill Animal Handling} check. In addition, you have two creature types: humanoid and beast. You can be affected by a spell or ability that works on either of your creature types."
+                               "{@b Biomonitor.} Your circulatory system has been modified with a biomonitor, which keeps track of and sends a chemical agent into your bloodstream at your beck and call. As a reaction to taking damage, you may inject yourself with a potion you have preloaded into your Biomonitor system. You may pour a potion into your Biomonitor by pouring it into a port within your arm as an action. The potion may not be withdrawn after being poured out into the Biomonitor system."
 							],
 							"type": "entries"
 						},
 						{
 							"entries": [
-                               "{@b Longstrider.} Your base walking speed increases to 35 feet."
+                               "{@b Titanium Bones.} Going a step further than simply applying a coating to your skeleton or skin, you have reinforced yourself with pure titanium. You are considered one size larger than you are for the purposes of determining carrying capacity and the amount you can push, drag, or lift."
 							],
 							"type": "entries"
 						},
 						{
 							"entries": [
-                               "{@b Natural Armor.} When you aren’t wearing armor, your AC equals 12 + your Constitution or Dexterity modifier (your choice)."
+                               "{@b Optical Implants.} You have opted to replace your organic eyes with cybernetic versions, enhancing and honing your senses far beyond what a normal creature could ever hope to achieve. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across."
 							],
 							"type": "entries"
 						},
 						{
 							"entries": [
-                               "{@b Natural Talent.} Beasts of the earth, sky, and sea have talents as varied as their shapes. You gain proficiency in a skill of your choice."
+                               "{@b Vibrosensor.} You have implanted yourself with a finely tuned audio implant that can pick up and detect vibrations that would normally be imperceptible to an ordinary organic creature. As a bonus action, you can tune into this sensor. You gain tremorsense out to 30 feet until the end of your next turn. You may use this sensor an amount of times equal to your proficiency bonus before it must recharge. You regain all expended uses on a long rest."
 							],
 							"type": "entries"
 						},
 						{
 							"entries": [
-                               "{@b Natural Weapon.} You have a natural weapon that you are proficient in (this could be a bite, claw, quill, club tail, or other bestial feature). This natural weapon is a finesse weapon that deals {@dice 1d4} bludgeoning, piercing, poison, or slashing damage (your choice)."
+                               "{@b Internal Defibrillator.} You have been outfitted with the most top of line implant in self-preservation, an internal defibrillator. Implanted near your heart, this implant passively monitors your vitals and comes into play when it would detect your imminent demise. When you would die from failing three death saving throws, an electric jolt is sent into your heart, stabilizing you on the spot and saving you from certain death. Once activated, you must complete a long rest before this implant recharges."
 							],
 							"type": "entries"
 						},
 						{
 							"entries": [
-                               "{@b Born From Waves.} You have a swim speed equivalent to your walking speed and can breathe in air and water."
-							],
-							"type": "entries"
-						},
-						{
-							"entries": [
-                               "{@b Regeneration.} Whenever you complete a short rest, you can roll one {@dice d6} if you expended any hit dice. Add the result to the total health you gain."
-							],
-							"type": "entries"
-						},
-						{
-							"entries": [
-                               "{@b Relentless.} When you are reduced to 0 hit points but not killed outright, you can use a reaction to drop to 1 hit point instead. Once you use this ability, you cannot use it again until you finish a long rest."
-							],
-							"type": "entries"
-						},
-						{
-							"entries": [
-                               "{@b Chameleon.} You have advantage on Dexterity ({@skill Stealth}) checks if you have not moved during the current turn. In addition, you can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+                               "{@b Designed with Speed in Mind.} Your base walking speed increases to 35 feet."
 							],
 							"type": "entries"
 						}
