@@ -2671,7 +2671,7 @@
 			"source": "WB: RD",
 			"size": "M",
 			"speed": {
-				"walk": 35
+				"walk": 30
 			},
 			"ability": [
 				{
