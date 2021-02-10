@@ -437,6 +437,38 @@
 			]
 		},
 		{
+			"name": "Master of None",
+			"source": "WB: RD",
+			"prerequisite": [{
+				"other": "Must not be benefiting from the Jack of All Trades feature."
+			}],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1,
+						"entry": "Increase the chosen ability score by 1, to a maximum of 20."
+					}
+				}
+			],
+			"entries": [
+				"Whether it be through curiosity, natural talent, a blessing from above, you've found yourself to be decently skilled at a small range of skills that just seem to come naturally to you. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You may add half your proficiency bonus (rounded down) to any ability check you make of the increased ability score, as long as it doesn't already include your proficiency bonus."
+					]
+				}
+			]
+		},
+		{
 			"name": "Otherworldly",
 			"source": "WB: RD",
 			"prerequisite": [{
