@@ -3664,6 +3664,99 @@
 			]
 		},
 		{
+			"name": "Archslime",
+			"source": "WB: RD",
+			"size": "M",
+			"speed": {
+				"walk": 30
+			},
+			"ability": [
+				{
+					"con": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"count": 1
+					}
+				}
+			],
+			"traitTags": [
+				"Spellcasting"
+			],
+			"languageProficiencies": [
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+                     "Granted sentience by the will of the Disparity Daemon, the blessings attributed to archslime allow them to age similarly to humans, though after reaching adulthood, their aging process ceases. Archslimes are known to diminish in power and lose their sanity, however, if they live too long without an explicit purpose."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+                     "While Archslime are not directly subservient to Obstract, the will which cemented their existence drives their nature towards that of neutrality. With freedom driving the archslime to pursuing the benefits of the human world, however, it is not uncommon for an archslime to break the mold, quite ironically leading deviancy to become the norm."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Size",
+					"entries": [
+                     "Archslime tend to be the same size as regular humans, although their height and proportions differ based on how they have shaped their mold. In addition, archslime are genderless, instead choosing to base their mold off a human gender at birth. Not all archslimes practice this, however, and some make an effort in order to appear as non-binary as possible. Your size is Medium."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Disparity Blessing",
+					"entries": [
+						"Your creature type is ooze, rather than humanoid. In addition, you gain access to the following benefits as per your ooze-like nature:",
+						{
+							"type": "list",
+							"items": [
+								"You have advantage on saving throws against being {@condition poisoned}, and you have resistance to acid and poison damage.",
+								"You are immune to disease.",
+								"You don't need to breathe, but you must still ingest food and drink.",
+								"Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal."
+							]
+						}
+					]
+				},
+				{
+					"name": "Slippery Construct",
+					"entries": [
+                     "Your malleable, ooze-like body allows for quick morphing and dirty tricks on the fly. As an action, you can transform from your humanoid shape to a lumpy (and bulbous) amorphous form. When you do so, you determine whether your size remains the same or becomes Small, and you gain the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"Your movement speed is reduced by half, rounded down.",
+								"The {@condition restrained} condition is treated as the {@condition grappled} condition for you.",
+								"You can move through spaces as narrow as 1-inch wide without squeezing.",
+								"While you can create slime implements that are dextrous enough to handle small complex tasks, you cannot wield weapons or wear armor in this form."
+							]
+						}
+					]
+				},
+				{
+					"name": "Bad Touch",
+					"entries": [
+                        "You can manifest an acidic substance from your body as a defense mechanism, turning your otherwise slippery exterior into a deadly weapon. Any creature that grapples you or otherwise comes into direct contact with your skin must succeed on a DC 12 Constitution saving throw or take {@dice 1d6} acid damage. This damage does not apply to any unarmed strikes you make."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Language",
+					"entries": [
+                     "You can speak, read, and write Common and one additional language of your choice."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
 			"name": "Ghost",
 			"source": "WB: RD",
 			"size": "V",
