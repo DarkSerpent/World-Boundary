@@ -151,6 +151,25 @@
 			]
 		},
 		{
+			"name": "Dart in the Shadow",
+			"source": "WB: RD",
+			"prerequisite": [],
+			"ability": [{
+				"dex": 1
+			}],
+			"entries": [
+				"The blowgun has grown to be an extension of your own body. Slinking through brushes has become your second home, and any who dare cross you will find out that your weapon, indeed, does not 'blow':",
+				{
+					"type": "list",
+					"items": [
+						"You ignore the loading property of blowguns. ",
+						"When you successful take the {@action Hide} action, you do not give away your position when making an attack with a blowgun, regardless of whether or not the attack hits.",
+						"As a bonus action, you can apply poison to three blowgun darts, rather than using an action."
+					]
+				}
+			]
+		},
+		{
 			"name": "Fell Handed",
 			"source": "OSoW",
 			"prerequisite": [],
