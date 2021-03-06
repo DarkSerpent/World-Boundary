@@ -3664,6 +3664,105 @@
 			]
 		},
 		{
+			"name": "Psion",
+			"source": "WB: RD",
+			"size": "M",
+			"speed": {
+				"walk": 30
+			},
+			"ability": [
+				{
+					"wis": 2,
+					"int": 1
+				}
+			],
+			"traitTags": [
+				"Spellcasting"
+			],
+			"languageProficiencies": [
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+                     "The lifespan of a psion largely depends on how direct a connection they share with the immortal God-Emperor, Psion. Those who reside on Dayberth may expect a life that exceeds well-past three-hundred years of age, whereas those who serve as leaders for the imperial meritocracy have been said to live upwards of a thousand. Those who denounce their citizenry, however, are said to have the weakest lifespans, living for a scant hundred years before wilting."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+                     "The psions reside on Dayberth, a nation predicated on their beliefs of equal opportunity and spiritualistic ideals. Their alignment leans towards good."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Size",
+					"entries": [
+                     "Psions are between 6 feet to 9 feet tall, a factor that depends entirely on their plant genus. Your size is Medium."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Superior Darkvision",
+					"entries": [
+						"You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+					"You have disadvantage on attack rolls and on Wisdom ({@skill Perception}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Blessed by the God-Emperor",
+					"entries": [
+						"Your creature type is plant, rather than humanoid. In addition, you gain access to the following benefits and negatives as per your nature as a citizen of Dayberth:",
+						{
+							"type": "list",
+							"items": [
+								"You can speak telepathically to any creature you can see, provided the creature is within a number of feet of you equal to 10 times your level. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.",
+								"You cannot speak any language. Your only method of communication is your telepathy.",
+								"You don't need to eat, drink, or breathe. However, you must absorb at least five hours of moonlight a day in order to continue normal functionality. When you attempt to long rest after having not had access to ample moonlight, any healing you receive from rolling hit die is divided by half.",
+								"You have advantage on all Wisdom saving throws.",
+								"You have resistance to psychic damage."
+							]
+						},
+						"Unfortunately, while psions are still considered plantoids in nature, the psion species has far elevated past their pure plant brethren, and thus do not maintain the ability to speak with plants without further specialization."
+					]
+				},
+				{
+					"name": "Wilting Rose",
+					"entries": [
+					"As an action, the foliage which makes up your form begins to writhe and convulse, causing your chest to collapse inwards and opening up your Mind's Eye: a red, ethereal pupil with the iris of a snake and dark-red sclera.",
+					"For the next minute, you can use an action to force a creature within 30 feet of you to make a Wisdom saving throw with a DC equal to 8 + your proficiency bonus + your Wisdom modifier. On a failed save, that creature is assaulted with malefic visions of a future without the God-Emperor. Until the end of their next turn, that creature becomes {@condition incapacitated}.",
+					"While your Mind's Eye is open, you gain the following weaknesses:",
+						{
+							"type": "list",
+							"items": [
+								"You no longer have advantage on all Wisdom saving throws, as per your Blessed by the God-Emperor feature.",
+								"You no longer have resistance to psychic damage, as per your Blessed by the God-Emperor feature.",
+								"You gain vulnerability to bludgeoning, piercing, and slashing damage."
+							]
+						},
+					"Once you use this feature, you cannot use it again until you finish a long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Language",
+					"entries": [
+                     "You can read and write Common, Deep Speech, and one additional language of your choice."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
 			"name": "Archslime",
 			"source": "WB: RD",
 			"size": "M",
@@ -6099,7 +6198,7 @@
 					"name": "Alignment",
 					"type": "entries",
 					"entries": [
-						"Most aarakocra are good and rarely choose sides when it comes to law and chaos. Tribal leaders and warriors might be lawful, while explorers and adventurers might tend toward chaotic"
+						"Most aarakocra are good and rarely choose sides when it comes to law and chaos. Tribal leaders and warriors might be lawful, while explorers and adventurers might tend toward chaotic."
 					]
 				},
 				{
