@@ -2007,18 +2007,20 @@
 					"type": "entries"
 				},
 				{
-					"name": "Fangs",
+					"type": "entries",
+					"name": "Vampiric Drip",
 					"entries": [
-                     "You have fangs like a vampire. They are a natural weapon, which you can use to make unarmed strikes. If you hit, you deal piercing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Blood Drinker",
-					"entries": [
-                     "As an action, you can make a special attack with your fangs. If the attack hits, you deal necrotic damage instead of piercing damage, and you heal hit points (minimum of 1) equal to your Constitution modifier, and you can’t use this trait again until you finish a short or long rest."
-					],
-					"type": "entries"
+						"Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier to the attack and damage rolls with your bite. Your bite deals {@dice 1d4} piercing damage on a hit, and you have advantage on bite attacks while you are missing half or more of your hit points.",
+						"When you use your bite and hit a creature that isn’t a Construct or an Undead, you can empower yourself in one of the following ways of your choice:",
+						{
+							"type": "list",
+							"items": [
+								"You regain hit points equal to the damage dealt by the bite. This healing does not account for damage from outside sources, such as class abilities or magic items.",
+								"You gain a bonus to the next ability check or attack roll you make; this bonus is equal to the damage dealt by the bite. This bonus does not account for damage from outside sources, such as class abilities or magic items."
+							]
+						},
+						"You can empower yourself with your bite a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
 				},
 				{
 					"name": "Languages",
@@ -4800,6 +4802,71 @@
 							"name": "Languages",
 							"entries": [
                                 "You can speak, read, and write Common, Elvish, and Sylvan."
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Owlfolk",
+					"ability": [
+						{
+							"wis": 2,
+							"choose": {
+								"from": [
+									"dex",
+									"int",
+									"cha"
+								],
+								"count": 1,
+								"amount": 1
+							}
+						}
+					],
+					"speed": {
+						"walk": 30,
+						"fly": 30
+					},
+					"entries": [
+						{
+							"name": "Elevated Darkvision",
+							"entries": [
+                                "You can see in dim light within 90 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Magic Sight",
+							"entries": [
+                                "Your keen senses can focus to see the presence of magic. You gain the ability to cast the {@spell detect magic} spell, but only as a ritual. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma. You can also cast this spell normally with any spell slots you have."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Greater Attuned Flight",
+							"entries": [
+								"You have a flying speed equal to your walking speed. To use this speed, you must attune to the Way of Worlds by act of sacrificing an attunement slot. Attuning to flight takes the same amount of time and follows the same restrictions as attuning to a magic item."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Nimble Hunter",
+							"entries": [
+                                "Thanks to your specially-enhanced wings, you have elevated control over your position in geometric space. When you fall, you can use your reaction to make a Dexterity saving throw (DC 10) to stop falling and begin fly in place until the start of your next turn. If you are not attuned to your Greater Attuned Flight feature, you descend at a rate of 30 feet per round until you touch the ground, and take no falling damage upon landing."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Silent Feathers",
+							"entries": [
+                                "You have proficiency in the {@skill Stealth} skill."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Languages",
+							"entries": [
+                                "You can speak, read, and write Common, Sylvan, and one other language of your choice."
 							],
 							"type": "entries"
 						}
