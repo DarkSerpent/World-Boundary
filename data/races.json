@@ -3276,94 +3276,164 @@
 			]
 		},
 		{
-			"name": "Panda",
+			"name": "Pandarian",
 			"source": "WB: RD",
 			"size": "M",
 			"speed": {
 				"walk": 30,
-				"climb": 10
+				"climb": 30
 			},
 			"ability": [
 				{
-					"str": 1,
-					"con": 1,
-					"wis": 1
+					"null": null
 				}
-			],
-			"traitTags": [
-				"Spellcasting",
-				"Skill Proficiency",
-				"Tool Proficiency"
 			],
 			"languageProficiencies": [
 				{
-					"sylvan": true
+					"choose": true
 				}
+			],
+			"traitTags": [
 			],
 			"entries": [
 				{
 					"name": "Age",
 					"entries": [
-                     "Panda mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Alignment",
-					"entries": [
-                     "Most Panda are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order."
+                     "Pandarian mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Size",
 					"entries": [
-                     "Panda are between 7 feet to 8 feet tall. Your size is Medium."
+                     "Pandarian are between 7 feet to 8 feet tall. Your size is Medium."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+                     "Most Pandarian are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Keen Smell",
 					"entries": [
-                     "You have advantage on {@skill Perception} checks that rely on smell."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Natural Healer",
-					"entries": [
-                     "You gain proficiency in the {@skill Medicine} skill."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Between Worlds",
-					"entries": [
-                     "Panda are considered humanoids and beasts for the purpose of calculating effects which take into account creature type. You can be affected by a game effect if it works on either of your creature types. You also ignore the effects of difficult terrain while in heavily-forested terrain."
+                     "Accustomed to hunting for edible food, your nose has developed a sharp intiution. You gain proficiency in {@skill Perception} checks that rely on smell."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Gourmand",
 					"entries": [
-                     "Panda are excellent cooks and brewers. You are proficient in the cook's utensils and brewer's supplies."
+                     "Pandarian are excellent cooks and brewers, and take great care in traversing their terrain to find the most excellent of ingreidents. You gain a climbing speed equal to your walking speed, and you are proficient in cook's utensils and brewer's supplies."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Between Worlds",
+					"entries": [
+                     "You have two creature types: humanoid and beast. You can be affected by a spell or ability that works on either of your creature types."
+					],
+					"type": "entries"
+				}
+			],
+			"subraces": [
+				{
+					"name": "Studied",
+					"ability": [
+						{
+							"choose": {
+								"from": [
+									"int",
+									"wis"
+								],
+							"count": 1,
+							"amount": 2
+						}
+				}
+					],
+					"entries": [
+				{
+					"name": "Ability Score Increase",
+					"entries": [
+                     "Choose one of the abilities you did not increase between Intelligence or Wisdom. That ability score increases by 1."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Sagely Knowledge",
 					"entries": [
-                     "You can cast {@spell comprehend languages} as a ritual. This is not represented as innate spellcasting, but rather as a Panda's incredible knowledge that spans all languages. All Pandas are polyglot, pulling knowledge from the Tree of Life to aid in their everyday tasks. However, due to this vast amount of knowledge, it is difficult for them to recall all the languages kept in their mind's archive, leading to forgetfulness.",
-                     "In addition, when casting {@spell comprehend languages} this way, you also learn to speak those languages for the duration of the spell."
+					 "Your vast mind has been irreversibly linked to the that of the Tree of Life, a mystical artifact that exists in-between the boundaries of both space and time. Each branch of the tree tells a story, and each leaf holds boundless knowledge, tangientally awaiting your access of it.",
+					 "As a Pandarian with access to this vast network of information, you have advantage on saving throws against the {@condition charmed} condition. In addition, you may activate your Sagely Knowledge feature as a reaction in response to one of the following conditions:",
+						{
+							"type": "list",
+							"items": [
+								"When you would be required to make a {@skill History} check to discover information about a specific topic, event, or location. Upon activating your Sagely Knowledge feature, you immediately pass the check.",
+								"When you would engage in conversation with another creature in a language that you yourself are not practiced in. Upon activating your Sagely Knowledge feature, you understand the literal and nuanced implications of that language, and can read, write, and speak it fluently for one hour.",
+								"When you would suffer from the effects of madness. Upon activating your Sagely Knowledge feature, you are not put under the effects of madness."
+							]
+						},
+					 "You may use your Sagely Knowledge feature twice, and afterwards, you must finish a long rest before you can use it again. You regain all expended uses on a long rest."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Language",
 					"entries": [
-                     "You can speak, read, and write Common and Sylvan."
+                     "You can speak, read, and write Common, Sylvan, and one additional language of your choice."
 					],
 					"type": "entries"
+				}
+					]
+				},
+				{
+					"name": "Banded",
+					"ability": [
+						{
+							"choose": {
+								"from": [
+									"str",
+									"con"
+								],
+								"count": 1,
+								"amount": 2
+							}
+						}
+					],
+					"entries": [
+				{
+					"name": "Ability Score Increase",
+					"entries": [
+                     "Choose one of the abilities you did not increase between Strength or Constitution. That ability score increases by 1."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Sagely Authority",
+					"entries": [
+                     "You have gain an inherent mastery over the ancient arts of Pandarian combat, an artform that has not been practiced for many milennia. Whether this gift was an act of divine providence or a manifestation of your bloodlines's inert traits, it is impossible to determine. What is possible to determine, however, is that you are remarkably proficient in unconviential combat styles.",
+					 "As a recepient of the ancient Pandarian arts, you confer the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"Simple and martial weapons without the thrown property can be treated as if they had the thrown property. One-handed weapons have a range of 20/60, while two-handed weapons have a range of 15/30.",
+								"Whenever you make a thrown weapon attack using a light weapon, the weapon immediately boomerangs back into your grasp without requiring an object interaction.",
+								"At the start of your turn before you would expend movement, you can declare that you will move via transference of kinetic motion. Your current movement speed is instead swapped for your climbing speed (even if you are not currently climbing, so long as you are not swimming, flying, or burrowing). You then proceed to curl up into a dense, cataclysmic ball of unwavering force. If you move at least 20 feet toward a target and then hit it with a melee weapon attack on the same turn, that target is knocked back 5 feet for every 20 feet you traveled before the attack."
+							]
+						}
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Language",
+					"entries": [
+                     "You can speak, read, and write Common, Sylvan, and one additional language of your choice."
+					],
+					"type": "entries"
+				}
+					]
 				}
 			]
 		},
