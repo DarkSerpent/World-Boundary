@@ -1337,19 +1337,19 @@
 							"name": "",
 							"entries": [{
 									"entries": [
-										"{@b Cut the Skin.} The target must make a Constitution saving throw. On a failed save, that creature begins to bleed. That creature takes {@dice 1d6} necrotic damage at the end of each of its turns. The bleeding stops if the target uses an action, is healed by magic, takes a short or long rest, or succeeds on a Wisdom ({@skill Medicine}) check out of combat (DC 12)."
+										"{@b Cut the Skin.} The target must make a Constitution saving throw. On a failed save, that creature begins to bleed. That creature takes {@dice 1d6} necrotic damage at the end of each of its turns. The bleeding stops if the target uses an action, is healed by magic, takes a short or long rest, or has a successful Wisdom ({@skill Medicine}) check made on them by another creature (DC 12)."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-										"{@b Slice the Tendon.} The target must make a Constitution saving throw. On a failed save, that creature takes an additional {@dice 1d4} damage of your weapon's type and has their movement speed reduced by half. This reduced movement speed can only be applied once per target, and ends if the target uses an action, is healed by magic, takes a short or long rest, or succeeds on a Wisdom ({@skill Medicine}) check out of combat (DC 12)."
+										"{@b Slice the Tendon.} The target must make a Constitution saving throw. On a failed save, that creature takes an additional {@dice 1d4} damage of your weapon's type and has their movement speed reduced by half. This reduced movement speed can only be applied once per target, and ends if the target uses an action, is healed by magic, takes a short or long rest, or has a successful Wisdom ({@skill Medicine}) check made on them by another creature (DC 12)."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-										"{@b Gouge the Eyes.} The target must make a Dexterity saving throw or become {@condition blinded}. At the start of each of their turns, they can remake the save, ending the effect on a success. The effect also ends if the creature uses an action, is healed by magic, taeks a short or long rest, or succeeds on a Wisdom ({@skill Medicine}) check out of combat (DC 12)."
+										"{@b Gouge the Eyes.} The target must make a Dexterity saving throw or become {@condition blinded}. At the start of each of their turns, they can remake the save, ending the effect on a success. The effect also ends if the creature uses an action, is healed by magic, taeks a short or long rest, or has a successful Wisdom ({@skill Medicine}) check made on them by another creature (DC 12)."
 									],
 									"type": "entries"
 								}
