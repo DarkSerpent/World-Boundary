@@ -1320,6 +1320,104 @@
 			]
 		},
 		{
+			"name": "Shurikenjutsu",
+			"source": "WB: RD",
+			"prerequisite": [{
+				"other": "Proficiency with shurikens"
+			}],
+			"entries": [
+				"You have mastered the art of fighting with shuriken, be it from the shadows or as a supplementry weapon. While wielding shuriken, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you use shuriken, its damage die changes from a {@dice d4} to a {@dice d6}.",
+						"When you take the Attack action against a creature on your turn, you can transition your attack into a Vital Attack. On a hit, the target takes damage from your shuriken and you choose one of the following effects to transpire. You can only use an effect of Shurikenjutsu once per turn. If your target would be forced to make a saving throw, the DC is equal to 8 + your proficiency bonus + your Dexterity modifier. You can use a number of Vital Attacks equal to your Dexterity modifier, and regain all uses on a short or long rest.",
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [{
+									"entries": [
+										"{@b Cut the Skin.} The target must make a Constitution saving throw. On a failed save, that creature begins to bleed. That creature takes {@dice 1d6} necrotic damage at the end of each of its turns. The bleeding stops if the target uses an action, is healed by magic, takes a short or long rest, or succeeds on a Wisdom ({@skill Medicine}) check out of combat (DC 12)."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+										"{@b Slice the Tendon.} The target must make a Constitution saving throw. On a failed save, that creature takes an additional {@dice 1d4} damage of your weapon's type and has their movement speed reduced by half. This reduced movement speed can only be applied once per target, and ends if the target uses an action, is healed by magic, takes a short or long rest, or succeeds on a Wisdom ({@skill Medicine}) check out of combat (DC 12)."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+										"{@b Gouge the Eyes.} The target must make a Dexterity saving throw or become {@condition blinded}. At the start of each of their turns, they can remake the save, ending the effect on a success. The effect also ends if the creature uses an action, is healed by magic, taeks a short or long rest, or succeeds on a Wisdom ({@skill Medicine}) check out of combat (DC 12)."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Vital Attack"
+							}
+				},
+						"If a target would be afflicted by multiple of your Vital Attacks at once, a separate Wisdom ({@skill Medicine}) check is needed to circumvent each ailment."
+					]
+				}
+			]
+		},
+		{
+			"name": "Jian Wu",
+			"source": "WB: RD",
+			"prerequisite": [{
+				"other": "Proficiency with jian"
+			}],
+			"entries": [
+				"Folklore refers to the jian as the gentlemen of weapons, and you have embodied the beauty of its almost dance-like patterns. While wielding a jian, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you use a jian, its damage die changes from a {@dice d6} to a {@dice d8}, and from a {@dice d8} to {@dice d10} when utilizing its versatile property.",
+						"When you take the Attack action on your turn, your movement speed increases by 10 feet until the end of your turn.",
+						"You can forgo one of your attacks as part of your Attack action. When you do so, you can immediately move up to 10 feet in any direction without provoking opportunity attacks. You can only use this feature once per turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Whirlwind of Fury",
+			"source": "WB: RD",
+			"prerequisite": [{
+				"other": "Proficiency with nunchaku"
+			}],
+			"entries": [
+				"Be it sticks or metals, while they are attached via chain, they become deadly in the palms of your hand. In the dance of a martial artist, none can escape your whirlwind of fury. While wielding nunchaku, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain a +1 bonus to attack rolls made with nunchaku.",
+						"When a creature enters your reach, you can use a reaction to make an attack against them in an attempt to catch them unaware. If you hit, instead of dealing damage, that creature has disadvantage on attacks made against you until the end of their turn.",
+						"Whenever you hit a creature with nunchaku on your turn, you can use a bonus action to attempt to distract them with a dazzling display of your skill. That creature must make a Charisma saving throw with a DC equal to 8 + your proficiency bonus + your Dexterity modifier. On a failed save, you gain advantage on your next attack against them, and that attack deals an additional {@dice 4d8} psychic damage. Once you use this feature, you cannot use it again until you finish a short or long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sanjigun Practitioner",
+			"source": "WB: RD",
+			"prerequisite": [{
+				"other": "Proficiency with three-section staves"
+			}],
+			"entries": [
+				"Though complicated and requiring years of training, the three-section staff shines like an arc of destruction in the hands of a skilled practitioner. While wielding three-section staves, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you use a three-section staff as a double weapon, its damage die changes from a {@dice d4} to a {@dice d6}.",
+						"As a reaction to a creature targetting you for an attack, you swing your three-section staff around your form in an attempt to dissaude your assailant's aim. That attack has disadvantage against you, and if it misses, you can make an attack against that creature or another creature within range with your three-section staff as part of the same reaction.",
+						"Once per turn when you take the Attack action against a creature, you can utilize your staff's interlocking pieces to extend your reach around an enemy's guard, potentially causing a missed attack to hit. You gain a bonus to your next attack roll equal to half your relevant attack modifier, rounded down. You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses on a short or long rest."
+					]
+				}
+			]
+		},
+		{
 			"name": "Telekinetic",
 			"source": "WB: RD",
 			"prerequisite": [{
