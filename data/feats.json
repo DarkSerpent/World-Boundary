@@ -1577,6 +1577,70 @@
 			]
 		},
 		{
+			"name": "Advanced Mutation",
+			"source": "WB: RD",
+			"ability": [{
+				"choose": {
+					"from": [
+						"str",
+						"dex",
+						"con",
+						"int",
+						"wis",
+						"cha"
+					],
+					"count": 1,
+					"amount": 1
+				}
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "Demihuman"
+				}]
+			}],
+			"entries": [
+				"You have mutated am additional trait, being among the few of your kind to exhibit more than a handful of biologicial boons from your ancestors. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You may choose an additional trait from the Birth of Creation list to evolve and benefit from."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cybernetic Evolution",
+			"source": "WB: RD",
+			"ability": [{
+				"choose": {
+					"from": [
+						"str",
+						"dex",
+						"con",
+						"int",
+						"wis",
+						"cha"
+					],
+					"count": 1,
+					"amount": 1
+				}
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "Half-Forged"
+				}]
+			}],
+			"entries": [
+				"You have resolved yourself to cybernetically augment your form further beyond than most others of your kind, embracing the superiority of steel over flesh. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You may choose an additional Cybernetic Implant of your choice to augment yourself with from the Cybernetic Implants list."
+					]
+				}
+			]
+		},
+		{
 			"name": "Abyssal Centrifuge",
 			"source": "WB: RD",
 			"prerequisite": [{
