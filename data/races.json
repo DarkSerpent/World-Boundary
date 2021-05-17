@@ -3910,8 +3910,8 @@
 					"name": "Fight or Fight",
 					"entries": [
                      "As a reaction to another creature making any statement, you can make a DC 12 Intelligence check. On a failed check, you find a preconceived insult in that creature's declaration, regardless if that creature actually supplied an insult in their statement.",
-                     "You then fly into a vehement rage as your inherent short fuses leads you to violence. While in this state, you gain a +1 to melee attack rolls and to melee damage rolls for 1 minute. Once you go into this rage, you cannot use this ability again until you complete a short or long rest.",
-                     "This bonus increases to +2 at 11th level and +3 at 17th level."
+                     "You then fly into a vehement rage as your inherent short fuses leads you to violence. While in this state, you gain a +2 damage rolls you make with melee weapons for one minute. Once you go into this rage, you cannot use this ability again until you complete a short or long rest.",
+                     "This bonus increases to +4 at 11th level and +6 at 17th level."
 					],
 					"type": "entries"
 				},
