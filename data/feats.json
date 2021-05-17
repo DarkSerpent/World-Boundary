@@ -533,7 +533,7 @@
 				{
 					"type": "list",
 					"items": [
-						"When you hit with your Grasp from Beyond, you can force the creature to make a Constitution saving throw (DC: 10 + your Proficiency bonus + your Strength modifier).",
+						"When you hit with your Grasp from Beyond, you can force the creature to make a Constitution saving throw (DC: 10 + your Proficiency bonus + your Strength or Dexterity modifier).",
 						"On a failed save, the creature becomes {@condition Paralyzed}.",
 						"You can use this ability twice, after which you must spend a long rest before you can use Undying Grasp again."
 					]
@@ -1547,6 +1547,23 @@
 			]
 		},
 		{
+			"name": "Way of Worlds",
+			"source": "WB: RD",
+			"prerequisite": [{
+				"other": "An Attuned Flight feature (including variants such as Greater)."
+			}],
+			"entries": [
+				"Flying is as easy as walking for you—and no, you don't mean that at the physical sense. You have metaphysically transcended the need to attune to the Way of Worlds. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Attuned Flight feature no longer requires attunement.",
+						"When you leave a hostile creature's reach on your turn while flying, all opportunity attacks made against you are rolled at disadvantage."
+					]
+				}
+			]
+		},
+		{
 			"name": "Woke",
 			"source": "WB: RD",
 			"ability": [{
@@ -1698,7 +1715,7 @@
 				{
 					"type": "list",
 					"items": [
-						"As an action, you become a Large size creature. As you grow, your proportions increase by a factor of 1.6 as you tower over the creatures in your vicinity. While in this state, you gain resistance to non-magical bludgeoning, piercing, and slashing damage. In addition, creatures behind you gain the benefits of three-quarters cover, and your reach increases by 5 feet. This form lasts for one minute, and afterward, you revert to your original form. Once you use this feature, you cannot use it again until you finish a long rest."
+						"As an action, you become a Huge size creature. As you grow, your proportions increase by a factor of 1.6 as you tower over the creatures in your vicinity. While in this state, you gain resistance to non-magical bludgeoning, piercing, and slashing damage. In addition, creatures behind you gain the benefits of three-quarters cover, and your reach increases by 5 feet. This form lasts for one minute, and afterward, you revert to your original form. Once you use this feature, you cannot use it again until you finish a long rest."
 					]
 				}
 			]
