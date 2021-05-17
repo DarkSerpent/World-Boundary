@@ -3642,7 +3642,7 @@
 		{
 			"name": "The Beneath",
 			"source": "WB: RD",
-			"size": "M",
+			"size": "L",
 			"speed": {
 				"walk": 30,
 				"climb": 20
@@ -3679,7 +3679,7 @@
 				{
 					"name": "Size",
 					"entries": [
-                     "The Beneath are between 8 feet to 9 feet tall, although as a quadruped, their height can deminish to as low as 4 to 5 feet when running. Your size is Medium."
+                     "The Beneath are between 10 feet to 14 feet tall, although as a quadruped, their height can deminish to as low as 6 to 7 feet when running. Your size is Medium."
 					],
 					"type": "entries"
 				},
@@ -4722,6 +4722,78 @@
 							"name": "Languages",
 							"entries": [
                                 "You can speak, read, and write Common, Sylvan, and one other language of your choice."
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Pixie",
+					"ability": [
+						{
+							"cha": 2,
+							"dex": 1
+						}
+					],
+					"speed": {
+						"walk": 15,
+						"fly": 35
+					},
+					"size": "T",
+					"entries": [
+						{
+							"name": "Attuned Flight",
+							"entries": [
+								"You have a flying speed of 35 feet. To use this speed, you must attune to the Way of Worlds by act of sacrificing an attunement slot. Attuning to flight takes the same amount of time and follows the same restrictions as attuning to a magic item."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Amongst Giants",
+							"entries": [
+								"Tiny creatures have advantage on Dexterity saving throws, but disadvantage on Strength saving throws. In addition, tiny creatures can move into the spaces of creatures that are small or larger, provoking opportunity attacks as normal. They have a reach of 0 feet, meaning they must be in the same space as a creature to use a weapon or touch spell. This feature does not take effect if you are not currently considered Tiny."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Pixie Magic",
+							"entries": [
+								"You know the spells {@spell druidcraft}, {@spell mending}, and {@spell faerie fire}. When you cast {@spell faerie fire}, you can do so without expending a spell slot. If you do, you must finish a long rest before you can do so again. Your spellcasting ability for these spells is Intelligence or Charisma."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Wrath of the Tiny",
+							"entries": [
+								"Raised in the armies of the Seelie Courts (or tutored by their ancestors) has made you martial than most, and through your Tiny form you have become vicious with weapons. You have proficiency with shortbows, shortswords, hand crossbows, sickles, slings, pikes, and shields. These weapons are specially made and must be properly sized for you due to your Size."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Pixie Dust",
+							"entries": [
+								"If you are standing in an allied creatures space, you can use a bonus action to grant them temporary flight. This flight lasts two rounds and grants a flying speed equal to the creatures walking speed. You can use this feature a number of times equal to your Constitution modifier and regain all charges on a long rest."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Fey Ancestry",
+							"entries": [
+								"You have advantage on saving throws against the {@condition charmed} condition."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Fey Passage",
+							"entries": [
+								"You can squeeze through a space as narrow as 1-inch wide."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Languages",
+							"entries": [
+								"Common, Sylvan, and one other language of your choice."
 							],
 							"type": "entries"
 						}
