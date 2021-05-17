@@ -3679,7 +3679,7 @@
 				{
 					"name": "Size",
 					"entries": [
-                     "The Beneath are between 10 feet to 14 feet tall, although as a quadruped, their height can deminish to as low as 6 to 7 feet when running. Your size is Medium."
+                     "The Beneath are between 10 feet to 14 feet tall, although as a quadruped, their height can deminish to as low as 6 to 7 feet when running. Your size is Large."
 					],
 					"type": "entries"
 				},
@@ -3829,6 +3829,103 @@
 					"name": "Language",
 					"entries": [
                      "You can read and write Common, Deep Speech, and one additional language of your choice."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Half-Ogre",
+			"source": "WB: RD",
+			"size": "L",
+			"speed": {
+				"walk": 35
+			},
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"traitTags": [
+
+			],
+			"languageProficiencies": [
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+                     "As creatures who partake in the giant's kin, half-ogres lifespans run long if they do not sacrifice their years in a wartorn lifestyle. Half-Ogres reach adulthood at 20, and the oldest of them can live for upwards of 500 years."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Size",
+					"entries": [
+                     "Psions are between 12 feet to 16 feet tall. Your size is Large."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Kin of Giant",
+					"entries": [
+					"Your creature type is giant, rather than humanoid."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Big Leg",
+					"entries": [
+                     "Your base walking speed increases to 35 feet."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Immutable Tum-Tum",
+					"entries": [
+						"Your stomach is incredibly hardy, designed to handle...rough ingestion (you were told not to look up the history of your ancestors, and you're taking that statement to heart).",
+						"While your stomach is guilt-free of any crime, you are able to swallow quite unnatural things. You gain resistance to poison and advantage against the {@condition poisoned} condition, and can digest and gain nutrients from &quot;food&quot; you should otherwise be unable to, such as: rocks, leaves, grass, dirt, gravel, and on occasion, rats (those dirty, dirty marsupials).",
+						"Digesting these items does not cause dysentery or sickness (but they may induce some mean flatulence)."
+					]
+				},
+				{
+					"name": "Heavy Rock Go Brrrrrrrrr",
+					"entries": [
+					"As an admittedly dim member of the giantkin family, you have grown accustomed to utilizing unconventional, convenient weapons in order to protect your homestead (which essentially means you use large, heavy rocks).",
+					"You can lift and carry any Medium to Large object or structure which weighs less than 200 pounds that is easily-detachable without incurring any encumberment penalties. In addition, if that object weighs between 100 and 200 pounds, you can chuck it at an enemy within 30 feet of you as part of an Attack action.",
+					"That creature must roll a Dexterity saving throw with a DC of 8 + your proficiency bonus + your Strength modifier. On a failed save, that creature takes {@dice 1d10} damage and is knocked {@condition prone}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Fight or Fight",
+					"entries": [
+                     "As a reaction to another creature making any statement, you can make a DC 12 Intelligence check. On a failed check, you find a preconceived insult in that creature's declaration, regardless if that creature actually supplied an insult in their statement.",
+                     "You then fly into a vehement rage as your inherent short fuses leads you to violence. While in this state, you gain a +1 to melee attack rolls and to melee damage rolls for 1 minute. Once you go into this rage, you cannot use this ability again until you complete a short or long rest.",
+                     "This bonus increases to +2 at 11th level and +3 at 17th level."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Wartorn Past",
+					"entries": [
+                     "You have proficiency in the {@skill Athletics} skill."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Language",
+					"entries": [
+                     "You can read and write Common and Giant."
 					],
 					"type": "entries"
 				}
