@@ -3932,6 +3932,372 @@
 			]
 		},
 		{
+			"name": "Centaur",
+			"source": "SRPRaces",
+			"creatureTypes": [
+				"humanoid",
+				"monstrosity"
+			],
+			"size": "M",
+			"speed": {
+				"walk": 40
+			},
+			"ability": [
+				{
+					"str": 2
+				}
+			],
+			"traitTags": [
+				"Monstrous Race",
+				"Unarmed Strike",
+				"Powerful Build"
+			],
+			"languageProficiencies": [
+				{
+					"other": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Centaurs mature at around the same rate as elves, but live for somewhat less time, the oldest of most being around 600 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Centaurs are inclined toward chaos, seeing no need for rules and regulations on their freedom; however, their actions still aim to be noble and just, drawing them towards good. The shy Crystalmir share these traits; the terrible Endscapes lean into evil, while Wendles are usually neither good nor evil."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Centaurs stand between 6 to well over 7 feet tall, with their equine bodies ranging between 4 to 5 feet at the whithers. Wendles usually sit at a smaller size of around only around 5 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base speed is 40 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hybrid Nature",
+					"entries": [
+						"You have two creature types: humanoid and monstrosity. You can be affected by a game effect if it works on either of your creature types."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hooves",
+					"entries": [
+						"Your hooves are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Equine Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push or drag.",
+						"In addition, any climb that requires hands and feet is especially difficult for you because of your equine legs. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot."
+					]
+				}
+			],
+			"fluff": {
+			},
+			"subraces": [
+				{
+					"name": "Crystalmir",
+					"traitTags": [
+						"Skill Proficiency"
+					],
+					"ability": [
+						{
+							"wis": 1
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Survivor",
+							"entries": [
+								"You have proficiency in one of the following skills of your choice: Animal Handling, Medicine, Nature, or Survival."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Swift Rider",
+							"entries": [
+								"You can use the Dash action as a bonus action."
+							]
+						}
+					]
+				},
+				{
+					"name": "Endscape",
+					"traitTags": [
+						"Weapon Proficiency"
+					],
+					"ability": [
+						{
+							"con": 2
+						}
+					],
+					"entries": [
+						{
+							"name": "Charge",
+							"entries": [
+								"If you move at least 30 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can immediately follow that attack with a bonus action, making one attack against the target with your hooves."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Endscape Weapon Training",
+							"entries": [
+								"You have proficiency with the shortbow, light crossbow, scimitar, and net."
+							],
+							"type": "entries"
+						},
+						{
+							"type": "entries",
+							"name": "Languages",
+							"entries": [
+								"You can speak, read, and write Common and Sylvan."
+							]
+						}
+					]
+				},
+				{
+					"name": "Wendle",
+					"traitTags": [
+						"Spellcasting",
+						"Language Proficiency"
+					],
+					"ability": [
+						{
+							"choose": {
+								"from": [
+									"int",
+									"wis",
+									"cha"
+								],
+								"count": 1,
+								"amount": 1
+							}
+						}
+					],
+					"entries": [
+						{
+							"name": "Spell Affinity",
+							"entries": [
+								"One of your Intelligence, Wisdom, or Charisma scores increase by 1, your choice. Additionally, if you chose Intelligence, you can choose one cantrip from the wizard spell list, using Intelligence as your spellcasting ability modifier; if you chose Wisdom, you can choose one cantrip from the druid spell list, using Wisdom as your spellcasting ability modifier; if you chose Charisma, you can choose one cantrip from the sorcerer spell list, using Charisma as your spellcasting ability modifier."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Quick Thinking",
+							"entries": [
+								"You can take the Search or Disengage action as a bonus action."
+							],
+							"type": "entries"
+						},
+						{
+							"type": "entries",
+							"name": "Languages",
+							"entries": [
+								"You can speak, read, and write Common and Sylvan."
+							]
+						},
+						{
+							"name": "Extra Language",
+							"entries": [
+								"You learn any additional language of your choosing."
+							],
+							"type": "entries"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Minotaur",
+			"source": "WB: RD",
+			"creatureTypes": [
+				"humanoid",
+				"monstrosity"
+			],
+			"size": "M",
+			"speed": {
+				"walk": 30
+			},
+			"ability": [
+				{
+					"str": 2
+				}
+			],
+			"traitTags": [
+				"Monstrous Race",
+				"Armor Proficiency",
+				"Tool Proficiency",
+				"Darkvision"
+			],
+			"languageProficiencies": [
+				{
+					"other": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Minotaurs mature at about 17, and can live to be almost 200 years old."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Minotaurs tend toward lawful and neutral alignments, but rarely chaos. Like humans, the best and the worst are found among them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Minotaurs have variable sizing, standing anywhere between 6 to almost 9 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hybrid Nature.",
+					"entries": [
+						"You have two creature types: humanoid and monstrosity. You can be affected by a game effect if it works on either of your creature types."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision.",
+					"entries": [
+						"Due to your many nights on the sea and your monstrous ancestry, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Minotaur Armor Training",
+					"entries": [
+						"You gain proficiency with light and medium armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mariner",
+					"entries": [
+						"While you aren't wearing heavy armor or using a shield, you can use your bonus action to gain either a swim speed or climbing speed of 40 feet until the start of your next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Seabound Soul",
+					"entries": [
+						"You gain proficiency with vehicles (water) and navigator's tools."
+					]
+				}
+			],
+			"fluff": {
+			},
+			"subraces": [
+				{
+					"name": "Kothas",
+					"traitTags": [
+						"Unarmed Strike"
+					],
+					"ability": [
+						{
+							"con": 1
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Horns",
+							"entries": [
+								"Your horns are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Martial Maneuvering",
+							"entries": [
+								"You have advantage on any roll to avoid being grappled."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Languages",
+							"entries": [
+								"You know Common and Giant."
+							]
+						}
+					]
+				},
+				{
+					"name": "Mithas",
+					"traitTags": [
+						"Skill Proficiency"
+					],
+					"ability": [
+						{
+							"choose": {
+								"from": [
+									"int",
+									"cha"
+								],
+								"count": 1,
+								"amount": 1
+							}
+						}
+					],
+					"entries": [
+						{
+							"name": "Conquerer's Knowledge",
+							"entries": [
+								"Knowledge. You have proficiency in the History and Religion skills."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Seafarer's Footing",
+							"entries": [
+								"You have advantage on any roll to avoid being knocked prone."
+							],
+							"type": "entries"
+						},
+						{
+							"type": "entries",
+							"name": "Languages",
+							"entries": [
+								"You know Common and Giant."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Archslime",
 			"source": "WB: RD",
 			"size": "M",
