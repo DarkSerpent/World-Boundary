@@ -1382,6 +1382,23 @@
 			]
 		},
 		{
+			"name": "Platform Shooter",
+			"source": "SRPF",
+			"prerequisite": [{
+				"other": "Proficiency with pistols or sidearms"
+			}],
+			"entries": [
+				"You have trained in a pistoleer style of shooting that focuses on the use of one pistol held in both hands for stability. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you draw a pistol or sidearm, you can choose to enter a stance known as the Platform stance. While in this stance, the gun you are wielding is considered two-handed, you gain a +1 bonus to attack and damage rolls with it, and you can reload it as a bonus action.",
+						"Alongside this, you can use an attack action to make a special melee attack against a creature within 5 feet of you. It is considered an unarmed attack that you are proficient with that is finesse. On a hit, the target must make a Strength saving throw, DC = 8 + your Proficiency Bonus + your Dexterity modifier, or fall prone. On a failed save, you can immediately make an attack with the gun you are wielding against them."
+					]
+				}
+			]
+		},
+		{
 			"name": "Grand Chariot",
 			"source": "WB: RD",
 			"prerequisite": [{
