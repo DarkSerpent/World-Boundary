@@ -141,11 +141,41 @@
 				"T"
 			],
 			"dmg1": "1d6",
+			"range": "20/40",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Great Chakram & Chain",
+			"source": "WB: RD",
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "exotic",
+			"property": [
+				"S",
+				"2H",
+				"H",
+				"RET",
+				"T"
+			],
+			"dmg1": "1d10",
 			"range": "15/30",
 			"dmgType": "S",
 			"sword": true,
 			"weapon": true,
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"You cannot gain the benefits of the feat Great Weapon Master with this exotic weapon."
+					]
+				}
 			]
 		},
 		{
@@ -936,7 +966,7 @@
 			]
 		},
 		{
-			"name": "Shotgun",
+			"name": "Automatic Shotgun",
 			"source": "WB: RD",
 			"type": "R",
 			"rarity": "none",
@@ -969,6 +999,83 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Double-Barrel Shotgun",
+			"source": "WB: RD",
+			"type": "R",
+			"rarity": "none",
+			"weight": 6,
+			"value": 20000,
+			"weaponCategory": "firearm",
+			"property": [
+				"A",
+				"AM",
+				"2H",
+				"MI",
+				"RE",
+				"SC",
+				"S"
+			],
+			"dmg1": "1d10",
+			"range": "30/60",
+			"reload": "2",
+			"misfire": "1",
+			"ammo": "5 gp for 5",
+			"dmgType": "B",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"If your target is within 5 feet of you, it takes an additional {@dice 1d6} piercing damage on a hit. You may not benefit from the rogue's Sneak Attack feature while using this weapon two-handed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Two-Barrel Nihilism",
+					"entries": [
+						"You can forgo one of your attacks as part of your Attack action in order to perform a special attack against a creature in front of you. Expend all of your ammunition and make a ranged attack roll. On a hit, the target takes {@dice 2d10} plus your Dexterity modifier bludgeoning damage. You can only use this feature once per turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Compound Bow",
+			"source": "WB: RD",
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"value": 10000,
+			"weaponCategory": "exotic",
+			"property": [
+				"A",
+				"2H",
+				"POW"
+			],
+			"dmg1": "1d6",
+			"range": "60/240",
+			"dmgType": "P",
+			"entries": []
+		},
+		{
+			"name": "Compound Crossbow",
+			"source": "WB: RD",
+			"type": "R",
+			"rarity": "none",
+			"weight": 5,
+			"value": 10000,
+			"weaponCategory": "exotic",
+			"property": [
+				"A",
+				"2H",
+				"LD",
+				"POW"
+			],
+			"dmg1": "1d8",
+			"range": "60/240",
+			"dmgType": "P",
+			"entries": []
 		},
 		{
 			"name": "Blunderbuss",
@@ -2995,7 +3102,29 @@
 			"reqAttune": false,
 			"type": "1d6 x 100 gp",
 			"entries": [
-				"While wearing this sigil, you gain a +1 bonus to the attack rolls and the damage rolls you make with unarmed strikes and natural weapons. Such attacks are considered to be magical."
+				"While wearing this sigil, you gain a +1 bonus to the attack rolls and the damage rolls you make with unarmed strikes and natural weapons. Such attacks are considered to be magical. This magic item does not apply its bonus to weapons with the unarmed property."
+			]
+		},
+		{
+			"name": "Sigil of the Claw +1",
+			"source": "RS",
+			"rarity": "rare",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "2d10 x 1,000 gp",
+			"entries": [
+				"While wearing this sigil, you gain a +1 bonus to the attack rolls and the damage rolls you make with unarmed strikes and natural weapons. Such attacks are considered to be magical. This magic item does not apply its bonus to weapons with the unarmed property."
+			]
+		},
+		{
+			"name": "Sigil of the Claw +2",
+			"source": "RS",
+			"rarity": "very rare",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "(1d4 + 1) x 10,000 gp",
+			"entries": [
+				"While wearing this sigil, you gain a +1 bonus to the attack rolls and the damage rolls you make with unarmed strikes and natural weapons. Such attacks are considered to be magical. This magic item does not apply its bonus to weapons with the unarmed property."
 			]
 		},
 		{
@@ -3690,7 +3819,7 @@
 					"type": "entries",
 					"name": "Scatter",
 					"entries": [
-						"Whenever you make the attack action, as a bonus action, you can cause your firearm to hit multiple targets. Make an attack roll against each creature in a cone equal to your firearm's normal range. On a successful hit, those creatures suffer damage as if you had attacked each of them (roll once). Firing this way increases your misfire score by 2 for that attack. You can only use Scatter once per round, regardless of how many bonus actions you may have. The Scatter property is unaffected by the Sharpshooter feat."
+						"Whenever you make a ranged attack against a creature, each creature within 5 feet of the original target and the normal range of your firearm is subjected to the attack roll as if the attack was made against them. If the scatter attack is successful, that creature takes {@dice 1d6} bludgeoning damage. This attack's damage cannot be modified by your class or racial features, except on a critical hit."
 					]
 				}
 			]
@@ -3797,6 +3926,19 @@
 					"name": "Two-Handed",
 					"entries": [
 						"This weapon requires two hands to use. This property is relevant only when you attack with the weapon, not when you simply hold it."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "POW",
+			"source": "WB: RD",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Power Shot",
+					"entries": [
+						"As a bonus action, you draw your next shot with all your strength. If your next attack made withthis weapon successfully hits, it deals additional damage equal to one of its weapon damage die."
 					]
 				}
 			]

@@ -1382,6 +1382,52 @@
 			]
 		},
 		{
+			"name": "Grand Chariot",
+			"source": "WB: RD",
+			"prerequisite": [{
+				"other": "Proficiency with great chakrams"
+			}],
+			"entries": [
+				"The great chakram is a wheeled instrument of demonstrable force, proven by its hefty weight and near complete impraticality in combat. It was once used by the giants of old to rout the weakened lesser races from the fields of battle; a quirk that you, despite your size, have managed to take advantage of. While wielding the great chakram, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Attacking a {@condition prone} target from range with your great chakram no longer imposes disadvantage, and you instead gain advantage.",
+						"You can forgo one of your attacks as part of your Attack action in order to perform a Grand Chariot with your chain. If your special attack requires a saving throw, its DC is equal to 8 + your proficiency bonus + your Strength modifier. Choose one of the following options to transpire:",
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [{
+									"entries": [
+										"{@b Steel their Resolve.} You throw out your chain before your great chakram, capturing a creature within 30 feet. That creature must make a Dexterity saving throw. On a failed save, that creature becomes {@condition restrained} until the end of your current turn."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+										"{@b Star Fall.} You immediately throw out your great chakram, letting it fly through the air for a moment before lashing at it with your chain. You pull your chakram back before it hits any targets, subsequentially lurching it into the sky and slamming it down by the chain onto the battlefield moments later.",
+										"Target a 10-foot radius within 30 feet of you. All creatures within that radius must make a Strength saving throw. On a failed save, those creature are knocked {@condition prone} and take {@dice 1d6} + your Strength modifier bludgeoning damage, or half as much damage on a successful save."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+										"{@b Destruction of Will.} You wrap your chain around your great chakram and unreel it at a target like a yoyo. Target one creature within 30 feet of you. That creature must succeed on a Strength saving throw or take {@dice 1d10} + your Strength modifier slashing damage be knocked back {@dice 1d4} x 10 feet, or half as much damage on a successful save."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Special Chariot"
+							}
+				},
+						"You can use a number of Grand Chariots equal to your proficiency bonus, and regain all expended uses on a long rest."
+
+					]
+				}
+			]
+		},
+		{
 			"name": "Whirlwind of Fury",
 			"source": "WB: RD",
 			"prerequisite": [{
