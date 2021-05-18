@@ -1041,6 +1041,29 @@
 			]
 		},
 		{
+			"name": "Sidearm Pistol",
+			"source": "WB: RD",
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"value": 10000,
+			"weaponCategory": "firearm",
+			"property": [
+				"A",
+				"AM",
+				"L",
+				"MI",
+				"RE"
+			],
+			"dmg1": "1d8",
+			"range": "60/200",
+			"reload": "4",
+			"misfire": "1",
+			"ammo": "4 gp for 20",
+			"dmgType": "P",
+			"entries": []
+		},
+		{
 			"name": "Compound Bow",
 			"source": "WB: RD",
 			"type": "R",
