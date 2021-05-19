@@ -1097,7 +1097,7 @@
 			],
 			"subraces": [
 				{
-					"name": "Wolf",
+					"name": "Wolfblood",
 					"ability": [
 						{
 							"choose": {
@@ -3829,6 +3829,106 @@
 					"name": "Language",
 					"entries": [
                      "You can read and write Common, Deep Speech, and one additional language of your choice."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Awakened (Wolf)",
+			"source": "WB: RD",
+			"size": "M",
+			"speed": {
+				"walk": 40
+			},
+			"ability": [
+				{
+					"str": 2,
+					"dex": 1
+				}
+			],
+			"traitTags": [
+			],
+			"languageProficiencies": [
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+                     "Imbued with magic, awakened age more slowly and typically live much longer than their unawakened counterparts. They reach adulthood after a year but can live for as long as 60 years."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+                     "Awakened will generally adopt the alignment of their owner, if they have any. Without an owner, an awakened upbringing can be radically different, as a result of the instinctual urges various breeds of awakened have. The best and worst exist among their ranks."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Size",
+					"entries": [
+                     "Awakened wolves are different from their fellow awakened bretheren. Enhanced by the feral DNA of a dire wolf alongside the gait of a lumbering predator, you tower above your kin in quite a remarkable way. Your size is Medium."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Beastly",
+					"entries": [
+                     "Your creature type is beast, rather than humanoid."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "You Are an Animal",
+					"entries": [
+                     "Awakened don't have hands, but their arms (depending on the breed) are dextrous enough to handle small complex tasks. Awakened can pick up weapons but can't use them in combat."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+						{
+							"type": "entries",
+							"name": "Bite",
+							"entries": [
+								"Your carnivorous canines are a natural weapon, which you can use to make unarmed strikes. On a hit, you deal slashing damage equal to {@dice 1d6} + your Strength modifier, instead of the typical bludgeoning damage of an unarmed strike."
+							]
+						},
+				{
+					"name": "Dire Visage",
+					"entries": [
+					"You gain proficiency in the {@skill Intimidation} skill. In addition, you can release a threatening growl as an action, unleashing the dire gene within you in a burst of demonic energy.",
+					"All hostile creatures within 30 feet of you must make a Wisdom saving throw with a DC equal to 8 + your proficiency bonus + your Strength or Charisma modifier (your choice). On a failed save, those creatures fall {@condition prone} and become {@condition frightened} for one minute. A creature frightened by this feature can remake the save at the start of each of their turns, ending the effect on a success. Once you use this feature, you cannot use it again until you finish a long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Blessed by the Wolf God",
+					"entries": [
+						"Your kind has been remarkably blessed by the Wolf God, granting you abilities which complement your identity as an awakened animal. You gain the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"Your base walking speed increases to 40 feet.",
+								"Shadows are your leverage. You ignore the effects of difficult terrain while in dim light or darkness.",
+								"You have advantage on saving throws against being {@condition frightened}.",
+								"You have resistance to necrotic damage."
+							]
+						}
+					]
+				},
+				{
+					"name": "Language",
+					"entries": [
+                     "You can speak, read, and write Common and one other language of your choice."
 					],
 					"type": "entries"
 				}
@@ -6600,7 +6700,7 @@
 								},
 								{
 									"entries": [
-                                       "{@b Abyss.} Your base walking speed increases to 35 feet. As a bonus action, you can increase your walking speed by 5 feet for one minute."
+                                       "{@b Abyss.} Your base walking speed increases to 40 feet."
 									],
 									"type": "entries"
 								}
