@@ -31,7 +31,7 @@
 				{
 					"name": "Age",
 					"entries": [
-						"Flameveil reach adulthood in their late teens and live less than a century."
+						"Flameveil reach adulthood in their late teens and live less than a century. Flameveils who merge with an elemental can live upwards of 300 years."
 					],
 					"type": "entries"
 				},
@@ -45,21 +45,7 @@
 				{
 					"name": "Size",
 					"entries": [
-						"Your size is Medium."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Bonded With Flame",
-					"entries": [
-						"You have resistance to fire damage."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Flame Body",
-					"entries": [
-                        "When you would take a non-magic weapon attack, as a reaction you can roll a Dexterity saving throw with a DC of 8 + the enemy's hit modifier. If you succeed, you take no damage from that attack. You can use this trait twice, and afterwards, you can't use it again until you finish a short or long rest."
+						"Flameveil take the shape of humans, and as such, they vary widely in height and build, from barely 5 feet to well over 6 feet tall. Your size is Medium."
 					],
 					"type": "entries"
 				},
@@ -71,16 +57,33 @@
 					"type": "entries"
 				},
 				{
+					"type": "entries",
 					"name": "Heritage of the Flameveil",
 					"entries": [
-                        "You know the {@spell produce flame} cantrip."
+						"You were born to the Eternal Hearth, the Planet Blessed by Kurmok. As a flameveil, you are composed of both his will and his desire—yet the flameveil were never a warlike race. On the contrary, they often fought defensively, protecting their land from clans such as the firenewt tribes and elementals which roamed their homeworld. As a child of Kurmok, you gain the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"You have two creature types: humanoid and elemental. You can be affected by a spell or ability that works on either of your creature types.",
+								"The first time you would be subjected to fire damage, you treat that attack as if you had immunity. Afterwards, your immunity transforms into resistance. This temporary immunity resets on a short or long rest.",
+								"You learn the {@spell control flames} and {@spell produce flame} cantrips. Charisma is your spellcasting modifier for these spells.",
+								"For many millennia, your people have done battle with elementals, and you know their tricks. You have advantage on Constitution and Dexterity saving throws made to avoid or resist fire."
+							]
+						}
+					]
+				},
+				{
+					"name": "Body of Flame",
+					"entries": [
+                        "While you appear humanoid on the offset, your true form is composed of extremely-dense fire which can be easily morphed into the visage of a human. That form can easily be dropped at a moment's notice, although it requires a decent bit of stamina to perform.",
+						"When you would be subject to a melee or ranged weapon attack, you can roll a Dexterity or Charisma saving throw (your choice) as a reaction with a DC equal to 8 + the creature's to-hit modifier. On a successful save, the attack misses. You can use this feature twice, and regain all expended uses on a long rest."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Final Light",
 					"entries": [
-                        "Upon reaching zero hit points, your body becomes one with the Plane of Fire, and you explode into a fiery storm. Each hostile creature in a 30 feet radius must make a Dexterity saving throw equal to your 8 + your Charisma modifier + your proficiency bonus. On a failed save, they take {@dice 1d8} fire damage. For every level above 1, add an additional {@dice 1d8} fire damage. On a successful save, they instead take half damage. Once you use this trait, you can't use it again until you finish a long rest."
+                        "Starting at 2nd level, upon reaching zero hit points, your body becomes one with the Kurmok, and you explode into a fiery storm. Each hostile creature in a 30 feet radius must make a Dexterity saving throw equal to your 8 + your Charisma modifier + your proficiency bonus. On a failed save, they take {@dice 1d8} fire damage. For every two levels above 2, add an additional {@dice 1d8} fire damage. On a successful save, they instead take half damage. Once you use this trait, you can't use it again until you finish a long rest."
 					],
 					"type": "entries"
 				},
