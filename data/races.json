@@ -4043,7 +4043,7 @@
 		},
 		{
 			"name": "Centaur",
-			"source": "SRPRaces",
+			"source": "WB: RD",
 			"creatureTypes": [
 				"humanoid",
 				"monstrosity"
