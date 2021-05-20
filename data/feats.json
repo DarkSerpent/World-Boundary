@@ -199,7 +199,7 @@
 						"You can draw or holster two sidearms when you would normally be able to draw or holster only one.",
 						"If you are wielding two ranged weapons with the reload property, you can ignore the reload property for those weapons, and do not need a free hand to reload them. This does not work on weapons with a reload property of 1.",
 						"You can wield two one-handed ranged weapons at once, even if they do not have the light property. In addition, You can use two-weapon fighting with one-handed ranged weapons.",
-						"Whenever you engage in two-weapon fighting using ranged weapons, you can make one extra attack as a part of that Attack action instead of using your bonus action."
+						"Whenever you engage in two-weapon fighting using ranged weapons, when you make an extra attack with your bonus action, you can add your ability modifier to the damage of the second attack."
 					]
 				}
 			]
@@ -1337,7 +1337,7 @@
 							"name": "",
 							"entries": [{
 									"entries": [
-										"{@b Cut the Skin.} The target must make a Constitution saving throw. On a failed save, that creature begins to bleed. That creature takes {@dice 1d6} necrotic damage at the end of each of its turns. The bleeding stops if the target uses an action, is healed by magic, takes a short or long rest, or has a successful Wisdom ({@skill Medicine}) check made on them by another creature (DC 12)."
+										"{@b Cut the Skin.} The target must make a Constitution saving throw. On a failed save, that creature begins to bleed. That creature takes {@dice 1d8} necrotic damage at the end of each of its turns. The bleeding stops if the target uses an action, is healed by magic, takes a short or long rest, or has a successful Wisdom ({@skill Medicine}) check made on them by another creature (DC 12)."
 									],
 									"type": "entries"
 								},
@@ -1377,6 +1377,23 @@
 						"When you use a jian, its damage die changes from a {@dice d6} to a {@dice d8}, and from a {@dice d8} to {@dice d10} when utilizing its versatile property.",
 						"When you take the Attack action on your turn, your movement speed increases by 10 feet until the end of your turn.",
 						"You can forgo one of your attacks as part of your Attack action. When you do so, you can immediately move up to 10 feet in any direction without provoking opportunity attacks. You can only use this feature once per turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Beyond Tradition",
+			"source": "WB: RD",
+			"prerequisite": [{
+				"other": "The ability to cast at least one spell."
+			}],
+			"entries": [
+				"They say spellcasters can't be fighters. While that idea is mostly a misconception, there are those who will always be uninformed. You hope that with this mastery, you'll be able to change the common connotation of your abilities. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You learn three separate {@italic strike} cantrips from the following list: {@spell buffering strike}, {@spell dazzling strike}, {@spell false strike}, {@spell haemorrhaging strike}, {@spell knowing strike}, {@spell phase strike}, {@spell shifting strike}, or {@spell sonic strike}.",
+						"When you cast a {@italic strike} spell on your turn from the above list against a creature who is currently afflicted by the {@condition blinded}, {@condition charmed}, {@condition deafened}, {@dice frightened}, {@condition paralyzed}, {@condition poisoned}, or {@condition stunned} condition, you can deal an extra {@dice 3d6} force damage to that target. You can only gain the benefits of this feature once per turn."
 					]
 				}
 			]
