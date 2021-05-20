@@ -1400,7 +1400,7 @@
 		},
 		{
 			"name": "Platform Shooter",
-			"source": "SRPF",
+			"source": "WB: RD",
 			"prerequisite": [{
 				"other": "Proficiency with pistols or sidearms"
 			}],
