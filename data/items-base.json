@@ -301,6 +301,26 @@
 			]
 		},
 		{
+			"name": "Hook Sword",
+			"source": "WB: RD",
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 2000,
+			"weaponCategory": "exotic",
+			"property": [
+				"F",
+				"L",
+				"GR"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
 			"name": "Jian",
 			"source": "WB: RD",
 			"type": "M",
