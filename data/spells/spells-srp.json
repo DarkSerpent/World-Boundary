@@ -172,6 +172,303 @@
 			}
 		},
 		{
+			"name": "Buffering Strike",
+			"source": "WB: RD",
+			"level": 0,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"m": {
+					"text": "a weapon you are proficient with"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You infuse your weapon with abjuration magic, hardening your own resolve. Make a melee weapon attack against one creature within your weapon's range. On a hit, the target suffers the attack's normal effects, and the next time a creature deals damage to you before the start of your next turn, you can use your reaction to reduce that damage by an amount equal to your spellcasting ability modifier.",
+				"The spell's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra {@dice 1d8} force damage to the target. The extra damage increases by {@dice 1d8} at 11th level and 17th level."
+			],
+			"classes": {
+				"fromClassList": [
+				]
+			}
+		},
+		{
+			"name": "Dazzling Strike",
+			"source": "WB: RD",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"m": {
+					"text": "a weapon you are proficient with"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You infuse your weapon with enchantment magic, allowing you to twist the thoughts of your foe. Make a melee weapon attack against one creature within your weapon's range. On a hit, the target suffers the attack's normal effects, and the next attack roll it makes against you before the start of your next turn has disadvantage.",
+				"The spell's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra {@dice 1d8} radiant damage to the target. The extra damage increases by {@dice 1d8} at 11th level and 17th level."
+			],
+			"classes": {
+				"fromClassList": [
+				]
+			}
+		},
+		{
+			"name": "False Strike",
+			"source": "WB: RD",
+			"level": 0,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true,
+				"m": {
+					"text": "a weapon you are proficient with"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You infuse your weapon with illusion magic, allowing you to strike at your opponent's mind. Choose one creature within your weapon's range, who must make an Intelligence saving throw. On a failed save, the target takes psychic damage equal to your weapon's damage dice + your spellcasting ability modifier.",
+				"The spell's damage increases when you reach higher levels. At 5th level, the spell deals an extra {@dice 1d8} psychic damage to the target. The extra damage increases by {@dice 1d8} at 11th level and 17th level."
+			],
+			"classes": {
+				"fromClassList": [
+				]
+			}
+		},
+		{
+			"name": "Haemorrhaging Strike",
+			"source": "WB: RD",
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"m": {
+					"text": "a weapon you are proficient with"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You infuse your weapon with necromantic magic, allowing your strike to wither away at your enemy. Make a melee weapon attack against one creature within your weapon's range. On a hit, the target suffers the attack's normal effects, and the next time it takes damage before the start of your next turn, it takes additional necroctic damage equal to your spellcasting modifier.",
+				"The spell's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra {@dice 1d8} necrotic damage to the target. The extra damage increases by {@dice 1d8} at 11th level and 17th level."
+			],
+			"classes": {
+				"fromClassList": [
+				]
+			}
+		},
+		{
+			"name": "Knowing Strike",
+			"source": "WB: RD",
+			"level": 0,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"m": {
+					"text": "a weapon you are proficient with"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You infuse your weapon with divination magic, allowing you to learn from the future. Make a melee weapon attack against one creature within your weapon's range. On a hit, the target suffers the attack's normal effects, and your next attack roll before the end of your next turn can't suffer disadvantage.",
+				"The spell's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra {@dice 1d8} psychic damage to the target. The extra damage increases by {@dice 1d8} at 11th level and 17th level."
+			],
+			"classes": {
+				"fromClassList": [
+				]
+			}
+		},
+		{
+			"name": "Phase Strike",
+			"source": "WB: RD",
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"m": {
+					"text": "a weapon you are proficient with"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You infuse your weapon with conjuration magic, allowing you to warp through space. Make a melee weapon attack against one creature within your weapon's range. On a hit, the target suffers the attack's normal effects, and you can immediately teleport to an unoccupied space within 5 feet of the target that you can see.",
+				"The spell's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra {@dice 1d8} force damage to the target. The extra damage increases by {@dice 1d8} at 11th level and 17th level."
+			],
+			"classes": {
+				"fromClassList": [
+				]
+			}
+		},
+		{
+			"name": "Shifting Strike",
+			"source": "WB: RD",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"m": {
+					"text": "a weapon you are proficient with"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You infuse your weapon with transmutation magic, allowing you to adjust the very essence of your strike. Make a melee weapon attack against one creature within your weapon's range. On a hit, the target suffers the attack's normal effects, and the weapon's damage type becomes your choice of cold, fire, or lightning for that attack.",
+				"The spell's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra {@dice 1d8} damage to the target. The extra damage is the same as the weapon's chosen damage type, and increases by {@dice 1d8} at 11th level and 17th level."
+			],
+			"classes": {
+				"fromClassList": [
+				]
+			}
+		},
+		{
+			"name": "Sonic Strike",
+			"source": "WB: RD",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"m": {
+					"text": "a weapon you are proficient with"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You infuse your weapon with evocation magic, allowing you to wrap the target in thunderous energy. Make a melee weapon attack against one creature within your weapon's range. On a hit, the target suffers the attack's normal effects, and it becomes sheathed in sonic energy until the start of your next turn. If the target willingly moves before then, it immediately takes thunder damage equal to your spellcasting ability modifier and becomes {@condition deafened} until the start of your next turn.",
+				"The spell's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra {@dice 1d8} thunder damage to the target. The extra damage increases by {@dice 1d8} at 11th level and 17th level."
+			],
+			"classes": {
+				"fromClassList": [
+				]
+			}
+		},
+		{
 			"name": "Frost Lance",
 			"source": "WB: RD",
 			"level": 3,
