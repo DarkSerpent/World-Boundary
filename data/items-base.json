@@ -882,6 +882,41 @@
 			]
 		},
 		{
+			"name": "Weighted Pistol",
+			"source": "WB: RD",
+			"type": "R",
+			"rarity": "none",
+			"weight": 4,
+			"value": 35000,
+			"weaponCategory": "firearm",
+			"property": [
+				"S",
+				"2H",
+				"RE",
+				"MI",
+				"A",
+				"AM"
+			],
+			"dmg1": "1d12",
+			"range": "30/120",
+			"reload": "4",
+			"misfire": "2",
+			"ammo": "5 gp for 4",
+			"dmgType": "P",
+			"sword": true,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"This weapon cannot benefit from infusions or modifiers that would ignore its reload property."
+					]
+				}
+			]
+		},
+		{
 			"name": "Submachine Pistol",
 			"source": "WB: RD",	
 			"type": "R",

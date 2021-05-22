@@ -555,7 +555,8 @@
 					"type": "list",
 					"items": [
 						"Being Small doesn’t impose disadvantage on your attack rolls with heavy weapons.",
-						"Your Strength score is doubled for the purpose of determining your carrying capacity and the weight you can push, drag, or lift."
+						"Your Strength score is doubled for the purpose of determining your carrying capacity and the weight you can push, drag, or lift.",
+						"You can now grapple creatures up to two Sizes larger than you."
 					]
 				}
 			]
@@ -1402,14 +1403,14 @@
 			"name": "Platform Shooter",
 			"source": "WB: RD",
 			"prerequisite": [{
-				"other": "Proficiency with pistols or sidearms (not weighted pistols)"
+				"other": "Proficiency with pistols or sidearms"
 			}],
 			"entries": [
 				"You have trained in a pistoleer style of shooting that focuses on the use of one pistol held in both hands for stability. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"When you draw a pistol or sidearm (such as a pistol, sidearm pistol, or palm pistol), you can choose to enter a stance known as the Platform Stance. While in this stance, your firearm gains the two-handed property (if it did not have it already), and you gain a +1 bonus to attack and damage rolls. Also while in this stance, you can reload your firearm as a bonus action.",
+						"When you draw a pistol or sidearm (such as a pistol, sidearm pistol, palm pistol, or weighted pistol), you can choose to enter a stance known as the Platform Stance. While in this stance, your firearm gains the two-handed property (if it did not have it already), and you gain a +1 bonus to attack and damage rolls. Also while in this stance, you can reload your firearm as a bonus action.",
 						"While in the Platform Stance, you can make a special melee attack against a creature within 5 feet of you as an Attack action. This attack is considered an unarmed attack that you are proficient with the finesse property. On a hit, the target must make a Strength saving throw with a DC equal to 8 + your Proficiency Bonus + your Dexterity modifier or be knocked {@condition prone}. In addition to this, on a failed save, you immediately make one attack with your firearm against that creature."
 					]
 				}
@@ -1703,6 +1704,20 @@
 						"You may choose an additional trait from the Birth of Creation list to evolve and benefit from."
 					]
 				}
+			]
+		},
+		{
+			"name": "Engulf",
+			"source": "WB: RD",
+			"prerequisite": [{
+				"race": [{
+					"name": "Archslime"
+				}]
+			}],
+			"entries": [
+				"You have learned to use your ooze-like consistency in interesting and unique ways. While you are transformed into your lumpy amorphous form, you can forgo one of your attacks as part of your Attack action in order to perform a special contested grapple check against a creature within 10 feet of you.",
+				"On a success, you lurch your body forwards and transform into mass of dripping ooze, coating their form and restricting them with your body. That creature becomes {@condition grappled} and begins suffocating. In addition, your target receives half of any damage dealt to you while in this state.",
+				"A creature can break out of this grapple by making a successful Strength saving throw against a DC equal to 8 + your proficiency bonus + your Strength modifier at the start of their turn. You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses on a long rest."
 			]
 		},
 		{
