@@ -1083,7 +1083,7 @@
 					"type": "entries",
 					"name": "Special",
 					"entries": [
-						"If your target is within 5 feet of you, it takes an additional {@dice 1d6} piercing damage on a hit. You may not benefit from the rogue's Sneak Attack feature while using this weapon two-handed."
+						"If your target is within 5 feet of you, it takes an additional {@dice 1d6} piercing damage on a hit. You may not benefit from the rogue's Sneak Attack feature while using this weapon two-handed. This weapon cannot benefit from infusions or modifiers that would ignore its reload property."
 					]
 				},
 				{
