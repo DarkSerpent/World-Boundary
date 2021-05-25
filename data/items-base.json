@@ -1026,7 +1026,7 @@
 			"type": "R",
 			"rarity": "none",
 			"weight": 8,
-			"value": 50000,
+			"value": 35000,
 			"weaponCategory": "firearm",
 			"property": [
 				"RE",
@@ -1060,16 +1060,16 @@
 			"source": "WB: RD",
 			"type": "R",
 			"rarity": "none",
-			"weight": 6,
-			"value": 20000,
+			"weight": 10,
+			"value": 50000,
 			"weaponCategory": "firearm",
 			"property": [
 				"A",
 				"AM",
 				"2H",
 				"MI",
+				"BU",
 				"RE",
-				"SC",
 				"S"
 			],
 			"dmg1": "1d10",
@@ -1083,7 +1083,7 @@
 					"type": "entries",
 					"name": "Special",
 					"entries": [
-						"If your target is within 5 feet of you, it takes an additional {@dice 1d6} piercing damage on a hit. You may not benefit from the rogue's Sneak Attack feature while using this weapon two-handed. This weapon cannot benefit from infusions or modifiers that would ignore its reload property."
+						"You may not benefit from the rogue's Sneak Attack feature while using this weapon two-handed. This weapon cannot benefit from infusions or modifiers that would ignore its reload property."
 					]
 				},
 				{
@@ -3898,6 +3898,19 @@
 					"name": "Scatter",
 					"entries": [
 						"Whenever you make a ranged attack against a creature, each creature within 5 feet of the original target and the normal range of your firearm is subjected to the attack roll as if the attack was made against them. If the scatter attack is successful, that creature takes {@dice 1d6} bludgeoning damage. This attack's damage cannot be modified by your class or racial features, except on a critical hit."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "BU",
+			"source": "WB: RD",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Buckshot",
+					"entries": [
+						"If your target is within 5 feet of you, it takes an additional {@dice 1d8} piercing damage on a hit."
 					]
 				}
 			]
