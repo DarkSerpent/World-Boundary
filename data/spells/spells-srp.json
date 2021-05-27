@@ -519,6 +519,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
 					}
 				]
 			}
@@ -576,6 +580,10 @@
 					},
 					{
 						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
 						"source": "PHB"
 					}
 				]
