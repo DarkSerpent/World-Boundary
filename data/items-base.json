@@ -1842,6 +1842,64 @@
 			]
 		},
 		{
+			"name": "Combat Wheelchair",
+			"source": "RS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": "by a creature who cannot walk without aid",
+			"type": "1d6 x 100 gp",
+			"entries": [
+				"Made with the Adventurer in mind, the combat wheelchair is supportive and intuitive, designed for both daily activity and the pressures of combat during one's adventures. Its true goal is not to make an individual more superior than their compatriots, but rather, to allow a disabled Adventurer to perform at equal proficiency to their compatriots.",
+				"The combat wheelchair comes with the following equipment, designed to withstand high impact and provide the user with a means of both offense and defense:",
+				"<i><b>Compartmental Gloves.</b></i> These gloves slide easily and attach at the wrists to protect from friction whilst using the push rims.",
+				"<i><b>Rear Backrest.</b></i> This compartment is attached to the backrest of the chair and camber bar, which acts as a substitute backpack to which the user can store adventuring gear (as wearing a backpack while in a wheelchair would be much too unwieldy).",
+				"<i><b>Kevlar Seatbelts.</b></i> Belts which strap around the waist, knees, and shins. Holds the user in the chair correctly and prevents them from falling out when struck, thrown, or handled roughly by a creature or spell. Equipped with clasp buckles which can be undone by pressing their release buttons. These belts do not prevent the user from going {@condition prone}.",
+				"<i><b>Rear & Caster Wheels.</b></i> Wheels equipped to either side of the wheelchair with mounted pushrims alongside a stabilizing fifth wheel at the very back of the chair. Designed for rough roads and travel.",
+				"<i><b>Tough-Terrain Tires.</b></i> Treads designed to easily move over all sorts of terrain apart from water (although special floatation devices may be equipped onto your wheelchair as an additional modification). The tires come with chains in order to aid their grip on slippery or rough terrain. While in your combat wheelchair, you ignore the effects of difficult terrain.",
+				"<i><b>Additional Pouches & Sheathes.</b></i> Various holding devices that are attached around the frame of the wheelchair. Allows for the storing of weapons and also waterskins or bottles.",
+				"<i><b>Seat-Tilt Lever.</b></i> A convienent lever located to the left of the wheelchair's frame. When pressed, it releases a locking mechanism that causes the seat to tilt upwards, so getting in-and-out of the chair is easier for the user.",
+				"<i><b>Sensory Armrests.</b></i> Armrests with a magically-imbued <i>sensory stone</i> embedded in their core. Allows the user to guide their wheelchair in directions by running their fingers over should they not be able to physically push the chair via the rims. Can function even in an <i>antimagic circle</i> due to their technological influences.",
+				"Beyond these features, the combat wheelchair also allows the user to perform special wheelchair-assisted tasks as a benefit of their device:",
+				{
+					"type": "entries",
+					"name": "",
+					"entries": [
+					{
+						"type": "table",
+						"colLabels": [
+						"Feature",
+						"Effect"
+							],
+						"colStyles": [
+						"col-2 text-center",
+						"col-10"
+						],
+					"rows": [
+						[
+							"{@bold Swift}",
+							"When moving downhill, you can utilize gravity to your advantage. As a free action, your movement speed doubles while treading downslope. As a downside of this incredible burst of speed, however, you lose the ability to stop without use of your emergency brake. If you would crash without time for braking, you take {@dice 1d4} force damage per 5 feet moved before the crash."
+						],
+						[
+							"{@bold Emergency Brake}",
+							"While your chair is moving at high speeds, such as the speed described by your Swift feature, you can use your emergency brakes as an action. When activated, your wheelchair immediately slows to a halt, stopping abruptly via the use of both a manual brake and stabilizers which prevent you from being launched forwards."
+						],
+						[
+							"{@bold Integrated Stabilizers}",
+							"Due to the stabilizers located in the core of your wheelchair's internals, you have advantage on saving throws against being knocked {@condition prone}. If you would be knocked prone, however, righting yourself upright is a bit difficult in comparison to other folk. You must expend your full movement to get up alone while your chair is prone, or only half if you are assisted by an ally."
+						],
+						[
+							"{@bold Attunement Drive}",
+							"Some items, such as the <i>winged boots</i>, were not designed with wheelchair-bound users in mind. This is where your wheelchair's attunement drive comes in—when you attune to a magic item, the effect is also shared between you and your wheelchair. For instance, if you were to attune to the <i>winged boots</i>, your wheelchair would gain a flying speed equal to your walking speed with the same restrictions as if you were the one wearing the boots."
+						]
+					]
+					}
+					]
+				},
+				"The combat wheelchair does not count towards your total attunements, nor does it count as an attuned item for features that require them such as Artificer features. However, you must meet its attunement prerequisites in order to operate one.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
 			"name": "Bo Prime",
 			"baseItem": "quarterstaff|phb",
 			"source": "RS",
