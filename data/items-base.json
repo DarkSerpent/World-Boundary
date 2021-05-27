@@ -538,7 +538,7 @@
 					"type": "entries",
 					"name": "Special",
 					"entries": [
-						"When you make an attack against a medium or large creature, you also attack any enemies directly to its left or right. On a hit, those creatures take {@dice 1d4} slashing damage."
+						"When you make an attack against a medium or large creature, you also attack any enemies directly to its left or right. On a hit, those creatures take {@dice 1d4} slashing damage. This damage scales with + variants of this weapon."
 					]
 				}
 			]
@@ -3942,7 +3942,7 @@
 					"type": "entries",
 					"name": "Automatic Fire",
 					"entries": [
-						"As an attack action, you can make a special attack against creatures in a cone in front of you, with the cone's size equal to half the weapon's short range. Expend 6 pieces of ammunition. Creatures in that cone must make a Dexterity saving throw with a DC equal to 8 + your Dexterity modifier + your proficiency bonus. This saving throw changes depending on the stat you use to make your ranged firearm attacks. On a failed save, those creatures take {@dice 2d8} + your Dexterity modifier piercing damage, or half as much on a successful save."
+						"As an attack action, you can make a special attack against creatures in a cone in front of you, with the cone's size equal to half the weapon's short range. Expend 6 pieces of ammunition. Creatures in that cone must make a Dexterity saving throw with a DC equal to 8 + your Dexterity modifier + your proficiency bonus. This saving throw changes depending on the stat you use to make your ranged firearm attacks. On a failed save, those creatures take {@dice 2d8} + your Dexterity modifier piercing damage, or half as much on a successful save. This damage scales with + variants of this weapon."
 					]
 				}
 			]
@@ -3955,7 +3955,7 @@
 					"type": "entries",
 					"name": "Scatter",
 					"entries": [
-						"Whenever you make a ranged attack against a creature, each creature within 5 feet of the original target and the normal range of your firearm is subjected to the attack roll as if the attack was made against them. If the scatter attack is successful, that creature takes {@dice 1d6} bludgeoning damage. This attack's damage cannot be modified by your class or racial features, except on a critical hit."
+						"Whenever you make a ranged attack against a creature, each creature of your choice within 5 feet of the original target and the normal range of your firearm is subjected to the attack roll as if the attack was made against them (to a maximum of three creatures). If the scatter attack is successful, that creature takes {@dice 1d6} bludgeoning damage. This attack's damage cannot be modified by your class or racial features, except on a critical hit. This damage scales with + variants of this weapon."
 					]
 				}
 			]

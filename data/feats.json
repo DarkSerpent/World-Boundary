@@ -789,9 +789,9 @@
 				{
 					"type": "list",
 					"items": [
-						"You are aware of all creatures within 10 feet who have been affected by a 1st level or higher enchantment spell you've cast.",
-						"When the effects of a 1st level enchantment spell with a duration of 1 minute or longer ends on a creature, it takes psychic damage equal to the spell's level + your Charisma modifier. You can optionally choose not to deal this additional damage.",
-						"When all creatures you target with an enchantment spell succeed on its saving throw, and the spell itself has no effect on the targeted creatures, you do not expend the spell slot used to cast the spell. Once you use this feature, you must complete a long rest before you can use it again."
+						"You are aware of all creatures within 30 feet who have been affected by a 1st level or higher enchantment spell you've cast.",
+						"When the effects of a 1st level enchantment spell with a duration of 1 minute or longer ends on a creature, it takes psychic damage equal to the spell's level + your Intelligence or Charisma modifier. You can optionally choose not to deal this additional damage.",
+						"When all creatures you target with an enchantment spell succeed on its saving throw, and the spell itself has no effect on the targeted creatures, you do not expend the spell slot used to cast the spell. Once you use this feature, you must complete a short or long rest before you can use it again."
 					]
 				}
 			]
