@@ -3510,7 +3510,7 @@
 				{
 					"name": "Whispers in the Beyond",
 					"entries": [
-                     "You learn the {@spell vicious mockery} cantrip. When you reach 3rd level, you can cast the {@spell dissonant whispers} spell once per day. At 5th level, you can also cast the {@spell crown of madness} spell once per day. Charisma is your spellcasting modifier for these spells."
+                     "You learn the {@spell vicious mockery} cantrip. When you reach 3rd level, you can cast the {@spell dissonant whispers} spell once per day. At 5th level, you can also cast the {@spell crown of madness} spell once per day. Intelligence or Charisma is your spellcasting modifier for these spells (your choice)."
 					],
 					"type": "entries"
 				},
