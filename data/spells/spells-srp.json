@@ -656,7 +656,7 @@
 				}
 			],
 			"range": {
-				"type": "point",
+				"type": "line",
 				"distance": {
 					"type": "self",
 					"amount": 120
@@ -3725,7 +3725,6 @@
 		{
 			"name": "Behold",
 			"source": "WB: RD",
-			"page": 56,
 			"level": 4,
 			"school": "C",
 			"time": [
