@@ -700,6 +700,69 @@
 			}
 		},
 		{
+			"name": "Healing Wave",
+			"source": "WB: RD",
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					},
+					"concentration": false
+				}
+			],
+			"entries": [
+				"You swirl with restorative energy, washing the magic over you and unleashing it in waves to your nearby allies. You and up to five other creatures of your choice within range regain a number of hit points equal to {@dice 1d4} + your spellcasting ability modifier.",
+				"In addition, you unleash a second wave at the start of your next turn. You and up to five other creatures of your choice within range regain hit points in the same way (you roll again).",
+				"This spell has no effect on undead or constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"type": "entries",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the healing increases by 1 (both waves) for each slot level above 3rd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
 			"name": "Ego Whip",
 			"source": "WB: RD",
 			"level": 5,
