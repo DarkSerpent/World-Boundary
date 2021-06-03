@@ -1510,7 +1510,7 @@
 					"type": "list",
 					"items": [
 						"You gain a bonus to your damage rolls equal to half your proficiency bonus, rounded up.",
-						"When you successfully hit a creature, you can make another attack against that creature with the same weapon.",
+						"When you successfully hit a creature, you can make one extra attack as a part of that Attack action with the same weapon. You can only make this special attack once per turn (regardless of whether you have extra attack or not).",
 						"As a reaction to being targeted for an attack by another creature, you increase your AC by half your proficiency bonus, rounded up. The creature then rolls. If the attack would miss, you can immediately make an attack with the pommel or hilt of your weapon as part of the same reaction. This attack uses your relevant attack modifier and deals 1d4 + your relevant damage modifier bludgeoning damage."
 					]
 				}
