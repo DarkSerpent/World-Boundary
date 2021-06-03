@@ -2435,7 +2435,7 @@
 							"items": [
 								"You have advantage on saving throws against being {@condition Poisoned}, and you have resistance to poison damage.",
 								"You are immune to disease.",
-								"You don't need to eat, drink, or breathe.",
+								"You don't need to eat, drink, or breathe, and can survive in a vacuum.",
 								"You don't need to sleep and don't suffer the effects of {@condition Exhaustion} due to lack of rest, and magic can't put you to sleep."
 							]
 						}
@@ -2881,7 +2881,7 @@
 							"items": [
 								"You have advantage on saving throws against being {@condition poisoned}, and you have resistance to poison damage.",
 								"You are immune to disease.",
-								"You don't need to eat, drink, or breathe.",
+								"You don't need to eat, drink, or breathe, and can survive in a vacuum.",
 								"Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal.",
 								"You can still be placed into a torpor by sleep-inducing magic."
 							]
@@ -3501,7 +3501,7 @@
 								"You have resistance to psychic damage.",
 								"You have advantage on saving throws against the {@condition frightened} and {@condition charmed} conditions.",
 								"You cannot suffer from the effects of madness.",
-								"You don't need to eat, drink, or breathe.",
+								"You don't need to eat, drink, or breathe, and can survive in a vacuum.",
 								"You don't need to sleep and don't suffer the effects of {@condition exhaustion} due to lack of rest, and magic can't put you to sleep."
 							]
 						}
