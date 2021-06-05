@@ -83,7 +83,7 @@
 				{
 					"name": "Final Light",
 					"entries": [
-                        "Starting at 2nd level, upon reaching zero hit points, your body becomes one with the Kurmok, and you explode into a fiery storm. Each hostile creature in a 30 feet radius must make a Dexterity saving throw equal to your 8 + your Charisma modifier + your proficiency bonus. On a failed save, they take {@dice 1d8} fire damage. For every two levels above 2, add an additional {@dice 1d8} fire damage. On a successful save, they instead take half damage. Once you use this trait, you can't use it again until you finish a long rest."
+                        "Starting at 2nd level, upon reaching zero hit points, your body becomes one with Kurmok, and you explode into a fiery storm. Each hostile creature in a 30 feet radius must make a Dexterity saving throw equal to your 8 + your Charisma modifier + your proficiency bonus. On a failed save, they take {@dice 1d8} fire damage. For every two levels above 2, add an additional {@dice 1d8} fire damage. On a successful save, they instead take half damage. Once you use this trait, you can't use it again until you finish a long rest."
 					],
 					"type": "entries"
 				},
@@ -1474,7 +1474,7 @@
 					"type": "entries"
 				},
 				{
-					"name": "Ryder's Gift",
+					"name": "Arka's Gift",
 					"entries": [
                      "You gain proficiency with one type of artisan's tools of your choice."
 					],
@@ -4954,8 +4954,8 @@
 							"type": "entries",
 							"name": "Invoke Smite",
 							"entries": [
-								"You can instill power into the weapon of a nearby creature to strike with divine energy. As an action, a creature within 30 feet of you.",
-                                "Until the end of your next turn, the next time that creature succeeds on a melee weapon attack, it deals an additional {@dice 1d8} radiant damage or {@dice 1d8} necrotic damage (your choice). Once you use this trait, you can't use it again until you finish a long rest."
+								"You can instill power into the weapon of a nearby creature to strike with divine energy. As an bonus action, you touch the weapon of a creature within 30 feet of you.",
+                                "Until the end of your next turn, the next time that creature succeeds on a melee weapon attack with that weapon, it deals an additional {@dice 1d8} radiant damage or {@dice 1d8} necrotic damage (your choice). Once you use this trait, you can't use it again until you finish a long rest."
 							]
 						},
 						{
