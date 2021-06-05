@@ -361,7 +361,7 @@
 							"items": [
 								"You have advantage on saving throws against being {@condition poisoned}, and you have resistance to force and poison damage.",
 								"You are immune to disease.",
-								"You don't need to eat, drink, or breathe.",
+								"You don't need to eat, drink, or breathe, and can survive in a vacuum.",
 								"You don't need to sleep and don't suffer the effects of {@condition exhaustion} due to lack of rest, and magic can't put you to sleep.",
 								"When you regain hit points from a source that specifies it does not function on constructs, you instead receive half as many hit points as the source would provide, rounded down, instead of none."
 							]
