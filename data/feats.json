@@ -144,8 +144,8 @@
 					"type": "list",
 					"items": [
 						"You gain a +1 bonus to attack rolls you make with the weapon.",
-						"On your turn, you can use your reaction to assume a parrying stance, provided you have the weapon in hand. Doing so grants you a +1 bonus to your AC until the start of your next turn or until you’re not holding the weapon.",
-						"When you make an opportunity attack with the weapon, you have advantage on the attack roll."
+						"As a bonus action, you may feint to try and lure a creature within reach of you into a disadvantageous position, potentially allowing you to strike the killing blow. The creature must succeed on a Wisdom saving throw with a DC equal to 8 + Proficiency Bonus + Strength or Dexterity modifier. On a failed save, the enemy falls for your ruse, granting you advantage on your next attack roll against them.",
+						"As a reaction to when you are struck by a melee attack, you may try to parry the blow with your expert technique as long as it is not a critical hit. Make an attack roll with your currently wielded weapon, treating the enemy's attack roll as the target AC. On a successful hit, you parry the strike, negating it entirely. You may use this reaction a number of times equal to your proficiency bonus, regaining all uses on a short or long rest."
 					]
 				}
 			]
