@@ -3080,7 +3080,13 @@
 						},
 						{
 							"entries": [
-                               "{@b Designed with Speed in Mind.} Your base walking speed increases to 35 feet."
+                               "{@b Burst Joints.} The muscles in your legs have been modified using light metals and pneumatics. Your base walking speed increases to 35 feet. In addition, you can take the {@action Dash} action a number of times equal to your proficiency modifier, and regain all expended uses on a long rest."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b High-Intelligence Chip.} You gain one language or one skill of your choice, in addition to proficiency in one weapon of your choice. You can also expend a use of this ability to gain advantage on one skill check you have proficiency. You have a number uses of this ability equal to your proficiency modifier, and regain all expended uses on a long rest."
 							],
 							"type": "entries"
 						}
