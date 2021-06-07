@@ -2989,16 +2989,9 @@
 					"type": "entries"
 				},
 				{
-					"name": "Darkvision",
-					"entries": [
-                     "You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					],
-					"type": "entries"
-				},
-				{
 					"name": "Cybernetic Implants",
 					"entries": [
-                     "All Half-Forged have been modified from their original race in some way, with these cybernetics varying immensely. You can select 3 cybernetic traits of your choice from the following list:"
+                     "All Half-Forged have been modified from their original race in some way, with these cybernetics varying immensely. You can select 4 cybernetic traits of your choice from the following list:"
 					],
 					"type": "entries"
 				},
@@ -3062,7 +3055,7 @@
 						},
 						{
 							"entries": [
-                               "{@b Optical Implants.} You have opted to replace your organic eyes with cybernetic versions, enhancing and honing your senses far beyond what a normal creature could ever hope to achieve. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across."
+                               "{@b Optical Implants.} You have opted to replace your organic eyes with cybernetic versions, enhancing and honing your senses far beyond what a normal creature could ever hope to achieve. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across. You have superior vision in dark and dim conditions. You can also see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
 							],
 							"type": "entries"
 						},
@@ -3434,7 +3427,7 @@
 				{
 					"name": "Birth From Creation",
 					"entries": [
-                     "All Demihumans are radically different from one another, depending on the changes than manifested within them from birth. You can select 3 breed traits of your choice from the following list:"
+                     "All Demihumans are radically different from one another, depending on the changes than manifested within them from birth. You can select 4 breed traits of your choice from the following list:"
 					],
 					"type": "entries"
 				},
