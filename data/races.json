@@ -406,6 +406,274 @@
 			]
 		},
 		{
+			"name": "Mithra",
+			"source": "WB: RD",
+			"size": "M",
+			"speed": {
+				"walk": 20,
+				"fly": "?"
+			},
+			"ability": [
+				{
+					"dex": 2,
+					"choose": {
+						"from": [
+							"int",
+							"wis"
+						],
+						"count": 1,
+						"amount": 1
+					}
+				}
+			],
+			"traitTags": [
+			],
+			"languageProficiencies": [
+				{
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"The Mithra tribe were birthed from the light of the Radiance. As such, as long as the Radiance continues to shine, so too will their lives, granting the race theoretical immortality. There are only a limited number of Mithra, however, and if the day that the Radiance's light dies ever comes to pass, the Mithra will be snuffed out for the rest of eternity."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"There exist two distinct ideologies within the Mithra tribe: those who sought true to their traditionalist beliefs and continued to worship the Radiance (lawful), and those who turned against the grain, pledging their allegiance to the Pale King and his army of a thousand strong (chaotic)."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Size",
+					"entries": [
+						"While you are not human, your form has been designed after their own (give or take some mothlike appendages here-and-there). Your size is Medium."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of yellow."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Radiant Attuned Flight",
+					"entries": [
+						"You have a flying speed equal to 10 + your walking speed. To use this speed, you must attune to the Way of Worlds by act of sacrificing an attunement slot. Attuning to flight takes the same amount of time and follows the same restrictions as attuning to a magic item."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Designed for Flight",
+					"entries": [
+						"Your base walking speed decreases to 20 feet, and creatures have advantage on checks made to knock you {@condition prone} while you are grounded."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Gentle Descent",
+					"entries": [
+						"As a reaction when you are knocked {@condition prone} mid-flight, or as a reaction when you would fall from an area of great height, you stretch out your mothlike wings and begin to glide.",
+						"Your rate of descent slows to 30 feet per round, and you can expend your walking speed to travel horizontally. If you land while gliding, you take no falling damage and land on your feet."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Light of Radiance",
+					"entries": [
+						"Your creature type is celestial, rather than humanoid. In addition, you gain access to the following benefits as per your mithran birthright:",
+						{
+							"type": "list",
+							"items": [
+								"The first time you would be subjected to radiant damage, you treat that attack as if you had immunity. Afterwards, your immunity transforms into resistance. This temporary immunity resets on a short or long rest.",
+								"You are immune to the {@condition blinded} condition (you're a moth).",
+								"You are immune to disease.",
+								"You cannot suffer from the effects of madness.",
+								"Magic cannot put you to sleep. In addition, instead of sleeping, you must engage in rest—a state that lasts for at least 4 hours a day. While resting, you are unmoving, semi-conscious of your form, and your vision is limited to a radius 30 feet. Finally, you cannot make Wisdom ({@skill Perception}) checks or perform any other tasks while resting."
+							]
+						}
+					]
+				},
+				{
+					"name": "Wielder of Dreams",
+					"entries": [
+						"As a bonus action, you tap into the power of the Essence, perceiving the world around you with the borrowed eyes of a god.",
+						"You gain {@sense truesight} out to a range of 30 feet, with the exception that you cannot see into the Ethereal Plane. This special sense lasts for 3 rounds (or eighteen seconds), and afterwards, you cannot use it again until you finish a long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Language",
+					"entries": [
+						"You can speak, read, and write Common, Celestial, and one language of your choice."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Imprisoned",
+			"source": "WB: RD",
+			"size": "M",
+			"speed": {
+				"walk": 30
+			},
+			"ability": [
+				{
+					"con": 2,
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1,
+						"amount": 1
+					}
+				}
+			],
+			"traitTags": [
+			],
+			"languageProficiencies": [
+				{
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"An Imprisoned's existence is fueled by the element they embody. While they need not consume food or water, consuming their element increases their lifespans. As such, an Imprisoned is theoretically immortal, so long as it has access to its source: lightning, water, fire, and rock."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"To escape, one must defy tradition. Imprisoned are generally chaotic individuals who rebel against norms and practice forbidden arts. There are some that have come to terms with their bindings, and have sought enlightenment, but those individuals are few and far between."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Size",
+					"entries": [
+						"While you are not human, your form has been designed after their own, composed of the element you embody. Your size is Medium."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Bound By Magic",
+					"entries": [
+						"Your creature type is elemental, rather than humanoid. In addition, each Imprisoned embodies an element. Choose an Embodied Element from the Embodied Element Table below. You gain resistance to damage and receive a feature determined by your element, as shown below.",
+						{
+							"type": "table",
+							"caption": "Embodied Element",
+							"colLabels": [
+								"Element",
+								"Resistance",
+								"Feature"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-1 text-center",
+								"col-5"
+							],
+							"rows": [
+								[
+									"{@bold Air}",
+									"Lightning",
+									"{@bold Thundersoul}. You ignore non-magical difficult terrain."
+								],
+								[
+									"{@bold Water}",
+									"Cold",
+									"{@bold Icesoul}. You gain a swimming speed equal to your walking speed."
+								],
+								[
+									"{@bold Fire}",
+									"Fire",
+									"{@bold Flamesoul}. You exude bright light for 20 feet and dim light for an additional 20 feet."
+								],
+								[
+									"{@bold Earth}",
+									"Poison",
+									"{@bold Stonesoul}. You gain advantage on saving throws against the {@condition poisoned} condition."
+								]
+							]
+						}
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Unleash My Bindings!",
+					"entries": [
+						"You break free from the chains which restrict your form, unleashing your internal energy in a boundless storm which annihilates those who dare to oppose you.",
+						"As an action, you become Unbound for one minute, after which your bindings reforge and reconstrict your astral form. While Unbound, you gain the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"Your creature size becomes Large.",
+								"Your attacks deal an additional {@dice 1d6} damage dependent on your Embodied Element: lightning for Air, cold for Water, fire for Fire, and magical bludgeoning for Earth.",
+								"Hostile creatures who start their turn within 5 feet of you take damage equal to your proficiency bonus dependent on your Embodied Element: lightning for Air, cold for Water, fire for Fire, and magical bludgeoning for Earth."
+							]
+						},
+						"Once you use this feature, you cannot use it again until you finish a long rest."
+					]
+				},
+				{
+					"name": "Astral Rush",
+					"entries": [
+                     "Starting at 3rd level, you learn the signature ability of the Imprisoned. A special art which unleashes the power contained within in a short, terrifying electric burst. You resolve this feature differently depending on whether you are currently Bound or Unbound, as shown below."
+					],
+					"type": "entries"
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "{@b Bound.} As an action, you unleash a burst of your element. All hostile creatures within a 30-foot line must make a Constitution saving throw with a DC equal to 12 + your proficiency bonus. On a failed save, those creatures take {@dice 3d6} damage, or half as much on a successful save.",
+										"This damage is dependent on your Embodied Element: lightning for Air, cold for Water, fire for Fire, and acid for Earth. The damage you deal increases from 3d6 to 4d6 at 5th level, 5d6 at 10th level, 6d6 at 15th level, and 7d6 at 20th level."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Unbound.} As an action, you rush at at a creature with the blinding fury of an elemental. Choose one creature within 30 feet of you. That creature must make a Dexterity saving throw with a DC equal to 12 + your proficiency bonus as you rush at them, traveling until your form collides with their space. On a failed save, that creature is knocked back to an unoccupied space within 5 feet of you and takes {@dice 4d6} damage. On a successful save, you are knocked back to an unoccupied space within 5 feet of the creature, and that creature takes half damage.",
+										"This damage is dependent on your Embodied Element: lightning for Air, cold for Water, fire for Fire, and magical bludgeoning for Earth. The damage you deal increases from 4d6 to 5d6 at 5th level, 6d6 at 10th level, 7d6 at 15th level, and 8d6 at 20th level."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Astral Rush"
+							}
+						},
+				{
+					"name": null,
+					"entries": [
+                     "You can use this feature a number of times equal to half your proficiency bonus, rounded up, and regain all expended uses on a short or long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Language",
+					"entries": [
+						"You can speak, read, and write Common and Primordial."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
 			"name": "Kitsune",
 			"source": "WB: RD",
 			"size": "V",
