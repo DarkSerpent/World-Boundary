@@ -162,9 +162,9 @@
 				{
 					"type": "list",
 					"items": [
-						"You ignore the loading property of blowguns. ",
+						"You ignore the loading property of blowguns. In addition, you can apply poison to blowgun darts as a bonus action, rather than as an action.",
 						"When you successful take the {@action Hide} action, you do not give away your position when making an attack with a blowgun, regardless of whether or not the attack hits.",
-						"As a bonus action, you can apply poison to three blowgun darts, rather than using an action."
+						"Whenever you take the Attack action to make a ranged attack with a blowgun, you can make another attack with the same blowgun as a part of that Attack action. You can only make this special attack once per turn (regardless of whether you have extra attack or not)."
 					]
 				}
 			]
@@ -631,7 +631,7 @@
 				{
 					"type": "list",
 					"items": [
-						"On your turn, when you score a critical hit with a melee weapon or reduce a creature to 0 hit points with one, you can make one melee weapon attack as a bonus action.",
+						"Whenever you attack with a heavy weapon that you are proficient with, you can make one extra attack as a part of that Attack action. This feature only takes effect on an Attack action. Additional attacks granted through Extra Attack (or similar features) count as one Attack action."
 						"Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to take a penalty equal to your proficiency to the attack roll. If the attack hits, add double your proficiency to the damage roll."
 					]
 				}
@@ -647,7 +647,7 @@
 					"items": [
 						"Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.",
 						"Your ranged weapon attacks ignore half cover and three-quarters cover.",
-						"Before you make an attack with a ranged weapon that you are proficient with, you can choose to take a penalty equal to your proficiency to the attack roll. If the attack hits, add double your proficiency to the damage roll."
+						"Before you make an attack with a ranged weapon that you are proficient with (other than blowguns), you can choose to take a penalty equal to your proficiency to the attack roll. If the attack hits, add double your proficiency to the damage roll."
 					]
 				}
 			]
@@ -1048,7 +1048,8 @@
 					"items": [
 						"When you make a damage roll, you ignore resistance to poison damage.",
 						"You can coat a weapon in poison as a bonus action, instead of an action.",
-						"You gain proficiency with the poisoner’s kit if you don’t already have it. With one hour of work using a poisoner’s kit and expending 50 gp worth of materials, you can create a number of doses of potent poison equal to your proficiency bonus. Once applied, the poison retains potency for 1 minute or until you hit with the weapon. When a weapon coated in this poison deals damage to a creature, that creature must succeed on a DC 14 Constitution saving throw or take {@dice 2d8} poison damage and become poisoned until the end of your next turn. "
+						"You gain proficiency with the poisoner's kit if you don’t already have it.",
+						"With one hour of work using a poisoner's kit and expending 100 Ethereum worth of materials, you can create a number of doses of potent poison equal to your proficiency bonus. Once applied, the poison retains potency for 1 minute or until you hit with the weapon. When a weapon coated in this poison deals damage to a creature, that creature must succeed on a Constitution saving throw with a DC equal to 8 + your proficiency bonus + your Intelligence or Wisdom modifier (your choice) or take {@dice 2d8} poison damage and become poisoned until the end of your next turn. "
 					]
 				}
 			]
