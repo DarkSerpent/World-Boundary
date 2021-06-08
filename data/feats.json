@@ -631,7 +631,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Whenever you attack with a heavy weapon that you are proficient with, you can make one extra attack as a part of that Attack action. This feature only takes effect on an Attack action. Additional attacks granted through Extra Attack (or similar features) count as one Attack action."
+						"Whenever you attack with a heavy weapon that you are proficient with, you can make one extra attack as a part of that Attack action. This feature only takes effect on an Attack action. Additional attacks granted through Extra Attack (or similar features) count as one Attack action.",
 						"Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to take a penalty equal to your proficiency to the attack roll. If the attack hits, add double your proficiency to the damage roll."
 					]
 				}
