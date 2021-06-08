@@ -3789,6 +3789,14 @@
 					"type": "entries"
 				},
 				{
+					"name": "Eyes of the Void",
+					"entries": [
+                     "You know if a creature within 300 feet of you that you can see is suffering from the effects of Madness. If you detect a creature with this feature, you also know what short-term or indefinite Madness effect, if any, they're suffering from (some creatures can simply be mad, and if so, what instead returns to you is a garble of various signs with no coherent pattern).",
+                     "You can also detect if a creature's Madness has granted them a disability not on the Madness table (with your DMs permission). Disabilities that can result from Madness can include but are not limited to: OCD, dual personality disorder, and stockholm syndrome."
+					],
+					"type": "entries"
+				},
+				{
 					"name": "Otherworldly Appendages",
 					"entries": [
                      "Aftuan are birthed with four illithid tentactles that can manifest from any part of their body. Your additional appendages allow you to interact with an additional object or feature of the environment for free on your turn. You may not carry and use shields for defense with these additional appendages. Nor do they grant you additional attacks, or allow you to wield weapons with them for combat."
