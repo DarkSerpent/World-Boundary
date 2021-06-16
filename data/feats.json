@@ -163,9 +163,24 @@
 					"type": "list",
 					"items": [
 						"You ignore the loading property of blowguns. In addition, you can apply poison to blowgun darts as a bonus action, rather than as an action.",
-						"When you successful take the {@action Hide} action, you do not give away your position when making an attack with a blowgun, regardless of whether or not the attack hits.",
-						"Whenever you take the Attack action to make a ranged attack with a blowgun, you can make another attack with the same blowgun as a part of that Attack action. You can only make this special attack once per turn (regardless of whether you have extra attack or not)."
+						"Whenever you take the Attack action to make a ranged attack with a blowgun, you can make another attack with the same blowgun as a part of that Attack action. You can only make this special attack once per turn (regardless of whether you have extra attack or not).",
+						"When you successfully take the {@action Hide} action, you do not give away your position when making an attack with a blowgun, regardless of whether or not the attack hits. Instead, you enter a state known as Limited Stealth."
 					]
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [{
+							"entries": [
+								"{@b Limited Stealth.} While in Limited Stealth, you remain under the boons of &quot;Unseen Attackers and Targets&quot; as normal. However, creatures that are within 20 feet of you are alerted to your presence, and a creature stepping into a 20-foot radius of you causes you to be revealed to them.",
+								"Limited Stealth ends when you make an attack with a weapon other than a blowgun, break your Hiding state through other means (such as casting a spell with a verbal component), or when you take the Hide action again."
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Limited Stealth"
+					}
 				}
 			]
 		},
