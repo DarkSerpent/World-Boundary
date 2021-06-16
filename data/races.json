@@ -5634,7 +5634,7 @@
 							"entries": [
 								{
 									"entries": [
-                     "• At the start of your turn, if another creature is currently {@condition Grappled} by you."
+                     "• At the start of your turn, if another creature is currently {@condition grappled} by you."
 									],
 									"type": "entries"
 								},
@@ -5658,7 +5658,7 @@
 						{
 							"entries": [
                      "If you meet either of these conditions, you may use your serpentine hair to deliver a bite attack. This is a free action, and you may only target the creature you are grappling or being grappled by. You may only use Serpent's Sting once per turn, regardless of how many creatures you are grappling or are grappled by.",
-                     "You are considered proficient in this bite attack, which deals piercing damage equal to {@dice 1d6} + your Strength or Dexterity modifier. This damage increases to 2d6 at 5th level. 3d6 at 10th level, 4d6 at 15th level, and 5d6 at 20th level."
+                     "You are considered proficient in this bite attack, which deals piercing damage equal to {@dice 1d6} + your Strength or Dexterity modifier. In addition, this bite attack is considered to be a natural weapon, which you can use to make unarmed attacks."
 							],
 							"type": "entries"
 						},
