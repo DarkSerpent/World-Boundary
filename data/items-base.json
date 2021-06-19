@@ -3478,7 +3478,7 @@
 			"entries": [
 				"The spell rifle was developed as a way for ranged atillery mages to affect the battlefield from afar, and has gained popularity with wandslingers across Kagrea.",
 				"The spell rifle serves as a spellcasting focus and can be used by any spellcaster who can use a rod as a focus.",
-				"When held in two hands, you can use the rifle to cast cantrips at up to twice the standard range. However, when you cast a cantrip beyond the standard range, your attack rolls have disadvantage, and other creatures have advantage on any saving throws made against your cantrip.",
+				"When held in two hands, you can use the rifle to cast cantrips at up to twice the standard range. However, when you cast a cantrip beyond the standard range, your attack rolls have disadvantage, and other creatures have advantage on any saving throws made against your cantrip. Cantrips without an attack roll or saving throw are not affected by this item.",
 				"As an example: a {@spell fire bolt} cast using a spell rifle has a range of 240 feet, but attack rolls against targets more than 120 feet away are made at disadvantage.",
 				"{@italic Item suggested by @『Fucking Badass』#9789.}",
 				"{@italic Item modified by @Amarulence#5357.}"
