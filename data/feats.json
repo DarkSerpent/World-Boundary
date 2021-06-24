@@ -201,6 +201,94 @@
 			]
 		},
 		{
+			"name": "Arbalester",
+			"source": "WB: RD",
+			"prerequisite": [{
+				"other": "Proficiency in crossbows"
+			}],
+			"entries": [
+				"Arbalesters began with the guided arrow technology that was invented by the United Cities of Imperium. The technology involves firing guided arrows that can be manipulated to attack multiple enemies. As an Arbalester, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you take the Attack action against a creature on your turn, you can transition your attack into a Guided Attack. You can only use an effect of Arbalester once per turn. If your target would be forced to make a saving throw, the DC is equal to 8 + your proficiency bonus + your Dexterity modifier. You can use a number of Guided Attacks equal to your Dexterity modifier, and regain all uses on a short or long rest.",
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [{
+									"entries": [
+										"{@b Fanwise Shots.} Instead of firing one crossbow bolt, you shoot a series of five bolts in a fan shape. Creatures of your choice within a 20-foot cone must make a Dexterity saving throw. On a failed save, each of those creatures take damage equal to the normal damage of your weapon (1d6, 1d8, or 1d10) + your Dexterity modifier, or half as much damage on a successful save."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+										"{@b Dark Judgement.} You fire one bolt at a target creature within range. On a hit, you deal damage as normal and mark them with a Dark Target, highlighting their vulnerabilities with necromancy. Until the start of your next turn, attacks against that creature from creatures other than yourself deal an additional {@dice 1d4} necrotic damage."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+										"{@b Shining Burst.} You spin around with great finesse, firing bolts in a radius around yourself. Creatures of your choice within 20 feet must succeed on a Constitution saving throw or have one of their limbs crippled by your barrage of bolts on a failed save. A crippled creature has their movement speed reduced by half until the end of their next turn."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Guided Attack"
+							}
+				}
+					]
+				}
+			]
+		},
+		{
+			"name": "Quarrel Shooter",
+			"source": "WB: RD",
+			"prerequisite": [{
+				"other": "Proficiency in crossbows"
+			}],
+			"entries": [
+				"Archery involves a lot of maintenance work, but this is especially true for the Magic Kingdom of Aiara's quarrel shooters, who must take the maintenance of both their crossbow and their shield. Quarrel shooters are employed to defend against long-range attacks using their pavises, digging them in the ground to protect a point. As a quarrel shooter, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"While you are using a light, heavy, or compound crossbow, you can use a bonus action to dig a shield you have stowed or equipped (known as a pavise) into the ground in front of you. While you are within the same square as your pavise, you gain the benefits of half cover, but your movement speed becomes 0. You maintain the use of both of your hands for the purposes of wielding two-handed crossbows. You can lift the shield back up and stow or equip it as a bonus action.",
+						"When a creature enters a radius within 5 feet of you while your pavise in your square and attempts to target you for an Attack, you can use a reaction to kick up your shield and shove them back. That creature must succeed on a Strength saving throw with a DC equal to 8 + your proficiency bonus + your Dexterity modifier. On a failed save, that creature is knocked back 10 feet and you can immediately make one attack roll at them with your crossbow."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wolf & the Fletcher",
+			"source": "WB: RD",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis"
+						],
+						"amount": 1,
+						"entry": "Increase the chosen ability score by 1, to a maximum of 20."
+					}
+				}
+			],
+			"prerequisite": [{
+				"other": "Proficiency in a ranged weapon"
+			}],
+			"entries": [
+				"The Sentinels are an independent organization, separate from the law or jurisdiction of any kingdom. They are a band of independent experts, offering tutelage in their diverse professional fields. And of course, some of that knowledge has made its way to you. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can take the Search action as a bonus action, rather than as an action. In addition, whenever you take the Search action, you gain a +5 bonus to your roll. You can only take the Search action once per turn, regardless of how many actions you have left.",
+						"As a bonus action while you are holding a ranged weapon, you can fire out a grappling hook from the underside of your wrist at a target point within 30 feet. You can then choose to begin reeling yourself to that point, expending your movement as normal. When you reach your destination, you hang from the point you are suspended as if you were climbing, and can fire two-handed ranged weapons without incurring penalty. As a free action, you can free your grapple hook and immediately begin climbing."
+					]
+				}
+			]
+		},
+		{
 			"name": "Akimbo Master",
 			"source": "WB: RD",
 			"prerequisite": [{
@@ -458,12 +546,22 @@
 			"name": "Exorcist",
 			"source": "OSoW",
 			"prerequisite": [],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"wis"
+						],
+						"amount": 1,
+						"entry": "Increase the chosen ability score by 1, to a maximum of 20."
+					}
+				}
+			],
 			"entries": [
 				"You have been taught secret techniques for the removal of possessing spirits. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"Increase your Wisdom score by 1, to a maximum of 20.",
 						"You can use your action to touch a creature within your reach and determine if the creature is possessed or under the effects of an enchantment spell. If so, you learn the type of spirit possessing the creature or the spell enchanting it.",
 						"By presenting a holy symbol to a creature within 10 feet as an action, you can attempt an exorcism ritual. If the creature is possessed by a spirit, the possessing spirit must make a Wisdom saving throw, with a DC = 8 + your proficiency bonus + your Wisdom modifier. On a failure, the spirit is expelled, and it cannot enter that creature again for 24 hours. On a success, the creature is immune to exorcism attempts for 24 hours."
 					]
@@ -512,15 +610,15 @@
 				}]
 			}],
 			"entries": [
-				"Your soul has grown exceptionally powerful, and you may channel its energy into a semblance of mortal magic. You can cast the following spells with this ability: {@spell blink}, {@spell catapult}, and {@spell invisibility}.",
+				"Your soul has grown exceptionally powerful, and you may channel its energy into a semblance of mortal magic. You can cast the following spells with this feature: {@spell blink}, {@spell catapult}, and {@spell invisibility}.",
 				{
 					"type": "list",
 					"items": [
-						"When you can {@spell invisibility} this way, you can only target yourself.",
-						"Any spell cast using this feat is automatically cast at its lowest possible level.",
+						"When you cast {@spell invisibility} this way, you can only target yourself.",
+						"Any spell cast using this feat is automatically cast at its lowest possible level, unless stated otherwise.",
 						"Choose between Wisdom or Charisma; this is your spellcasting ability for these spells.",
 						"At 4th level, {@spell catapult} casts at 2nd level. It becomes 3rd level at 8th, 4th level at 12th, 5th level at 16th, and 6th level at 20th.",
-						"You regain the ability to cast any spells provided by this feat once you finish a long rest."
+						"You can cast each spell granted by this feature once, and cannot cast it again until you finish a long rest."
 					]
 				}
 			]
