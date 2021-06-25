@@ -289,6 +289,25 @@
 			]
 		},
 		{
+			"name": "Sun & Moon",
+			"source": "WB: RD",
+			"prerequisite": [{
+				"other": "Proficiency with hook swords"
+			}],
+			"entries": [
+				"Also known as &quot;Tiger Hook Swords&quot;, these blades excel at taking advantage of their hooked tips to manipulate enemies or to even manipulate their own reach to better assail foes with their intense combat style. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you grapple a creature with a hook sword, you can make and maintain the grapple with an Acrobatics check rather than a Dexterity check.",
+						"When you hit a creature with an attack on your turn, you can choose to hook an enemy's leg with the tip of your weapon. The target must make a Strength saving throw (DC equal to 8 + your Proficiency bonus + your Dexterity modifier). On a failed save, they fall prone. You can use this effect once per turn and if the target does not have legs, this is ineffective.",
+						"When you take the Attack action on your turn and are wielding two hook swords, you can hook the tips together to extend your reach. When you attack this way, your reach extends by 5 feet and you can also no longer knock enemies prone with the previous feature while attacking this way.",
+						"While attacking this way, you can forgo one of your attacks via the Attack action to make a special attack against a target within your reach and attack any enemies directly to its left or right. On a hit, those creatures take {@dice 1d6} slashing damage. You cannot grapple an enemy with a hook sword while attacking in this way."
+					]
+				}
+			]
+		},
+		{
 			"name": "Akimbo Master",
 			"source": "WB: RD",
 			"prerequisite": [{
@@ -948,6 +967,59 @@
 					"items": [
 						"When you roll a death saving throw, you crit on a roll of 19 or 20.",
 						"When you are reduced to 0 hit points, you can immediately move up to half your movement speed in any direction. This movement does not provoke attacks of opportunity."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fanatical Devotion",
+			"source": "WB: RD",
+			"prerequisite": [{
+				"race": [{
+					"name": "Kuo-Toa"
+				}]
+			}],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1,
+						"entry": "Increase the chosen ability score by 1, to a maximum of 20."
+					}
+				}
+			],
+			"entries": [
+				"Your intense worship and piety grant you the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you create a kuo-toa idol using God Making, it remains for 8 hours instead of 1 hour, and is created with a number of temporary hit points equal to your level.",
+						"While you are within 10 feet of your kuo-toa idol and can see it, you have advantage on all Intelligence, Wisdom, and Charisma saving throws, and can't be {@condition frightened} or {@condition charmed}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Heavy Carapace",
+			"source": "WB: RD",
+			"prerequisite": [{
+				"race": [{
+					"name": "Karkinos"
+				}]
+			}],
+			"entries": [
+				"Your carapace hardens and grows more dense, granting you the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your weight doubles.",
+						"When you aren’t wearing armor, your AC is 17 (your Dexterity modifier doesn’t affect this number). You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield’s benefits apply as normal while you use your natural armor.",
+						"You have advantage on Strength checks and saving throws made against effects that would push you or knock you {@condition prone}.",
+						"Your pincers gain the heavy property, and you can deal bludgeoning or slashing damage (your choice) equal to {@dice 1d8} + your Strength modifier when you hit with them."
 					]
 				}
 			]
