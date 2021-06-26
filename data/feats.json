@@ -408,9 +408,9 @@
 				{
 					"type": "list",
 					"items": [
+						"You gain a +2 to damage rolls with thrown weapons.",
 						"Attacking at long range with your thrown weapons no longer imposes disadvantage.",
 						"Being within 5 feet of a hostile creature doesn't impose disadvantage on ranged attack rolls.",
-						"Before you make an attack with the thrown property that you are proficient with, you can choose to take a penalty equal to your proficiency to the attack roll. If the attack hits, add double your proficiency to the damage roll.",
 						"Whenever you take the Attack action to make a ranged attack with a thrown weapon, you can make one extra attack as a part of that Attack action. You can only make this special attack once per turn (regardless of whether you have extra attack or not). In addition, the weapon you are throwing has the light property, you increase its short and long range by 10 feet."
 					]
 				}
@@ -1016,7 +1016,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Your weight doubles.",
+						"Your weight doubles. In addition, you shed into a larger, more sturdy shell. Your size increases from Medium to Large.",
 						"When you aren’t wearing armor, your AC is 17 (your Dexterity modifier doesn’t affect this number). You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield’s benefits apply as normal while you use your natural armor.",
 						"You have advantage on Strength checks and saving throws made against effects that would push you or knock you {@condition prone}.",
 						"Your pincers gain the heavy property, and you can deal bludgeoning or slashing damage (your choice) equal to {@dice 1d8} + your Strength modifier when you hit with them."
