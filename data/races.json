@@ -1057,6 +1057,14 @@
 								[
 									"{@bold The Reverse Horseshoe}",
 									"You gain proficiency in the operation and use of land vehicles, including horses."
+								],
+								[
+									"{@bold Sheriff's Star}",
+									"Whenever you make a check pertaining to the stars or other cosmic bodies, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply."
+								],
+								[
+									"{@bold Brandless}",
+									"You gain proficiency in one skill of your choice."
 								]
 							]
 						}
