@@ -1067,8 +1067,12 @@
 									"You gain a +2 bonus on Wisdom ({@skill Insight}) checks made to determine if a creature is lying to you."
 								],
 								[
-									"{@bold Brandless}",
+									"{@bold Hardworking Square}",
 									"You gain proficiency in one artisan tool of your choice."
+								],
+								[
+									"{@bold Brandless}",
+									"You gain proficiency in one musical instrument of your choice."
 								]
 							]
 						}
