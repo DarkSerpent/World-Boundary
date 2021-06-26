@@ -964,6 +964,140 @@
 			]
 		},
 		{
+			"name": "Novakid",
+			"source": "WB: RD",
+			"size": "M",
+			"speed": {
+				"walk": 30
+			},
+			"ability": [
+				{
+					"con": 2,
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1,
+						"amount": 1
+					}
+				}
+			],
+			"traitTags": [
+			],
+			"languageProficiencies": [
+				{
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Forged eons ago in the fusion furnaces of a now-dead star, a novakid lives for as long as their core burns—and their core burns with the ferocity of a large star. It is estimated that the lifespan of a novakid is somewhere in the ballpark of 10 million years. To date, most novakids alive are well past the 10,000 mark, a result of having been forged so long ago."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"Freedom lovers who strive to exemplify simplicity and self-expression, a novakid's free-spirited nature, matched with their short memories and equally short attention spans, tend to result in a more chaotic loving individual that leans toward the aspects of good."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Size",
+					"entries": [
+						"The size and form of a novakid resembles that of human, yet their bodies weigh almost nothing. Your size is Medium."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Shooting Star",
+					"entries": [
+						"Compounding the oddity of the novakid's existence is their culture, which greatly resembles that of the &quot;Wild West&quot; era of Kagrea's history. Because of their strange culture, the art of gunplay has been instilled into their teachings, and most novakids know a thing or two about akimbo. Select two firearms to gain proficiency in."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Brand & Shell",
+					"entries": [
+						"The  force that drives a novakid is contained within the brand on their faces. Charged with huge amounts of energy, these pieces of metal generate the hard plasma “shells” which stop their constituent gases from leaking.",
+						"If a novakid is depleted of his or her vital gases, the energy contained within their brand is instantly vented into the very fabric of spacetime, leaving only a twisted metal symbol and a nearly undetectable warping of light around the area of death.",
+						"Choose a brand from the table below to assume as your own. Each metal brand instills a different force within its wielder, and generally represents the novakid's personality.",
+						{
+							"type": "table",
+							"caption": "Select a Brand",
+							"colLabels": [
+								"Brand",
+								"Feature"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-5"
+							],
+							"rows": [
+								[
+									"{@bold Iron Sights}",
+									"In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across."
+								],
+								[
+									"{@bold X Marks the Spot}",
+									"You gain advantage on {@skill Perception} and {@skill Investigation} checks made to search for treasure."
+								],
+								[
+									"{@bold Heart & Love}",
+									"You exude bright light for 20 feet and dim light for an additional 20 feet."
+								],
+								[
+									"{@bold Diamond in the Rough}",
+									"You have advantage on checks made to discern the value or worth gems, art pieces, and magical items."
+								],
+								[
+									"{@bold The Reverse Horseshoe}",
+									"You gain proficiency in the operation and use of land vehicles, including horses."
+								]
+							]
+						}
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Starfall",
+					"entries": [
+						"As an action, you begin to shed your gasous form, exuding stardust as the weight of your body becomes less dense than air. For the next minute minute, you gain a flying speed equal to your walking speed. Once this effect wears off, you cannot use it again until you finish a long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "We Must Ruin the West",
+					"entries": [
+						"Novakid are a perfect example of nature’s emergent beauty, an existence forged in the stars for no real purpose other than to become rootin' tootin' cowboys. As a member of the novakid species, you gain the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"Your creature type is construct, rather than humanoid.",
+								"You have resistance to radiant damage.",
+								"You have advantage on saving throws against being {@condition poisoned}, and you have resistance to poison damage.",
+								"You are immune to disease.",
+								"You don't need to eat, drink, or breathe, and can survive in a vacuum.",
+								"When you regain hit points from a source that specifies it does not function on constructs, you instead receive half as many hit points as the source would provide, rounded down, instead of none."
+							]
+						}
+					]
+				},
+				{
+					"name": "Language",
+					"entries": [
+						"You can speak, read, and write Common, Celestial, and one additional language of your choice."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
 			"name": "Kitsune",
 			"source": "WB: RD",
 			"size": "V",
