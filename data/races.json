@@ -1114,6 +1114,132 @@
 			]
 		},
 		{
+			"name": "Zombie",
+			"source": "WB: RD",
+			"size": "M",
+			"speed": {
+				"walk": 30
+			},
+			"ability": [
+				{
+					"con": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"count": 1,
+						"amount": 1
+					}
+				}
+			],
+			"traitTags": [
+			],
+			"languageProficiencies": [
+				{
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Zombies, sustained by the necromantic magic that created them, do not age. However, over time, their bodies will begin to rot. Whether or not a zombie's body is maintained is generally up to the zombie in question—some prefer the beauty of living life, whereas others prefer flesh hanging from bone."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"Whether or not a zombie sees their death and subsequent revival as unjust has much to do with their outlook upon resurrection. As a free zombie, your alignment is not forced into one particular methodology of thinking—you are an agent of your own desire."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Size",
+					"entries": [
+						"Zombies can be made from any humanoid creature, ranging from the shortest human to the tallest goliath. Your size is Medium."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Your sight has been restored by necromancy, giving you unnaturally sharp vision. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Unnatural Creation",
+					"entries": [
+						"<i>Who resurrected me? What is my purpose?</i> These are the thoughts a free zombie may spend their entire life pondering. While a special few free zombies know and may even interact with their masters, the act of creating a free zombie is generally one done through accident or mishap.",
+						"Yet still, this method of existence isn't all bad! As a free zombie, you gain the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"Your creature type is undead, rather than humanoid.",
+								"You have advantage on saving throws against being {@condition poisoned}, and you have resistance to poison damage.",
+								"You are immune to disease.",
+								"You don't need to eat, drink, or breathe.",
+								"Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state, but resting in this way is otherwise identical to sleeping. Magically induced sleep can cause you to enter this inactive state."
+							]
+						}
+					]
+				},
+				{
+					"name": "Undead Fortitude",
+					"entries": [
+						"If damage would reduce you to 0 hit points, you can make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or a critical hit. On a successful save, you are reduced to 1 hit point instead. Once you use this feature, you cannot use it again until you finish a long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "The Limbs Have Left the Station",
+					"entries": [
+						"Your body parts are malleable, designed to easily be detached and reattached as a nature of the necromantic energies which sustain your existence. You can detatch or reattach any of your severed body parts at will, so long as:",
+						{
+							"type": "list",
+							"items": [
+								"Those body parts were not vital to the continued existence of the race you were before your resurrection.",
+								"Those body parts were originally connected via a joint or central muscle."
+							]
+						}
+					],
+					"type": "entries"
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "{@bold Note:} An example of a body parts that can be reattached are <i>arms</i> and <i>legs</i>. Organs, meanwhile, are not considered limbs for the purposes of this feature, and must be reattached through surgical means if severed (not that you need most of them, anyway)."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Limbs"
+							}
+						},
+				{
+					"name": null,
+					"entries": [
+						"Limbs you detach with this feature or are severed lose their ability to function, with the exception of limbs that remain attached to your hands. Your hands have the ability to crawl across the ground with a base movement speed of 10, but can only move towards you and cannot interact with objects, weapons, or the environment in a direct way.",
+						"You can also detatch and reattach your head, despite it being considered a vital organ. While detached or severed, you are considered {@condition blinded}, but not {@condition deafened}. You also retain the ability to speak, but your voice eminates from your body, rather than your mouth."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Language",
+					"entries": [
+						"You can speak, read, and write Common and one additional language of your choice."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
 			"name": "Kitsune",
 			"source": "WB: RD",
 			"size": "V",
@@ -1550,7 +1676,7 @@
 				{
 					"name": "Living Dead",
 					"entries": [
-                     "As the offspring of the Rift Plane and a nonsentient Wraith, Skeletons are gifted with supernatural properties. You are immune to disease. You do not need to eat or breathe, but you can ingest food and drink if you wish. Additionally, you have two creature types: humanoid and undead. You can be affected by a spell or ability that works on either of your creature types."
+                     "You are immune to disease. You do not need to eat or breathe, but you can ingest food and drink if you wish. Additionally, your creature type is undead, rather than humanoid."
 					],
 					"type": "entries"
 				},
@@ -1564,7 +1690,7 @@
 				{
 					"name": "Curse of the Undead",
 					"entries": [
-                     "A tragic fate lies the souls of the damned. With no life force contained within their souls, an unfortunate majority of Skeletons meet a tragic fate while on the battlefield. Like most undead, healing effects that state they do not work on undead have no effect on you."
+                     "A tragic fate lies the souls of the damned. With no life force contained within their souls, an unfortunate majority of skeletons meet a tragic fate while on the battlefield. Like most undead, healing effects that state they do not work on undead have no effect on you."
 					],
 					"type": "entries"
 				},
@@ -1578,7 +1704,7 @@
 				{
 					"name": "Bloodless",
 					"entries": [
-                     "You are immune to poison damage and the {@condition Poisoned} condition."
+                     "You are immune to poison damage and the {@condition poisoned} condition."
 					],
 					"type": "entries"
 				},
