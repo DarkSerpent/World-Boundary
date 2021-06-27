@@ -1189,7 +1189,7 @@
 				{
 					"name": "Undead Fortitude",
 					"entries": [
-						"If damage would reduce you to 0 hit points, you can make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or a critical hit. On a successful save, you are reduced to 1 hit point instead. Once you use this feature, you cannot use it again until you finish a long rest."
+						"If damage would leave you with 0 hit points, you can make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or a critical hit. On a successful save, you are reduced to 1 hit point instead. Once you use this feature, you cannot use it again until you finish a long rest."
 					],
 					"type": "entries"
 				},
