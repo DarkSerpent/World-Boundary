@@ -1700,6 +1700,134 @@
 			}
 		},
 		{
+			"name": "Magic ID",
+			"source": "WB: RD",
+			"level": 0,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small card or slip of paper"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You touch a small card or slip of paper appear to be a valid identification card of your choosing. The card bears your name, likeness, and all other data expected by anyone examining such a card. However, it is only visually accurate and does not contain any valid machine-readable data or electronic coding. You cannot use this spell to make an electronic passkey."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Arcane Graffiti",
+			"source": "WB: RD",
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": false
+				}
+			],
+			"entries": [
+				"This spell allows you to inscribe your personal rune or a short message, which can be no larger than 2 feet tall and consist of no more than six words, on a nonliving creature or object. The writing can be visible or invisible. An arcane graffiti spell enables you to etch the words upon any substance (even stone or metal) without harming the material upon which the mark is placed. If invisible graffiti is made, the casting of any spell within 30 feet causes the words to become visible for 5 rounds."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
 			"name": "Thought Shield",
 			"source": "WB: RD",
 			"level": 2,
@@ -5204,6 +5332,74 @@
 					},
 					{
 						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Haywire",
+			"source": "WB: RD",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small magnet"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"This cantrip causes a single device to behave randomly and erratically, defying any attempts to bring it under control. Cash registers display random prices and open their money drawers repeatedly. Escalators surge forward, then reverse themselves. Automatic teller machines flash random patrons' account balances on the screen as they spew forth receipts (not money, though).",
+				"It's impossible to describe the exact effects of haywire on every modern device. In general, a machine subject to haywire functions as if someone were pressing random buttons or otherwise manipulating it randomly.",
+				"Turning off a device subject to a haywire spell doesn't work, because the spell disables the “off” switch. Cutting off the power supply (by unplugging it, for example) disables the device {@dice 1d4} rounds later, ending the spell.",
+				"This cantrip doesn't disable the devices (for example, a camera might get a static effect but it will continue recording, and a door with an electronic lock might not be openable while is under the effects of this cantrip)."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
 						"source": "PHB"
 					}
 				]
