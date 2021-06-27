@@ -3513,7 +3513,7 @@
 						},
 						{
 							"entries": [
-                               "{@b Burst Joints.} The muscles in your legs have been modified using light metals and pneumatics. Your base walking speed increases to 35 feet. In addition, you can take the {@action Dash} action a number of times equal to your proficiency modifier, and regain all expended uses on a long rest."
+                               "{@b Burst Joints.} The muscles in your legs have been modified using light metals and pneumatics. Your base walking speed increases to 35 feet. In addition, you can take the {@action Dash} action as a bonus action a number of times equal to your proficiency modifier, and regain all expended uses on a long rest."
 							],
 							"type": "entries"
 						},
