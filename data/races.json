@@ -3170,13 +3170,6 @@
 							]
 						}
 					]
-				},
-				{
-					"name": "Languages",
-					"entries": [
-                     "You can speak, read, and write Common."
-					],
-					"type": "entries"
 				}
 			],
 			"subraces": [
@@ -3224,7 +3217,14 @@
 							"entries": [
 								"Choose one tool you're proficient with. This tool is integrated into your body, and you double your proficiency bonus for any ability checks you make with it. You must have your hands free to use this integrated tool."
 							]
-						}
+						},
+				{
+					"name": "Languages",
+					"entries": [
+                     "You can speak, read, and write Common and Neural."
+					],
+					"type": "entries"
+				}
 					]
 				},
 				{
@@ -3252,7 +3252,14 @@
                      "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
 							],
 							"type": "entries"
-						}
+						},
+				{
+					"name": "Languages",
+					"entries": [
+                     "You can speak, read, and write Common and Neural."
+					],
+					"type": "entries"
+				}
 					]
 				},
 				{
@@ -3290,7 +3297,14 @@
                      "When you are traveling alone for an extended period of time (one hour or more), you can move stealthily at a normal pace. (See chapter 8 of the Player's Handbook for information about travel pace.)"
 							],
 							"type": "entries"
-						}
+						},
+				{
+					"name": "Languages",
+					"entries": [
+                     "You can speak, read, and write Common and Neural."
+					],
+					"type": "entries"
+				}
 					]
 				}
 			]
@@ -3535,6 +3549,118 @@
 					],
 					"type": "entries"
 				}
+			]
+		},
+		{
+			"name": "Starforged",
+			"source": "WB: RD",
+			"page": 5,
+			"size": "M",
+			"speed": {
+				"walk": 30
+			},
+			"ability": [
+				{
+					"con": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"After achieving sentience, starforged mature at the same age as humans. They can live until their cores run out of energy, a process that can take up to 700 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Most starforged take comfort in order and discipline, tending toward law and neutrality, but some have absorbed the morality\u2014or lack thereof\u2014of the beings they served with."
+					]
+				},
+				{
+					"name": "Size",
+					"type": "entries",
+					"entries": [
+						"Your size is Medium. Most starforged stand between 5 and 6½ feet tall."
+					]
+				},
+				{
+					"name": "Luminous Core",
+					"type": "entries",
+					"entries": [
+						"You know the {@spell light} cantrip, and can cast it as a bonus action. Constitution is your spellcasting modifier for it."
+					]
+				},
+				{
+					"name": "Born From Stone",
+					"type": "entries",
+					"entries": [
+						"Your cosmic nature as an organic, lithiod creature grants you the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"Your creature type is elemental, rather than humanoid.",
+								"You have resistance to cold damage.",
+								"You are immune to disease.",
+								"You don't need to eat, drink, or breathe.",
+								"You don't need to sleep and don't suffer the effects of exhaustion due to lack of rest, and magic can't put you to sleep."
+							]
+						}
+					]
+				},
+				{
+					"name": "Natural Armor",
+					"type": "entries",
+					"entries": [
+						"Your body is composed of metal, stone, and strands of starlight. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
+					]
+				},
+				{
+					"name": "Sentry's Rest",
+					"type": "entries",
+					"entries": [
+						"When you take a long rest, you must spend at least six hours of it in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you {@condition unconscious}, and you can see and hear as normal."
+					]
+				},
+				{
+					"name": "Lithiod Transparency",
+					"type": "entries",
+					"entries": [
+						"While you remain motionless, you are indistinguishable from an ordinary rock formation."
+					]
+				},
+				{
+					"name": "Languages",
+					"type": "entries",
+					"entries": [
+						"You can speak, read, and write Common and one extra language of your choice."
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"resist": [
+				"cold"
+			],
+			"conditionImmune": [
+				"disease"
 			]
 		},
 		{
