@@ -1208,16 +1208,23 @@
 				"A",
 				"AM"
 			],
-			"dmg1": "1d8+1d6",
+			"dmg1": "1d8",
 			"range": "30/60",
 			"reload": "1",
 			"misfire": "3",
-			"ammo": "10 gp for 1",
-			"dmgType": "F",
+			"ammo": "20 gp for 1",
+			"dmgType": "B",
 			"sword": true,
 			"sword": true,
 			"weapon": true,
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"You may not benefit from the rogue's Sneak Attack feature while using this weapon."
+					]
+				}
 			]
 		},
 				{
@@ -3903,7 +3910,7 @@
 					"type": "entries",
 					"name": "Explosive",
 					"entries": [
-						"On a hit, every creature within 5 feet of the target much make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier) or suffer {@dice 1d8} fire damage. If the weapon misses, the ammunition fails to detonate, or bounces away harmlessly before doing so. Explosive weapons will also damage terrain (if applicable)."
+						"When you attack a point within range, all creatures within 5 feet of that point must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your primary modifier). A target takes {@dice 2d10} fire damage on a failed save, or half as much damage on a scuessful save. If your weapon would misfire, this feature does not apply. The explosive property damages terrain (if applicable). Your primary modifier is determined by what Ability Score you use for your attack rolls."
 					]
 				}
 			]
