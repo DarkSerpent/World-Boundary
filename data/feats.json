@@ -1700,6 +1700,24 @@
 			]
 		},
 		{
+			"name": "Laido Practitioner",
+			"source": "WB: RD",
+			"prerequisite": [{
+				"other": "Proficiency with odachi"
+			}],
+			"entries": [
+				"With high-quality metal and a stern personality molded over the course of years, your skills with a blade have folded over as many times as the steel of your odachi. While you are wielding an odachi, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Odachis you wield gain the reach (10 ft.) property.",
+						"When you take the Attack action on your turn, you can make one special melee attack as part of that attack action. You draw your wakizashi, run into range, and strike. This attack uses the same ability modifier as the primary attack, but the damage die for this attack is a d6, and the attack deals piercing damage. You can only make this special melee attack once per turn, regardless of how many Attack actions you may have. You do not move closer to or further away from the creature when you make this attack.",
+						"When you take the Attack action on your turn, you can use a bonus action to reorient yourself with a strike, slashing through the enemy and appearing around their flank. You dash through the hostile creature's space, landing on an unoccupied space within 10 feet of them without provoking opportunity attacks."
+					]
+				}
+			]
+		},
+		{
 			"name": "Two-Handed Technique",
 			"source": "WB: RD",
 			"prerequisite": [{
