@@ -2867,7 +2867,7 @@
 			"type": "2d10 x 1,000 gp",
 			"entries": [
 				"This rod has 3 charges. While holding the rod, you can use an action to expend one of the rod's charges and create a sphere of force that hovers 3 feet off the ground.",
-				"This sphere can hold up to 200 pounds, and follow you around at a distance you determine for up to 2 hours. The sphere is destroyed if it takes any damage, but any objects inside float to the ground as if affected by the 𝘧𝘦𝘢𝘵𝘩𝘦𝘳 𝘧𝘢𝘭𝘭 spell.",
+				"This sphere can hold up to 200 pounds, and follows you around at a distance you determine for up to 2 hours. The sphere is destroyed if it takes any damage, but any objects inside float to the ground as if affected by the 𝘧𝘦𝘢𝘵𝘩𝘦𝘳 𝘧𝘢𝘭𝘭 spell.",
 				"You can create up to 3 spheres per day, and the rod regains 3 charges daily at dawn.",
 				"{@italic Item designed by @Amarulence#5357.}"
 			]
