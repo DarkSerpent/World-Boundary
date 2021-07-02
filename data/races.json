@@ -5845,7 +5845,7 @@
 					"type": "entries",
 					"name": "Living Dead",
 					"entries": [
-                     "You have been brought back to the mortal coil, but your form has changed drastically. You are immune to disease. You do not need to eat or breathe, but you can ingest food and drink if you wish. Additionally, you have two creature types: humanoid and undead. You can be affected by a spell or ability that works on either of your creature types."
+                     "You have been brought back to the mortal coil, but your form has changed drastically. You are immune to disease. You do not need to eat or breathe (and can survive in a vacuum), but you can ingest food and drink if you wish. Additionally, you have two creature types: humanoid and undead. You can be affected by a spell or ability that works on either of your creature types."
 					]
 				},
 				{
@@ -5892,7 +5892,7 @@
 							"type": "entries",
 							"name": "Otherworldly Flight",
 							"entries": [
-								"You gain a flying speed of 20 feet and can hover. To use this speed, you must attune to the Way of Worlds by act of sacrificing an attunement slot. Attuning to flight takes the same amount of time and follows the same restrictions as attuning to a magic item.",
+								"You gain a flying speed of 30 feet and can hover. To use this speed, you must attune to the Way of Worlds by act of sacrificing an attunement slot. Attuning to flight takes the same amount of time and follows the same restrictions as attuning to a magic item.",
 								"If you do not attune to the Way of Worlds, you can still fly using this feature. However, your maximum height is 5 feet. While flying this way, you can still hover."
 							]
 						},
