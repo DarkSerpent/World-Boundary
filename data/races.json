@@ -5949,7 +5949,7 @@
 								},
 								{
 									"entries": [
-                                       "• If you regain consciousness without a spirit bond, you must immediately select a new object or creature within 150 feet to bind to. If no items or creatures are present within 150 feet, you are paralyzed until one comes within 150 feet of you."
+                                       "• If you regain consciousness without a spirit bond, you must immediately select a new object or creature within 150 feet to bind to. If no items or creatures are present within 150 feet, you are {@condition paralyzed} until one comes within 150 feet of you."
 									],
 									"type": "entries"
 								}
