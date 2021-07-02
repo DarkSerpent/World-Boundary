@@ -5922,7 +5922,7 @@
 							"name": "Invoke Smite",
 							"entries": [
 								"You can instill power into the weapon of a nearby creature to strike with divine energy. As an bonus action, you touch the weapon of a creature within 30 feet of you.",
-                                "Until the end of your next turn, the next time that creature succeeds on a melee weapon attack with that weapon, it deals an additional {@dice 1d8} radiant damage or {@dice 1d8} necrotic damage (your choice). Once you use this trait, you can't use it again until you finish a long rest."
+                                "Until the end of your next turn, the next time that creature succeeds on a melee weapon attack with that weapon, it deals an additional {@dice 1d8} radiant damage or {@dice 1d8} necrotic damage (your choice). Once you use this trait, you can't use it again until you finish a short or long rest."
 							]
 						},
 						{
