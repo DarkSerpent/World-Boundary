@@ -5854,13 +5854,6 @@
 					"entries": [
                      "After reviving in the Material Plane, you received a blessing through a deitic force. This force is not any specific deity or person, but rather a force of nature similar to a tornado or hurricane. Unlike other undead, you can be restored through healing magic, but it has a significantly dampened effect on you. When you regain hit points from a source that specifies it does not function on undead, you instead receive half as many hit points as the source would provide, rounded down, instead of none."
 					]
-				},
-				{
-					"name": "Languages",
-					"entries": [
-                     "You can speak, read, and write Common and two other languages of your choice."
-					],
-					"type": "entries"
 				}
 			],
 			"subraces": [
@@ -5964,7 +5957,14 @@
 							"data": {
 								"overwrite": "Spirit Binding Rules"
 							}
-						}
+						},
+				{
+					"name": "Languages",
+					"entries": [
+                     "You can speak, read, and write Common and two other languages of your choice."
+					],
+					"type": "entries"
+				}
 					]
 				},
 				{
@@ -6086,7 +6086,14 @@
                                 "You can choose to make your unarmed strike deal force damage instead of bludgeoning damage, and any creature hit by your unarmed strike is unable to regain hit points until the end of your next turn. If a creature is reduced to 0 hit points by your unarmed strike, it instantly disintegrates into soul fumes, leaving behind any objects, clothing, or items on its person."
 							],
 							"type": "entries"
-						}
+						},
+				{
+					"name": "Languages",
+					"entries": [
+                     "You can speak, read, and write Common and two other languages of your choice."
+					],
+					"type": "entries"
+				}
 					]
 				}
 			]
