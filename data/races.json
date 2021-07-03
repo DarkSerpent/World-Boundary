@@ -5997,7 +5997,10 @@
 							"type": "entries",
 							"name": "Incorporeal Stride",
 							"entries": [
-								"You can move through other creatures and objects other than physical barriers (such as walls, floors, or ceilings) as if they were difficult terrain. On your turn, you can pass through up to 10 feet of physical barriers (treating them as difficult terrain) as a part of your movement. If you end your turn inside an object or barrier, you take 1d10 force damage and are immediately ejected to the closest available space. After passing through a physical barrier, you must complete a short or long rest before you are able to do so again."
+								"You are a partial existence—not quite alive, not quite dead. While you maintain the powers generally known to spirits, they come with a handful of restrictions befitting of someone between worlds.",
+								"While out-of-combat, you can move through other creatures and objects other than physical barriers (such as walls, floors, or ceilings) as if they were difficult terrain. You can pass through up to 10 feet of physical barriers (treating them as difficult terrain) as a part of your movement. If you end your turn inside an object or barrier, you take {@dice 1d10} force damage and are immediately ejected to the closest available space.",
+								"While you are in-combat, the stresses placed on your body causes passing through physical barriers this way to become difficult to perform. You can use this feature in-combat a number of times equal to your proficiency bonus, and regain all expended uses on a long rest.",
+								"Even if you run out of in-combat uses of this feature, you can continue to pass through physical barriers out-of-combat without penalty."
 							]
 						},
 						{
