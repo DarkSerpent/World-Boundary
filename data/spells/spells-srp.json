@@ -3691,7 +3691,7 @@
 			],
 			"entries": [
 				"You breathe forth a cloud of impenetrable shadow which exhales from your mouth and spreads itself around a point you can see within range. It then manifests into the shape of a cylinder with a radius of 10-feet and a height of 20-feet that is lightly obscured.",
-				"A creature which starts it turn or moves into the area for the first time on a turn must make a Constitution saving throw or take {@dice 4d8} necrotic damage.",
+				"A creature which starts it turn or moves into the area for the first time on a turn must make a Constitution saving throw or take {@dice 6d6} necrotic damage. A creature within the impenetrable cloud of shadow cannot teleport out of its radius, and treats the cloud as difficult terrain.",
 				"The body of a creature killed by this spell becomes withered beyond recognition."
 			],
 			"entriesHigherLevel": [
@@ -3699,7 +3699,7 @@
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"You can cast this spell using a 5th level or higher spell slot. The necrotic damage increases by {@dice 1d8} for each slot level above 4th."
+						"You can cast this spell using a 5th level or higher spell slot. The necrotic damage increases by {@dice 1d6} for each slot level above 4th."
 					]
 				}
 			],
