@@ -3662,6 +3662,12 @@
                                "{@b High-Intelligence Chip.} You gain one language or one skill of your choice, in addition to proficiency in one weapon of your choice. You can also expend a use of this ability to gain advantage on one skill check you have proficiency. You have a number uses of this ability equal to your proficiency modifier, and regain all expended uses on a long rest."
 							],
 							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Wavecutter.} Your legs have been enhanced with a pneumatic pressure-inducing system that exudes intense propulsive forces with the goal of propelling you at high speeds underwater. You gain a swimming speed equal to your walking speed."
+							],
+							"type": "entries"
 						}
 					],
 					"data": {
