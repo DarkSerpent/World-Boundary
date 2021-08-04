@@ -1427,7 +1427,9 @@
 						{
 							"name": "Lunar Charm",
 							"entries": [
-                                "You can cast the {@spell charm person} spell once with this trait, and regain the ability to do so when you finish a long rest. Charisma is your spellcasting modifier for this spell."
+                                "As an action you can target a creature within 30 feet of you and force them to behold the beauty of the moon. That creature must make a Wisdom saving throw with a DC equal to 8 + your proficiency bonus + your Charisma modifier. On a failed save, that creature becomes charmed to you until the end of your next turn.",
+                                "A creature who is charmed by you this way must move away from you on their turn—the moon must be marveled from a distance, after all. The creature moves a number of feet away from you equal to 2.5 × the number of tails you possess (rounded down to the nearest 5-foot increment), and must keep that distance from you until the charm wears off. If the result of this equation would be 0, the creature is not required to move away from you.",
+                                "Once you use this feature, you cannot use it again until you finish a short or long rest."
 							],
 							"type": "entries"
 						},
@@ -1504,7 +1506,7 @@
 						{
 							"name": "Frightening Presence",
 							"entries": [
-                     "While in your natural fox form, your size is Medium instead of Small. Your eyes turn red and your fur turns a charred ashen black. As a bonus action, you can emit an aura of fear within a 10-foot radius for 1 minute. Any creature entering that aura must make a Wisdom saving throw or become frightened of you. The DC for this ability is 8 + your Charisma modifier + your proficiency bonus.",
+                     "While in your natural fox form, your size is Medium instead of Small. Your eyes turn red and your fur turns a charred ashen black. As a bonus action, you can emit an aura of fear with a raidus equal to 2.5 × the number of tails you possess. Hostile creatures who enter the aura must make a Wisdom saving throw or become frightened of you. The DC for this ability is 8 + your Charisma modifier + your proficiency bonus.",
                      "Your opponent may make another saving throw at the end of their next turn. On a success, they are no longer frightened, and are immune to your aura for 24 hours. Once you use this trait, you can't use it again until you finish a long rest."
 							],
 							"type": "entries"
