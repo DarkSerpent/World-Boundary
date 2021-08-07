@@ -2873,6 +2873,301 @@
 			]
 		},
 		{
+			"name": "Blink Boots",
+			"source": "RS",
+			"rarity": "uncommon",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "1d6 x 100 gp",
+			"entries": [
+				"Crafted from blink dog hide, these boots confer a semblance of their abilities. While wearing the boots, you can cast the {@spell misty step} spell once. You can’t do so again until the next dawn.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Bloodseeker Weapon",
+			"source": "RS",
+			"rarity": "rare",
+			"tier": "major",
+			"reqAttune": true,
+			"type": "2d10 x 1,000 gp",
+			"entries": [
+				"This weapon is adorned with small black spikes that seem to soak up any blood that splashes across them. This acts as a +1 weapon and provides you with 1d8 temporary hit points whenever you reduce a Dragon, Giant, Humanoid, or Monstrosity to 0 hit points.",
+				"{@italic Item designed by @Amarulence#5357.}",
+				"{@italic {@bold Base items}}. This item variant can be applied to the following base items:",
+				{
+					"type": "list",
+					"items": [
+						"Any (Bloodseeker Weapon)"
+					]
+				}
+			]
+		},
+		{
+			"name": "Enidda's Tea Set",
+			"source": "RS",
+			"rarity": "uncommon",
+			"tier": "minor",
+			"reqAttune": true,
+			"type": "1d6 x 100 gp",
+			"entries": [
+				"This is a finely crafted child’s toy tea set in a wooden case. To activate the tea set’s magical properties, you must perform a 10 minute ritual in which you host an imaginary tea party. This requires having a solid, relatively flat surface in which to set up all parts of the tea set (a tablecloth, five plates, five cups, and a teapot).",
+				"At the end of the ritual, you conjure four invisible servants, as if by the {@spell unseen servant} spell. They disappear after 1 hour or until you dismiss any number of them as a bonus action.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Elixir of Eternal Plantnation",
+			"source": "RS",
+			"rarity": "very rare",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "((1d4 + 1) x 10,000 gp) ÷ 2",
+			"entries": [
+				"This potion is clearly labeled with a tag which states &quot;DO NOT CONSUME. This is the worst invention I've <i>ever</i> made&quot;. Naturally, you can choose to ignore this label, but doing so will have dire consequences.",
+				"As an action, you can consume this potion in order to undergo a viscous change. As your body melts to goo, and furthermore to dust, your molecules are arranged into that of a plant, complete with parenchyma cells, sclerenchyma cells, collenchyma cells, xylem cells, and phloem cells.",
+				"You transform into the awakened shrub statblock, but the only actions you can take are the following:",
+				{
+					"type": "list",
+					"items": [
+						"Breathe (makes a faint windy sound).",
+						"Make sugar (counts as nutrition for an entire day, recharges on a long rest).",
+						"Sway."
+					]
+				},
+				"The effects of this potion can only be negated by the {@spell greater restoration} or {@spell wish spell}. A creature can also use the wish spell in order to make this transformation permanent. If done so, the effects of this potion can only be negated by the ultimate wish spell.",
+				"Even after reverting the effects of this potion, there will be times where you will wistfully look to the sun and remember the days when you could make sugar.",
+				"If this potion is fed to an awakened shrub via pouring, it will instead transform into a ascended shrub and receive the following new feature as per its transformation:",
+				"<i><b>Beyond Humanity.</b></i> You no longer have to eat, drink, or breathe. In addition, you gain the ability to cast the {@spell clairvoyance} spell at will with a range of 100 feet.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Cold Iron Armor",
+			"source": "RS",
+			"baseItem": "armor|phb",
+			"type": "1d6 x 100 gp",
+			"rarity": "uncommon",
+			"reqAttune": false,
+			"entries": [
+				"This armor is forged of cold iron, a magical material that protects the wearer against fey magic. While wearing it, you have advantage on saving throws against the spells and other magical effects of fey creatures, as well as on saving throws to resist the memory loss caused by the Feywild.",
+				"{@italic Item designed by @Amarulence#5357.}",
+				"{@italic {@bold Base items}}. This item variant can be applied to the following base armor:",
+				{
+					"type": "list",
+					"items": [
+						"Any (Cold Iron Armor)"
+					]
+				}
+			]
+		},
+		{
+			"name": "Anklet of Potential",
+			"source": "RS",
+			"rarity": "uncommon",
+			"tier": "minor",
+			"reqAttune": true,
+			"type": "1d6 x 100 gp",
+			"entries": [
+				"This ankle bracelet gives its wearer a second chance by turning hesitation into haste. While you wear this item, you may reroll initiative but must take the second roll.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Aundra's Magic Bracers",
+			"source": "RS",
+			"rarity": "rare",
+			"tier": "major",
+			"reqAttune": true,
+			"type": "2d10 x 1,000 gp",
+			"entries": [
+				"These bracers have 5 charges. While you are attuned to these bracers, you can expend 1 charge after you cast a spell to reroll any roll of 1 on the spell's damage dice. You may not use this effect more than once per turn.",
+				"You can also use your reaction when you are hit by a spell attack roll to expend 1 charge, giving you a +1 bonus to AC against that spell and possibly preventing its effects.",
+				"The bracers regain {@dice 1d4+1} charges daily at dawn.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Ring of Fate",
+			"source": "RS",
+			"rarity": "rare",
+			"tier": "major",
+			"reqAttune": true,
+			"type": "2d10 x 1,000 gp",
+			"entries": [
+				"This ring allows a mortal to fight against death, if only for a short time. If the wearer dies, they may choose to instead regain 1 hit point and be cured of any poison and disease as well as the {@condition stunned}, {@condition paralyzed}, {@condition blinded}, and {@condition deafened} conditions. Once used, this ring then shatters beyond repair.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Sash of the Ranger",
+			"source": "RS",
+			"rarity": "rare",
+			"tier": "major",
+			"reqAttune": "by a ranger",
+			"type": "2d10 x 1,000 gp",
+			"entries": [
+				"This silver-embroidered sash glimmers softly with moonlight. While wearing this magic sash, you gain a +1 bonus to spell attack rolls and the saving throw DCs of your ranger spells. In addition, you can use the sash as a spellcasting focus for your ranger spells.",
+				"When you cast a spell that restores hit points, you can roll a {@dice d4} and add the number rolled to the amount of hit points restored, provided you are wearing the sash.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "ME-V Industry Standard Magnetized Sole Boots",
+			"source": "RS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "1d6 x 100 gp",
+			"entries": [
+				"The ME-V Industry Standard Magnetized Sole Boots, shorthand Mag Boots, are a widely produced item used in military engagements, construction projects, or any space-faring activity which would require one be more solidly placed than floating within a vacuum. The soles of these boots magnetize to any metal objects, such as the hull of a ship. In the absence of gravity, these boots will prevent a creature from floating away by rooting them to the nearest metal object.",
+				"As a bonus action, or as a reaction to a sudden lack of gravity, you can activate these boots. So long as the surface one walks on is metal, they will attach to the spot and will not float away.",
+				"While these boots are active, you may walk along any metal surface with halved movement speed. Walking along walls or a roof while gravity will reduce your movement speed further, with walking along walls reducing your speed to a third, and the roof of an area reducing your speed to 1/5th of what it normally is.",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle.",
+				"{@italic Item designed by @Sunlight Knight#2976.}"
+			]
+		},
+		{
+			"name": "Universal Barding",
+			"source": "RS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "1d6 x 100 gp",
+			"entries": [
+				"This barding has been imbued with transmutation magic which allows it to fit the form of any mount attempting to wear it.",
+				"{@italic Item designed by @『Fucking Badass』#9789.}",
+				"{@italic {@bold Base items}}. This item variant can be applied to the following base bardings:",
+				{
+					"type": "list",
+					"items": [
+						"Breastplate (Universal Breastplate Barding)",
+						"Chain Mail (Universal Chain Mail Barding)",
+						"Chain Shirt (Universal Chain Shirt Barding)",
+						"Half Plate (Universal Half Plate Barding)",
+						"Hide Armor (Universal Hide Armor Barding)",
+						"Leather Armor (Universal Leather Armor Barding)",
+						"Padded Armor (Universal Padded Armor Barding)",
+						"Plate Armor (Universal Plate Armor Barding)",
+						"Ring Mail (Universal Ring Mail Barding)",
+						"Scale Mail (Universal Scale Mail Barding)",
+						"Spiked Armor (Universal Spiked Armor Barding)",
+						"Splint Armor (Universal Splint Armor Barding)",
+						"Studded Leather Armor (Universal Studded Leather Armor Barding)"
+					]
+				}
+			]
+		},
+		{
+			"name": "Universal Barding +1",
+			"source": "RS",
+			"rarity": "rare",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "2d10 x 1,000 gp",
+			"entries": [
+				"This barding has been imbued with transmutation magic which allows it to fit the form of any mount attempting to wear it.",
+				"You have a +1 bonus to AC while wearing this armor.",
+				"{@italic Item designed by @『Fucking Badass』#9789.}",
+				"{@italic {@bold Base items}}. This item variant can be applied to the following base bardings:",
+				{
+					"type": "list",
+					"items": [
+						"Breastplate (Universal Breastplate Barding +1)",
+						"Chain Mail (Universal Chain Mail Barding +1)",
+						"Chain Shirt (Universal Chain Shirt Barding +1)",
+						"Half Plate (Universal Half Plate Barding +1)",
+						"Hide Armor (Universal Hide Armor Barding +1)",
+						"Leather Armor (Universal Leather Armor Barding +1)",
+						"Padded Armor (Universal Padded Armor Barding +1)",
+						"Plate Armor (Universal Plate Armor Barding +1)",
+						"Ring Mail (Universal Ring Mail Barding +1)",
+						"Scale Mail (Universal Scale Mail Barding +1)",
+						"Spiked Armor (Universal Spiked Armor Barding +1)",
+						"Splint Armor (Universal Splint Armor Barding +1)",
+						"Studded Leather Armor (Universal Studded Leather Armor Barding +1)"
+					]
+				}
+			]
+		},
+		{
+			"name": "Universal Barding +2",
+			"source": "RS",
+			"rarity": "very rare",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "(1d4 + 1) x 10,000 gp",
+			"entries": [
+				"This barding has been imbued with transmutation magic which allows it to fit the form of any mount attempting to wear it.",
+				"You have a +2 bonus to AC while wearing this armor.",
+				"{@italic Item designed by @『Fucking Badass』#9789.}",
+				"{@italic {@bold Base items}}. This item variant can be applied to the following base bardings:",
+				{
+					"type": "list",
+					"items": [
+						"Breastplate (Universal Breastplate Barding +2)",
+						"Chain Mail (Universal Chain Mail Barding +2)",
+						"Chain Shirt (Universal Chain Shirt Barding +2)",
+						"Half Plate (Universal Half Plate Barding +2)",
+						"Hide Armor (Universal Hide Armor Barding +2)",
+						"Leather Armor (Universal Leather Armor Barding +2)",
+						"Padded Armor (Universal Padded Armor Barding +2)",
+						"Plate Armor (Universal Plate Armor Barding +2)",
+						"Ring Mail (Universal Ring Mail Barding +2)",
+						"Scale Mail (Universal Scale Mail Barding +2)",
+						"Spiked Armor (Universal Spiked Armor Barding +2)",
+						"Splint Armor (Universal Splint Armor Barding +2)",
+						"Studded Leather Armor (Universal Studded Leather Armor Barding +2)"
+					]
+				}
+			]
+		},
+		{
+			"name": "THREADS Immortal Neon-Touched Hair Dye",
+			"source": "RS",
+			"rarity": "common",
+			"tier": "minor",
+			"reqAttune": false,
+			"weight": 0.01,
+			"type": "(1d6 + 1) x 10 gp",
+			"entries": [
+				"This bottle of hair-dye, sold only at THREADS in Avel Caelora, Aiaria, is the top-of-the-line when it comes to personal hair customization needs.",
+				"It comes in any and every color imaginable, is easy to apply, and, once applied to the hair and given time to set and dry, will never wash out unless the user wants it to. In darkness, the exposed dye sheds light the same color as the hair dye itself, creating bright light in a 5-foot radius and dim light for an additional 5 feet.",
+				"Applying this hair-dye in a life-or-death situation may lead to unforeseen health complications. Check in with your doctor to make sure this is right for you.",
+				"We prepare you for the future by taking care of you in the present. Shop THREADS and we'll take care of you.",
+				"{@italic Item designed by @DIO#6259.}"
+			]
+		},
+		{
+			"name": "Shield of Surfing",
+			"baseItem": "shield|phb",
+			"source": "RS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "1d6 x 100 gp",
+			"entries": [
+				"This shield functions as a mundane shield until you place it upon the surface of a liquid and speak its command word. It then can be ridden over the surface of the liquid. The shield has a speed of 50 feet. It can carry 400 pounds, but its speed becomes 30 feet while carrying over 200 pounds. The shield sinks if its carrying more than 400 pounds, and stops floating when held.",
+				"On your turn, you can expend 10 feet of movement to attempt a DC 10 Dexterity check to perform a stunt with the shield, such as a flip or a spin. If the check is successful, you perform the stunt and gain a bonus to AC as if holding the shield until the end of your turn. If the check fails by 5 or more, you and all creatures riding on the shield immediately fall prone as the shield wipes out and comes to a dead stop. ",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Pipe of Bubbles",
+			"source": "RS",
+			"rarity": "common",
+			"tier": "minor",
+			"reqAttune": false,
+			"weight": 0.01,
+			"type": "(1d6 + 1) x 10 gp",
+			"entries": [
+				"This coral smoking pipe has 3 charges. While holding it, you can use an action to expend 1 of its charges to speak a message of twenty-five words or less into the pipe, designating a creature you are familiar with.",
+				"The pipe then forms a bubble, 1 inch in diameter. If the target isn’t on the same plane of existence as you, the bubble bursts. Otherwise, the bubble begins drifting towards the target at a rate of 30 feet per round (3 miles an hour), following the straightest possible path towards the target, while avoiding obstructions. If the bubble comes across an obstruction it can’t avoid (such as a closed door between it and the target), it stops moving until there is a clear path to the target. When the bubble reaches the target, it bursts harmlessly against the target’s ear, delivering the message to the target. The target (and only the target) can hear the message.",
+				"The bubble is a Tiny object with an AC of 5 and 1 hit point. If it is reduced to 0 hit points, it bursts. At the end of each hour it has traveled, roll a d6. On a 6, the bubble bursts.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
 			"name": "Seeds of Wealth",
 			"source": "RS",
 			"rarity": "rare",
