@@ -1718,6 +1718,33 @@
 			]
 		},
 		{
+			"name": "Right Hand of Ra",
+			"source": "WB: RD",
+			"ability": [{
+				"choose": {
+					"from": [
+						"str",
+						"dex"
+					],
+					"amount": 1
+				}
+			}],	
+			"prerequisite": [{
+				"other": "Proficiency in one-handed khopesh"
+			}],
+			"entries": [
+				"You have practiced extensively in the art of utilizing khopesh, mastering their unique curved forms and their hooked ends as an armor-breaking weapon. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You have adopted a certain level of dexterity when manipulating your khopesh. One-handed khopesh you use gain the finesse property.",
+						"Your time spend fighting in crowded environments has honed the fluidity of your movement. As a bonus action, you can ignore the effects of difficult terrain until the start of your next turn. You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses on a long rest.",
+						"When you make an attack with a one-handed khopesh weapon against a creature with a shield, you can replace that attack with a special weapon attack that does not require an attack roll. The opposing creature must make a Dexterity saving throw with a DC equal to 8 + your proficiency bonus + your Strength or Dexterity modifier. On a failed save, that creature's shield is wrestled from their grip as the hook of your blade drags it onto the ground. The shield lands in an unoccupied space within 5 feet of the creature. You can only make this special attack once per turn."
+					]
+				}
+			]
+		},
+		{
 			"name": "Two-Handed Technique",
 			"source": "WB: RD",
 			"prerequisite": [{
