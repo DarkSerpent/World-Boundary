@@ -3168,6 +3168,19 @@
 			]
 		},
 		{
+			"name": "Driftsco Globe",
+			"source": "RS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "1d6 x 100 gp",
+			"entries": [
+				"This small sphere of thick glass weights 1 pound. If you are within 60 feet of it, you can speak its command word and cause it to emanate the {@spell dancing lights} spell originating from the inside of the globe. When casting dancing lights this way the beams refract off the mirror like surface and illuminate 10 feet dim light in a radius around the item.",
+				"You can speak another command word as an action to make the illuminated globe rise into the air and float no more than 5 feet off the ground. The globe hovers in this way until you or another creature grasps it. If you move more than 60 feet from the hovering globe, it follows you until it is within 60 feet of you. It takes the shortest route to do so. If prevented from moving, the globe sinks gently to the ground and becomes inactive, and its light winks out.",
+				"{@italic Item designed by @Gebri#6820.}"
+			]
+		},
+		{
 			"name": "Seeds of Wealth",
 			"source": "RS",
 			"rarity": "rare",
