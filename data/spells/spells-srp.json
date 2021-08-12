@@ -8,7 +8,7 @@
 			"time": [
 				{
 					"number": 1,
-					"unit": "action"
+					"unit": "bonus action"
 				}
 			],
 			"range": {
@@ -33,7 +33,7 @@
 				}
 			],
 			"entries": [
-				"You create 3 shards of transparent crystal that orbit your head. As a bonus action, you can launch one of the crystals at a creature within 60 feet of you. When you do so, make a ranged spell attack. On a hit, the creature takes {@dice 1d6} piercing damage. Whether or not the crystal hits, that crystal is expended and shatters. The spell ends early once all crystals have been expended.",
+				"You create 3 shards of transparent crystal that orbit your head. As a bonus action, you can launch one of the crystals at a creature within 60 feet of you. When you do so, make a ranged spell attack. On a hit, the creature takes {@dice 1d4} + your spellcasting modifier piercing damage. Whether or not the crystal hits, that crystal is expended and shatters. The spell ends early once all crystals have been expended.",
 				"The number of crystals you can create with this spell increases to 4 at 5th level, 5 at 11th level, and 6 at 17th level."
 			],
 			"classes": {
