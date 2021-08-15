@@ -1608,6 +1608,56 @@
 			]
 		},
 		{
+			"name": "Called Shot",
+			"source": "WB: RD",
+			"prerequisite": [{
+				"other": "Proficiency with bows"
+			}],
+			"entries": [
+				"Like a trained pitcher on base, you have learned to throw a variety of shadow-influenced fastballs utilizing throwing daggers as a conduit. Some are basic techniques—others are reality-bending vehicles to tool destruction upon your foes. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Whether it be through intense training or natural talent, your aim is truly impeccable. You've mastered the art of targeting specific areas of your enemies, strategically debilitating them until you can finally put an end to them.",
+						"When you take the Attack action on your turn with a longbow, shortbow, or a compound bow, you may forgo one attack to make a Called Shot. Once you have declared a Called Shot, inform the DM where on your enemy you would like to strike. You may then make your attack roll with disadvantage.",
+						"Upon a successful hit, add one additional damage die when calculating damage, and the creature is subject to the effect associated with the body part you chose to target:",
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [{
+									"entries": [
+										"{@b Head.} The target has disadvantage on saving throws made to keep concentration on a spell, and cannot perform verbal components until the end of their next turn."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+										"{@b Arm.} The target drops their weapon in hand is unable to use that limb until the end of their next turn. "
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+										"{@b Leg.} The target has their movement speed halved until the end of their next turn."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+										"{@b Chest.} The target has disadvantage on attack rolls and ability checks until the end of their next turn."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Called Shots"
+							}
+				}
+					]
+				}
+			]
+		},
+		{
 			"name": "Jian Wu",
 			"source": "WB: RD",
 			"prerequisite": [{
