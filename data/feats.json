@@ -1566,6 +1566,48 @@
 			]
 		},
 		{
+			"name": "Dark One's Grit",
+			"source": "WB: RD",
+			"prerequisite": [{
+				"other": "Proficiency with daggers"
+			}],
+			"entries": [
+				"Like a trained pitcher on base, you have learned to throw a variety of shadow-influenced fastballs utilizing throwing daggers as a conduit. Some are basic techniques—others are reality-bending vehicles to tool destruction upon your foes. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Whenever you attack with a dagger on your turn via throwing, you determine the trajectory of the dagger by choosing one Shadowmance from the list below.",
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [{
+									"entries": [
+										"{@b Curved Executioner.} Your dagger arcs through the sky in a parabola, usurping all barriers. You ignore the benefits of half and three-quarters cover. You also ignore the effects of full cover if there is at least a 1-inch gap located anywhere on the obstacle."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+										"{@b Hadar's Shadow Gate.} You make your thrown weapon attack as if you were standing in any location that you can see within 20 feet of you, allowing your attack to originate from behind magical barriers and from unobservable positions. If you make this attack while no hostile creature is within 30 feet of you, you do not lose the benefits of &quot;Unseen Attackers and Targets&quot; (if you were Hiding)."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+										"{@b Bouncing Harbinger.} If you successfully hit your target with your attack, your dagger ricochets off that target. Target one creature or object within 15 feet. You make an attack roll against that target with the same weapon. Regardless of any special effect applied to the dagger, your damage roll equals 1d4 + your Dexterity modifier."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Shadowmance"
+							}
+				}
+					]
+				}
+			]
+		},
+		{
 			"name": "Jian Wu",
 			"source": "WB: RD",
 			"prerequisite": [{
@@ -2040,6 +2082,42 @@
 					"items": [
 						"Your DC for these abilities are 8 + your proficiency bonus + your Charisma modifier. You regain all expended Abyss points on a long rest."
 					]
+				}
+			]
+		},
+		{
+			"name": "Hoplite of the Gods",
+			"source": "WB: RD",
+			"prerequisite": [{
+				"other": "Proficiency in spears or javelins"
+			}],
+			"entries": [
+				"You have trained in the art of Imperial combat, utilizing elongated weapons such as spears and javelins as long-range arcing projectiles to score hits against unsuspecting targets whose armor may otherwise defend against arrows of shorter stature. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Non-magical spears and javelins you throw are treated as magical for the purposes of overcoming resistance and immunity.",
+						"You can draw and holster a spear or javelin once per turn without expending an object interaction.",
+						"Attacking at long range doesn't impose disadvantage on your thrown weapon attack rolls with spears or javelins.",
+						"Your thrown weapon attacks with spears or javelins ignore half cover and three-quarters cover."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [{
+							"entries": [
+								"{@b Grandcrest Horizon.} You can forgo one of your attacks as part of your Attack action in order to perform an aerial barrage. Target a 30-foot radius within 120 feet of you. You chuck twelve spears or javelins into the sky at rapid speed—transforming the horizon into an impeding doomsday filled with the upturned gazes of jagged vehicles of demise.",
+								"All creatures within the radius must make a Dexterity saving throw with a DC equal to 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice). On a failed save, that creature takes {@dice 6d4} piercing damage, or half as much damage on a successful save.",
+								"Regardless of whether a creature passes or fails the saving throw, your polearms slam into the ground with tumultuous force, causing dirt and stone to rupture and crack with the intensity of a god's divine blow. The radius becomes difficult terrain until the area is cleared of weapons and debris, which takes one minute.",
+								"Once you use this feature supplied by the feat, you cannot use it again until you finish a short or long rest."
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Grandcrest"
+					}
 				}
 			]
 		},
