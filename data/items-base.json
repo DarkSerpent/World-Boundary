@@ -3181,6 +3181,39 @@
 			]
 		},
 		{
+			"name": "Sprig Rapier",
+			"baseItem": "rapier|phb",
+			"source": "RS",
+			"rarity": "rare",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "2d10 x 1,000 gp",
+			"entries": [
+				"Riding the line between magecraft and the mechanical, blade of this rapier is actually made of coiled springsteel, and its hilt acts as a secret compartment for its stored mana battery. It is a time-tested design created by the Sprig Company™️.",
+				"<i><b>Extended Strike.</b></i> When you make an Attack with this rapier, the coiled blade telescopes an additional 5 feet, granting it the Reach property.",
+				"<i><b>Springsteen Whirlwind.</b></i> As an action, you can hold this rapier overhead and flick the button underneath its guard, releasing a tightly wound spring inside the handle. This causes the blade to swing out with such force that it unwinds, flying in circles around you at great speeds.",
+				"Each creature within 10 feet of you must make a DC 16 Dexterity saving throw. On a failed save, that creature takes 4d8 slashing damage.",
+				"You can use Springsteen Whirlwind once per long rest, as the mana battery needs time to recoil the internal spring.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Boots of the Shadow Walker",
+			"source": "RS",
+			"rarity": "rare",
+			"tier": "major",
+			"reqAttune": true,
+			"type": "2d10 x 1,000 gp",
+			"entries": [
+				"<i>Teleports behind you.</i>",
+				"<i>&quot;Nothing personnel, kid.&quot;</i>",
+				"<i><b>Jump Through Shadow.</b></i> Once per turn while attuned to these boots wreathed in shadow, you can teleport behind a creature that you can see within 15 feet of you. To teleport, your target must have a creature who is hostile to it within 5 feet, that space must be unoccupied, and the space you teleport to must grant flanking.",
+				"If you attack the target of your teleport on the same turn, your first attack against them has advantage. To gain this advantage, you must be standing in an area of dim light or darkness.",
+				"<i><b>Guard of Shadow.</b></i> If a creature targets you for a melee weapon attack while you are in dim light or darkness, you can immediately expend your reaction. Subtract 1d4 from that creature's attack roll.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
 			"name": "Seeds of Wealth",
 			"source": "RS",
 			"rarity": "rare",
