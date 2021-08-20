@@ -518,6 +518,253 @@
 			]
 		},
 		{
+			"name": "Aasimar (Revised)",
+			"source": "WB: RD",
+			"size": "M",
+			"speed": {
+				"walk": 30
+			},
+			"ability": [
+				{
+					"cha": 2,
+					"int": 1
+				}
+			],
+			"traitTags": [
+			],
+			"languageProficiencies": [
+				{
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Aasimar—the perfect unison between a celestial and a humanoid. While you may possess the soul of a humanoid, your body is comparable to that of a deva—which is to say, you never die of old age or exhibit signs of aging. Aasimar may choose to adopt traditional elderly features over their course of their long lives, however, such as silverly hair or callused hands."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"The heart of an aasimar is neither swayed to good nor evil—despite their celestial blood (which would normally incline a creature towards good), the embodiment of a humanoid soul which all aasimar possess grants them a fundamental exception to the cosmic rule. A freedom of expression not present in other celestials."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Size",
+					"entries": [
+						"You are not human nor deva, but you pull from various charateristics that are fundamental in each—including size. Your size is Medium."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Creation of Elysium",
+					"entries": [
+						"Your bloodline is divine— of that there is no doubt. However, depending on your parentage, the amount of divinity inherent to you may manifest in different forms. Choose one of the following manifestations: providence or opulence."
+					],
+					"type": "entries"
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "{@b Providence.} Your creature type is celestial, rather than humanoid."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Opulence.} As a reaction, you can channel your inwards determination invested through your close connection with anthroity. It expands outwards via your divine will, manifesting as a tangible shield which protects your angelic form against assailment from non-believers.",
+										"Until the start of your next turn, you gain resistance to non-magical bludgeoning, piercing, and slashing damage from weapon attacks. You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses on a long rest."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Creation"
+							}
+						},
+				{
+					"type": "entries",
+					"name": "Being Above Mortality",
+					"entries": [
+						"You gain access to the following benefits, as per your celestial birthright:",
+						{
+							"type": "list",
+							"items": [
+								"The blood that runs through your veins is a celestial ichor. You have resistance to radiant and necrotic damage.",
+								"You are immune to disease.",
+								"You don't need to eat, drink, or breathe, but may ingest food and drink if you wish.",
+								"You can survive in a vacuum.",
+								"Instead of sleeping, you must engage in rest—a state that lasts for at least 4 hours a day. While resting, you are unmoving, semi-conscious of your form, and your vision is limited to a radius 30 feet. Finally, you cannot make Wisdom ({@skill Perception}) checks or perform any other tasks while resting."
+							]
+						}
+					]
+				},
+				{
+					"name": "Wings From the Beyond",
+					"entries": [
+						"Your humanoid nature loves to get in the way at the most inopportune moments, and a better example could not be given than the existence of your wings—or lack thereof.",
+						"You possess a pair of ethereal wings, whose existence is shrouded between the planes of the tangible and the ethereal. A creature that cannot see into the ethereal plane or lacks {@sense truesight} cannot see your wings, but nonetheless, they exist.",
+						"When you begin falling, your wings soar forwards despite any will to the contrary (a result of your celestial and humanoid heritages battling for your continued existence), allowing you to glide as if you were under the effects of the {@spell feather fall} spell. This effect ends the moment you land."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Divine Vigilance",
+					"entries": [
+						"If you are surprised at the beginning of combat and are not {@condition incapacitated}, your supreme awareness can grant you the upperhand against your foes. When you roll initiative, if you roll a 10 or higher, you can act normally on your first turn."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Voyager of Illusions",
+					"entries": [
+						"Aasimar were often called a &quot;race of illusions&quot;, but not for their ability to create them. While it is true that some aasimar maintain an impressive level of control over illusions, the only feature that all aasimar share is their ability to detect and uncover magical mirages.",
+						"You have advantage on Wisdom ({@skill Perception}) checks made to discern glamours, illusions, and other forms of magical concealment. You also have advantage on {@skill Survival}, {@skill Perception}, and {@skill History} checks made to uncover information on celestial and fiendish creatures."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Light Bearer",
+					"entries": [
+						"You know the {@spell light} cantrip. Charisma is your spellcasting modifier for it."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Celestial Designation",
+					"entries": [
+						"You have a divine calling that grants you an affinity for a specific angelic role. Choose one of the following designations to adopt as your own: <i>Fallen, Protector, Scourge, Court, Mabaran, Fernian</i> or <i>Seeker</i>."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Language",
+					"entries": [
+						"You can speak, read, and write Common, Celestial, and one language of your choice."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Watcher",
+			"source": "WB: RD",
+			"size": "M",
+			"speed": {
+				"walk": 30
+			},
+			"ability": [
+				{
+					"cha": 2,
+					"wis": 1
+				}
+			],
+			"traitTags": [
+			],
+			"languageProficiencies": [
+				{
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Unlike other creatures, you are a purely spiritual being, your current form more akin to an illusion so that you might better guide those who have lost their way, or protect those who have found their plights too much to bear. You do not age, and are immune to the effects of magical aging, unless you choose to be affected by it."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"Watchers are purely mechanical in function and intelligence, drones to serve the will of God and protect anthroity from harm. The longer a watcher is separated from the domain of their Lord, however, the more aspects of anthroity they begin to adopt. You are, without equivocation, Lawful Good, and efforts to change your alignment of your own free will are impossible unless via alignment degradation, which may lead a watcher to pursue other alignments such as Neutral Good during their extended stay with anthroity. You are always good, however, despite this alignment degradation, lest you fall from grace and become a fiend."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Size",
+					"entries": [
+						"You are given a more humanoid form in order to put those around you at ease, and to better guide them towards a righteous path. Your size is Medium."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "A Guardian of Anthroity",
+					"entries": [
+						"Your purpose; that is, the purpose of all Watchers, is to guide anthroity from evil and sin, towards a just and prosperous future. To watch over the righteous and guide them through their trials. As such, you are granted a body capable of guarding the minds of the creatures around you, which grants the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"Your creature type is celestial, rather than humanoid.",
+								"The blood that runs through your veins is a celestial ichor. You have resistance to radiant damage.",
+								"You are immune to disease.",
+								"You don't need to eat, drink, or breathe, but may ingest food and drink if you wish.",
+								"You can survive in a vacuum.",
+								"Whenever you take a long rest, you must spend at least six hours in deep, meditative prayer, rather than sleeping. While in this state, you are still conscious and perceptive to the world around you, but appear to be either inert or comatose."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Prayer of Protection",
+					"entries": [
+						"As an action on your turn, you can begin to pray to the lord for the protection of your allies and yourself. At the end of this prayer, golden light shines through from the heavens, enveloping yourself and other allied creatures around you within a radius of 30 feet. This light remains for one minute, and while it does, you and your allies within the radius gain the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"You or an ally can use a bonus reaction to swap places with another willing ally who is also enveloped by this light.",
+								"You and your allies have advantage on the {@condition charmed} and {@condition frightened} conditions, so long as the source of that charm or frighten is from an aberration or fiend."
+							]
+						},
+						"Once you use this feature, you cannot use it again until you finish a long rest."
+					]
+				},
+				{
+					"name": "Manifest Radiance",
+					"entries": [
+						"When you attack with an unarmed strike, you can choose to deal {@dice 1d4} + your charisma modifier radiant damage instead of the regular damage for an unarmed strike. In addition, you can choose to make your attack roll with Charisma, rather than your primary unarmed modifier.",
+						"You also learn the {@spell light} cantrip. Charisma is your spellcasting modifier for this spell."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Banishment Vulnerability",
+					"entries": [
+						"The Common Reality is not your home, and you are considered foreign to it. As such, when a spell or effect banishes you successfully, you are permanently returned to Heaven, and cannot come back by any means, short of being sent back by God himself, or one of his Speakers.",
+						"A watcher may be sent to return to the Common Reality as part of a rotational task in an attempt to secure Anthro Order, or sent back once the banishment is recognized as a mistake, assuming the watcher in question was performing an important task previous to their banishment."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Language",
+					"entries": [
+						"You can speak, read, and write Common, Celestial, and one language of your choice."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
 			"name": "Imprisoned",
 			"source": "WB: RD",
 			"size": "M",
