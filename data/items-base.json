@@ -630,7 +630,7 @@
 			"type": "Technological Item",
 			"value": 1500,
 			"entries": [
-				"This disposable plastic stick, when activated, uses a chemical reaction to create light for 6 hours. It illuminates an area only 5 feet in radius. Once activated, it can’t be turned off or reused.ss",
+				"This disposable plastic stick, when activated, uses a chemical reaction to create light for 6 hours. It illuminates an area only 5 feet in radius. Once activated, it can’t be turned off or reused.",
 				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
 			]
 		},
