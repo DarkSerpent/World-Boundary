@@ -2172,6 +2172,108 @@
 			]
 		},
 		{
+			"name": "Boundary Artist",
+			"source": "WB: RD",
+			"prerequisite": [{
+				"other": "Proficiency in calligrapher's supplies"
+			}],
+			"entries": [
+				"You are masterful in the art of producing beautiful writing, often utilizing a special pen or brush. Your skill has grown so apparent that you have manifested the ability to transcend mortality with your calligraphy, turning your mere set of pens and brushes into a conceptual tool to rewrite reality. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"At the conclusion of each one month period, you produce {@dice 1d4+1} books. These books can be anything you desire: artistry portfolio, a book of fonts, or even short stories authored by you or copies of another prolific work.",
+						"You automatically succeed on checks to identify the handwriting or writing style of prolific persons such as authors, politicans, and high-stakes criminals.",
+						"You have gained the ability to draw runic linework alongside walls, floors, and skin using your masterful control over calligraphy. These runes are called &quot;Stagnata&quot;, and they can be utilized in two different ways:"
+					]
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [{
+							"entries": [
+								"{@b Boundary Stagnata.} You spend 10 minutes running your runes alongside the bridge between a wall and floor, or in a circular uniform pattern around a 30 to 60 foot radius. After its completelion, a magical barrier erects itself around your work (up to 30-feet high, rounding off as a dome or running alongside a pre-existing roof). Nothing—not physical objects, energy, or other spell effects—can pass through the barrier, in or out, though a creature within the barrier maintains the ability to breathe.",
+								"The walls of your barrier have an AC equal to your 10 + Intelligence modifier, and maintain a total of 100 hit points. Attacking the barrier produces a loud, transendant sound, easily heard by creatures inside. If the barrier's hit points would be reduced to 0, a {@spell disintegrate} spell would target the barrier, or the spell {@spell dispel magic} would be cast on it, the barrier drops, and its effects end. The barrier is treated as a 4th-level spell for the purposes of dispel magic.",
+								"The barrier remains erect for 8 hours, until you bring it down as an action, or until the barrier is brought down through any of the hostile means mentioned above. You can only have one Boundary Stagnata barrier manifested at a time."
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Grandcrest"
+					}
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [{
+							"entries": [
+								"{@b Transcendant Stagnata.} At the conclusion of a short rest, you can draw a ring of runes around the wrist of yourself or a willing creature. That creature chooses one Ability Score between <i>Strength, Intelligence,</i> or <i>Wisdom</i>. Their modifier for that Ability Score becomes a +2 (if it was lower), but their base Ability Score does not increase.",
+								"The runes enact their own force of will for the creature, supplementing their weaknesses via a third-party magical force. Because of this, a dim-witted creature will not gain above average intelligence by being inscribed by these runes. However, that dim-witted creature will be more resistant to effects which require an Intelligence saving throw due to the rune's influence.",
+								"You can only inscribe these runes onto a creature by forgoing the benefits of a short rest, sacrificing your own relaxation to secure the future of another's. These runic markings lose their effectiveness on a short or long rest, and only one creature can benefit from your Transcendant Stagnata at a time."
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Grandcrest"
+					}
+				}
+			]
+		},
+		{
+			"name": "Boundary Charter",
+			"source": "WB: RD",
+			"prerequisite": [{
+				"other": "Proficiency in cartographer's tools"
+			}],
+			"entries": [
+				"You are masterful in the art of producing extremely detailed maps. Your skill has heralded you as a genius from those in your admittedly intimate circle, and several maps purchased by Adventurers may have even been produced by you. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You always know which way is north.",
+						"You do not need to roll to determine the quality of a map you create. A map you produce has quality-level determined by you upon its creation: <i>shabby, poor, moderate, good, high, masterful,</i> or <i>prodigial</i>.",
+						"You can enscribe an extremely accurate map without need for detailed investigation or understanding—circumnavigating the area once is all that is required. In addition, enscribing a map of a 10,000 by 10,000 foot area only takes 5 minutes for you, no matter the amount of detail.",
+						"As long as you have a map of your current area, or you are in the process of enscribing a map for your current area, you cannot become lost by non-magical means. In the case of becoming magically lost, you can make a cartographer's tools check using Intelligence against the opposing creature's spell save DC. On a success, you realize that you have been magically led astray (discovered through cross-referencing your map with the real world)."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [{
+							"entries": [
+								"{@b Likely Location.} While you are holding a map of your current area, or while you have been in the process of enscribing a map for your current area for 10 minutes or longer, you have the ability to pick out details in the foreground, identifying likely spots for assailants to hide—a skill which proves invaluable in the battlefield, allowing you to point out areas of contention to your allies in a pinch.",
+								"You and your allies within 60 feet of you cannot be surprised so long as the creature instigating the surprise is within 100 feet of you. In addition, you are aware of creatures that are hiding within 15 feet of you, even behind cover."
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Grandcrest"
+					}
+				}
+			]
+		},
+		{
+			"name": "Lance of the North",
+			"source": "WB: RD",
+			"prerequisite": [{
+				"other": "Proficiency in lances"
+			}],
+			"entries": [
+				"The lance is an unwieldy weapon for most, but you have mastered use of it, both on foot and on mount. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You do not suffer disadvantage when attacking a foe within 5 feet of you with a lance.",
+						"You can use a lance one-handed, even if you are not currently mounted. While you wield a lance this way, you cannot gain the benefits of dual wielding or make an attack with another light weapon.",
+						"If you move at least 20 feet in a straight line (either by foot or via a mount) before you make an attack, you can pierce that creature with the tip of your lance, stabbing through a thinly-packed veil of muscle and dragging them as your heart desires. If that attack connects, that creature becomes grappled by you until the end of your turn, and you can move them with your lance without penalty to your movement."
+					]
+				}
+			]
+		},
+		{
 			"name": "Wrought From the Beneath",
 			"source": "WB: RD",
 			"prerequisite": [{
