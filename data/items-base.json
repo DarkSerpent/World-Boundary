@@ -1515,7 +1515,8 @@
 						"Shuriken (Returning Shuriken)",
 						"Tomahawk (Returning Tomahawk)"
 					]
-				}
+				},
+				"{@italic {@bold Additional items}}. This item variant can also be applied to other weapons (such as greataxes). However, that weapon does not gain the thrown property."
 			]
 		},
 		{
@@ -1558,7 +1559,8 @@
 						"Shuriken (Returning Shuriken)",
 						"Tomahawk (Returning Tomahawk)"
 					]
-				}
+				},
+				"{@italic {@bold Additional items}}. This item variant can also be applied to other weapons (such as greataxes). However, that weapon does not gain the thrown property."
 			]
 		},
 		{
@@ -1588,7 +1590,8 @@
 						"Shuriken (Returning Shuriken)",
 						"Tomahawk (Returning Tomahawk)"
 					]
-				}
+				},
+				"{@italic {@bold Additional items}}. This item variant can also be applied to other weapons (such as greataxes). However, that weapon does not gain the thrown property."
 			]
 		},
 		{

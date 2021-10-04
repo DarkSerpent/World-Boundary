@@ -50,6 +50,36 @@
 			]
 		},
 		{
+			"name": "Thrown Arms Master",
+			"prerequisite": [{
+				"other": "Cannot be used alongside the Peltast feat."
+			}],
+			"source": "WB: RD",
+			"entries": [
+				"You've honed your ability to lob weaponry into the fray, including weapons not meant for ranged combat. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Simple and martial melee weapons without the thrown property can be treated as if they have the thrown property. One-handed weapons have a range of 20/60, while two-handed weapons have a range of 15/30.",
+						"When you make an attack with a thrown weapon that does not naturally have the thrown weapon property, you have a +1 to attack and damage rolls, and that weapon counts as magical for the purposes of overcoming resistance and immunity.",
+						"Weapons that naturally have the thrown property increase their range by +20/+40.",
+						"When you miss with a thrown weapon attack using a {@i light} weapon, the weapon immediately boomerangs back into your grasp."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"amount": 1
+					}
+				}
+			]
+		},
+		{
 			"name": "Sentient Bones",
 			"source": "WB: RD",
 			"prerequisite": [{
