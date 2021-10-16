@@ -283,7 +283,7 @@
 				{
 					"type": "list",
 					"items": [
-						"While you are using a light, heavy, or compound crossbow, you can use a bonus action to dig a shield you have stowed or equipped (known as a pavise) into the ground in front of you. While you are within the same square as your pavise, you gain the benefits of half cover, but your movement speed becomes 0. You maintain the use of both of your hands for the purposes of wielding two-handed crossbows. You can lift the shield back up and stow or equip it as a bonus action.",
+						"While you are using a light, hand, heavy, or compound crossbow, you can use a bonus action to dig a shield you have stowed or equipped (known as a pavise) into the ground in front of you. While you are within the same square as your pavise, you gain the benefits of half cover, but your movement speed becomes 0. You maintain the use of both of your hands for the purposes of wielding two-handed crossbows. You can lift the shield back up and stow or equip it as a bonus action.",
 						"When a creature enters a radius within 5 feet of you while your pavise in your square and attempts to target you for an Attack, you can use a reaction to kick up your shield and shove them back. That creature must succeed on a Strength saving throw with a DC equal to 8 + your proficiency bonus + your Dexterity modifier. On a failed save, that creature is knocked back 10 feet and you can immediately make one attack roll at them with your crossbow."
 					]
 				}
@@ -808,7 +808,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Whenever you attack with a heavy weapon that you are proficient with, you can make one extra attack as a part of that Attack action. This feature only takes effect on an Attack action. Additional attacks granted through Extra Attack (or similar features) count as one Attack action.",
+						"Whenever you attack with a heavy weapon that you are proficient with, you can make one extra attack with a heavy weapon as a part of that Attack action. This feature only takes effect on an Attack action. Additional attacks granted through Extra Attack (or similar features) count as one Attack action.",
 						"Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to take a penalty equal to your proficiency to the attack roll. If the attack hits, add double your proficiency to the damage roll."
 					]
 				}
