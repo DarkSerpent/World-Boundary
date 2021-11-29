@@ -29,6 +29,39 @@
 			]
 		},
 		{
+			"name": "Gunsword",
+			"source": "WB: RD",
+			"type": "M",
+			"rarity": "none",
+			"weight": 10,
+			"value": 50000,
+			"weaponCategory": "exotic",
+			"property": [
+				"GS",
+				"F",
+				"V",
+				"RE",
+				"AM",
+				"S"
+			],
+			"dmg1": "1d6",
+			"dmg2": "1d8",
+			"dmgType": "S",
+			"reload": "1",
+			"ammo": "5 gp for 5",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"You may not benefit from the rogue's Sneak Attack feature while using this weapon two-handed. This weapon can be chosen as a kensei weapon."
+					]
+				}
+			]
+		},
+		{
 			"name": "Odachi",
 			"source": "WB: RD",
 			"type": "M",
@@ -4299,6 +4332,19 @@
 			]
 		},
 		{
+			"abbreviation": "GS",
+			"source": "WB: RD",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Gunsword",
+					"entries": [
+						"As an attack action, you can expend one ammunition from your gunsword to make a special attack against one target within 10 feet of you. This attack must use your Dexterity. On a hit, that target takes a flat {@dice 2d6} fire damage (or {@dice 1d8} if one-handed) and is knocked back 5 feet. You can only make this special attack once per turn."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "SC",
 			"source": "WB: RD",
 			"entries": [
@@ -4438,7 +4484,7 @@
 					"type": "entries",
 					"name": "Power Shot",
 					"entries": [
-						"As a bonus action, you draw your next shot with all your strength. If your next attack made withthis weapon successfully hits, it deals additional damage equal to one of its weapon damage die."
+						"As a bonus action, you draw your next shot with all your strength. If your next attack made with this weapon successfully hits, it deals additional damage equal to one of its weapon damage die."
 					]
 				}
 			]

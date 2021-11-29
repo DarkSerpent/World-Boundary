@@ -273,6 +273,25 @@
 			]
 		},
 		{
+			"name": "Squall",
+			"source": "WB: RD",
+			"prerequisite": [{
+				"other": "Proficiency in gunswords"
+			}],
+			"entries": [
+				"The gunblade is not a simple weapon—its weight and unbalanced nature requires the hilt to be deftly weaved near the edges of your fingertips, oftentimes causing a loosened grip which enemies can take advantage of. You have trained away this weakness, and as of recent memory, you have sought to go even higher. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can reload gunswords as a bonus action on your turn a number of times equal to your proficiency bonus. You regain all expended uses of this feature on a long rest.",
+						"The range of the Gunsword property increases to 20 feet while you are wielding a gunsword. You also add your Dexterity modifier to the damage of the Gunsword property.",
+						"When you attack a creature within 5 feet of you, you can immediately fire a blank, causing the weight of your gunsword to throw you back. You move to an unoccupied space within 5 feet of you without provoking opportunity attacks. You can only use this feature once per turn.",
+						"When you fire a blank to disengage, you can choose to expend one ammunition as part of the attack. When you do so, that attack deals an additional {@dice 1d6} fire damage, and you move an additional 5 feet without provoking opportunity attacks. "
+					]
+				}
+			]
+		},
+		{
 			"name": "Quarrel Shooter",
 			"source": "WB: RD",
 			"prerequisite": [{
