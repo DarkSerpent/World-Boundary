@@ -1681,7 +1681,7 @@
 								},
 								{
 									"entries": [
-										"{@b Arm.} The target drops their weapon in hand is unable to use that limb until the end of their next turn. "
+										"{@b Arm.} The target drops their weapon in hand and is unable to use that limb until the end of their next turn. "
 									],
 									"type": "entries"
 								},
