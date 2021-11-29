@@ -1615,6 +1615,51 @@
 			]
 		},
 		{
+			"name": "Rioting Vanguard",
+			"source": "WB: RD",
+			"prerequisite": [{
+				"other": "Proficiency with hand mortars"
+			}],
+			"entries": [
+				"You have a greater understanding of explosive weapons than most others, taking full advantage of their destructive properties. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You decrease the misfire score of any weapon with the explosive property by 1.",
+						"As a bonus action, you can enter the Rioting stance with your hand mortar and gain the listed benefits (shown below). You can use this bonus action only if you haven't moved this turn, and after you use this bonus action, your movement speed becomes 0 until the end of the current turn."
+
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [{
+									"entries": [
+										"{@b Props to the King.} Your normal and long range with a hand mortrar is doubled."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+										"{@b Steady Hands.} Once per turn when you make an attack with a hand mortar, you can ignore the reload property."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+										"{@b Here There Be Dragons.} Whenever a flying creature fails their saving throw against your hand mortar's explosive property, they must make an additional Strength saving throw against your hand mortar's save DC or immediately descend 60 feet towards the ground. If they would collide with the ground as part of this movement, they are knocked {@condition prone}."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Rioting"
+							}
+				},
+						"You can leave the Rioting stance on your turn as a bonus action."
+			]
+		},
+		{
 			"name": "Dark One's Grit",
 			"source": "WB: RD",
 			"prerequisite": [{
@@ -1625,7 +1670,9 @@
 				{
 					"type": "list",
 					"items": [
-						"Whenever you attack with a dagger on your turn via throwing, you determine the trajectory of the dagger by choosing one Shadowmance from the list below.",
+						"Whenever you attack with a dagger on your turn via throwing, you determine the trajectory of the dagger by choosing one Shadowmance from the list below."
+					]
+				},
 						{
 							"type": "inset",
 							"name": "",
@@ -1651,8 +1698,6 @@
 							"data": {
 								"overwrite": "Shadowmance"
 							}
-				}
-					]
 				}
 			]
 		},
