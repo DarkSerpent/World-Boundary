@@ -1382,7 +1382,7 @@
 			]
 		},
 		{
-			"name": "Engineering Kit",
+			"name": "Mechanic Tools",
 			"source": "WB: RD",
 			"type": "AT",
 			"rarity": "none",
@@ -1393,12 +1393,12 @@
 					"type": "entries",
 					"name": "Fixer Upper",
 					"entries": [
-						"This kit includes a soldering gun, wires, clips, wire cutters and various diagnostic tools. Proficiency with this kit lets you add your proficiency bonus to any ability check you make to repair electrical devices and to disarm planted explosives."
+						"This kit includes basic tools for repairing cars and motorcycles (mechanics included in our Vehicle Rules document)."
 					]
 				},
 				{
 					"type": "table",
-					"caption": "Engineering Kit",
+					"caption": "Mechanic Tools",
 					"colLabels": [
 						"Activity",
 						"DC"
@@ -1439,6 +1439,117 @@
 						[
 							"Repair {@dice 1d6} + your Intelligence modifier vehicle hit points",
 							"15 + 1 hour"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Engineering Kit",
+			"source": "WB: RD",
+			"type": "AT",
+			"rarity": "none",
+			"weight": 6,
+			"value": 15000,
+			"additionalEntries": [
+				{
+					"type": "entries",
+					"name": "Front Line Technician",
+					"entries": [
+						"This kit includes a soldering gun, wires, clips, wire cutters and various diagnostic tools. Proficiency with this kit lets you add your proficiency bonus to any ability check you make to repair electrical devices and to disarm planted explosives."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Engineering Kit",
+					"colLabels": [
+						"Activity",
+						"DC"
+					],
+					"colStyles": [
+						"col-7",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"Repair electrical device",
+							"10"
+						],
+						[
+							"Disarm planted explosive (such as plastic explosives)",
+							"15"
+						],
+						[
+							"Disable mechanical security device (such as a turret)",
+							"15"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Spy Kit",
+			"source": "WB: RD",
+			"type": "AT",
+			"rarity": "none",
+			"weight": 6,
+			"value": 15000,
+			"additionalEntries": [
+				"This kit includes items such as camera detectors, sound amplifier, small cameras and microphones, noise generators, frequency and cell phone detectors and tracers. You might need a computer, a smartphone or a tablet to use some elements of this kit.",
+				{
+					"type": "entries",
+					"name": "Microphone",
+					"entries": [
+						"Functions identitically to a {@item recorder}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Camera Detector",
+					"entries": [
+						"A small device that sends an electromagnetic pulse around walls and sends back signature data of cameras and sensors. Gives a detailed report on how many cameras may be within a 100-foot radius."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cellphone Tracer",
+					"entries": [
+						"Allows the tracing of unprotected calls on open lines. Gives detailed information on the caller's current location, although is not immune to being spoofed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Noise Generator",
+					"entries": [
+						"Generates white noise to blot out sounds of conversation from a listener more than 20 feet away. Uses the same technology as noise-cancelling headphones."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sound Amplifier",
+					"entries": [
+						"When pointed in the general direction of a sound, amplifies that sound, potentially allowing an inaudible conversation to become audible. Rather bulky and difficult to use."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Engineering Kit",
+					"colLabels": [
+						"Activity",
+						"DC"
+					],
+					"colStyles": [
+						"col-7",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"Successfully use any spy kit device (other than a camera detector or cellphone tracer)",
+							"10"
+						],
+						[
+							"Get accurate data from a camera detector or cellphone tracer",
+							"15"
 						]
 					]
 				}
