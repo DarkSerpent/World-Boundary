@@ -4666,6 +4666,702 @@
 			}
 		},
 		{
+			"name": "Droneswarm",
+			"source": "WB: RD",
+			"level": 3,
+			"school": "C",
+			"meta": {
+				"technomagic": true
+			},
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a graphics card worth at least 25 gp"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A large swarm of drones fill a 10-foot-radius sphere centered on a point you choose within range. The sphere spreads around corners. The sphere remains for the duration, and all ranged attacks going through any space of the sphere has disadvantage. The sphere's area is considered difficult terrain.",
+				"When you cast this spell, you can immediately make a ranged spell attack against a creature within 60 feet of the sphere. This attack has advantage on creatures inside the sphere, instead of disadvantage. On a hit, that target takes {@dice 2d6} piercing damage.",
+				"As a bonus action on your turn, you can move the sphere up to 30 feet and repeat the attack against a creature within 60 feet of it."
+				],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th or higher, the damage increases by {@dice 1d6} for each slot level above 3nd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Electromagnetic Blast",
+			"source": "WB: RD",
+			"level": 5,
+			"school": "V",
+			"meta": {
+				"technomagic": true
+			},
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You send out a blast of electromagnetism, centered on a point you choose within range. Each creature in a 20-foot-radius sphere centered on that point must make an Intelligence saving throw. On a failed save, all of its cyberware, electronics, or items with the technological tag being worn or carried by them lose their function for the duration. If the creature is a construct or machine, it is {@condition paralyzed} for the duration instead.",
+				"At the end of each of its turns, an affected target can make an Intelligence saving throw. If it succeeds, this effect ends for that target.",
+				"All electronic devices in the area that are not being worn or carried turn off and cannot be turned on for the duration."
+				],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th-level, the radius is 60 ft. When you use a 7th-level slot, the radius is 120 ft. When you use an 8th-level slot, the radius is 250 ft. When you use a 9th-level slot, the radius is 500 ft."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Electromagnetic Pulse",
+			"source": "WB: RD",
+			"level": 3,
+			"school": "V",
+			"meta": {
+				"technomagic": true
+			},
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You send out an electromagnetic pulse towards a target, disabling their technological effects. Choose one creature, electronic device, or item with the technological tag within range, and apply the following effects depending on the target:",
+				{
+					"type": "list",
+					"items": [
+						"If the target is a creature, it must make an Intelligence saving throw. On a failure, all of it's cyberware and any other electronics that are a part of its body lose function for the duration (this does not affect items with the technological tag).",
+						"If the creature is a construct or machine and it fails the saving throw, it is {@condition paralyzed} for the duration instead. At the end of each of its turns, the target can make another Intelligence saving throw, ending the effect on a success.",
+						"If the target is an electronic device, it turns off and cannot be turned on for the duration.",
+						"If the target is an item with the technological tag, it is disabled similarly to the effects of {@spell antimagic field} on magic items. A creature who is holding or wearing the item can make an Intelligence saving throw at the end of each of their turns, ending this effect on a success."
+					]
+				}
+				],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, you can make one additional target for each slot level above 2nd. The targets you select must be within 30 feet of each other."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Hotwire",
+			"source": "WB: RD",
+			"level": 1,
+			"school": "T",
+			"meta": {
+				"technomagic": true
+			},
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You cause a vehicle within range to unlock any outward facing doors and to start running (if it was not already). If a creature is within the vehicle, they can make a Dexterity saving throw to keep the doors locked."
+				],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, you can target one additional vehicle for each slot level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Word on the Street",
+			"source": "WB: RD",
+			"level": 3,
+			"school": "D",
+			"meta": {
+				"ritual": true,
+				"technomagic": true
+			},
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a blank piece of paper worth at least 5 gp"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You call upon the people of the city, drawing in rumors and printing them onto a large piece of paper. When you cast this spell, writing forms on the paper as if it were an official company-owned newspaper describing various rumors and events happening in the city, though nothing that an average person wouldn't be able to learn given time.",
+				"The newspaper has up to three facts of your choice from the following list. You may choose an option more than once. Unless otherwise stated, you can choose the general category (such as actors, celestials, or marketplaces) you would like to learn about, but not specific locations or creatures.",
+				{
+					"type": "list",
+					"items": [
+						"A recent or future event which a faction of your choice participated or will participate in.",
+						"Details about a powerful (CR 1 or higher) creature in the city.",
+						"A scandal involving celebrities or politicians.",
+						"The location of a semi-hidden area, such as a gray market or gang hideout.",
+						"A recent crime of your choice and the main suspects.",
+						"A conspiracy theory about something in the city."
+					]
+				},
+				"At the DM's discretion, you may choose to learn a fact not on this list, but it should give no more secret than those described above.",
+				"Once you have chosen, the DM reports back rumors that correspond with your choices to appear on your magic newspaper.  They may not always be important, usable, or true, but it is encouraged for the DM to have at least one rumor which is true and beneficial."
+				],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, you can ask an additional question for every slot level above 3rd. Using a spell slot of 6th level or higher also allows you to choose specific locations and creatures to learn about."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Watchful Eye",
+			"source": "WB: RD",
+			"level": 2,
+			"school": "D",
+			"meta": {
+				"ritual": true,
+				"technomagic": true
+			},
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 150
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a camera lens"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"You create a series of magical cameras which seek to provide you with security and information. Choose an area within range no larger than a 60-foot cube.",
+				"Until the spell ends, you are aware of when any creature enters the area, and can use an action to see the area as if you were from the perspective of a point in the cube until the start of your next turn. You cannot see anything that lies outside the area you selected.",
+				"Once you move further than 1 mile from the designated area, the spell ends."
+				],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Trojan Spell",
+			"source": "WB: RD",
+			"level": 4,
+			"school": "A",
+			"meta": {
+				"technomagic": true
+			},
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "unlimited"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a powdered diamond worth at least 500 gp, which the spell consumes"
+			},
+			"duration": [
+				{
+					"type": "Special"
+				}
+			],
+			"entries": [
+				"When you cast this spell, you send a text, email, or other digital message with a file attached that unleashes a spell on the recipient. You must have the target's contact information, and you may only send the message to one creature. ",
+				"As part of casting this spell, you store a prepared spell of 3rd level or lower in the message. You do not need to expend a spell slot for the stored spell, but you must still use any material components with costs. The spell must target a single creature or an area, and the spell being stored has no immediate effect when cast in this way.",
+				"When a creature sees the message, they must make a Charisma saving throw. On a failure, they are filled with intense curiosity, compelling them to click on the message and open the file. On a success, the creature is not compelled, but may still open the file.",
+				"A creature who is proficient in hacking tools can make an hacking tools check with a DC equal to your spell save DC. On a successful check, they see the file as being suspicious, similar to how one might regard a phishing site or equivalent. A creature who is proficient in at least one technomagic spell can also make a Intelligence (Arcana) check, but on a success, the creature determines the file's true nature.",
+				"When the attached file is opened, the stored spell is cast. If the spell has a target, it targets the creature that opened the file. If the spell affects an area, the area is centered on that creature. If the spell summons hostile creatures or creates harmful objects or traps, they appear as close as possible to the recipient and attack it. If the spell requires concentration, it lasts until the end of its full duration."
+				],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, you can store any spell of up to the same level as the slot - 1. Alternatively, you can send the file to an additional creature whose contact information you have for every two slots levels above 4th level."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Terms and Conditions",
+			"source": "WB: RD",
+			"level": 5,
+			"school": "E",
+			"meta": {
+				"ritual": true,
+				"technomagic": true
+			},
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a signed written, typed, or digital contract"
+			},
+			"duration": [
+				{
+					"type": "Special"
+				}
+			],
+			"entries": [
+				"When you cast this spell, you bind the souls of two parties to a contract, forcing them to adhere to it or suffer dire penalties. If the contract used as the material component for this spell was signed by both parties willingly, without the use of magic or forgery, then the contract becomes magically binding.",
+				"The duration of the spell is equal to the amount of time that the contract is binding, up to 1 year. When you cast this spell, choose one of the following penalties for each party for violating the contract. At the DM's discretion, you may choose an alternative effect for violating the contract, but it should be no more powerful than those described below.",
+				{
+					"type": "list",
+					"items": [
+						"{@bold Agony.} Every day at dawn, the creature takes 6d6 psychic damage. If this damage reduces the creature to 0 hit points, the creature falls unconscious and is stable.",
+						"{@bold Claimed Soul.} If the creature dies, their soul belongs to the other party, spiritually tied to the contract. The creature can be restored to life only by means of a wish spell. If the duration of the spell ends and the creature is not in accordance with the terms of the contract, this effect lasts until dispelled.",
+						"{@bold Death.} Every day at dawn, the creature takes 1d6 necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken. The target dies if this effect reduces its hit point maximum to 0.",
+						"{@bold Misfortune.} The creature has disadvantage on saving throws. Additionally, when the creature rolls a natural 20 for an attack roll, ability check, or saving throw, they instead treat that roll as if it were a 1.",
+						"{@bold Sickness.} The creature has disadvantage on ability checks."
+					]
+				},
+				"Once both creatures have agreed to the contract, the spell takes effect. If either creature is ever in violation of the terms of the contract, down to the letter, it suffers the effects of its chosen penalty. The penalty is in effect until the creature is in accordance with the terms of the contract.",
+				"This spell can be ended early if both creatures verbally agree to end it while within 10 feet of each other, so long as neither creature is suffering from the {@condition charmed} condition. A {@spell remove curse}, {@spell greater restoration}, or {@spell wish} spell also ends this spell if it is cast using a spell slot equal to or higher than the spell slot used to cast terms and conditions. If the spell ends early, both creatures become aware of it."
+				],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, the maximum duration of the contract increases by 1 year for each slot above the 5th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Record Self",
+			"source": "WB: RD",
+			"level": 1,
+			"school": "E",
+			"meta": {
+				"technomagic": true
+			},
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a signed written, typed, or digital contract"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"During the duration of the spell, all your thoughts, emotions, and senses are recorded. Once the spell ends, everything experienced is placed onto the empty memory stick or spell scroll used in the casting of the spell.",
+				"If the material used was a memory stick, it can be placed into a device to allow the experience to play as a video. A creature can also use an action to hold the memory stick or spell scroll and experience the recording in real time as if they were the caster, including all the thoughts and emotions the caster experienced.",
+				"While you re-experience the recording, you may remove any parts of it that you wish, including specific thoughts, chunks of time, and entire senses."
+				],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
 			"name": "Nightmare Sphere",
 			"source": "WB: RD",
 			"level": 2,
