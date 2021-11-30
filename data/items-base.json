@@ -1288,6 +1288,163 @@
 			]
 		},
 		{
+			"name": "Hacking Tools",
+			"source": "WB: RD",
+			"type": "AT",
+			"rarity": "none",
+			"weight": 5,
+			"value": 15000,
+			"additionalEntries": [
+				{
+					"type": "entries",
+					"name": "Hacker's Best Friend",
+					"entries": [
+						"This kit contains the hardware and software necessary to allow access into most computer systems and electronic devices such as automatic port scanning, banner grabbing, footprinting, SQL Injection, web application vulnerability search, DDoS tools and data sniffing. Proficiency with hacking tools lets you add your proficiency bonus to any Intelligence checks you make to connect to or make use of a computer system or electronic device. The kit fits snugly in a backpack or toolbox. You might need a computer, a smartphone or a tablet to use some elements of this kit."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Hacking Tools",
+					"colLabels": [
+						"Activity",
+						"DC"
+					],
+					"colStyles": [
+						"col-10",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"Unlock a simple mobile phone with a PIN",
+							"10"
+						],
+						[
+							"Set up kernel-level access into an unprotected admin server",
+							"15"
+						],
+						[
+							"Intrude into a secure databank owned by a low-to-middling company",
+							"20"
+						],
+						[
+							"Find vulnerabilities in a security system's defenses",
+							"15"
+						],
+						[
+							"Disable an item with the technological tag for 1 hour",
+							"20"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Forensics Kit",
+			"source": "WB: RD",
+			"type": "AT",
+			"rarity": "none",
+			"weight": 10,
+			"value": 15000,
+			"additionalEntries": [
+				{
+					"type": "entries",
+					"name": "On the Case",
+					"entries": [
+						"This kit includes bindle paper, sterile swabs, distilled water, evidence seals/tape, footwear casting materials, personal protective equipment, test tubes and various other tools for collecting evidence at crime scenes without contaminating it. Proficiency with this kit lets you add your proficiency bonus to any ability check you make to investigate any area or body considered as a crime scene."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Forensics Kit",
+					"colLabels": [
+						"Activity",
+						"DC"
+					],
+					"colStyles": [
+						"col-10",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"Discover crime scene evidence (such as fingerprints, footwear, protecive equipments, suspicious liquids, etc.)",
+							"15"
+						],
+						[
+							"Imprint a suspect's fingerprint onto a canvas",
+							"10"
+						],
+						[
+							"Identify or match a fingerprint",
+							"15"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Engineering Kit",
+			"source": "WB: RD",
+			"type": "AT",
+			"rarity": "none",
+			"weight": 15,
+			"value": 15000,
+			"additionalEntries": [
+				{
+					"type": "entries",
+					"name": "Fixer Upper",
+					"entries": [
+						"This kit includes a soldering gun, wires, clips, wire cutters and various diagnostic tools. Proficiency with this kit lets you add your proficiency bonus to any ability check you make to repair electrical devices and to disarm planted explosives."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Engineering Kit",
+					"colLabels": [
+						"Activity",
+						"DC"
+					],
+					"colStyles": [
+						"col-7",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"Discover the issue assailing an automobile",
+							"10"
+						],
+						[
+							"Repair a singular wheel for any vehicle",
+							"10"
+						],
+						[
+							"Repair an overheating engine",
+							"5"
+						],
+						[
+							"Repair a threatening engine",
+							"10"
+						],
+						[
+							"Repair a dangerous engine",
+							"15"
+						],
+						[
+							"Repair an emergency engine",
+							"20"
+						],
+						[
+							"Repair a completely failed engine",
+							"25 + 1 hour"
+						],
+						[
+							"Repair {@dice 1d6} + your Intelligence modifier vehicle hit points",
+							"15 + 1 hour"
+						]
+					]
+				}
+			]
+		},
+		{
 			"name": "The Beginner's Blade",
 			"source": "RS",
 			"rarity": "uncommon",
