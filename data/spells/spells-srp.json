@@ -4131,6 +4131,541 @@
 			}
 		},
 		{
+			"name": "Analyze Security",
+			"source": "WB: RD",
+			"level": 4,
+			"school": "D",
+			"meta": {
+				"technomagic": true
+			},
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 500
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a blank blueprint worth at least 5 gp"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You recreate an image of a building within range, placing it onto the blueprint. You learn the general layout of the building, as well as the details of any security device in the building such as cameras, turrets, and alarms.",
+				"Some buildings and environments may be reinforced technologically or magically to prevent the use technomagic divination. In this event, the DM may request you make a check using your spellcasting ability modifier against the DC of the building's defenses (determined by the DM).",
+				"On a successful check, you gain the information and produce a blueprint as normal. On a failed save, you gather no information, and the building's security system is alerted that someone attempted to cast a divination spell within the premises, but not who or where the spell came from. You know if a building is protected before you cast this spell.",
+				"Any creature who reads the blueprint for 10 minutes gains advantage on any ability check dealing with the building's security system, and avoiding traps or gunfire from known obstacles."
+				],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Arcane Tracker",
+			"source": "WB: RD",
+			"level": 2,
+			"school": "D",
+			"meta": {
+				"technomagic": true
+			},
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a blank blueprint worth at least 5 gp"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You stealthily place a magical tracker on a creature or object that you touch and connect that tracker to a physical piece of technology (such as a phone, laptop, or PDA). For the duration of the spell, and for long as you have access to that device, you know the exact location of the target so as long as they are on the same plane of existence.",
+				"Casting this spell does not alert the creature that you casted a spell, but you still must make physical contact with them to actuate it.",
+				"If a creature uses an action to examine the target, they can realize the target is being tracked with a successful Intelligence (Investigation) check against your spell save DC. The creature does not need to roll or cast dispel magic to disable the tracker, so long as they are aware of it.",
+				"If the target enters an area that would jam technological communications (such as a reinforced tunnel or an area under the effects of an EMP), you temporarily lose their position until they reenter an area that does not fall under these conditions. You are aware the last area they were present at before they disappeared."
+				],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Bolster Security",
+			"source": "WB: RD",
+			"level": 2,
+			"school": "A",
+			"meta": {
+				"technomagic": true
+			},
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "gold dust worth at least 100 gp, which the spell consumes"
+			},
+			"duration": [
+				{
+					"type": "special"
+				}
+			],
+			"entries": [
+				"You touch a computer and improve its defenses against hacking and magic. While affected by this spell, the computer is more difficult to hack; the DC to hack it increases by 10.",
+				"In addition, any spell or other magical affect targeting the computer has no affect. This does not stop this spell from being targeted by spells such as {@spell dispel magic}."
+				],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Broadcast",
+			"source": "WB: RD",
+			"level": 4,
+			"school": "T",
+			"meta": {
+				"technomagic": true
+			},
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "miles",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a camera"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You broadcast a message to every monitor, television, phone, and radio within range. You can choose what appears visually, such as an emblem or a video of you.",
+				"For the duration, any affected device relays anything you say to creatures who can hear them."
+				],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, the range is 100 miles. When you use an 8th level slot, the range is 1000 miles. When you use a 9th level slot, all devices on the plane are affected."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Call",
+			"source": "WB: RD",
+			"level": 0,
+			"school": "D",
+			"meta": {
+				"technomagic": true
+			},
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "unlimited"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Choose a creature that you have contact information for, such a phone number, radio call sign, or handle. That creature's device that you have contact information for alerts them as if they were being called. If the device normally shows who is calling, it shows your full name. If they answer, you can speak to them as if you were operating a similar device.",
+				"You can also target a creature who has the call cantrip to call them. They mentally see your name when you do this, and can choose to accept or decline the call. If they choose to decline, you cannot choose them as the target of this spell for 1 hour.",
+				"If a creature is in another plane, or their device is off, then the spell fails."
+				],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Create Cybernetic",
+			"source": "WB: RD",
+			"level": 3,
+			"school": "C",
+			"meta": {
+				"technomagic": true
+			},
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a ingot of titanium worth 200 gp, which is consumed"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You touch a creature and create a cybernetic which replaces one of their missing body parts. This cybernetic works exactly like the original body part, but is susceptible to effects targeting electronics."
+				],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Data Thief",
+			"source": "WB: RD",
+			"level": 2,
+			"school": "T",
+			"meta": {
+				"technomagic": true
+			},
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "an empty memory stick worth at least 5 gp"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You touch a computer and instantly copy all of the files stored on the computer onto the memory stick. Any files that are password protected or encrypted are still that way when copied. The memory stick can hold any amount of data from one computer at once."
+				],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Detect Tech",
+			"source": "WB: RD",
+			"level": 1,
+			"school": "D",
+			"meta": {
+				"ritual": true,
+				"technomagic": true
+			},
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"For the duration, you sense the presence of electronics within 30 feet of you. If you sense electronics in this way, you can use your action to see a faint aura around any visible creature or object in the area that uses electricity, and you learn its basic function, if any. For example, you could learn that a small orb is actually a camera, but not where its footage is going or where it can see.",
+				"The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+				],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
 			"name": "Nightmare Sphere",
 			"source": "WB: RD",
 			"level": 2,
