@@ -596,7 +596,7 @@
 			"rarity": "none",
 			"weight": 0.2,
 			"type": "Technological Item",
-			"value": 50000,
+			"value": 25000,
 			"entries": [
 				"A mobile phone that performs many of the functions of a computer, typically having a touchscreen interface, Internet access, and an operating system capable of running downloaded applications.",
 				"There are many things a smartphone has access to, which includes but are not limited to:",
@@ -726,7 +726,7 @@
 			"rarity": "none",
 			"weight": 0.5,
 			"type": "Technological Item",
-			"value": 35000,
+			"value": 10000,
 			"entries": [
 				"This small metal device fits in your hand like a charm, and is loosely equipped with a few functions, the primary of which allow its user to record the vocal utterances of another creature.",
 				"This device can record up to five minutes of audio without stopping, and while you cannot record more than five minutes, you can delete your previous recordings in order to free-up space. Whenever you finish recording a creature, ask your DM how much time elapsed to determine how much space you have left in your recorder.",
