@@ -1770,6 +1770,23 @@
 			]
 		},
 		{
+			"name": "Mental Acuity",
+			"source": "WB: RD",
+			"ability": [{
+				"int": 1
+			}],
+			"entries": [
+				"Your mind is a wonderful thing, capable of bursts of insight and mental fortitude. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain one Unyielding Mind die, which is a {@dice d6}. When you make an Intelligence, Wisdom, or Charisma ability check or saving throw you can expend this die, adding it to your roll. You can add this bonus after you roll, but before you know if you succeed or fail. You regain your expended Unyielding Mind dice when you finish a short or long rest.",
+						"The die is added to any Unyielding Mind dice you have from another source, and scales in size with them."
+					]
+				}
+			]
+		},
+		{
 			"name": "Beyond Tradition",
 			"source": "WB: RD",
 			"prerequisite": [{
