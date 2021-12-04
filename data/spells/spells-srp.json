@@ -160,7 +160,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Warlock",
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Paladin",
 						"source": "PHB"
 					},
 					{
@@ -169,6 +173,26 @@
 					},
 					{
 						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
 						"source": "PHB"
 					}
 				]
@@ -1684,7 +1708,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Paladin",
 						"source": "PHB"
 					},
 					{
@@ -1692,11 +1720,27 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Warlock",
+						"name": "Wizard",
 						"source": "PHB"
 					},
 					{
 						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
 						"source": "PHB"
 					}
 				]
@@ -1747,11 +1791,7 @@
 						"source": "ERLW"
 					},
 					{
-						"name": "Cleric",
-						"source": "PHB"
-					},
-					{
-						"name": "Bard",
+						"name": "Paladin",
 						"source": "PHB"
 					},
 					{
@@ -1760,6 +1800,22 @@
 					},
 					{
 						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
 						"source": "PHB"
 					},
 					{
@@ -1814,11 +1870,7 @@
 						"source": "ERLW"
 					},
 					{
-						"name": "Cleric",
-						"source": "PHB"
-					},
-					{
-						"name": "Bard",
+						"name": "Paladin",
 						"source": "PHB"
 					},
 					{
@@ -1827,6 +1879,22 @@
 					},
 					{
 						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
 						"source": "PHB"
 					},
 					{
@@ -3505,6 +3573,14 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -3566,6 +3642,10 @@
 						"source": "ERLW"
 					},
 					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -3579,6 +3659,14 @@
 					},
 					{
 						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
 						"source": "PHB"
 					},
 					{
@@ -3640,6 +3728,10 @@
 					{
 						"name": "Artificer",
 						"source": "ERLW"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
 					},
 					{
 						"name": "Sorcerer",
@@ -3718,6 +3810,10 @@
 						"source": "ERLW"
 					},
 					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -3785,6 +3881,10 @@
 						"source": "ERLW"
 					},
 					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -3844,6 +3944,10 @@
 					{
 						"name": "Artificer",
 						"source": "ERLW"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
 					},
 					{
 						"name": "Sorcerer",
@@ -4249,6 +4353,10 @@
 						"source": "ERLW"
 					},
 					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -4262,6 +4370,14 @@
 					},
 					{
 						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
 						"source": "PHB"
 					},
 					{
@@ -4312,6 +4428,10 @@
 						"source": "ERLW"
 					},
 					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -4325,6 +4445,14 @@
 					},
 					{
 						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
 						"source": "PHB"
 					},
 					{
@@ -4390,6 +4518,10 @@
 						"source": "ERLW"
 					},
 					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -4403,6 +4535,14 @@
 					},
 					{
 						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
 						"source": "PHB"
 					},
 					{
@@ -4457,6 +4597,10 @@
 						"source": "ERLW"
 					},
 					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -4470,6 +4614,14 @@
 					},
 					{
 						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
 						"source": "PHB"
 					},
 					{
@@ -4519,6 +4671,10 @@
 						"source": "ERLW"
 					},
 					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -4532,6 +4688,14 @@
 					},
 					{
 						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
 						"source": "PHB"
 					},
 					{
@@ -4581,6 +4745,10 @@
 						"source": "ERLW"
 					},
 					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -4594,6 +4762,14 @@
 					},
 					{
 						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
 						"source": "PHB"
 					},
 					{
@@ -4649,6 +4825,10 @@
 						"source": "ERLW"
 					},
 					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -4662,6 +4842,14 @@
 					},
 					{
 						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
 						"source": "PHB"
 					},
 					{
@@ -4728,6 +4916,10 @@
 						"source": "ERLW"
 					},
 					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -4741,6 +4933,14 @@
 					},
 					{
 						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
 						"source": "PHB"
 					},
 					{
@@ -4805,6 +5005,10 @@
 						"source": "ERLW"
 					},
 					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -4818,6 +5022,14 @@
 					},
 					{
 						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
 						"source": "PHB"
 					},
 					{
@@ -4889,6 +5101,10 @@
 						"source": "ERLW"
 					},
 					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -4902,6 +5118,14 @@
 					},
 					{
 						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
 						"source": "PHB"
 					},
 					{
@@ -4960,6 +5184,10 @@
 						"source": "ERLW"
 					},
 					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -4973,6 +5201,14 @@
 					},
 					{
 						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
 						"source": "PHB"
 					},
 					{
@@ -5046,6 +5282,10 @@
 						"source": "ERLW"
 					},
 					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -5059,6 +5299,14 @@
 					},
 					{
 						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
 						"source": "PHB"
 					},
 					{
@@ -5116,6 +5364,10 @@
 						"source": "ERLW"
 					},
 					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -5129,6 +5381,14 @@
 					},
 					{
 						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
 						"source": "PHB"
 					},
 					{
@@ -5191,6 +5451,10 @@
 						"source": "ERLW"
 					},
 					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -5204,6 +5468,14 @@
 					},
 					{
 						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
 						"source": "PHB"
 					},
 					{
@@ -5277,6 +5549,10 @@
 						"source": "ERLW"
 					},
 					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -5290,6 +5566,14 @@
 					},
 					{
 						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
 						"source": "PHB"
 					},
 					{
@@ -5345,6 +5629,10 @@
 						"source": "ERLW"
 					},
 					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -5358,6 +5646,14 @@
 					},
 					{
 						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
 						"source": "PHB"
 					},
 					{
