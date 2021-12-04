@@ -3901,6 +3901,14 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
 						"name": "Warlock",
 						"source": "PHB"
 					}
