@@ -1709,7 +1709,7 @@
 			"school": "I",
 			"meta": {
 				"technomagic": true
-			}
+			},
 			"time": [
 				{
 					"number": 1,
@@ -1776,7 +1776,7 @@
 			"school": "C",
 			"meta": {
 				"technomagic": true
-			}
+			},
 			"time": [
 				{
 					"number": 1,
@@ -7191,7 +7191,7 @@
 			"school": "T",
 			"meta": {
 				"technomagic": true
-			}
+			},
 			"time": [
 				{
 					"number": 1,
