@@ -33,7 +33,7 @@
 		"url": "git+https://github.com/TheGiddyLimit/TheGiddyLimit.github.io.git"
 	},
 	"devDependencies": {
-		"ajv": "^6.10.2",
+		"ajv": "^6.12.3",
 		"autoprefixer": "^9.7.1",
 		"babel-minify": "^0.5.1",
 		"eslint": "^6.6.0",
