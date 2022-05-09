@@ -219,7 +219,7 @@ class RacesPage extends ListPage {
 			buildFluffTab.bind(null, true)
 		);
 
-		Renderer.utils.bindTabButtons(traitTab, infoTab, picTab);
+		Renderer.utils.bindTabButtons(infoTab, picTab, traitTab);
 
 		ListUtil.updateSelected();
 	}
