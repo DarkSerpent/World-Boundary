@@ -2253,7 +2253,8 @@ Parser.CONDITION_TO_COLOR = {
 	"Unconscious": "#1c2383"
 };
 
-SRC_WB = "WB: RD";
+SRC_WB = "WMC";
+SRC_WBR = "WBR";
 SRC_SRP = "SRP";
 SRC_RS = "RS";
 SRC_GS = "GS";
@@ -2407,7 +2408,8 @@ UA_PREFIX_SHORT = "UA: ";
 TftYP_NAME = "Tales from the Yawning Portal";
 
 Parser.SOURCE_JSON_TO_FULL = {};
-Parser.SOURCE_JSON_TO_FULL[SRC_WB] = "World Boundary: Realms Divided";
+Parser.SOURCE_JSON_TO_FULL[SRC_WB] = "West March Custom";
+Parser.SOURCE_JSON_TO_FULL[SRC_WBR] = "World Boundary Revisions";
 Parser.SOURCE_JSON_TO_FULL[SRC_SRP] = "Seventh Sanctum RP";
 Parser.SOURCE_JSON_TO_FULL[SRC_RS] = "Restricted Shop";
 Parser.SOURCE_JSON_TO_FULL[SRC_GS] = "Guild Shop";
