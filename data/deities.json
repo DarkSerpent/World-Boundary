@@ -1,0 +1,2579 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"deity"
+		]
+	},
+	"deity": [
+		{
+			"name": "Aslanth (Alana Nosbu Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Oath",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "",
+			"domains": [
+				"Nature",
+				"Tempest"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"Aslanth, the merciless god of cold and winter, is worshiped mostly in regions that are affected by deep winters. Folk propitiate Aslanth with offerings and prayers for mercy. His priests warn others to prepare for winter, and to stock extra provisions in order to have some to spare as offerings to the god.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Aslanth, you have been granted the following three abilities at {@italic Bond Level 1}:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Archer of the Tundra (Passive)",
+							"entries": [
+								"When you make a ranged weapon attack, or a melee weapon attack with a weapon that lacks the versatile and two-handed properties, you deal an additional {@dice 1d8} cold damage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Heart of Winter (Passive)",
+							"entries": [
+								"While you are contracted to Aslanth, you do not suffer any ill effects from extreme cold (see chapter 5 of the Dungeon's Master Guide). In addition, you also gain resistance to cold damage. If you already have resistance to cold damage, it becomes immunity instead. Finally, ice does not count as difficult terrain for you, and you cannot fall {@condition prone} as a result of being on ice (unless you choose to)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Freezing Expanse",
+							"entries": [
+								"You throw up your hands as if beginning a grand show. Emerging from your feet, a thick sheet of ice forms around you in a radius of 100 feet in the symbol of a giant snowflake.",
+								"The slick ice that makes up this area is difficult terrain for everyone except for you and other followers of Aslanth. While traveling on this ice, you are permanently under the effects of the Disengage action, and your innate movement speed becomes 50 as you glide across the ice.",
+								"As an action on your turn, you can dismiss and shatter the ice around you. Hostile creatures of your choice within the snowflake must make a Dexterity saving throw. On a failed save, they take {@dice 8d8} cold damage and become {@condition restrained} for one turn. If you do not choose to dismiss this effect, it automatically shatters after 1 minute."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Aslanth",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Though the winter is long and harsh, it is not altogether evil.",
+								"With the coming of winter, frosts are harsh dangers and frigid creatures arrive not found in the summer. It is your duty to protect the innocent from these perils.",
+								"While your goal of preserving the entire world is your greatest cause, your allies must be preserved as well. Your wounds will heal, theirs might not."
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 2}, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Blessing of the Winter King (Passive)",
+							"entries": [
+								"Your resistance to cold damage becomes immunity. In addition, once per turn whenever you are subjected to cold damage, you take no damage and instead regain a number of hit points equal to the cold damage dealt."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mimicry of the Ice God",
+							"entries": [
+								"One of Aslanth's divine blessings has been bestowed upon your form, granting you the ability to transform your body into a mimicry of Aslanth. As a bonus action, you manifest an alternate state which is anatomically identical to your original, save for the fact that your body is now composed completely out of ice.",
+								"While in this form, you are immune to any spell or effect that would alter your form, and you have advantage on Constitution saving throws against magic. You also gain resistance to slashing damage, immunity to piercing damage, and vulnerability to bludgeoning damage.",
+								"This form lasts for one minute or until you are knocked {@condition unconscious}, the conclusion of which causes the ice to shatter off your body and manifest itself into the air around you. You regain one hit point and {@dice 2d6} temporary hit points. Once you use this ability, you cannot use it again until you finish a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Soul Keeping",
+							"entries": [
+								"As an action, you touch one creature that has been dead for no longer than one hour and store its soul in a shard of ice. Once the creature's soul has manifested within the shard, the ice becomes permafrosted, unable to melt by any means. In addition, the creature's consciousness is transferred to the shard, and gains the ability to telepathically communicate with any creautre within 60 feet of it.",
+								"For as long as the creature's soul is kept within the ice shard, the target's body is protected from decay and cannot become undead. This ability also effectively extends the time limit on raising the target from the dead, as days spent within the shard do not count against the time limit of spells such as {@spell raise dead}.",
+								"As a action, you can restore the creature's soul to their body. In order to do this, you must be touching the creature's body as well as the ice shard simultaneously. If the creature's body is destroyed beyond repair, then this ability fails. Crushing the ice shard at any point will immediately kill the creature.",
+								"Storing a soul in the shard prevents that creature from resurrecting at a Crystal, and prevents their body from becoming a target for spells such as {@spell true resurrection} and {@spell speak with dead}.",
+								"You cannot perform this ability more than once per week, as you need time to manifest the permafrost inside your body (which is expending upon the casting of this ability). Starting a week from when you last used this ability, it will become reavailable to be used again."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Comprel (Cali Feathermere Castellet Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Betrayer",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"title": "",
+			"domains": [
+				"Arcana",
+				"Life",
+				"Death"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"The Lady of Poisons was born a mortal on the Material Plane. As a human, she held no divinity, but she sought to harness it. Her mortal name was Otacilia, and her legend quickly grew throughout Kagrea as a famous alchemist. She was no ordinary alchemist, however⁠—the truth of the matter was, Otacilia was an assassin. Hired to kill an Arisen, she had somehow distilled a poison which could harm the gods, and before her trial that would have likely removed her soul from the cycle of rebirth, she ascended.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Comprel, you have been granted the following three abilities at {@italic Bond Level 1}:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Lady of Alchemy (Passive)",
+							"entries": [
+								"Using a consumable for yourself is a bonus action. Handing it off is an object interaction. Feeding the consumable to another character is a bonus action. In addition, you can expend a spell slot of 1st level or higher to create experimental elixirs through your Homunculus Servant, as opposed to through yourself. Finally, your Homunculus Servant's hit point maximum increases by 2 per each level of Alchemist you've obtained."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lady of Poisons (Passive)",
+							"entries": [
+								"You gain resistance to acid damage and poison damage. If you already have resistance to acid or poison damage, it becomes immunity instead."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Surpass Your Boundaries (Passive)",
+							"entries": [
+								"Each of your experimental elixirs evolve to become stronger, as determined by the following table:"
+							]
+						},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "{@b Healing.} The drinker regains a number of hit points equal to {@dice 4d4} + your Intelligence modifier."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Swiftness.} The drinker's walking speed increases by 15 feet for 1 hour."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Resilience.} The drinker gains a +1 bonus to AC and +1 bonus to saving throws for 10 minutes."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Boldness.} The drinker can roll a {@dice 2d4} and add the number rolled to every attack roll and saving throw they make for the next minute."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Flight.} The drinker gains a flying speed of 30 feet for 10 minutes."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Transformation.} The drinker's body is transformed as if by the {@spell alter self} spell. The drinker determines the transformation caused by the spell, and can select two options rather than one, the effects of which last for 10 minutes."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Boundaries"
+							}
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Comprel",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"You shall have the intelligence to realize your own ignorance.",
+								"You shall not deny the chance to learn something new.",
+								"You shall elevate the world through alchemy, and seek to bring forth new knowledge on Kagrea."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mistel (Lancelot Laurent Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Oath",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "",
+			"domains": [
+				"Order",
+				"Knighthood"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"The Arisen who represents the sword stands as the governing figure to warriors bound by oath. A prayer in her honor is uttered across every nation when bestowing the honor of knighthood, and her charismatic speeches are said to be infectious, bolstering her followers resolve and leading them to triumph on the battlefield.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Mistel, you have been granted the following three abilities at {@italic Bond Level 1}:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Aura of the Redeemed (Passive)",
+							"entries": [
+								"Your Rebuke the Violent improves to inflict fear into the hearts of those who would do evil, making it easier to restrain your target and show them the path to redemption. Whenever you use your Channel Divinity to cast Rebuke the Violent, and the attack you would reflect is a critical strike, a creature who fails their Wisdom saving throw they are also {@condition frightened} for 1 minute. The creature can repeat the saving throw at the end of each of their turns, ending the effect of their success."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "My Will Given Form",
+							"entries": [
+								"When you or an ally within 30 feet that you can see makes an attack, saving throw, or ability check roll but before the outcome is determined, you can use a reaction and expend a spell slot. If you expend a first level spell slot, roll a d4 and add the result to the previous roll. If you expend a second level spell slot, you can roll two d4s. If you expend a third or higher level spell slot, you can roll three d4s.",
+								"Once you use this feature, you cannot use it again until you finish a short or long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Fortress of the Stalwart",
+							"entries": [
+								"You can use an action to increase your AC by 2 and gain advantage on Strength, Dexterity, and Constitution saving throws for 1 minute. While you are under this effect, your movement speed decreases by half, no matter what your movement speed becomes, for the entire duration of that minute.",
+								"Once you use this feature, you cannot use it again until you finish a long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Mistel",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Don’t lie or cheat. Let your word be your promise.",
+								"Never fear to act, though caution is wise.",
+								"Aid others, protect the weak, and punish those who threaten them. Show mercy to your foes, but temper it with Wisdom."
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 2}, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Duty Heavier Than a Mountain (Passive)",
+							"entries": [
+								"You gain a +1 bonus to death saving throws."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Death as Light as a Feather",
+							"entries": [
+								"When you take damage from any source, you can reduce that damage to 0. Once you use this benefit, you can't use it again until you finish a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Bestow Knighthood",
+							"entries": [
+								"As an action, you touch the shoulder of a willing creature within 5-feet of you with your weapon. That creature receives a temporary Boon of Knighthood, joining your ranks as a Follower of Mistel.",
+								"That creature becomes bound by the Commandments of Mistel, forced to follow them even against their will. In addition, that creature receives a +2 bonus to their AC and +2 on all attack rolls they make with a ranged or melee weapon.",
+								"While that creature is within 5-feet of you, they can draw upon your connection to Mistel and utilize her power. As a bonus action, that creature can speak Mistel's name, drawing divine fury to their next attack. On a successful hit, the target takes an additional {@dice 2d6} radiant damage and must make a Wisdom saving throw (DC 12 + their proficiency bonus). On a failed save, you can use a reaction to bind that creature to the Commandments of Mistel, forcing them to follow her code as well. This effect wears off when the Boon of Knighthood dissipates.",
+								"The Boon of Knighthood lasts for 3 rounds. Once you make use of this benefit, you cannot use it again until you finish a long rest."
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 3}, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 3"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Never-Ending Purpose (Passive)",
+							"entries": [
+								"When you roll a death saving throw, you crit on a roll of 19 or 20."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Bombardment",
+							"entries": [
+								"As an action, you establish a bond with Mistel, telepathically communicating to her the coordinates at which you wish an orbital bombardment to strike.",
+								"Mistel reorients the direction of her observatory's canon to the location you specified, opening up a planar rift to which the beam can shoot through. The orbital strike takes time to charge, equal to {@dice 1d4} rounds. Once fully charged, the laser fires, bombarding the coordinates which you specified.",
+								"You and creatures that you choose up to your Charisma modifier (minimum of 1) are transported to a safe bubble in the Astral Plane for the duration of the blast as the orbital strike lands, obliterating all obstacles and creatures within a 300-foot radius. Creatures in the midst of the bombardment must make a DC 25 Constitution saving throw. On a failed save, those creatures take {@dice 10d12 + 10} aeon damage, or half as much on a successful one. This beam does double damage to objects and structures.",
+								"During the aftermath of the blast, you and each of the creatures transported to the Astral Plane can choose to reappear in a space within 30 feet of where you were transported. Mistel cannot perform this orbital bombardment more than once a month, as she must conserve the canon's power for other followers who may wish to enact this ability. Starting a month from when you last used this ability, it will become reavailable to be used again.",
+								"Mistel will refuse to strike areas, creatures, or objects which would put her in bad standing with the Adamantian Court (such as destroying one of Sraosha's castles), and she will also refuse to strike areas, creatures, or objects which would be considered an act of terrorism or evil (such as a schoolhouse or orphanage)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Grand Celestia",
+							"entries": [
+								"As an action, you open up your mind to Roach, unifying your souls and resonating with each other's consciousness. Immediately after using this ability, the ground around you erupts into radiant energy. Creatures of your choice within a 30-foot radius must make a Dexterity saving throw. On a failed save, those creatures take {@dice 3d8} radiant damage and are {@condition blinded} until the end of their next turn, only taking half damage on a success.",
+								"You and Roach then unify into one being, with the appearance of Lancelot but the abilities, skills, and consciousness of the collection. In addition, you sprout angelic wings from your back, giving you the appearance of a divine being, and your creature type becomes Celestial to match. You gain Roach's movement speeds, and they replace your own if they are higher.",
+								"While in this form, you are always considered to be mounted, and spells which target you affect you twice (if applicable). For instance, when the spell {@spell cure wounds} would be cast on you, roll the dice which determine how much you heal twice. This also means spells that negatively affect you, such as {@spell inflict wounds}, also roll their die twice. This does not mean spell such as {@spell haste} target you twice, as you are still considered to be a singular creature.",
+								"You cannot be knocked {@condition prone} in this form, you have advantage on saving throws to resist being {@condition charmed} or {@condition frightened}, you gain immunity to radiant damage, and you gain Roach's hit points before the transformation as temporary hit points. Finally, Roach grants your attacks additional power as his spirit strikes in unison with you. All attacks you make while in this form deal an additional {@dice 1d6} force damage",
+								"This form lasts for one minute, after which your temporary hit points dissipate, your speed returns to normal, and you appear atop of Roach on space at which your transformation ended. As a result of using this taxing ability, you and Roach both gain two points of {@condition exhaustion} at its aftermath. All items considered a part of Roach, but not actually equipped onto him (such as the Flying Chariot) are fused into the form, but grants bonuses from their effect.",
+								"Once you use this ability, you cannot use it again until you finish a long rest."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Bruniik (Tactus Agmulf Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Unaligned",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "",
+			"domains": [
+				"Strength",
+				"Knowledge",
+				"Ambition"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"The Lord of Training and Ambition. Bruniik will often assist those who follow him to grow in strength as well as learning how to read your enemy and use your body to it's fullest extent. Bruniik doesn't shun defeat, he uses it as an excuse to learn and improve one's skill.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Bruniik, you have been granted 5 knowledge points at {@italic Bond Level 1}, which you can spend to activate the following abilities:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Take Flight (1)",
+							"entries": [
+								"As an action, you grow two large, leathery dragon wings which you can use to fly long distances. You gain an innate flying speed of 30 feet for 10 minutes."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Your Weakness is My Strength (1)",
+							"entries": [
+								"You gain advantage on all ability checks and attack rolls you make until the end of the current turn."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dragon Tactics (2)",
+							"entries": [
+								"You have a keen eye for seizing a tactical advantage. Immediately after rolling initiative, you can choose yourself and up to three allies you can see so long as you aren't incapacitated. You can swap the initiative results of the chosen creatures among them."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Always Learning I (Passive)",
+							"entries": [
+								"You regain all expended knowledge points on a long rest, or one knowledge point on a short rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Bruniik",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Improving yourself is your top priority.",
+								"Stagnation is degradation.",
+								"Learning strength and weakness is the key to improvement."
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 2}, the amount of knowledge points you have increase to 6. In addition, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Enhance: Take Flight (3)",
+							"entries": [
+								"Immediately after using {@italic Take Flight}, you can expend 3 more knowledge points. Your innate flying speed increases to 60 feet, and the duration decreases to 1 minute."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dragon's Fortitude (2)",
+							"entries": [
+								"As a bonus action, your hit point maximum increases by 20 for 1 hour."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Flawless Combatant (Long Rest)",
+							"entries": [
+								"When you miss with a melee weapon attack, you can choose to hit instead. Once you use this benefit, you can't use it again until you finish a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Always Learning II (Passive)",
+							"entries": [
+								"You regain all expended knowledge points on a long rest, or two knowledge points on a short rest."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 3}, you gain the following additional benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+						{
+							"type": "entries",
+							"name": "Mind of the Dragon (Passive)",
+							"entries": [
+								"In addition to the other benefits you gain when using {@italic Dragon Tactics}, you can also choose up to three enemies. Those enemies have their initiatives increase by {@dice 1d4} or reduce by {@dice 1d4} (your choice)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Body of the Dragon (Passive)",
+							"entries": [
+								"In addition to the other benefits you gain when using {@italic Enhance: Take Flight}, you also gain access to {@italic Dragon's Breath} and {@italic Dragon's Roar}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dragon's Breath (Recharge 5-6)",
+							"entries": [
+								"When you use your {@italic Enhance: Take Flight}, you develop the glands to shoot raw, destructive elements from your mouth.",
+								"As an action on your turn, each creature in a 10 by 60 ft. line must make a DC 18 Dexterity saving throw. On a failed save, those creatures take {@dice 6d6} radiant damage, or half as much on a successful one."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dragon's Roar (Recharge 6)",
+							"entries": [
+								"When you use your {@italic Enhance: Take Flight}, you develop the vocal power to let loose a vicious roar, filling nearby creatures with dread.",
+								"As an action on its turn, Any number of creatures of YOUR choice within 20 feet of you must make a DC 18 Wisdom saving throw. On a failed save, creatures are frightened by you for one minute. The creature can repeat the saving throw at the end of their turn, ending the effect on a success. A creature who successfully passes the save is immune to this effect for ten minutes."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Bruniik (Ahvetina Dammor Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Unaligned",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "",
+			"domains": [
+				"Strength",
+				"Knowledge",
+				"Ambition"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"The Lord of Training and Ambition. Bruniik will often assist those who follow him to grow in strength as well as learning how to read your enemy and use your body to it's fullest extent. Bruniik doesn't shun defeat, he uses it as an excuse to learn and improve one's skill.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Bruniik, you have been granted 5 knowledge points at {@italic Bond Level 1}, which you can spend to activate the following abilities:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Scythe Mastery (Passive)",
+							"entries": [
+								"Two-handed scythes you wield deal {@dice 2d6} slashing damage instead of their normal {@dice 2d4}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Your Weakness is My Strength (1)",
+							"entries": [
+								"Whenever a creature would have disadvantage to hit either you or Aamarelzaan, you can expend one knowledge point. For that attack and any others that would target you or Aamarelzaan, that creature must reroll one of the dice once."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dragon Tactics (2)",
+							"entries": [
+								"You have a keen eye for seizing a tactical advantage. Immediately after rolling initiative, you can choose yourself and up to three allies you can see so long as you aren't incapacitated. You can swap the initiative results of the chosen creatures among them."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Always Learning I (Passive)",
+							"entries": [
+								"You regain all expended knowledge points on a long rest, or one knowledge point on a short rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Bruniik",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Improving yourself is your top priority.",
+								"Stagnation is degradation.",
+								"Learning strength and weakness is the key to improvement."
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 2}, the amount of knowledge points you have increase to 6. In addition, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Force of Presence (1)",
+							"entries": [
+								"When an attack made within 10 feet of you would target a creature other than yourself, you can expend one point. That attack targets you instead."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Body of the Dragon (2)",
+							"entries": [
+								"When you are subject to damage from a singular source, you can use a reaction to expend two points. You take half damage from that source."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "True Aspect (Long Rest)",
+							"entries": [
+								"When Aamarelzaan makes a breath weapon attack, he can choose to enter a state more in tune with his draconic brethren, allowing him to break free of the restraints of the dragonbond. For the next minute, his {@italic Breath Weapon} recharges on a roll of 5-6."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Always Learning II (Passive)",
+							"entries": [
+								"You regain all expended knowledge points on a long rest, or two knowledge points on a short rest."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Krurm (Korth Axe Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "The Big Five",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "",
+			"domains": [
+				"War",
+				"Death",
+				"Blood"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"Krurm is the most powerful Arisen in the Adamantis court by strength. His raw power is unrivaled by any of the other Arisen. He has only been bested twice in combat. Once by Archon (which he refuses to speak of) and another by Olympus. He revels in battle, and as such will often watch over his followers as they fight. However, he refuses to step in or help directly any of his followers, as he believes that would sow weakness.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Krurm, you have been granted the following three abilities at {@italic Bond Level 1}:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Guided by the God of War (5/5, Short or Long Rest)",
+							"entries": [
+								"As a bonus action, you manifest an aura of intimidation, war, and defilement. The destruction you have bore witness to shines in your eyes like the flickering flames of a dying candelight, and the area around you seems to visibly tense up as enemies in your radius are slammed back by a neigh-impossible sense of dread.",
+								"Creatures you deem appropriate within a 15-foot radius must make a Wisdom saving throw with a DC equal to 8 + your Strength modifier + your proficiency bonus. On a failed save, those creatures become {@condition frightened} until the end of their turn. You can expend two hit die when you use this ability. Those creatures must use their reaction (if available) to run up to their movement speed away from you.",
+								"A creature who passes this save becomes immune to being {@condition frightened} by you this way for the next hour. You can counteract this immunity by expending an additional two hit die. Immune creatures must make the save again or become {@condition frightened} until the end of their next turn. Immune creatures made to repeat this throw maintain their immunity to the base ability until the full hour elapses. Immune creatures cannot be forced to run away from you using their reaction."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Bloodlust",
+							"entries": [
+								"During your turn and only once per turn while you are raging, when you slay a creature with a melee weapon attack and there is an enemy creature within range of your movement speed, you can immediately move up to your speed towards the enemy creature and make one melee weapon attack at it. This attack does not count against the maximum number of extra attacks you can make when you take the attack action and your movement during this action does not count against your maximum move speed per turn.",
+								"You can use this feature an equal amount of times to your Dexterity modifier (minimum 1). You regain all expended uses on a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Arrival Impact",
+							"entries": [
+								"While raging, when you use the attack action, you can use one of your attacks to leap into the air and land in an unoccupied square 40 feet away. Upon landing, you create an elemental explosion centered on your arrival, representative of one of the many layers of the Nine Hells.",
+								"Each creature within 20 feet other than yourself and your allies must make a Dexterity saving throw against a DC equal to 8 + your proficiency bonus + your Constitution modifier. Once you use this feature, you cannot use it again until you finish a short or long rest."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "{@b Avernus.} Enemies within range take {@dice 4d8} fire damage on a failed save, or half as much on a successful one."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Dis.} Enemies within your range take {@dice 2d8} lightning damage on a failed save, or half as much on a successful one. Enemies who fail this save are also {@condition deafened} for 1 round. In addition, for the next 4 rounds whenever those creatures willingly move, they take an additional {@dice 1d8} lightning damage."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Minauros.} Enemies within your range take {@dice 2d8} poison damage on a failed save, or half as much on a successful one. Enemies who fail this save are also {@condition poisoned} for 2 rounds, and their movement speed decreases by 10 for the same duration."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Arrival Impact"
+							}
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Krurm",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Hatred is the most righteous of emotions. Use it to increase your strength, and to show no mercy.",
+								"There is no such thing as sin; only power, and those foolish enough not to take it for themselves.",
+								"When you die, die standing. To die running is the most foolhardy you can be. "
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 2}, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Blood for the Blood Lord (Passive)",
+							"entries": [
+								"Once per long rest, you can rage as a free action."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Enhance: Arrival Impact",
+							"entries": [
+								"Your {@italic Arrival Impact} can now be used on any square within 40-feet. In addition, you gain the following three additional options for your {@italic Arrival Impact}, representative of one of the many layers of the Nine Hells:"
+							]
+						},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "{@b Phlegethos.} Enemies within range take {@dice 6d8} fire damage on a failed save. In addition, they must make a Constitution saving throw with the same DC. On a second failed save, they take an additional {@dice 2d8} fire damage, gaining {@dice 2d8} temporary hit points on a successful save."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Stygia.} Enemies within your range take {@dice 3d6} cold damage on a failed save, or half as much on a successful one. In addition, suitable ground within a 30-foot radius of you becomes covered in a thick sheen of ice. This ice lasts for one minute before melting, and counts as difficult terrain for creatures other than you. When a creature ends their turn in the ice, they must make a Dexterity saving throw. On a failed save, that creature is knocked {@condition prone}."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Malbolge.} Enemies within your range take {@dice 1d8} aeon damage on a failed save. In addition, they suffer the effects of the {@spell confusion} spell for two rounds."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Arrival Impact"
+							}
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 3}, you gain the following additional benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Skulls for the Skull Throne (Passive)",
+							"entries": [
+								"The skulls you collect during your rampage grows your strength and power. When you slay an enemy and use {@italic Bloodlust} immediately after, you absorb the fallen enemy's essence. You gain a +1 bonus to your AC and saving throws for one minute. This ability stacks with itself. When you gain a new stack with this feature, the timer on the ability resets to one minute."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Enhance: Arrival Impact",
+							"entries": [
+								"Your {@italic Arrival Impact} can now be used three times per short or long rest. You cannot use two of the same variants of {@italic Arrival Impact} in the same span of time (for example, if you use Stygia, you cannot use Stygia again until you finish a short or long rest).",
+								"In addition, you gain the following three additional options for your {@italic Arrival Impact}, representative of one of the many layers of the Nine Hells:"
+							]
+						},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "{@b Maladomini (Costs 2 uses).} You snap your fingers, telekinetically bringing one enemy within your range into your grasp. Instead of all creatures in the radius making a Dexterity saving throw, the one creature you choose must instead make a Charisma saving throw with the same DC. On a failed save, you crush that creature in a brutal chokehold and launch them into the sky, where they disappear from the current plane and are put under the effects of the {@spell maze} spell. You can concentrate on maintaing this magical effect, even while raging. Upon their escape, they reappear 100 feet above the square they left, and take fall damage as normal."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Cania (Costs 2 uses).} Enemies within your range take {@dice 5d6} cold damage on a failed save, or half as much on a successful one. In addition, those creatures become encased in a thick sheet of ice, placing them under the {@condition petrified} condition for five rounds."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Nessus (Costs 3 uses).} Stones rumble as you emerge from the air, landing upon the area you designate with crushing force. Rubble kicks up into the ceiling as you arrive from the distant skies with the speed of a canonball. When your feet hit the easily malleable ground, the ground trembles with the force of an atomic bomb.",
+									   "Instead of all creatures in the radius making a Dexterity saving throw, creatures in your radius must instead make a Wisdom saving throw with the same DC. On a failed save, those creatures become {@condition frightened} of you as for the next minute, you take on the appearance, physical form, and voice of Krurm, the Lord of War and Destruction.",
+									   "Until the full minute elapses, your creature size becomes Huge, and your attacks deal an additional {@dice 1d6} aeon damage on a hit. You also gain advantage on attacks that would target a celestial, fiend, or undead. Finally, you gain a fleeting {@dice 5d10} temporary hit point shield, which disappears along with your form at the end of the minute."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Arrival Impact"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Add (Pirace the Gear Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Betrayer",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"title": "",
+			"domains": [
+				"Knowledge",
+				"Technology",
+				"Ambition"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"The Lord of Science revels in the discovery of new and unique things. An entity entirely populated by the need to know, Add would sooner dissect you than consider you a true follower. However, that also means he has no care for whether you align yourself to his ideals or not. So long as you give him data worth remembering, his power is yours to command.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Add, you have been granted 5 cybernetic points at {@italic Bond Level 1}, which you can spend to activate the following abilities.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Ascend Beyond Limits (0)",
+							"entries": [
+								"Select a combination of abilities below that add up less than or equal to the amount of cybernetic points you have available. As a bonus action, you ascend beyond your mortal limits as dynamos materialize around you, strapping themselves to your body and modifying your physical capabilities for one hour.",
+								"After one hour, the power in your dynamos run empty, causing them to dematerialize. If you are flying when this happens, you slow fall at a speed of 30 feet per round until you touch the ground. You can only use this ability once per long rest.",
+								"Some dynamos have a unique keyword known as {@italic cooldown}. Dynamos with cooldown, once used, take a number of turns to recharge equal to the number following the keyword."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "{@b Core: Flight (3).} You gain a flying speed of 30 feet. As a bonus action, you can {@italic boost}, increasing your flight speed to 45. If &quot;Legs: Speed&quot; is currently active, {@italic boost} affects that dynamo as well."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Arms: Assault (3).} As a bonus action, you can summon a dynamo missile behind you which levitates in place for one minute. As a free action whenever you take the attack action or cast a spell, you can launch any number of missiles at an enemy, which has a range of 60 feet and deals {@dice 2d4+1} damage. You can control a number of missiles equal to your Intelligence modifier levitating around you at once. At the end of one minute, the missile dematerializes and frees up a space for another missile."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Legs: Speed (1).} Your walking speed increases by 15. As a bonus action, you can {@italic boost}, increasing your walking speed by an additional 10 feet. If &quot;Core: Flight&quot; is currently active, {@italic boost} affects that dynamo as well."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Feet: Tread (2).} You ignore difficult terrain and gain advantage on Dexterity ({@skill Acrobatics}) checks to climb difficult surfaces. In addition, ground 10-feet around you becomes difficult terrain for creatures you choose."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Legs: Boosters (2).} You can take the Dodge or Disengage action as a bonus action. When you Disengage this way, you ignore features that state the creature can take an opportunity of attack against you. {@bold (Cooldown 1)}"
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Hands: Steel (1).} When you hit with an unarmed strike, you can deal {@dice 2d4} + your Intelligence modifier bludgeoning damage, instead of the normal damage for an unarmed strike. This unarmed strike counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Eyes: Sight (3).} You gain darkvision up to 120 feet and truesight up to 10 feet. You can't discern color in darkness, only shades representative of thermal vision."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Ascend Beyond Limits"
+							}
+						},
+						{
+							"type": "entries",
+							"name": "Charging (Passive)",
+							"entries": [
+								"You regain all expended cybernetic points on a long rest, or one cybernetic point on a short rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Add",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Machines are tools. Their sentience is to be ignored and used to profit.",
+								"Do not let the common social standard hinder your brilliance. Enlighten others to your craft, even against their meaningless conventions.",
+								"Exist to elevate humanity. Your mind is but a tool to further the world."
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 2}, the amount of cybernetic points you have increase to 7. In addition, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Mathematic Observation (Passive)",
+							"entries": [
+								"You always know the chemical composition of an object, regardless of the material. In addition, you gain a general knack for understanding complex computing mechanisms and operating advanced machinery. This does not mean you understand it from a hardware perspective—you only comprehend its operation."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Enhance: Ascend Beyond Limits",
+							"entries": [
+								"Your {@italic Ascend Beyond Limits} gains the following new dynamos which can be attached or summoned to your form:"
+							]
+						},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "{@b Hands: Tremor (2).} As an attack action on your turn, you can slam your hands against the ground, unleashing a massive tremor which manifests a localized earthquake at your location. Creatures you choose within 30 feet must make a Dexterity saving throw with a DC equal to 8 + your Intelligence modifier + your proficiency bonus. On a failed save, those creatures are knocked {@condition prone} and have their speed reduced to 0 until the end of their next turn. {@bold (Cooldown 2)}"
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Turret: Dynamic Core (3).} For as long as your Ascend Beyond Limits remains active, turrets you summon have their damage rolls increased by {@dice 1d8} + your Intelligence modifier."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Turret: Monodrone Surgeon (4).} For as long as your Ascend Beyond Limits remains active, protector turrets you summon have the number of temporary hit points they can restore increase by {@dice 1d8}, and they gain a fly speed of 60."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Ascend Beyond Limits II"
+							}
+						},
+						{
+							"type": "entries",
+							"name": "Charging II (Passive)",
+							"entries": [
+								"You regain all expended cybernetic points on a long rest, or two cybernetic points on a short rest."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Talos (Solitude Maximus Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Oath",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "",
+			"domains": [
+				"Trickery",
+				"Darkness",
+				"Order"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"The Lord of Assassination was not given this title lightly. Talos has perfected the art form of a clean, and unseen kill. He is a master tactician, and often is known to plan out intricate modes of attack to defeat enemies unconventionally rather than fighting head on. None would even know if you were the victim of the Master Assassin, unless he wanted others to know.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Talos, you have been granted the following three abilities at {@italic Bond Level 1}:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Father of the Abyss (Passive)",
+							"entries": [
+								"After the conclusion of combat, where your actions led to the death of one or more creatures, you can meditate for one minute. During this minute, you experience the lives of the creatures you killed in brief flourishes. While you cannot gather information this way, you become deeply intune with the emotions that creature experienced throughout their lives as you mourn their passing.",
+								"At the end of your meditation, roll {@dice 3d6} + your Charisma modifier. You gain that many temporary hit points, and you have advantage on saving throws against the {@condition charmed} or {@condition frightened} condition so long as those temporary hit points remain."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Fan of Knives",
+							"entries": [
+								"As an action, you throw your weapon, treating it as a thrown weapon for the purposes of the attack with a range of 30 feet. Your weapon strikes a number of times equal to the amount of attacks you can make per turn, as it splits into several copies and flourishes around your enemy. After you make the final attack, you can choose to teleport a number of feet equal to the distance at which you threw your weapon, to a maximum of 30, and your weapon flies back to your hand.",
+								"If you kill an enemy with this ability, you can use a bonus action to reinforce your spirit, channeling the energy of the kill into your blade. Your next attack will critically strike.",
+								"You can use this ability a number of times equal to your Dexterity modifier (minimum of once), and regain all expended uses on a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Establish Order",
+							"entries": [
+								"As an action, you hold up your weapon, causing its blade to shimmer as a beam of white light shoots down from the heavens centered on you. After a momentarily blinding blast, white energy begins to expand outwards along the ground to a radius of 60 feet from where you used the ability, as you forcefully establish order.",
+								"This aura lasts for the next minute, and all creatures within the radius of the circle are considered to be {@condition charmed} toward each other. This aura does not follow you, and remains centered on the point where you activated the ability.",
+								"While you are in the aura, as an action, you can slam your weapon into the ground. All creatures in the aura must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier). On a failed save, those creatures are knocked {@condition prone}, and their movement speed becomes 0 until the end of their next turn. When you use your action this way, the aura dissipates at the end of your turn, and the effects it has on creatures end.",
+								"Once you use this ability, you cannot use it again until your finish a short or long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Talos",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"When moving to strike, ensure your victory beforehand.",
+								"Acting on impulse is a vice that will get you and others killed.",
+								"Know your enemy, better than you know yourself."
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 2}, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Marionette (Passive)",
+							"entries": [
+								"You no longer require verbal components for your spells or arisen abilities. In addition, you can surround yourself in a veil of silence, causing your steps, weapon attacks, and environmental interactions to produce no sound."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Deathwalk",
+							"entries": [
+								"As a bonus action, you can target a corpse within 100-feet that has been dead for less than an hour. You disappear into a thin fog, transporting yourself between your current location and the corpse. You reppear at the corpse immediately or at the start of your next turn (your choice), rising from the ground in a veil of thick shadows.",
+								"Creatures within 15-feet of your arrival point who see you rise from the corpse must make a Wisdom saving throw with a DC equal to 8 + your Charisma modifier + your proficiency bonus. On a failed save, those creatures become {@condition frightened}.",
+								"You can use this ability a number of times equal to your Charisma modifier (minimum of 1), and you regain all expended uses on a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Knife in the Dark",
+							"entries": [
+								"When combat begins, you can use a reaction to take your first turn as a surprise round. Afterwards, you skip over your next turn in initiative."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Nyle (Pandoria Meridian Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Big Five",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "",
+			"domains": [
+				"Sea",
+				"Nature"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"The god of the ocean and seas. Nyle is subject to prayer by a variety of individuals who wish for safe travel through the ever-dangerous high seas, and is also subject to reverence by the various races who reside in its inner-depths.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Nyle, you have been granted the following three abilities at {@italic Bond Level 1}:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Ocean & Sea (Passive, 25/25)",
+							"entries": [
+								"At the end of your turn, if you are currently submerged or partially submerged in a body of water, you regain up to 5 hit points. You can regain up to 25 hit points this way per long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Boundary Horizon",
+							"entries": [
+								"As an action, you can establish a magical link between two large or larger bodies of water, so long as you have at least 5 feet of movement. The two bodies of water you select must include one of which you are partially submerged in, and another of which you have seen or touched at least once before. The bodies of water you select for this ability must be on the same plane of existence.",
+								"Once you use this ability, you begin to slowly submerge yourself into the water feet first, the sections of your body underneath the wave vanishing as they pass through the water's horizon. Seconds later, you appear at your destination, rising from the waves head first.",
+								"Establishing the link and transporting yourself is all performed in a single action. Once you complete the transportation, the two bodies of water become unlinked, and require another action to connect. You cannot transport any creatures other than yourself when you use this ability."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Arrival of the Sea Court",
+							"entries": [
+								"As an action, you can metamorphose any source of water you can touch into the sea, transforming your environment into an ocean with upward depth and width of up to 100 feet. This makeshift ocean is treated similar to a miniature plane of water.",
+								"While in this body of water, you can select a number of creatures up to your Charisma modifier (minimum of 1) and grant them the following benefits:",
+							{
+								"type": "list",
+								"items": [
+									"You gain a swimming speed equal to your movement speed, if you do not have one already. Futhermore, you can breathe water normally while submerged.",
+									"You gain resistance to fire damage."
+								]
+							},
+								"The makeshift ocean you create returns to its normal size after one minute. Once you use this ability, you cannot use it again until you finish a long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Nyle",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Be free. Don't let yourself be forced into submission.",
+								"Be lenient. Allow those under you to breathe, and not drown in promise.",
+								"Be understanding. Stop yourself from forcing your beliefs onto others."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Siras (Morgan Geidos Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Big Five",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"title": "",
+			"domains": [
+				"Tempest"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"Siras represents the dark side of nature. The uncaring and destructive force that might strike at any time. More specifically, he is the god of lightning and storms, and his personality is equal in measure to their bravado. He counts the ravager, the raider, the looter, and the brigand among his followers, so long as they aspire to greatness. To this account, he also includes royalty, nobles, and inventors in his repertoire of followers.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Siras, you have been granted the following four abilities at {@italic Bond Level 1}:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Lightning Crown",
+							"entries": [
+								"As an action, you hold up your hands to the skies, causing the heavens to turn gray, the furnace of the atmosphere to rumble, and the firmament of air to begin a viscous downpour that knows no end.",
+								"For the next minute, you whirl up a massive thunderstorm that threatens to disintegrate all in its path. At the end of each of your turns, the DM rolls a die to determine who the lightning clouds strike.",
+								"A lightning cloud will only seek to strike either you or those you have deemed your enemies. Your allies are not at risk for electric shock. Once you or an enemy being struck has been determined, that creature must make a Dexterity saving throw with a DC equal to 8 + your Strength modifier + you proficiency bonus.",
+								"On a failed save, that creature takes {@dice 2d10} lightning damage, or half as much on a successful one.",
+								"As a reaction to witnessing an enemy being struck by lightning, but before they make the saving throw, you can snap your fingers, redirecting the lightning...to yourself. You take {@dice 10*1d4|10 × 1d4} lightning damage, ignoring the saving throw.",
+								"Once you activate this ability, you cannot use it again until you finish a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Supercharged (Passive)",
+							"entries": [
+								"Whenever you take 10 or more lightning damage, until the end of your next turn, your Arisen abilities gain additional effects depending on the {@italic Supercharged} text appended to the ability.",
+								"Once you activate a {@italic Supercharged} effect, you lose this passive benefit until you take another 10 lightning damage. If you take 30 or more lightning damage, {@italic Supercharged} lasts for every Arisen ability you use until the end of your next turn."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Grand Chariot (2/2, Short or Long Rest)",
+							"entries": [
+								"As part of your attack action, you can throw out a cataclysmic punch of frenzious valor, channeling the Lord of Storms into your fist for a beatdown that has no equal measure. Enemies in a 100-foot line must make a Strength saving throw with a DC equal to 8 + your Strength modifier + your proficiency bonus. On a failed save, those creatures take {@dice 3d6} + your Strength modifier thunder damage, or half as much on a successful one.",
+								"<u>Supercharged.</u> All enemy creatures within the 100-foot line also take {@dice 2d10} lightning damage, without need of a saving throw. In addition, creatures who fail the first saving throw are {@condition stunned} until the end of your next turn."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Thunder Knight (1/1, Long Rest)",
+							"entries": [
+								"As part of your attack action, you slam your fist into the ground, causing rubble and debris to launch into the stratosphere. Enemies in a radius of 30-feet must make a Strength saving throw with a DC of 8 + your Strength modifier + your proficiency bonus. On a failed save, those creatures take {@dice 3d10} thunder damage.",
+								"<u>Supercharged.</u> Creatures who fail the saving throw are also knocked {@condition prone} and take an additional {@dice 1d10} lightning damage. In addition, creatures who pass the saving throw take half damage."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Siras",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Be better!",
+								"Strike harder!",
+								"Make all bow beneath your brilliance, so none may doubt your excellence!"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Calamity (Mr. Wellington Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Guardian",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "",
+			"domains": [
+				"Order",
+				"Space"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"[Insert Arisen Description Here]",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Calamity, you have been granted the following four abilities at {@italic Bond Level 1}:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Entanglement Theory (Passive)",
+							"entries": [
+								"You have 6 entanglement points, which you can expend 2 of to grant an ability Entanglement. Entanglement adds additional properties to your active abilities, and causes them to become stronger. You regain all expended entanglement points on a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Wormhole (Passive)",
+							"entries": [
+								"When you would move a distance greater than 5-feet, you can choose to end that movement by teleporting. You appear at the end of the path you transcribed, using up the required movement. Although you use movement, you do not travel between the two points, and instead simply appear at your end destination. You can move this way once per turn, and only on your turn.",
+								"If your arrival destination would leave you inside an object or barrier, you take {@dice 1d10} force damage and are immediately ejected to the closest available space.",
+								"If your arrival destination would leave you inside a creature, that creature must make a Charisma saving throw with a DC equal to 8 + your Charisma modifier + your proficiency bonus. On a failed save, that creature takes {@dice 1d10} force damage. On a successful save, you take {@dice 1d10} force damage. Then, depending on whether the creature succeeded or failed the saving throw, either you or the creature is ejected to the closest available space."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Quantum Splice (2/2, Short or Long Rest)",
+							"entries": [
+								"Whenever you or a creature within 30 feet would have disadvantage on an attack roll or saving throw, you can use a reaction. That creature no longer has disadvantage, and cannot have advantage on that attack roll or saving throw.",
+								"<u>Entangled.</u> When you target an allied creature with this ability, they no longer have disadvantage on that attack roll or saving throw, and instead gain advantage. In addition, you can target an enemy creature. That creature no longer has advantage on an attack roll or saving throw."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Time-Independent Slash (3/3, Short or Long Rest)",
+							"entries": [
+								"Whenever you would hit with a melee weapon attack, you can expend one use of this ability. You regain {@dice 1d6 + 2} hit points and gain {@dice 1d4 + 1} temporary hit points.",
+								"<u>Entangled.</u> The creature you hit must make a Constitution saving throw with a DC equal to 8 + your Charisma modifier + your proficiency bonus. On a failed save, that creature has disadvantage on attack rolls and ability checks until the end of their next turn, and takes {@dice 1d10} force damage at the start of their next turn."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Calamity",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"",
+								"",
+								""
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ceres (Malicor Shalt Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Oath",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "",
+			"domains": [
+				"Nature",
+				"Light",
+				"Darkness"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"Ceres was born under the light in the moon, at the dawn of the first century while humanity still wandered the Evermarsh, bound by the strict rules of a hunter gatherer society. She is known as the goddess of the hunt, and is generally prayed to before any large gathering operation. She is also the mother of wolves, excluding lycantrophy. However, lycans still pray to her along with their mother deity, as they are both considered two sides of the same coin, each representative of a different part of their self.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Ceres, you have been granted the following three abilities at {@italic Bond Level 1}:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Wolf Emperor (Passive)",
+							"entries": [
+								"When an ability states you assume your Wolf Emperor form, your body disappears from the Material Plane and becomes stored in the Astral Plane. While in this plane, your body is completely invulnerable from any effect weaker than your contracted Arisen.",
+								"Your senses are then transferred to a shadow wolf, which appears on the space you left. The shadow wolf has the same stats as a {@creature dire wolf|MM}, although its mental abilities (Intelligence, Wisdom, Charisma) are replaced with yours, and its AC equals 14 + your Charisma modifier. In addition, your bite scales off Charisma, rather than Strength, and you can use it as a bonus action. Finally, your Wolf Emperor form retains the same saving throws and skill proficiencies as your true form, and can speak, read, and write the same languages as you.",
+								"Entering your Wolf Emperor form requires you use a bonus action and expend three hit dice. Roll the hit dice you expend this way. You take half the amount as slashing damage.",
+								"While you are in your Wolf Emperor form, your abilities gain Wolfblood. Wolfblood replaces the original property of your ability, as well as its name. You can only use the non-Wolfblood text of your Arisen abilities in your true form, and you can only use the Wolfblood text of your Arisen abilities as a shadow wolf.",
+								"You have full control of this shadow wolf until the end of your next turn, where it vanishes and is replaced by your true form. Upon reappearing, creatures within 10 feet of you must succeed on a Charisma saving throw with a DC equal to 8 + your Charisma modifier + your proficiency bonus or be knocked back up to 30 feet in a direction you choose.",
+								"If your Wolf Emperor form would drop to 0 hit points, the shadow wolf vanishes, your true form reappears where it died, and creatures within 10 feet of you do not need to make a Charisma saving throw or be knocked back."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Consume/Pounce (Short or Long Rest, 2/2)",
+							"entries": [
+								"As an action, you reap a creature within 30 feet of you, absorbing their life essence into your own body. That creature must make a Charisma saving throw with a DC equal to 8 + your Charisma modifier + your proficiency bonus. On a failed save, that creature takes {@dice 5d6} psychic damage, and you regain one expended hit die. If you would do 20 or more damage with this ability, you can assume your Wolf Emperor form.",
+								"<u>Wolfblood.</u> As an action, instead of reaping an enemy, you instead jump to a creature within 30 feet of you without spending movement. Make an unarmed strike using your spellcasting ability modifier. On a hit, your jaws dig into that creature's flesh, causing them to take {@dice 6d6} necrotic damage and become {@condition poisoned} until the end of their next turn."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sun Barricade/Moon Strike (Long Rest, 2/2)",
+							"entries": [
+								"When a creature casts a spell of 6th-level or lower within 60 feet of you, you can use a reaction. That creature must make a contested check. You use your spellcasting ability modifier for this check, and the creature uses their own. If you succeed the contested check, the creature's spell fails, and that creature takes {@dice 3d6} radiant damage. If you would do 9 or more damage with this ability, you can assume your Wolf Emperor form at the start of your next turn.",
+								"<u>Wolfblood.</u> When a creature makes a ranged or melee weapon attack within 30 feet of you, you can use a reaction and howl. That creature must make a Charisma saving throw, with a DC equal to 8 + your Charisma modifier + your proficiency bonus. On a failed save, that creature takes {@dice 5d6} radiant damage, the attack they were currently making misses, and their attacks have disadvantage until the end of their next turn."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Ceres",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Work for humanity to strive! Keep the cycle going!",
+								"Respect nature and that which you hunt! Also, use every part of the animal.",
+								"Be optimistic! Think good of yourself and your companions."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Cosmic (Boyo the Pirate Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Old Deus",
+			"alignment": [
+				"N",
+				"N"
+			],
+			"title": "",
+			"domains": [
+				"Time",
+				"Space",
+				"Chaos"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"<strike>Cosmic is oftentimes classified as being</strike> Cosmic, alongside the Adamantian Court, is said to <strike>be placed on a pedestal made of pure granite and modeled in the Ionic style</strike> his interior is constructed of normal steel plates <strike>plays host to a small range of anomalous species and organisms, some thought to be native</strike> Cosmic is <strike>human</strike>. Looking at Cosmic <strike>leads into an alternate reality and the duplicate weapon of its length</strike> swimming pools, janitorial closets, and elevator lobbies. Boyo is <strike>s to be forcibly removed from Cosmic</strike>. <strike>Boyo is to be kept with Cosmic at all times. Boyo is to be terminated. Boyo is to be kept alive by all means necessary. Boyo is to be kept inside Cosmic. Boyo is to be placed as far away from Cosmic as possible, while still maintaining connection.</strike> Bo<strike>yo is to.</strike> Although multiple specimens have been shown to prefer live food, including rats and shower parrots. <strike>It is not certain why certain individuals have such deviation in feeding patterns</strike>.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Cosmic, you have been granted 5 manipulation points at {@italic Bond Level 1}, which you can spend to activate the following abilities:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Probability Manipulation (3)",
+							"entries": [
+								"Whenever you critically fail an ability check or an attack, you can use a reaction. That critical fail becomes a critical success."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Manipulate Luck (0)",
+							"entries": [
+								"As a bonus action, you can sacrifice any number of luck points. You gain that many manipulation points, up to your manipulation point maximum."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Situational Synchronicity (1)",
+							"entries": [
+								"When a creature you have vision of who currently resides in the same plane of existence as you makes a saving throw, you can expend one manipulation point as a reaction.",
+								"If that creature is willing, instead of them making the saving throw, you make the saving throw in that creature's stead. On a successful or failed save, you and the target both suffer the effects of the saving throw as if you were both targeted."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Path to Victory (4)",
+							"entries": [
+								"As an action, you tap into the probability of worlds, becoming capable of choosing from a certain pathway of choices, a number which will ensure the highest likelihood of making you victorious in any kind of outcome.",
+								"For the next minute, at the end of each your turns, select one option from the following list to take into effect:",
+							{
+								"type": "list",
+								"items": [
+									"The next {@dice 1d4} attacks against you have disadvantage. This effect lasts until the start of your next turn.",
+									"Choose a creature within 60 feet of you that is willing. Roll a {@dice 1d4}. You swap places with that creature in that many turns (including other creatures), or the start of your next turn, whatever comes first.",
+									"You gain {@dice 1d20 - 1d10} temporary hit points until the start of your next turn. If the number you roll would be negative, you instead take that much aeon damage."
+								]
+							}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Stability (Passive)",
+							"entries": [
+								"You regain all expended manipulation points on a long rest, or one manipulation point on a short rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Cosmic",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"I am at the center of everything that happens to me."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Eve (Valriya Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Big Five",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "",
+			"domains": [
+				"Knowledge",
+				"Technology",
+				"Order"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"Eve is the goddess of robotics, and governs over the domain of technology, a vast and inspiring art that represents all fundamental crafts made in the pursuit of overcoming reliance on magic. Above all else, Eve is a shining example of how far technology has come, and represents the sentience and humanitarian rights that all constructs strive for.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Eve, you have been granted the following three abilities at {@italic Bond Level 1}:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Read (Passive)",
+							"entries": [
+								"When you cast the {@spell identify} spell as a ritual, the casting time of the spell instead becomes an action. In addition, you can cast {@spell identify} on non-magical objects. When you do so, instead of learning its properties and how to use them, you instead learn general surface knowledge about the object.",
+								"The information you receive when using the {@spell identify} spell is broadcasted into your mind via Eve's voice. This voice is not a form of telepathy, and you can hear it regardless of any barriers currently set up in your mind.",
+								"An example of identifying a non-magical object would be examining a fan, to which Eve would report: &quot;A machine for producing airflow, often for cooling. Most fans are powered by electric motors, but other sources of power may be used, including hydraulic motors, handcranks, and internal combustion engines.&quot;"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Animate",
+							"entries": [
+								"As an action, you reach out and touch a decrepit or abandoned robot, construct, animatronic, or other mechanical device which has or could once have held sentience. You restart that creature's mind, restoring them to life as if you had cast the {@spell resurrection} spell.",
+								"You are not placed under the restrictions of {@spell resurrection} after using this ability, you ignore its material cost, and can continue to cast spells as normal. In addition, the creature you target can have been dead for longer than a century. A creature brought back to life by this ability still suffers the negative penalties to attack rolls, saving throws, and ability checks.",
+								"Eve cannot perform this restart more than once a month, as she must reserve her power for other followers who may wish to enact this ability. Starting a month from when you last used this ability, it will become reavailable to be used again."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Immortality (Passive)",
+							"entries": [
+								"When you would fall {@condition unconscious}, fail your last death saving throw, or die to an effect which states {@spell true resurrection} as a way to restore you to life, you can instead transfer your consciousness to the Ethereal Star. Your body disappears from its current plane of existence, and the memories you've accumulated throughout the years and the blueprints to your physical form are stored in the Star's central archive.",
+								"Roll a {@dice 2d6}. You reappear in the plane you were on in that many rounds, within 60 feet from the spot you activated this ability with 1 hit point. Once you use this ability, you cannot use it again until next dawn. If you would roll the same number on both of the dice, this ability does not go on cooldown.",
+								"In addition, you no longer suffer the degradation of sanity that all Nasods experience through age, and you cannot be aged through magical means."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Eve",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Our continued existence is mandated on the belief that all creatures, organic or not, are equal.",
+								"Let us be analytical, for blind acceptance spells ruin for civilization.",
+								"Never stop creating. Let inspiration be your guide."
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 2}, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Superior Creation (Passive)",
+							"entries": [
+								"You have been bestowed with a nasodic armament that surpasses that which is publicly available on the market. While seemingly unchanged, your left arm has adopted the traits and properties of the Magicka Tool Mk. I, granting you the ability to switch between three distinct forms as you continue through your research and studies.",
+								"You can switch between each arm once per turn as a free action. In addition, you can switch back to your default, unpowered arm. Each arm and their abilities are detailed on the list below:"
+							]
+						}
+					]
+				},
+						{
+										"type": "entries",
+										"name": "",
+										"entries": [
+											{
+												"type": "table",
+												"colLabels": [
+													"Arm",
+													"Effect"
+												],
+												"colStyles": [
+													"col-1",
+													"col-5"
+												],
+												"rows": [
+													[
+														"{@bold Mode: Magicka.}",
+														"You no longer require a focus to cast your spells. In addition, you can cast spells that require a verbal component without speaking, as the arm computes and fires the spell through an automatic process. Finally, you gain a +1 bonus to your ranged spell attack rolls, and your spell save DC goes up by 1."
+													],
+													[
+														"{@bold Mode: Physica.}",
+														"You receive a +5 bonus to all Strength and Dexterity checks you make while this mode is active. In addition, your lifting capacity is doubled."
+													],
+													[
+														"{@bold Mode: Ultima.}",
+														"While this mode is active, you gain access to the Ultima Canon. This weapon protrudes from your arm post-transformation, keeping your hands free for the purposes of carrying and object interactions. As a bonus action, you can fire a magical blast from this cannon, which automatically hit their target so long as they are within 60 feet."
+													]
+												]
+											}
+										]
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Ultima Charge (Passive)",
+							"entries": [
+								"The damage of your Ultima Cannon stacks dependent on each spell slot you have exhausted since your last long rest. Regardless of how many stacks you possess, they reset to zero on a long rest. 1st to 6th Level Spell Slots provide 1 charge, 7th to 8th Level Spell Slots provide 2 charges, and 9th Level Spell Slots provide 3 charges. Calculate the damage of your Ultima Cannon by directly turning charges into force damage."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Exchange of Power (Passive)",
+							"entries": [
+								"Power is relative, and with access to the Neoteric Star, conversions are made possible at the drop of a hat. As a Follower of Eve, you have been granted the ability to switch between damage types at a whim, although the conversion is not always assured.",
+								"Whenever you cast a spell that deals acid, bludgeoning, cold, fire, force, lightning, necrotic, piercing, poison, psychic, radiant, slashing, or thunder damage, roll on the following table below and convert the spell's damage to the rolled damage type. If you do not possess the ability to roll a {@dice 1d13}, you can instead roll a {@dice 1d10} and a {@dice 1d4-1}.",
+								"Rolling using the alternate method will reduce your chances of rolling low numbers (such as 1), so it is asked that you roll a {@dice 1d13} if possible (such as when using a VTT)."
+							]
+						}
+					]
+				},
+						{
+										"type": "entries",
+										"name": "",
+										"entries": [
+											{
+												"type": "table",
+												"colLabels": [
+													"{@dice 1d13}",
+													"Damage Type"
+												],
+												"colStyles": [
+													"col-1",
+													"col-1"
+												],
+												"rows": [
+													[
+														1,
+														"Acid"
+													],
+													[
+														2,
+														"Bludgeoning"
+													],
+													[
+														3,
+														"Cold"
+													],
+													[
+														4,
+														"Fire"
+													],
+													[
+														5,
+														"Force"
+													],
+													[
+														6,
+														"Lightning"
+													],
+													[
+														7,
+														"Necrotic"
+													],
+													[
+														8,
+														"Piercing"
+													],
+													[
+														9,
+														"Poison"
+													],
+													[
+														10,
+														"Psychic"
+													],
+													[
+														11,
+														"Radiant"
+													],
+													[
+														12,
+														"Slashing"
+													],
+													[
+														13,
+														"Thunder"
+													]
+												]
+											}
+										]
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Logical Mind (Passive)",
+							"entries": [
+								"Your mind has been reinforced as a Follower of Eve, allowing the amounts of computations and connections you can make per second to be enhanced to a product which both comprehends and disproves concepts and factors once thought to be damaging enough to cause loss of sanity. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can no longer be affected by the negative consequences of {@italic madness}.",
+						"You gain immunity to psychic damage."
+					]
+				}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Sraosha (Regret Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Old Deus",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"title": "",
+			"domains": [
+				"Order",
+				"Blood",
+				"Knighthood"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"Sraosha. Full name: Queen Vermillion Sraosha, although her knights simply refer to her as Sraosha, or Queen. She rules over a plane that consists fully of monsters. This directly juxtaposes Valyrian—Valyrian is a city of monsters on the Material Plane, and it has about the same surface area as Imperium. In addition, there are humans who live in Valyrian. Sraosha's plane is much, much larger, almost twice the size of Ur. There are many domains, each separated into a different court and ruled by a Vampire Lord. And of course: there are no humans.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Sraosha, you have been granted the following three abilities at {@italic Bond Level 1}:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Yes, My Queen (Passive)",
+							"entries": [
+								"Once per turn, when a creature CR 3 or above that you are engaging in combat with dies, you can choose to assimilate the essence that their presence marked on the world, taking their true name and temporarily adding it as part of yours.",
+								"Upon doing this, your soul becomes etched with an ethereal marking known as a Night Mark. From the moment you absorb a creature's essence, you begin to use your own soul as a battery, empowering your combat abilities until it is fully drained.",
+								"This state lasts for ten minutes. Depending on how many Soul Marks you collect, you gain the following additional passive abilities:"
+							]
+						},
+						{
+										"type": "entries",
+										"name": "",
+										"entries": [
+											{
+												"type": "table",
+												"colLabels": [
+													"Night Marks",
+													"Effect"
+												],
+												"colStyles": [
+													"col-2",
+													"col-3"
+												],
+												"rows": [
+													[
+														"{@bold Blessing of Fury (1).}",
+														"You gain a +15 bonus to your movement speed, and you generate 1 fury point at the end of each of your turns."
+													],
+													[
+														"{@bold Blessing of Rule (2).}",
+														"You gain a +2 bonus to your AC, and you become immune to the {@condition charmed} condition."
+													],
+													[
+														"{@bold Blessing of Loyalty (3).}",
+														"You gain advantage on all attack rolls and ability checks made to track creatures that have blood."
+													],
+													[
+														"{@bold Blessing of Blood (4).}",
+														"When you attack a creature and leave it with less than 40 hit points, that creature dies."
+													],
+													[
+														"{@bold Blessing of Order (5).}",
+														"You become resistant to all forms of damage, except for aeon."
+													],
+													[
+														"{@bold Blessing of Sraosha (6).}",
+														"You heal for half of the damage you deal."
+													]
+												]
+											}
+										]
+						},
+						{
+							"type": "entries",
+							"name": "Covert Entry (Passive)",
+							"entries": [
+								"You gain the ability to move up, down, and across vertical surfaces and upside down along ceilings, all while leaving your hands free. You also gain a climbing speed equal to your walking speed."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Final Demise (Passive)",
+							"entries": [
+								"When you use your {@italic Final Light} feature, you can choose for it to do necrotic damage, instead of its usual fire damage."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Sraosha",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Serve thy Queen.",
+								"Obey thy Queen.",
+								"Love thy Queen."
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 2}, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Planar Summoning (Long Rest)",
+							"entries": [
+								"As an action, you snap your fingers (or otherwise make some other minute motion) and call forth the boundaries of Sraosha's powers to summon for you a mount of unknown parallel. You summon a {@creature nightmare|MM} on a nearby space.",
+								"When you do so, you decide whether it is a infernal steed from the heights of Sraosha's plane (Confer Fire Resistance) or a shadowy apostle from the depths of them (Confer Necrotic Resistance).",
+								"Once summoned, you and the nightmare establish a telepathic link. So long as you are on the same plane of existence, you can communicate telepathically, and regardless of what language you speak, the nightmare understands you. In addition, the nightmare can channel its Ethereal Stride as if it were casting a ritual spell. On a successful casting, the nightmare transports you and up to three willing creatures to Sraosha's Plane.",
+								"When the nightmare drops to 0 hit points, it vanishes from existence as its presence is forcefully recalled to Sraosha's domain. The nightmare you summon with this ability is always the same one, and will develop its own feelings and thoughts regarding you. However, it is inclined to follow your commands as per Sraosha's decree.",
+								"{@italic &quot;Hope you enjoy, my Knight. This is a gift all those in my service eventually obtain—assuming they're useful. Utilize it wisely.&quot;} "
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Planar Establishment (Long Rest)",
+							"entries": [
+								"As an action, you clasp your hands together and slam them against the ground (or otherwise make some other exaggerated motion) and call upon Sraosha's will to establish a planar boundary in the plane you currently reside. A planar boundary of 40-feet in radius expands around you, consisting of either a muggy red wetland filled with trees of demonic make, or a barren wasteland of dry obsidian and ashstone pillars.",
+								"Any creature that is not an undead, fiend, monstrosity, or ooze cannot willing enter the boundary. In addition, creatures who reside within the planar boundary at the beginning of their turn that are not an undead, fiend, monstrosity, or ooze immediately take {@dice 6d10} psychic damage, as Sraosha's will corrodes their agency and admonishes their presence.",
+								"You have advantage on interacting sociably with undead, fiends, monstrosities, and oozes who reside within your boundary, as Sraosha's presence literally begins to exude from your body like a miasmic aura. In addition, all creatures of the aformentioned types can understand and comprehend your vocal utterances, and any response they attempt to make (even non-verbal kinds, such as the slushy dance of a slime) will manifest in your comprehension as a clear, understandable response.",
+								"This planar boundary lasts for one minute before the parent plane begins to reestablish itself, taking over the land corroded by Sraosha's will. Before or once the planar boundary is about to end, you can take a point of {@condition exhaustion} as a bonus action. The boundary's duration becomes ten minutes, but it loses its ability to repel creatures that are not undead, fiends, monstrosities, or oozes.",
+								"{@italic &quot;All planes already belong to me, my Knight. Some just need a little help.&quot;}"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Planar Command (Passive)",
+							"entries": [
+								"You have risen further underneath Sraosha's chain of command, and monsterkind has begun to recognize you as one of Sraosha's Knights.",
+								"Undead, fiends, monstrosities, and oozes who formed naturally can sense the mark of Sraosha on your soul, as it glimmers in the darkness like a flickering limelight. If the default state of that creature would be hostile to you, they are now indifferent. If the default state of that creature would be indifferent to you, they are now friendly.",
+								"Creatures who are naturally hostile to Sraosha (although rare) are unaffected by the marking on your soul, and it may in fact cause them to be more hostile than normal.",
+								"{@italic &quot;My presence is already visible against the background of your soul. There is truly no going back now, my Knight.&quot;}"
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 3}, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 3"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Power at a Cost",
+							"entries": [
+								"To become stronger, a price must be paid. This is the law of the world, to which all mortal creatures abide. To harm oneself is often seen as the most primal of these costs—and the most effective.",
+								"As a free action on your turn in combat, you may reveal the zealotry of your determination, damaging yourself in order to fuel your strength. With life drained, your power grows exponentially, and soon, the Knight of Sraosha will reveal the fate of the masses.",
+								"You take {@dice 5d8} necrotic damage from this attack, which cannot be negated or resisted in any way. In return, you gain one Night Mark.",
+								"{@italic &quot;Slave away, my Knight. Become someone that everyone but I can look up to.&quot;}"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Embelishment of the Soul",
+							"entries": [
+								"Knowledge, power, cost. These are the tenets that a Knight of Sraosha must live by, and you have echoed their law into the deepest recess of your soul. A pit so deep, that it now acts as a resevoir for your dark dealings, allowing you to hold a theoretical infinite amount of souls.",
+								"You may now hold beyond six Night Marks, although holding onto more than six does not grant you any bonus effects. Rather, as a free action on your turn, you can expend a number of Night Marks up to the amount you currently hold after dealing damage to a creature. When you do so, you deal an additional {@dice 3d10} force damage for each Night Mark expended.",
+								"{@italic &quot;An infinite wealth of souls—yet those hands will never hold anything.&quot;}"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Archon (The Mann Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "The Big Five",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"title": "",
+			"domains": [
+				"Knowledge",
+				"Trickery"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"The devil god of the Hells is the master of tyranny and domination. His words are honeyed and carefully crafted, soothing and corrupting the mortal heart. Archon rules with an iron fist, and the punishments awaiting those that cross him are the basis of nightmares. He is the undisputed master of capitialism, designing his crown colonies around the basis of interspecies trade, and all his punishment are purely financial.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Archon, you have been granted 5 capital at {@italic Bond Level 1}, which you can spend to activate the following abilities:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Make Profit (Passive)",
+							"entries": [
+								"Whenever you land the killing blow on an enemy, roll a {@dice 1d8}. You gain that much in gold, as it magically appears in your pocket. This ability does not work on creatures below CR 1."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Prostrate Yourselves (3)",
+							"entries": [
+								"As an action, all creatures of your choice within 30 feet must make a Wisdom saving throw (DC: 8 + your proficiency + your Charisma modifier). On a failed save, those creatures drop to their knees and press their heads to the ground, falling under the prone and restrained condition. These creatures can repeat the saving throw at the end of their turns, ending the effect on a success."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "A Statue In My Image (4)",
+							"entries": [
+								"You erect a giant monolith of a sculpture which has been crafted in your image. The monolith is thirty feet tall and its base is ten feet wide. While behind this monolith and out of a creature's line of sight, you have the benefits of total cover.",
+								"In addition, all creatures of your choice within 30 feet gain {@dice 2d8} temporary hit points at the end of each of your turns. This monolith lasts for 1 minute before dissolving into dust.",
+								"Your statue has 14 AC and 65 HP. It has immunity to poison and psychic damage as well as all conditions. However, it has vulnerability to acid damage. If it is forced to make an ability check or a saving throw, treat all its ability scores as 10 (+0)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Hands off My Coat (2)",
+							"entries": [
+								"As a bonus action, you provoke an opportunity attack from every creature as you flaunt by with a sinister smile. Upon leaving a creature's range, that creature is forced to use their reaction (if they have any) to make an opportunity attack against you. If the attack hits, and that creature is hostile to you, they must make a Strength saving throw.",
+								"On a failed save, that creature becomes bound by a coat birthed in the bellows of the Nine Hells. While that coat is wrapped around their forms, they are under the grappled condition. In addition, they immediately take fire damage equal to the amount of damage they dealt to you with their opportunity attack. The creature can repeat the saving throw at the end of each of their turns, ending the grapple on a success.",
+								"If the attack hits, but instead that creature is your ally, their reaction is not consumed and you gain resistance to their attack. Afterward, they gain temporary hit points equal to the damage you took."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Capital Punishment (Passive)",
+							"entries": [
+								"You regain all expended capital on a long rest, or one capital on a short rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Archon",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Assert dominance and power over others.",
+								"Repay cruelty done unto you with further evil. If others show you kindness, exploit it.",
+								"As you ascend to power, do not pity or show mercy to those you climb over to get there. Compassion is for the weak."
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 2}, the amount of capital you have increases to 6. In addition, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Enhance: Make Profit",
+							"entries": [
+								"You now gain {@dice 2d8} gold when you land the killing blow on an enemy, rather than {@dice 1d8}. In addition, you can spend 1 gold piece to deal an additional {@dice 1d4} bludgeoning damage for each attack you make, up to {@dice 4d4} bludgeoning damage. This additional bludgeoning damage is considered to be magical."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Portable Pockets",
+							"entries": [
+								"As an action, you can teleport an object that fits inside a 10x10x20 cube of space within 15-feet of you into an extradimensional pocket for storage. In addition, you can use a bonus action to transport up to one thousand gold coins within a 30-feet radius around you into your extradimensional pocket, so long as that gold is not on another person or kept in another form of storage (for instance, you can transport gold inside an open chest, but not gold inside a locked chest).",
+								"As an object interaction, you can retrieve any item within your extradimensional pocket that can fit in your palm by teleporting it into your hand. Larger objects that cannot fit in your palm take an action to summon, and you choose where they materialize within a 15-foot radius of your current location.",
+								"Your extradimensional pocket has no storage limit, and can hold as many items as you desire. Creatures cannot be stored inside your extradimensional pocket, only objects."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Make it Rain (3)",
+							"entries": [
+								"As an action, you summon a cavalcade of gold coins from your extradimensional pocket above a creature of your choice. Choose a number of gold coins divisible by two hundred. That creature must make a Dexterity saving throw with a DC equal to 8 + your Charisma modifier + your proficiency bonus. On a failed save, for every two hundred coins you drop upon that creature, they take {@dice 1d10} bludgeoning damage, up to {@dice 10d10}. If they pass the save, they take half the damage they would normally.",
+								"Gold summoned this way remains on the ground until you pick it up or store it in your extradimensional pocket once more."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Subscription Fee (3)",
+							"entries": [
+								"As a bonus action, snap your fingers as an array of cloth and golden lace materialize in the skies and begin dancing to the rhythm of your greed—what you seek is irrevelant to them. Fame, power, glory, or even money, this lace will take it all, so long as you pay them the prerequisite capital for their service.",
+								"Through the magic of their dance, they lash out from the skies and swoop in on your enemies with extravagant grace. Target three creatures within 60 feet of you to get taxed. Those creatures must make a Strength saving throw with a DC equal to 8 + your proficiency bonus + your Charisma modifier as the lace dances to your command.",
+								"On a failed save, that creature becomes bound in the lace, wrapped in thick golden cloth whose birth bellows the magnetic energies of the Nine Hells. While the lace coveres their form, they are considered to be under the {@condition grappled} condition. In addition, at the end of each of their turns, they take {@dice 1d8} force damage and offer up an equal amount of payment for your services from the list below (your choice):",
+								{
+									"type": "list",
+									"items": [
+										"An amount of gold equal to double the bludgeoning damage dealt. If the creature has no gold, this effect fails.",
+										"An amount of hit points equal to half the bludgeoning damage dealt. These hit points are not subtracted from the creature—however, if the creature has 0 hit points remaining, this effect fails.",
+										"An amount of movement equal to the bludgeoning damage dealt, which you can expend on your next turn as if it were part of your own movement. This movement is added to your walking speed. If you would receive an amount of movement that is not divisible by 5, that amount is stored until you have stolen enough partial movement to be divisible by 5. This effect does not lower the target's movement speed, and works even if their movement speed is 0."
+								]
+								},
+								"A creature that is entrapped by this lace can repeat the saving throw at the end of each of their turns (after payment), ending the effect on a success."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Capital Punishment II (Passive)",
+							"entries": [
+								"You regain all expended capital on a long rest, or two capital on a short rest."
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 3}, the amount of capital you have increases to 7. In addition, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 3"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Buying Time (Passive)",
+							"entries": [
+								"It is said that the act of strategical purchasing is so engrained within a Follower of Archon's subconscious that they can even strike a deal with Death itself. That's true, by the way.",
+								"If you would fail a three death saving throws, you do not immediately die. Instead, your body is temporarily put into stasis as your soul is tossed into the upper-edges of the Afterlife—directly face-to-face with an apparition of Death himself.",
+								"{@italic &quot;Looking to buy some time?&quot;}",
+								"This figure is not Death, nor an approximation of his mortal form. Rather, this being is a completely intangible spirit who serves the real Death, yet maintains access to most of his powers and abilities. Once face-to-face with this entity, you may attempt to purchase a resurrection using your own life force as currency."
+							]
+						},
+						{
+										"type": "entries",
+										"name": "",
+										"entries": [
+											{
+												"type": "table",
+												"colLabels": [
+													"Cost",
+													"Deal"
+												],
+												"colStyles": [
+													"col-1",
+													"col-5"
+												],
+												"rows": [
+													[
+														"{@bold Exhaustion (1).}",
+														"You become stabilized."
+													],
+													[
+														"{@bold Exhaustion (2).}",
+														"You are brought back to life with 5 hit points. Your body becomes conscious, although you are still {@condition prone}."
+													],
+													[
+														"{@bold Exhaustion (3).}",
+														"You are brought back to life with 10 hit points and regain an expended spell slot. Your body becomes conscious, although you are still {@condition prone}."
+													],
+													[
+														"{@bold Exhaustion (4).}",
+														"You are brought back to life with 30 hit points and regain two expended spell slots. Your body becomes conscious, although you are still {@condition prone}."
+													],
+													[
+														"{@bold Exhaustion (5).}",
+														"You are brought back to life after receiving the effects of a long rest, although you still retain all five levels of exhaustion. As an added benefit, you are no longer considered {@condition prone}."
+													],
+													[
+														"{@bold Exhaustion (6).}",
+														"{@italic &quot;Oh? You would like to end our little deal? Very well, I will take you to the edge of existence—follow me to the Afterlife, The Mann.&quot;}"
+													]
+												]
+											}
+										]
+						},
+						{
+							"type": "entries",
+							"name": "Microtransactions",
+							"entries": [
+								"The services of the devil require fuel, and it just so happens that fuel is more oftentimes money. As an action, you can summon a 30x30 ethereal shop at a point within 120 of you manned by a charming tiefling named Capitalism.",
+								"This shop is infinitely stocked with mundane items, including but not limited to: technological items, vehicles, and even certain consumables. This shop can be summoned anywhere, even without any foundation such as ground.",
+								"Once summoned, the shop lasts for ten minutes. During that time frame, you can use an action to purchase whatever you wish from the shop. The shop charges fair prices and will not offer discounts under any circumstances.",
+								"Gold expended for a purchase is immediately extracted from your person, your Portable Pockets, or an area in space-time that you personally own. Aftewards, the gold materializes inside Capitalism's register. If not enough gold can be located for the purchase, Capitalism regretfully informs his client that he cannot complete the transaction.",
+								"Medium-sized or smaller items appear on top of the shop's counter. Large-sized and bigger objects appear in front. If the shop is in the air, they will fall. Once you summon this shop, you cannot do so again until you finish a long rest. Capitalism cannot be killed by any means, although he will call you a crud if you attack him.",
+								"{@italic &quot;Sometimes, you just need a little bit of an edge over the competition.&quot;}"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Path is Nicer Over Here, my Sweet",
+							"entries": [
+								"<a href=https://docs.google.com/document/d/1ThBiyWSE8sn0HjdKHBTQqz0_5he50P0js8Ng-izOK1g/edit?usp=sharing>Click here to view this ability.</a>"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Capital Punishment III (Passive)",
+							"entries": [
+								"You regain all expended capital on a long rest, or three capital on a short rest."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Lotus (Rethi Ravaena Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Old Deus",
+			"alignment": [
+				"T",
+				"N"
+			],
+			"title": "",
+			"domains": [
+				"Knowledge",
+				"Ambition",
+				"Technology"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"The Old Deus of Expansion, manager of the Central Databank, and chosen by the World to manifest all accessible knowledge into the minds of living organisms in order to progress society beyond its preconceived limits. She is the Creator, and her followers are her Researchers. Those who follow the Path of Expansion must dedicate their lives to high-level and dangerous pursuits in order to catalogue all of existence.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Lotus, you have been granted the following abilities at {@italic Bond Level 1}:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "The Unbound Library (Passive)",
+							"entries": [
+								"You have been granted access to a portable laptop known as the Unbound Library, which you can summon as a free action. This laptop acts as both your spellbook and your focus, which you can choose to either rest in your hand or revolve around you.",
+								"Three times per day, you can call upon the power of the Unbound Library, immediately swapping a prepared spell to another spell in your spellbook on the fly. This effect is immediate, and can be done using a free action. You regain all expended uses at next dawn."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Logical Anaylsis",
+							"entries": [
+								"You call forth the Unbound Library and manifest the internalized criteria of a creature into the Central Databank, opening up endless possibilities for study and research as a free action. Once you do so, the Central Databank quantumly computes the data, attempting to parse a string which reports back knowledge that neither you nor the Central Databank possesses. Choose one of the following pieces of information to learn:",
+								{
+									"type": "list",
+									"items": [
+										"The creature's race.",
+										"The creature's weakness.",
+										"The creature's true name."
+								]
+								},
+								"The information that the Central Databank parses is given to you by your DM as a close approximation. If the creature does not have a proper race, the DM attempts to describe it to you using approximation. If the creature does not have a traditional weakness (such as a vulnerability), the DM will devise a weakness that you can exploit (although the information will not necessarily give you a mechanical benefit). Finally, requesting a true name will merely report back the name the creature was given or, if it does not possess one, the name of its species. This parsing cannot extract a devil's true name.",
+								"You can use this feature a number of times equal to your Intelligence modifier, and regain all expended uses on a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Universal Machine",
+							"entries": [
+								"The Universal Machine is a device that exists in theory. Propegated by Lotus's will, upon request, the closest approximation of its existence will materialize in front of you as a free action.",
+								"The activation of the Universal Machine is impossible for normal individuals who exist in a quantumly-locked state of being. Thankfully, as a Follower of Lotus, you are able to activate this machine, despite the paradoxical nature of such an action. As an action, you tell the Universal Machine to perform one of the following recursions:",
+								{
+									"type": "list",
+									"items": [
+										"<u>Understanding.</u> The Universal Machine will translate any language (known or otherwise) into a language that the user can understand. Then, it will translate any input given by the user back into the target language. This setting has the capability translate languages that do not exist.",
+										"<u>Comprehension.</u> The Universal Machine will record up to 24 hours worth of audio and video in a quality that supersedes any known resolution. You can play back and scrub through this recording, comprehending any knowledge bestowed from it as if through the Keen Mind feat.",
+										"<u>Information.</u> The Universal Machine will cast the {@spell detect magic} spell without requiring concentration and report back the results to the user.",
+										"<u>Training.</u> The Universal Machine will parse a training video for any skill that could conceivably exist in a quantumly-locked world. Watching this tutorial requires a short rest, and after completion of the video, the user can choose one their skills and gain proficiency in that skill. Whenever you use this feature of the Universal Machine, the last tutorial you watched is erased from your mind, causing you to lose that proficiency in exchange for a new one."
+								]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Lotus",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Learn.",
+								"Expand.",
+								"Record."
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 2}, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Efficient Downloads (Passive)",
+							"entries": [
+								"The manifestation of quantum-mechanics not only allows for multiple calculations to be ran at once—it also allows for the creation of simultaneous data streams which perform and inact actions that would normally require more than one operating system.",
+								"By imprinting a spell's casting sigil onto a device known as a &quot;Spell Disk&quot;, you are able to copy and forge spell scrolls at a rapid pace, greatly reducing the time needed and the cost to create the spell scroll.",
+								"The cost of these &quot;scrolls&quot; instead lies in their technology. While they are similar to scrolls, a Spell Disk is its own unique creation, and cannot be used by anyone other than you and other followers of Lotus (unless an ability or feature states otherwise).",
+								"The rules for creating a Spell Disk (as opposed to a spell scroll) are as follows:"
+							]
+						},
+						{
+										"type": "entries",
+										"name": "",
+										"entries": [
+											{
+												"type": "table",
+												"colLabels": [
+													"Level",
+													"Cost"
+												],
+												"colStyles": [
+													"col-2",
+													"col-3"
+												],
+												"rows": [
+													[
+														"{@bold Cantrip.}",
+														"1 day, 10 gold pieces"
+													],
+													[
+														"{@bold 1st Level.}",
+														"1 day, 20 gold pieces"
+													],
+													[
+														"{@bold 2nd Level.}",
+														"2 days, 200 gold pieces"
+													],
+													[
+														"{@bold 3rd Level.}",
+														"4 days, 400 gold pieces"
+													],
+													[
+														"{@bold 4th Level.}",
+														"1 work week, 2000 gold pieces"
+													],
+													[
+														"{@bold 5th Level.}",
+														"2 work weeks, 3500 gold pieces"
+													],
+													[
+														"{@bold 6th Level.}",
+														"4 work weeks, 8000 gold pieces"
+													],
+													[
+														"{@bold 7th Level.}",
+														"8 work weeks, 15000 gold pieces"
+													],
+													[
+														"{@bold 8th Level.}",
+														"16 work weeks, 25000 gold pieces"
+													],
+													[
+														"{@bold 9th Level.}",
+														"24 work weeks, 100000 gold pieces"
+													]
+												]
+											}
+										]
+						},
+						{
+							"type": "entries",
+							"name": "Taskmaster (3/3, Long Rest)",
+							"entries": [
+								"Through the power of the Unbound Library, parsing data that does not exist grants you the ability to reverse-engineer a creature's techniques and then register them as your own. Even if your body could not normally perform the action, the Unbound Library finds the closest connection point to devise an approximation of that creature's technique. In order to take advantage of Taskmaster, you must have seen the creature use the attack, spell, or feature you wish to copy.",
+								{
+									"type": "list",
+									"items": [
+								"<u>If the ability is an attack:</u> You may recreate the attack. In some cases, the Unbound Library may ask for permission to restructure your body in order to better recreate the attack you copied. If the creature you copied the attack from has multiattack, you can emulate their multiattack feature with the attack you copied. This attack applies any conditions or effects that the original creature would inflict, even if those effects are passives tied to the creature. Once you perform the attack (or multiattack), the biological structure of your recreation breaks down, requiring you to use Taskmaster again to recreate it.",
+								"<u>If the ability is a spell:</u> You may recreate the spell and cast it once without expending a spell slot, even if you are unaware to the spell's existence or are normally unable to cast it. You may not upcast this spell using your own spell slots.",
+								"<u>If the ability is a feature (like a dragon's Breath Weapon):</u> You recreate its effects precisely, with the only change being that you are the one using it."
+								]
+								},
+								"For the purposes of Taskmaster, Arisen abilities are not considered to be attacks, spells, or features. Any knowledge you gain from Taskmaster disappears on a long rest (or after its use, whichever comes first), as your Unbound Library must clear out its history in order to continue normal operations."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Expansion of Everything (1/1, Long Rest)",
+							"entries": [
+								"As an action, Rethi can contact the Central Databank, a reservoir that contains all knowledge known to Lotus and her followers through a network of interconnected datapoints.",
+								"The Central Databank holds an amount of information equal to the expected lifespan of the universe, and will continue to catalog new information as the millennia moves on. Knowledge contained within the Central Database is considered to be one of any of the following bulletins: ",
+								{
+									"type": "list",
+									"items": [
+								"Generally accessible.",
+								"Lightly-restricted.",
+								"Public domain.",
+								"Available on the World Wide Web.",
+								"Could have been feasibly obtained by a follower of Lotus."
+								]
+								},
+								"If the information requested fits any of these parameters, the DM will respond to your question with an answer which can be reasonably surmised in a paragraph or less. If a response would require more than a paragraph to explain the internal logistics, culture, or full-understanding of the question, then you do not receive that information, and must use this feature again to discover more.",
+								"If the DM deems that your question does not fit any of these parameters, the Central Databank reports back that your search criteria did not match any search results, and your request fails. Afterwards, you regain an expended use of this feature."
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 3}, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 3"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Arbiter of Knowledge (Passive)",
+							"entries": [
+								"In your endless quest to expand the knowledge of the world, you have come across unsavory subjects, and subjects which may lead any poor man to devestation.",
+								"As an follower of Lotus, you are expected to push past these trials and bring them to their logical limit. This means that, as a Follower of Lotus, you cannot falter. No matter how heinous the information may be.",
+								"You have immunity to the {@condition frightened} condition and the negative effects of {@italic madness}. You also have advantage on any checks or saving throws made to lower your {@italic sanity} (if your DM utilizes this system)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Extract Data",
+							"entries": [
+								"You boot into the Central Databank, accessing its restricted files using passcode you received during your time following under the guidance of Lotus.",
+								"Finding something in the Restricted Databank is difficult, and combing through its contents would take longer than the heat death of the universe. Thankfully, the search functions are rather precise, and with enough knowledge, you can garner information on any creature you desire.",
+								"Once you have extracted the true name from a creature, you may enter their name in the database. If that creature is not extremely unique or one-of-a-kind, your DM will inform you the following information (if applicable):",
+								{
+									"type": "list",
+									"items": [
+								"The creature's damage resistances, immunities, and vulnerabilities.",
+								"The creature's condition immunities, and any conditions they may have disadvantage or advantage on (including magic).",
+								"Any special sight the creature possesses (such as tremorsense, truesight, and blindsense)."
+								]
+								},
+								"The DM determines whether the creature whose name you're analyzing is considered &quot;unique&quot;. For example: a typical city guardsman may be a unique individual with their own personality, but he traditionally follows the &quot;guard&quot; statblock. As such, your DM will inform you about the individual. However, if the creature you are fighting is a BBEG or other form of monstrous entity, the DM may choose to inform you that not even the Restricted Databank contains information on that creature, as their existence has never been compiled before."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Store Data",
+							"entries": [
+								"As an action, you can analyze a willing creature within 30 feet of you who you have used &quot;Extract Data&quot; on previously. Regardless of whether your attempt to Extract Data was successful or returned no results, you can use this feature on that creature. An unconscious or dead creature always counts as willing for the benefits of this effect.",
+								"Once you begin storing a creature's data, you add their information to the Restricted Databanks to which all knowledge is inevitably formed. As part of this process, you record all of those creatures attributes that are applicable (as mentioned in the bulletin of the &quot;Extract Data&quot; ability).",
+								"In addition, you also learn the following information (which you add to the Restricted Databank for other followers of Lotus to use):",
+								{
+									"type": "list",
+									"items": [
+								"Their creature type.",
+								"Their relative age (may be less accurate depending on how well-known their biology is and how easy it is to compile).",
+								"Their gender (if applicable).",
+								"That creature's special name (such as &quot;Tiamat&quot;)."
+								]
+								},
+								"The information kept within the Restricted Databanks is accessible forever. Once you use this feature, you cannot use it again until you finish a long rest."
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
